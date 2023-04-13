@@ -17,7 +17,7 @@ website:
         text: "Intro R&R"
       - href: recommendations.qmd
         text: "Recommendations"
-      - href: extra.qmd
+      - href: extras.qmd
         text: "Extras"
 
     right:
