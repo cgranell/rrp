@@ -1,0 +1,54 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "RRP'23"
+  page-footer:
+    left: "By Carlos Granell 2023. ![](https://i.creativecommons.org/l/by/4.0/88x31.png) This work is licensed under a [Creative Commons Attribution 4.0 International
+      License](https://creativecommons.org/licenses/by/4.0/)."
+    right: "[cgranell.github.io/rrp](https://cgranell.github.io/rrp)"
+  navbar:
+    background: "#447099"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: intro.qmd
+        text: "Intro R&R"
+      - href: recommendations.qmd
+        text: "Recommendations"
+      - href: extra.qmd
+        text: "Extras"
+
+    right:
+      - href: https://reproducible-agile.github.io/
+        text: "Reproducible Research @ AGILE"
+      - icon: github
+        href: https://www.github.com/rrp
+
+  sidebar:
+    - id: intro
+      title: "Intro R&R"
+      style: "docked"
+      align: left
+      contents:
+        - href: intro.qmd
+
+    - id: recommendations
+      title: "Recommendations and practices"
+      contents:
+        - href: recommendations.qmd
+
+
+    - id: extras
+      title: "Additional materials"
+      contents:
+        - href: extras.qmd
+
+format:
+  html:
+    theme: litera
+    toc: true
+
+bibliography: references.bib
+

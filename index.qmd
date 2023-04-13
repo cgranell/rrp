@@ -1,0 +1,11 @@
+---
+title: "Reproducible Research Practices"
+author: "Carlos Granell"
+format: html
+---
+
+:::{.callout-warning}
+
+This is work in progress
+
+:::
