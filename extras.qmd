@@ -2,4 +2,5 @@
 title: "Additional materials"
 ---
 
-Hello! And welcome!
+If you want to clarify the meaning of some key terms and concepts used throughout this course, or check the list of resources that this course draws on frequently or at least occasionally.
+

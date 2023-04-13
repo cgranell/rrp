@@ -3,18 +3,30 @@ project:
   output-dir: docs
 
 website:
+  page-navigation: true
   title: "RRP'23"
+  description: "Reproducible Research Practices course"
+  site-url: "https://cgranell.github.io/rrp"
+  repo-url: "https://www.github.com/cgranell/rrp"
+
   page-footer:
-    left: "By Carlos Granell 2023. ![](https://i.creativecommons.org/l/by/4.0/88x31.png) This work is licensed under a [Creative Commons Attribution 4.0 International
-      License](https://creativecommons.org/licenses/by/4.0/)."
-    right: "[cgranell.github.io/rrp](https://cgranell.github.io/rrp)"
+    left: "[cgranell.github.io/rrp](https://cgranell.github.io/rrp)"
+    right:
+    - text: "License"
+      href: LICENSE.md
+    - text: "Code of Conduct"
+      href: CODE_OF_CONDUCT.md
+
   navbar:
-    background: "#447099"
+    logo: "images/ESCOLA-DOCTORAT-es-blanco.png"
+    logo-href: https://www.uji.es/estudis/centres/escola-doctorat/base/info-general/escola/
+
+
     left:
       - href: index.qmd
-        text: Home
+        text: Overview
       - href: intro.qmd
-        text: "Intro R&R"
+        text: "Intro"
       - href: recommendations.qmd
         text: "Recommendations"
       - href: extras.qmd
@@ -44,11 +56,15 @@ website:
       title: "Additional materials"
       contents:
         - href: extras.qmd
+        - href: materials/03-glossary.qmd
+        - href: materials/03-references.qmd
 
 format:
   html:
-    theme: litera
+    theme: minty
     toc: true
 
 bibliography: references.bib
+citations-hover: true
+citation-location: document
 
