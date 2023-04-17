@@ -36,15 +36,18 @@ website:
       - href: https://reproducible-agile.github.io/
         text: "Reproducible Research @ AGILE"
       - icon: github
-        href: https://www.github.com/rrp
+        href: https://www.github.com/cgranell/rrp
 
   sidebar:
     - id: intro
-      title: "Intro R&R"
+      title: "Intro"
       style: "docked"
       align: left
       contents:
         - href: intro.qmd
+          text: "Intro R&R"
+        - href: materials/01-historical-notes.qmd
+        - href: materials/01-concept.qmd
 
     - id: recommendations
       title: "Recommendations and practices"

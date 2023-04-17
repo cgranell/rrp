@@ -2,34 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://cgranell.github.io/rrp/CODE_OF_CONDUCT.html</loc>
-    <lastmod>2023-04-13T22:54:19.469Z</lastmod>
+    <lastmod>2023-04-17T08:46:29.889Z</lastmod>
   </url>
   <url>
     <loc>https://cgranell.github.io/rrp/extras.html</loc>
-    <lastmod>2023-04-13T22:54:20.141Z</lastmod>
+    <lastmod>2023-04-17T08:46:30.421Z</lastmod>
   </url>
   <url>
     <loc>https://cgranell.github.io/rrp/index.html</loc>
-    <lastmod>2023-04-13T22:54:20.880Z</lastmod>
+    <lastmod>2023-04-17T08:46:31.067Z</lastmod>
   </url>
   <url>
     <loc>https://cgranell.github.io/rrp/intro.html</loc>
-    <lastmod>2023-04-13T22:54:21.490Z</lastmod>
+    <lastmod>2023-04-17T08:46:44.693Z</lastmod>
   </url>
   <url>
     <loc>https://cgranell.github.io/rrp/LICENSE.html</loc>
-    <lastmod>2023-04-13T22:54:22.462Z</lastmod>
+    <lastmod>2023-04-17T08:46:32.454Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cgranell.github.io/rrp/materials/01-concept.html</loc>
+    <lastmod>2023-04-17T08:46:32.924Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cgranell.github.io/rrp/materials/01-historical-notes.html</loc>
+    <lastmod>2023-04-17T08:46:47.280Z</lastmod>
   </url>
   <url>
     <loc>https://cgranell.github.io/rrp/materials/03-glossary.html</loc>
-    <lastmod>2023-04-13T22:54:23.158Z</lastmod>
+    <lastmod>2023-04-17T08:46:33.922Z</lastmod>
   </url>
   <url>
     <loc>https://cgranell.github.io/rrp/materials/03-references.html</loc>
-    <lastmod>2023-04-13T22:54:24.002Z</lastmod>
+    <lastmod>2023-04-17T08:46:34.603Z</lastmod>
   </url>
   <url>
     <loc>https://cgranell.github.io/rrp/recommendations.html</loc>
-    <lastmod>2023-04-13T22:54:24.654Z</lastmod>
+    <lastmod>2023-04-17T08:46:35.118Z</lastmod>
   </url>
 </urlset>

@@ -1,0 +1,37 @@
+---
+title: "Reproducibility: historical notes"
+author: "Carlos Granell"
+institute: "Universitat Jaume I"
+date: "04/17/2023"
+date-modified: last-modified
+date-format: "MMM D, YYYY"
+format: 
+  revealjs:
+    slide-number: true
+    width: 1920
+    height: 1080
+    logo: "http://geotec.uji.es/wp-content/uploads/2016/11/geotecLOGO.fw_.png"
+    footer: "[cgranell.github.io/rrp](https://cgranell.github.io/rrp)"
+    theme: simple
+---
+
+
+# Focus is the art of knowing what to ignore. {background-color="#4f6952"}
+
+::: {.fragment}
+
+The fastest way to raise your level of performance: Cut your number of commitments in half.
+
+:::
+
+# Reproducibility in Science
+
+## Should we trust science?
+
+Doubt is inherently human and we (scientists) also have doubts!
+
+Karl Pooper's *Conjectures and Refutations*
+
+> "At the core of the scientific method is the attempt to refute or disprove theories"
+
+ 
