@@ -1,43 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://cgranell.github.io/rrp/assessment.html</loc>
+    <lastmod>2024-02-19T13:23:25.674Z</lastmod>
+  </url>
+  <url>
     <loc>https://cgranell.github.io/rrp/CODE_OF_CONDUCT.html</loc>
-    <lastmod>2024-02-19T10:59:46.983Z</lastmod>
+    <lastmod>2024-02-19T13:23:27.055Z</lastmod>
   </url>
   <url>
     <loc>https://cgranell.github.io/rrp/extras.html</loc>
-    <lastmod>2024-02-19T10:59:47.536Z</lastmod>
+    <lastmod>2024-02-19T13:23:28.109Z</lastmod>
   </url>
   <url>
     <loc>https://cgranell.github.io/rrp/index.html</loc>
-    <lastmod>2024-02-19T10:59:48.182Z</lastmod>
+    <lastmod>2024-02-19T13:23:29.247Z</lastmod>
   </url>
   <url>
     <loc>https://cgranell.github.io/rrp/intro.html</loc>
-    <lastmod>2024-02-19T10:59:48.758Z</lastmod>
+    <lastmod>2024-02-19T13:23:54.718Z</lastmod>
   </url>
   <url>
     <loc>https://cgranell.github.io/rrp/LICENSE.html</loc>
-    <lastmod>2024-02-19T10:59:50.072Z</lastmod>
+    <lastmod>2024-02-19T13:23:32.676Z</lastmod>
   </url>
   <url>
     <loc>https://cgranell.github.io/rrp/materials/01-concept.html</loc>
-    <lastmod>2024-02-19T10:59:50.526Z</lastmod>
+    <lastmod>2024-02-19T13:23:34.224Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cgranell.github.io/rrp/materials/01-historical-notes-slides.html</loc>
+    <lastmod>2024-02-19T13:24:01.532Z</lastmod>
   </url>
   <url>
     <loc>https://cgranell.github.io/rrp/materials/01-historical-notes.html</loc>
-    <lastmod>2024-02-19T10:59:51.261Z</lastmod>
+    <lastmod>2024-02-19T13:24:29.463Z</lastmod>
   </url>
   <url>
-    <loc>https://cgranell.github.io/rrp/materials/03-glossary.html</loc>
-    <lastmod>2024-02-19T10:59:51.936Z</lastmod>
+    <loc>https://cgranell.github.io/rrp/materials/05-glossary.html</loc>
+    <lastmod>2024-02-19T13:23:37.742Z</lastmod>
   </url>
   <url>
-    <loc>https://cgranell.github.io/rrp/materials/03-references.html</loc>
-    <lastmod>2024-02-19T10:59:52.659Z</lastmod>
+    <loc>https://cgranell.github.io/rrp/materials/05-references.html</loc>
+    <lastmod>2024-02-19T13:23:39.299Z</lastmod>
   </url>
   <url>
     <loc>https://cgranell.github.io/rrp/recommendations.html</loc>
-    <lastmod>2024-02-19T10:59:53.226Z</lastmod>
+    <lastmod>2024-02-19T13:23:40.519Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cgranell.github.io/rrp/uji.html</loc>
+    <lastmod>2024-02-19T13:23:41.707Z</lastmod>
   </url>
 </urlset>

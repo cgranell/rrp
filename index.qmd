@@ -17,7 +17,7 @@ This course emphasises the principles and strategies of open science and reprodu
 The source code for everything you see here can be found [on GitHub](https://github.com/cgranell/rpp).
 
 
-Please note that this course uses a [Code of Conduct](https://github.com/cgranell/rpp/blob/master/CODE_OF_CONDUCT.md).
+Please note that this course uses a [Code of Conduct](https://github.com/cgranell/rrp/blob/main/CODE_OF_CONDUCT.md).
 By contributing to this project, you agree to abide by its terms.
 
 
@@ -29,6 +29,6 @@ Visit [here](https://github.com/cgranell/rpp/blob/master/LICENSE.md) for more in
 ## Acknowledgements {.unnumbered}
 
 Huge thanks to the [Reproducible Research @ AGILE](https://reproducible-agile.github.io/) community, especially to the
-following individuals who have contributed to improving these materials: Daniel Nüst, Frank Ostermann, Markus Konkol.
+following individuals who have contributed to improving these materials: Daniel Nüst, Frank Ostermann, Markus Konkol, Sergi Trilles, ...
 
 This website is built with [Quarto](https://quarto.org).

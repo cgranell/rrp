@@ -2,6 +2,7 @@
 title: "Recommendations and practices"
 ---
 
+Recommendations and practices as an author
 
 :::{.callout-warning}
 
