@@ -27,14 +27,16 @@ website:
     left:
       - href: index.qmd
         text: Overview
+      - href: hello.qmd
+        text: "Hello!"
       - href: intro.qmd
-        text: "Intro"
+        text: "1 Intro"
       - href: assessment.qmd
-        text: "Assessment"
-      - href: recommendations.qmd
-        text: "Recommendations"
+        text: "2 Assessment"
+      - href: practices.qmd
+        text: "3 Practices"
       - href: uji.qmd
-        text: "UJI"
+        text: "4 UJI"
       - href: extras.qmd
         text: "Extras"
 
@@ -45,6 +47,16 @@ website:
         href: https://www.github.com/cgranell/rrp
 
   sidebar:
+    - id: hello
+      title: "Hello!"
+      style: "docked"
+      align: left
+      contents:
+        - href: hello.qmd
+        - href: materials/00-personas.qmd
+        - href: materials/00-content.qmd
+        - href: materials/00-tech-stack.qmd
+
     - id: intro
       title: "Intro"
       style: "docked"
@@ -54,6 +66,8 @@ website:
           text: "Intro R&R"
         - href: materials/01-historical-notes.qmd
         - href: materials/01-concept.qmd
+        - href: materials/01-comparison.qmd
+        - href: materials/01-across-disciplines.qmd
 
     - id: assessment
       title: "Reproducibility assessment"
@@ -61,10 +75,10 @@ website:
         - href: assessment.qmd
 
 
-    - id: recommendations
+    - id: practices
       title: "Recommendations and practices"
       contents:
-        - href: recommendations.qmd
+        - href: practices.qmd
 
 
     - id: UJI

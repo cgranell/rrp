@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Carlos Granell">
 
-<title>RRP’24 - What can I do to make my next article (more) reproducible?</title>
+<title>RRP’24 - Learner persona</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,27 +20,48 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../materials/00-content.html" rel="next">
+<link href="../hello.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -65,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -73,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a href="https://www.uji.es/estudis/centres/escola-doctorat/base/info-general/escola/" class="navbar-brand navbar-brand-logo">
-    <img src="./images/ESCOLA-DOCTORAT-es-blanco.png" alt="Escola de Doctorat, UJI" class="navbar-logo">
+    <img src="../images/ESCOLA-DOCTORAT-es-blanco.png" alt="Escola de Doctorat, UJI" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="https://www.uji.es/estudis/centres/escola-doctorat/base/info-general/escola/">
     <span class="navbar-title">RRP’24</span>
@@ -86,31 +106,31 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../index.html" rel="" target="">
  <span class="menu-text">Overview</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./hello.html" rel="" target="">
+    <a class="nav-link active" href="../hello.html" rel="" target="" aria-current="page">
  <span class="menu-text">Hello!</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./intro.html" rel="" target="">
+    <a class="nav-link" href="../intro.html" rel="" target="">
  <span class="menu-text">1 Intro</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./assessment.html" rel="" target="">
+    <a class="nav-link" href="../assessment.html" rel="" target="">
  <span class="menu-text">2 Assessment</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./practices.html" rel="" target="">
+    <a class="nav-link" href="../practices.html" rel="" target="">
  <span class="menu-text">3 Practices</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./uji.html" rel="" target="">
+    <a class="nav-link" href="../uji.html" rel="" target="">
  <span class="menu-text">4 UJI</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./extras.html" rel="" target="">
+    <a class="nav-link" href="../extras.html" rel="" target="">
  <span class="menu-text">Extras</span></a>
   </li>  
 </ul>
@@ -136,18 +156,64 @@ ul.task-list li input[type="checkbox"] {
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../materials/00-personas.html">Learner persona</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../hello.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hello!</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../materials/00-personas.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Learner persona</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../materials/00-content.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Content</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../materials/00-tech-stack.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tech stack</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#license" id="toc-license" class="nav-link active" data-scroll-target="#license">License</a></li>
-  <li><a href="#acknowledgements" id="toc-acknowledgements" class="nav-link" data-scroll-target="#acknowledgements">Acknowledgements</a></li>
+  <li><a href="#who-is-this-course-for" id="toc-who-is-this-course-for" class="nav-link active" data-scroll-target="#who-is-this-course-for">Who is this course for?</a>
+  <ul class="collapse">
+  <li><a href="#celine" id="toc-celine" class="nav-link" data-scroll-target="#celine">Celine</a></li>
+  <li><a href="#victor" id="toc-victor" class="nav-link" data-scroll-target="#victor">Víctor</a></li>
+  <li><a href="#juan" id="toc-juan" class="nav-link" data-scroll-target="#juan">Juan</a></li>
+  <li><a href="#ana" id="toc-ana" class="nav-link" data-scroll-target="#ana">Ana</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -156,56 +222,66 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">What can I do to make my next article (more) reproducible?</h1>
+<h1 class="title">Learner persona</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Carlos Granell </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">Apr 14, 2023</p>
-    </div>
-  </div>
   
-    <div>
-    <div class="quarto-title-meta-heading">Modified</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date-modified">Feb 19, 2024</p>
-    </div>
-  </div>
     
   </div>
   
 
 </header>
 
-<p>This introductory course <strong>Reproducible Research Practices (RRP)</strong> is currently scheduled to be offered in 2 or 3 weeks. While the course is running, some material might not be visible and will be unlocked as the course proceeds. At any other time, this website is continuously online, with small updates happening on an ongoing basis and larger updates every time the course is offered again.</p>
-<p>This course emphasises the principles and strategies of open science and reproducible research practices and gives you practice in their application to present scientific and technical material in an informative and clear manner.</p>
-<p>The source code for everything you see here can be found <a href="https://github.com/cgranell/rpp">on GitHub</a>.</p>
-<p>Please note that this course uses a <a href="https://github.com/cgranell/rrp/blob/main/CODE_OF_CONDUCT.md">Code of Conduct</a>. By contributing to this project, you agree to abide by its terms.</p>
-<section id="license" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="license">License</h2>
-<p><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" alt="Creative Commons License" style="border-width:0"></a><br>This online work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a>. Visit <a href="https://github.com/cgranell/rrp/blob/main/LICENSE.md">here</a> for more information about the license.</p>
+<section id="who-is-this-course-for" class="level2">
+<h2 class="anchored" data-anchor-id="who-is-this-course-for">Who is this course for?</h2>
+<p>There are many answers to this question, depending on your needs.</p>
+<p>Like you, a <em>Learner Persona</em> <span class="citation" data-cites="wilson2019">(<a href="#ref-wilson2019" role="doc-biblioref">Wilson 2019</a>)</span> consists of:</p>
+<ul>
+<li>a general background,</li>
+<li>what you already know,</li>
+<li>what you want to know, and</li>
+<li>other special needs you may have.</li>
+</ul>
+<p>If you are working on your doctoral thesis, do you identify better with <a href="#celine">Celine</a> or with <a href="#victor">Víctor</a>? If you are part of the teaching staff, do your learning needs fit better with those of <a href="#juan">Juan</a> or with those of <a href="#ana">Ana</a>?</p>
+<section id="celine" class="level3">
+<h3 class="anchored" data-anchor-id="celine">Celine</h3>
+<p>Celine has a degree in psychology from England and has just enrolled in the UJI doctoral school. Her doctoral thesis deals with the application of new technologies to improve behavioral therapies for patients diagnosed with gambling addiction.</p>
+<p>Celine plans to carry out several experiments with patients during her doctoral period. She knows some tools for data analysis (such as SPSS) from her bachelor’s degree, but she has never taken a formal programming course, although she has thought about it often. She sometimes thinks that she suffers from the <a href="https://en.wikipedia.org/wiki/Impostor_syndrome">impostor syndrome</a> as soon as she faces with programming languages or advanced data analytical tools.</p>
+<p>Celine would like to systematize the data analysis of the experiments that she will be conducting in her doctoral project. Yet, above all, she wants to prove to herself that she can learn computational competences. The terms reproducibility and replicability sound familiar to her and she thinks that they can be useful to speed up the tedious work of her experiments, but she does not know where to start.</p>
 </section>
-<section id="acknowledgements" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
-<p>Huge thanks to the <a href="https://reproducible-agile.github.io/">Reproducible Research @ AGILE</a> community, especially to the following individuals who have contributed to improving these materials: Daniel Nüst, Frank Ostermann, Markus Konkol, Sergi Trilles, …</p>
-<p>This website is built with <a href="https://quarto.org">Quarto</a>, inspired by the <a href="https://datasciencebox.org/">Data Science in a Box</a> course.</p>
+<section id="victor" class="level3">
+<h3 class="anchored" data-anchor-id="victor">Víctor</h3>
+<p>Víctor studied a chemistry degree at UJI and is in the final phase of his PhD thesis on computational chemistry, which he hopes to defend once he completes a planned research stay in France.</p>
+<p>Víctor learned R early in his thesis period and it is still the programming language in his research. Like in many other tools, he was self-taught in the use of Github and uses it to version his own software and to collaborate with other colleagues. He has published some relevant articles in which the developed software has been a main contribution.</p>
+<p>Víctor wants to improve his skills and expand his knowledge about reproducible workflows. The best academic journals in his field now require that every submission come with code and data, and he knows that an article published in those high-profile journals can open the door to a postdoc.</p>
+</section>
+<section id="juan" class="level3">
+<h3 class="anchored" data-anchor-id="juan">Juan</h3>
+<p>Juan is a professor of Economics at the UJI. He has four six-year research periods and a good record of scientific publications. He is responsible for a quantitative economics course which in turn is the focus of his research.</p>
+<p>Juan is surprised by the current hype about the <em>reproducibility crisis</em> that he reads about in Science and Nature editorials. He considers that crisis an exaggeration, like so many other buzzwords that he has witnessed in his long academic career. He has never needed reproducibility to have a successful academic career.</p>
+<p>Despite this, Juan wants to make sure that his beliefs about reproducibility and reproducible practices are well founded.</p>
+</section>
+<section id="ana" class="level3">
+<h3 class="anchored" data-anchor-id="ana">Ana</h3>
+<p>Ana is a professor of Computer Science at the UJI. She hardly never investigates, but she is very active and is concerned with improving her teaching practices. She is responsible for an introductory programming course for large groups of freshmen.</p>
+<p>Ana is up to date with teaching innovations and everything related to educational technology. For a decade, she has been applying the most recent learning methodologies and innovative techniques in her classes with considerable success, according to what her students say in surveys.</p>
+<p>Ana wants to know if reproducibility and teaching combine in some way, since reproducibility and research always go hand in hand in everything she has read. She is wondering how to bring reproducibility aspects into her practical sessions, such as in peer assessment and peer instructions, and even for the creation of teaching materials. She is interested in guides and practical examples to get inspired to improving her teaching materials and practical classes.</p>
+
 
 
 </section>
+</section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-wilson2019" class="csl-entry" role="listitem">
+Wilson, Greg. 2019. <em>Teaching Tech Together: How to Make Lessons That Work and Build a Teaching Community Around It</em>. Taylor &amp; Francis. <a href="https://teachtogether.tech/">https://teachtogether.tech/</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -554,6 +630,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../hello.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Hello!</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../materials/00-content.html" class="pagination-link">
+        <span class="nav-page-text">Content</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -564,10 +652,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./LICENSE.html">License</a>
+    <a class="nav-link" href="../LICENSE.html">License</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="./CODE_OF_CONDUCT.html">Code of Conduct</a>
+    <a class="nav-link" href="../CODE_OF_CONDUCT.html">Code of Conduct</a>
   </li>  
 </ul>
     </div>

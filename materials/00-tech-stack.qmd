@@ -1,0 +1,12 @@
+---
+title: "Tech stack"
+---
+
+This course teaches best practices and recommendations for getting started with computational reproducibility to PhD students and research staff from diverse backgrounds with no background, in principle, in computational skills.
+
+
+While the recommended technology stack for computational reproducibility is extensive, course participants can follow it without any tool. However, to put them in practice later, participants are encouraged to familiarize themselves with some key technologies:
+
+::: todo
+-   GitHub: The use of [GitHub](https://github.com/) also goes a long way to help students visualize and understand the git process which also aids in student buy-in. The web interface allows students to easily view diffs (file changes over time) in files they are collaborating on, keep track of commit histories, and search both the current state as well as the entire history of the code base. See [Version Control](03-version-control.html) for more on this.
+:::

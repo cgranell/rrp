@@ -7,8 +7,12 @@ Reproducibility is not a new concept of modern science. We can find traces of re
 
 ## Slides, videos, and application exercises
 
-::: slide-deck
-**Deck 1: Reproducibility: historical notes**
+
+::: {.callout-tip icon=false}
+
+## **Slide Deck** 
+
+Reproducibility: historical notes
 
 ::: slides
 [Slides](01-historical-notes-slides.qmd)
@@ -17,4 +21,5 @@ Reproducibility is not a new concept of modern science. We can find traces of re
 ::: source
 [Source](https://github.com/cgranell/rrp/tree/main/materials/01-historical-notes-slides.qmd)
 :::
+
 :::
