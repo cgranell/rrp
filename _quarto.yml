@@ -4,7 +4,7 @@ project:
 
 website:
   page-navigation: true
-  title: "RRP'23"
+  title: "RRP'24"
   description: "Reproducible Research Practices course"
   site-url: "https://cgranell.github.io/rrp"
   repo-url: "https://www.github.com/cgranell/rrp"
