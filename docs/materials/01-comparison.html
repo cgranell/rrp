@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -193,7 +212,7 @@ ul.task-list li input[type="checkbox"] {
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -222,13 +241,100 @@ Warning
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>This is work in progress</p>
+<p>Cite examples from the literature for each discipline.</p>
 </div>
 </div>
+<p>This table compares the concepts of reproducibility and replicability between different disciplines, to highlight slightly different interpretations between communities. <span class="citation" data-cites="barba2018">(<a href="#ref-barba2018" role="doc-biblioref">Barba 2018</a>)</span> discusses reproducible research across disciplines and stakeholder groups.</p>
+<div class="column-screen-inset-right">
+<table class="table-striped table">
+<caption></caption>
+<colgroup>
+<col style="width: 10%">
+<col style="width: 35%">
+<col style="width: 35%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Area of knowledge</th>
+<th>Reproducibility</th>
+<th>Replicability</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>General definition</td>
+<td>The ability to obtain the same results using the original data and exact methods.</td>
+<td>The ability to obtain consistent results when repeating a study with new data or under similar conditions.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Experimental sciences (physics, chemistry, biology)</td>
+<td>It involves recreating a specific experiment using the same equipment and protocols</td>
+<td>The focus is on repeating the experiment with different variables and subjects to verify the generalization of the results</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Computer science</td>
+<td>It refers to the ability to obtain the same results when executing the same code and data</td>
+<td>The ability of other researchers to implement the same algorithm or code in a different environment and obtain consistent/similar results</td>
+<td>Replicability: Implementation of a machine learning algorithm on a different data set to validate its performance</td>
+</tr>
+<tr class="even">
+<td>Social sciences (psychology, sociology)</td>
+<td>it relates to the ability to obtain similar results when repeating a study using new participants</td>
+<td>It involves repeating a study with different groups of participants or in different cultural contexts to evaluate the generalizability of the findings</td>
+<td>Reproducibility: Replication of a study on the effects of persuasion on ethical decisions with new participants.</td>
+</tr>
+<tr class="odd">
+<td>Engineering</td>
+<td>it may involve replicating a specific technical design or experiment using the same parameters and conditions</td>
+<td>Focused on the ability of other engineers to recreate and validate the design or technical process under different circumstances</td>
+<td>Replicability: Repetition of a materials engineering experiment with different batches to evaluate the consistency of the results</td>
+</tr>
+<tr class="even">
+<td>Maths</td>
+<td>it relates to the ability of other mathematicians to obtain the same results by following the same reasoning and methods</td>
+<td>The repetition of demonstrations and proofs in different mathematical contexts to confirm the validity and generality of the theorems</td>
+<td>Example: Reproducibility: Mathematical proof of a theorem using the same axioms and formal logic</td>
+</tr>
+<tr class="odd">
+<td>Economics</td>
+<td>it implies the possibility of obtaining the same results when applying the same model to new data sets or economic contexts</td>
+<td>Repetition of economic analyzes with data from different periods or in different regions to evaluate the robustness of the results</td>
+<td>Reproducibility: Application of an economic model to data from different countries to evaluate the consistency of predictions</td>
+</tr>
+<tr class="even">
+<td>Education</td>
+<td>It refers to the ability to replicate a study using the same design and methods to confirm the results</td>
+<td>It involves repeating the study in different schools or educational settings to examine the applicability of the findings</td>
+<td>Replicability: Repetition of a study on teaching methods in different school contexts to evaluate their overall effectiveness</td>
+</tr>
+<tr class="odd">
+<td>Philosophy</td>
+<td>it relates to the ability of other philosophers to reach the same conclusions by following the same reasoning and argumentation</td>
+<td>It involves the application of the same philosophical principles in different contexts to evaluate the consistency of the results</td>
+<td>Reproducibility: Development of a philosophical argument using the same logic and reasoning</td>
+</tr>
+<tr class="even">
+<td>medicien and health sciences</td>
+<td>It implies the ability to repeat a study using the same methods to validate the results</td>
+<td>It involves repeating the clinical study with different patient groups or under different healthcare conditions to confirm the applicability of the findings</td>
+<td>Reproducibility: Replication of a clinical trial to confirm the effectiveness of a treatment</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-barba2018" class="csl-entry" role="listitem">
+Barba, L. 2018. <span>“Terminologies for Reproducible Research.”</span> <em>arXiv Preprint arXiv:1802.03311</em>. <a href="https://arxiv.org/abs/1802.03311">https://arxiv.org/abs/1802.03311</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -2,9 +2,31 @@
 title: Comparison
 ---
 
-
 :::{.callout-warning}
 
-This is work in progress
+Cite examples from the literature for each discipline.
+
+:::
+
+This table compares the concepts of reproducibility and replicability between different disciplines, to highlight slightly different interpretations between communities. [@barba2018] discusses reproducible research across disciplines and stakeholder groups.
+
+::: {.column-screen-inset-right}
+
+
+
+| Area of knowledge                                   | Reproducibility                                                                                                                 | Replicability                                                                                                                                                | Examples                                                                                                                          |
+|----------------|-----------------|------------------------|----------------|
+| General definition                                  | The ability to obtain the same results using the original data and exact methods.                                               | The ability to obtain consistent results when repeating a study with new data or under similar conditions.                                                   |                                                                                                                                   |
+| Experimental sciences (physics, chemistry, biology) | It involves recreating a specific experiment using the same equipment and protocols                                             | The focus is on repeating the experiment with different variables and subjects to verify the generalization of the results                                   |                                                                                                                                   |
+| Computer science                                    | It refers to the ability to obtain the same results when executing the same code and data                                       | The ability of other researchers to implement the same algorithm or code in a different environment and obtain consistent/similar results                    | Replicability: Implementation of a machine learning algorithm on a different data set to validate its performance                 |
+| Social sciences (psychology, sociology)             | it relates to the ability to obtain similar results when repeating a study using new participants                               | It involves repeating a study with different groups of participants or in different cultural contexts to evaluate the generalizability of the findings       | Reproducibility: Replication of a study on the effects of persuasion on ethical decisions with new participants.                  |
+| Engineering                                         | it may involve replicating a specific technical design or experiment using the same parameters and conditions                   | Focused on the ability of other engineers to recreate and validate the design or technical process under different circumstances                             | Replicability: Repetition of a materials engineering experiment with different batches to evaluate the consistency of the results |
+| Maths                                               | it relates to the ability of other mathematicians to obtain the same results by following the same reasoning and methods        | The repetition of demonstrations and proofs in different mathematical contexts to confirm the validity and generality of the theorems                        | Example: Reproducibility: Mathematical proof of a theorem using the same axioms and formal logic                                  |
+| Economics                                           | it implies the possibility of obtaining the same results when applying the same model to new data sets or economic contexts     | Repetition of economic analyzes with data from different periods or in different regions to evaluate the robustness of the results                           | Reproducibility: Application of an economic model to data from different countries to evaluate the consistency of predictions     |
+| Education                                           | It refers to the ability to replicate a study using the same design and methods to confirm the results                          | It involves repeating the study in different schools or educational settings to examine the applicability of the findings                                    | Replicability: Repetition of a study on teaching methods in different school contexts to evaluate their overall effectiveness     |
+| Philosophy                                          | it relates to the ability of other philosophers to reach the same conclusions by following the same reasoning and argumentation | It involves the application of the same philosophical principles in different contexts to evaluate the consistency of the results                            | Reproducibility: Development of a philosophical argument using the same logic and reasoning                                       |
+| medicien and health sciences                        | It implies the ability to repeat a study using the same methods to validate the results                                         | It involves repeating the clinical study with different patient groups or under different healthcare conditions to confirm the applicability of the findings | Reproducibility: Replication of a clinical trial to confirm the effectiveness of a treatment                                      |
+
+: {.striped tbl-colwidths="\[10,35,35,20\]"}
 
 :::
