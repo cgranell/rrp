@@ -54,7 +54,7 @@ website:
       contents:
         - href: hello.qmd
         - href: materials/00-personas.qmd
-        - href: materials/00-content.qmd
+        - href: materials/00-units.qmd
         - href: materials/00-tech-stack.qmd
 
     - id: intro

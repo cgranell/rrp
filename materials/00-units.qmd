@@ -1,0 +1,31 @@
+---
+title: "Teaching units"
+---
+
+The course content is organized in four teaching units:
+
+```{mermaid}
+flowchart LR
+  A[Hello!] --> B(1. Intro)
+  B --> C{Role?}
+  C --> |reviewer| D(2. Assessment)
+  C --> |author| E(3. Practices)
+  D --> F(4. UJI)
+  E --> F(4. UJI)
+  F --> G[Extras]
+```
+
+
+**Unit 1 - Introduction to reproducibility:** This unit is an introduction to the key terms of reproducibility and replicability across disciplines. It also offers a historical account to put reproducibility in science into perspective.
+
+**Unit 2 - Reproducibility assessment:** This unit takes the perspective of a reviewer or reader, similar to the reviewer's role in traditional peer review, to assess the level of reproducibility of an article or research report. It gives some general evaluation criteria and puts them into practice in the field of GIScience.
+
+**Unit 3 - Reproducibility practices and recommendations:** This unit takes the perspective of a principal investigator or author, similar to the author's role in traditional peer review, who needs practical recommendations and practices to make their next article more reproducible. In this unit we discuss a series of practices, tips and recommendations, in increasing order of complexity and technological sophistication, to integrate reproducibility into her daily research tasks. Specific practices produced by the [Reproducible Research @ AGILE](https://reproducible-agile.github.io/) group are also available in the field of GIScience.
+
+**Unit 4 - Reproducibility research at UJI:** 
+In this unit we introduce the local context of the [Universitat Jaume I](https://www.uji.es/), as part of the Spanish research system, regarding on how  open science, reproducibility, code and data sharing, and FAIR principles apply to UJI researchers. Therefore, you can skip this section and check with your host institution if similar rules and regulations apply to you.
+
+
+---
+
+We are pretty sure that the above units only grasp the surface of reproducible  research. Depending on your needs, course length, and participant profiles, you can develop deeper certain units, add new ones focusing for example on the tech stack to support computational reproducibility, or include practical activities such as real reproduction of existing papers in your discipline.

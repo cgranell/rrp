@@ -5,8 +5,8 @@ title: "Hello!"
 Hello!
 And welcome!
 
-There is a little bit of something for everyone (who wants to teach/learn) reproducibility practices.
+There is a little bit of something for everyone (who wants to teach/learn) reproducible research practices. The course is not focused on a particular discipline or area of knowledge, as it is intended for participants with varied backgrounds. Specific aspects, if any, applied to GIScience.
 
-If you are an educator we recommend consuming the content in the order presented here: first familiarize yourself with the design principles, course syllabus, and the tech stack, then browse the course content, and then review the details of the computing infrastructure and pedagogy of the course.
+If you are an educator, you may start by exploring the teaching units and technology stack sections a little before jumping directly into the course units Although there are no sections on design principles or pedagogical approach, because the course is a brief but practical introduction based solely on my previous experience, the series of teaching units may be useful for your needs.
 
-If you are a learner, you might consider jumping straight into the course content.
+If you are a learner, you might consider jumping straight into the next section to identify yourself as one of the learner persona. 
