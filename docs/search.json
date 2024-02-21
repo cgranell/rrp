@@ -116,14 +116,28 @@
     "href": "materials/01-concept.html",
     "title": "Concept",
     "section": "",
-    "text": "Review the concepts of reproducibility, replication, and computational reproducibiliy"
+    "text": "Review the concepts of reproducibility, replication, and computational reproducibility"
   },
   {
-    "objectID": "materials/01-concept.html#slides-videos-and-application-exercises",
-    "href": "materials/01-concept.html#slides-videos-and-application-exercises",
+    "objectID": "materials/01-concept.html#slides",
+    "href": "materials/01-concept.html#slides",
     "title": "Concept",
-    "section": "Slides, videos, and application exercises",
-    "text": "Slides, videos, and application exercises\n\nDeck: Reproducibility: concepts\n\nSlides\n\n\nSource\n\n\n\nReproducibility in your discipline\n\nReflect on the extent to which these terms (reproduction, replication, robustness, generalisation) are widespread in your own discipline or area of research. Which is more predominant in your discipline? And in your research? Of the journals you publish or flag-ship journals in your discipline, do they request articles that support computational reproducibility, empirical reproducibility, or statistical reproducibility? (hint: check The Turing Way’s definitions page (The Turing Way Community 2019).\n\n\nIf you’re still hesitant to embrace reproducibility, Five Selfish Reasons to Work Reproducibly by Dr. Florian Markowetz, based on his paper (Markowetz 2015), will convince you!"
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\n\nSlide Deck Reproducibility: concepts\n\n\n\n\nSlides\n\n\nSource"
+  },
+  {
+    "objectID": "materials/01-concept.html#application-exercises",
+    "href": "materials/01-concept.html#application-exercises",
+    "title": "Concept",
+    "section": "Application exercises",
+    "text": "Application exercises\n\n\n\n\n\n\nReflection Reproducibility in your discipline\n\n\n\n\nReflect on the extent to which these terms (reproduction, replication, robustness, generalisation) are widespread in your own discipline or area of research. Which is more predominant in your discipline? And in your research? Of the journals you publish or flag-ship journals in your discipline, do they request articles that support computational reproducibility, empirical reproducibility, or statistical reproducibility? (hint: check The Turing Way’s definitions page (The Turing Way Community 2019)."
+  },
+  {
+    "objectID": "materials/01-concept.html#additional-resources-readings-and-videos",
+    "href": "materials/01-concept.html#additional-resources-readings-and-videos",
+    "title": "Concept",
+    "section": "Additional resources, readings, and videos",
+    "text": "Additional resources, readings, and videos\n\nIf you’re still hesitant to embrace reproducibility, Five Selfish Reasons to Work Reproducibly by Dr. Florian Markowetz, based on his paper (Markowetz 2015), will convince you!"
   },
   {
     "objectID": "materials/01-historical-notes-slides.html#should-we-trust-science",
@@ -137,14 +151,28 @@
     "href": "materials/01-historical-notes.html",
     "title": "Reproducibility: historical notes",
     "section": "",
-    "text": "Reproducibility is not a new concept of modern science. We can find traces of reproducibility in past periods of science."
+    "text": "Reproducibility is not a new concept that has emerged recently. We can find traces of reproducibility in past periods of science."
   },
   {
-    "objectID": "materials/01-historical-notes.html#slides-videos-and-application-exercises",
-    "href": "materials/01-historical-notes.html#slides-videos-and-application-exercises",
+    "objectID": "materials/01-historical-notes.html#slides",
+    "href": "materials/01-historical-notes.html#slides",
     "title": "Reproducibility: historical notes",
-    "section": "Slides, videos, and application exercises",
-    "text": "Slides, videos, and application exercises\n\n\n\n\n\n\nSlide Deck\n\n\n\nReproducibility: historical notes\n\nSlides\n\n\nSource"
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\n\nSlide Deck Reproducibility: historical notes\n\n\n\n\nSlides\n\n\nSource"
+  },
+  {
+    "objectID": "materials/01-historical-notes.html#application-exercises",
+    "href": "materials/01-historical-notes.html#application-exercises",
+    "title": "Reproducibility: historical notes",
+    "section": "Application exercises",
+    "text": "Application exercises"
+  },
+  {
+    "objectID": "materials/01-historical-notes.html#additional-resources-readings-and-videos",
+    "href": "materials/01-historical-notes.html#additional-resources-readings-and-videos",
+    "title": "Reproducibility: historical notes",
+    "section": "Additional resources, readings, and videos",
+    "text": "Additional resources, readings, and videos"
   },
   {
     "objectID": "materials/05-glossary.html",

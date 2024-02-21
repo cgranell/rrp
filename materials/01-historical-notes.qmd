@@ -3,16 +3,13 @@ title: "Reproducibility: historical notes"
 ---
 
 
-Reproducibility is not a new concept of modern science. We can find traces of reproducibility in past periods of science.  
+Reproducibility is not a new concept that has emerged recently. We can find traces of reproducibility in past periods of science.  
 
-## Slides, videos, and application exercises
+## Slides
 
 
 ::: {.callout-tip icon=false}
-
-## **Slide Deck** 
-
-Reproducibility: historical notes
+## **Slide Deck** Reproducibility: historical notes
 
 ::: slides
 [Slides](01-historical-notes-slides.qmd)
@@ -23,3 +20,12 @@ Reproducibility: historical notes
 :::
 
 :::
+
+
+## Application exercises
+
+
+
+
+## Additional resources, readings, and videos
+
