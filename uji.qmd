@@ -2,14 +2,53 @@
 title: "Reproducible research at UJI"
 ---
 
-[COARA](https://coara.eu/) and the Spanish National Chapter 
 
-[Informe del Comité Español de Ética de la Investigación del Ministerio de Ciencia, Innovación y Universidades  con recomendaciones éticas para la investigación en IA](https://www.ciencia.gob.es/InfoGeneralPortal/documento/cedef913-3842-4f90-9ffc-032d256125f0)
 
-ANECA – Criterios Acreditacion
+## Timeline
 
-ANECA - SEXENIOS
+
+UJI (and Spain) is taking key steps towards open and transparent science:
+
+-   October 2020: Institutional statement to promote open access [Declaración institucional a favor de la promoción del acceso abierto en la Universitat Jaume I](http://www.uji.es/upo/rest/contenido/630998650/raw?idioma=es)
+
+-   April 2012: [Agencia Estatal de Investigación](https://www.aei.gob.es/) (AEI) adhered to the [DORA Declaration](https://sfdora.org/) about research assessment with the commitment to “review all calls and documents supporting the evaluation to ensure their correct implementation”
+
+::: {.callout-note collapse="true"}
+## DORA recommendations that the AEI promises to carry out
+
+- **Do not use journal-based metrics, such as impact factor, as a surrogate measure of the quality of individual research articles**, to evaluate the contributions of an individual scientist, or in hiring, promotion, or funding decisions.
+
+- Be explicit about the criteria used to evaluate the scientific productivity of research funding applicants, especially for researchers who are beginning their research career, that the **scientific content of a paper is much more important than publication metrics or the identity of the article. the magazine in which it was published**.
+
+- **Consider the value and impact of all research results (including data sets and software)** in addition to research publications, and consider a wide range of impact measures including indicators qualitative, such as influence on scientific policy and practices.
+
+:::
+
+
+- October 2022: [Código de Buenas Prácticas en Investigación y Doctorado (CBPID)](https://www.uji.es/investigacio/base/etica/cbpid/)
+
+- March 2023: UJI adhered  to the CoARA Coalition for Advancing Research Assessment ([COARA](https://coara.eu/)).
+
+- April 2023: [ANECA adhered to DORA and CoARA](https://www.aneca.es/-/aneca-se-adhiere-a-la-san-francisco-declaration-on-research-assessment-dora-y-a-la-coalition-for-advancing-research-assessment-coara-)
+
+- July 2023: Proposal of the [COaRa National Chapter Spain](https://coara.eu/app/uploads/2023/12/National-Chaptern-Spain.pdf)
+
+- November 2023: [Informe del Comité Español de Ética de la Investigación del Ministerio de Ciencia, Innovación y Universidades  con recomendaciones éticas para la investigación en IA](https://www.ciencia.gob.es/InfoGeneralPortal/documento/cedef913-3842-4f90-9ffc-032d256125f0)
+
+- December 2023: ANECA published [new criteria for SEXENIOS assessment](https://www.aneca.es/convocatoria-2023)
+
+- February 2024: Kick-off of the [CoARA National Chapter Spain](https://www.aneca.es/-/aneca-crue-y-csic-presentan-el-cap%C3%ADtulo-nacional-de-coara-el-9-de-febrero)
+
+- February 2024: ANECA published [new criteria for accreditation](https://www.aneca.es/documents/20123/53669/CRITERIOS_ACADEMIA_2024_borrador.pdf) to Associate professor and Full professor 
+
+## UJI
+
+As part of the [Open Knowledge Portal](https://www.uji.es/serveis/cd/bib/pco/), the UJI library provides guides for researchers about the [open access dissemination of the results of the investigation](https://www.uji.es/serveis/cd/bib/serveis/investigacio/oa/), and [copyright and licenses](https://www.uji.es/serveis/cd/bib/pco/base/drets2/). 
+
+### Open Access Declaration
 
 [Declaració institucional a favor de la promoció de l’accés obert a la Universitat Jaume I]( https://ujiapps.uji.es/ade/rest/storage/5ULDFW5YMLK0ZEFHGZLHRGJRX3V80U73)
 
-[Código de Buenas Prácticas en Investigación y Doctorado, CBPID](https://www.uji.es/investigacio/base/etica/cbpid/) – parte “Acceso Abierto”
+### Best practices for research 
+
+[Código de Buenas Prácticas en Investigación y Doctorado, CBPID](https://www.uji.es/investigacio/base/etica/cbpid/) – focus on "open access" section

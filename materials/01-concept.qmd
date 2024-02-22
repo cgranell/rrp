@@ -1,5 +1,6 @@
 ---
 title: "Concept"
+citation-location: margin
 ---
 
 
@@ -35,7 +36,12 @@ Reflect on the extent to which these terms (reproduction, replication, robustnes
 ## Additional resources, readings, and videos
 
 ::: video
-If you’re still hesitant to embrace reproducibility, [Five Selfish Reasons to Work Reproducibly by Dr. Florian Markowetz](https://www.youtube.com/watch?v=yVT07Sukv9Q), based on his paper [@markowetz2015], will convince you!
+If you’re still hesitant to embrace reproducibility, next talk by [Dr. Florian Markowetz](https://www.cruk.cam.ac.uk/research-groups/markowetz-group/), based on his paper [@markowetz2015], will convince you!
+
+{{< video https://www.youtube.com/watch?v=yVT07Sukv9Q
+    title="Five Selfish Reasons to Work Reproducibly"
+    aspect-ratio="21x9"
+>}}
 :::
 
 
