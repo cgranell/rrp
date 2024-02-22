@@ -79,6 +79,10 @@ website:
       title: "Recommendations and practices"
       contents:
         - href: practices.qmd
+          text: "Practices"
+        - href: materials/03-before.qmd
+        - href: materials/03-during.qmd
+        - href: materials/03-after.qmd
 
 
     - id: UJI

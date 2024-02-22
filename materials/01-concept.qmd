@@ -25,7 +25,7 @@ Review the concepts of reproducibility, replication, and computational reproduci
 
 ## Application exercises
 
-::: {.callout-note icon=false}
+::: {.callout-tip icon=false}
 ## **Reflection** Reproducibility in your discipline
 
 ::: reflect
