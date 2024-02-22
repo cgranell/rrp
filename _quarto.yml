@@ -67,7 +67,7 @@ website:
         - href: materials/01-historical-notes.qmd
         - href: materials/01-concept.qmd
         - href: materials/01-comparison.qmd
-        - href: materials/01-across-disciplines.qmd
+          text: "Comparison"
 
     - id: assessment
       title: "Reproducibility assessment"
