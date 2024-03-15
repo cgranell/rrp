@@ -5,8 +5,8 @@ title: "Hello!"
 Hello!
 And welcome!
 
-There is a little bit of something for everyone (who wants to teach/learn) reproducible research practices. The course is not focused on a particular discipline or area of knowledge, as it is intended for participants with varied backgrounds. Specific aspects, if any, applied to GIScience.
+There is a little bit of something for everyone (who wants to teach/learn) reproducible research practices. The course is not focused on a particular discipline or area of knowledge, as it is intended for participants with varied backgrounds. Specific aspects in this course, if any, are applied to [GIScience](https://en.wikipedia.org/wiki/Geographic_information_science). Concepts and terms related to GIScience and/or open science are linked, where possible, to concepts from the [GIS&T Body of Knowledge](https://gistbok.ucgis.org/bok-basic-page/welcome-gist-body-knowledge) and/or [EO4GEO Body of Knowledge](http://www.eo4geo.eu/tools/).  
 
-If you are an educator, you may start by exploring the teaching units and technology stack sections a little before jumping directly into the course units Although there are no sections on design principles or pedagogical approach, because the course is a brief but practical introduction based solely on my previous experience, the series of teaching units may be useful for your needs.
+If you are an educator, you may start by exploring the teaching units and technology stack sections a little before jumping directly into the course units. Although there are no sections on design principles or pedagogical approach, because the course is a brief but practical introduction based solely on my previous experience, the set of teaching units may be useful for your needs.
 
 If you are a learner, you might consider jumping straight into the next section to identify yourself as one of the learner persona. 

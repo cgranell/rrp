@@ -55,7 +55,7 @@ Ana is a professor of Computer Science at the UJI. She hardly never investigates
 
 Ana is up to date with teaching innovations and everything related to educational technology. For a decade, she has been applying the most recent learning methodologies and innovative techniques in her classes with considerable success, according to what her students say in surveys.
 
-Ana wants to know if reproducibility and teaching combine in some way, since reproducibility and research always go hand in hand in everything she has read. She is wondering how to bring reproducibility aspects into her practical sessions, such as in peer assessment and peer instructions, and even for the creation of teaching materials. She is interested in guides and practical examples to get inspired to improving her teaching materials and practical classes.
+Ana wants to know if reproducibility and teaching are combined in some way, since reproducibility and research always go hand in hand in everything she has read. She wonders how to bring reproducibility aspects into her practical teaching sessions, such as in peer assessment and instructions, and even in the creation of teaching materials. She is interested in guides and practical examples to improve her teaching materials and practical classes.
 
 ### Luis {#luis}
 

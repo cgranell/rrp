@@ -2,15 +2,9 @@
 title: "Tech stack"
 ---
 
-This course teaches best practices and recommendations for getting started with computational reproducibility to PhD students and research staff from diverse backgrounds with no background, in principle, in computational skills.
+This course teaches best practices and recommendations for getting started with computational reproducibility to PhD students and research staff from diverse backgrounds with no prior experience, in principle, in computational skills.
 
-
-While the recommended technology stack for computational reproducibility is extensive, course participants can follow it without any tool. However, to put them in practice later, participants are encouraged to familiarize themselves with some key technologies:
-
-
-This course teaches best practices and recommendations for getting started with computational reproducibility to PhD students and research staff from diverse backgrounds without, in principle, prior programming experience and computational skills.
-
-While the set of recommended technologies for computational reproducibility is extensive and active, course participants can follow this course without using any specific tool. However, to put practices and recommendations into practice, participants are encouraged to familiarize themselves with some key technologies:
+While the set of recommended technologies for computational reproducibility is extensive and changing rapidly, course participants can follow this course without using any specific tool. However, to put recommendations into practice, participants are encouraged to familiarize themselves with some key technologies:
 
 -   **Markdown:**
 
