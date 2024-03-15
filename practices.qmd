@@ -4,7 +4,7 @@ title: "Recommendations and practices for open and reproducible research"
 
 ::: {.column-margin}
 
-![](https://upload.wikimedia.org/wikipedia/en/4/42/Richard_Feynman_Nobel.jpg){fig-alt="Richard Feynman" fig-align="centre" width="70%"}
+![](https://upload.wikimedia.org/wikipedia/en/4/42/Richard_Feynman_Nobel.jpg){fig-alt="Richard Feynman" fig-align="center" width="70%"}
 
 Nobel laureate and physics professor [Richard Feynman](https://en.wikipedia.org/wiki/Richard_Feynman)
 :::
@@ -29,7 +29,7 @@ Very cool; But If you had to write a reproducible paper... How do you start?
 
 We have heard many excuses to avoid taking reproducible practices seriously in one's research, such as "I have never heard of reproducibility before", "I'm not good at using tools; Did you say github and docker?", "I have never been trained", "I don't know where to find tutorials, guidelines...", "I'm superbusy! I do not have enough time", and "I do theoretical stuff. Reproduction is not for me"
 
-No matter your excuse; If you do not want to fool yourself, reproducible research practices are essential to enable not only reproducible but transparent, open and honest science. Indeed, conducting reproducible research is neither overly difficult nor does it require encyclopedic knowledge of multiple research tools, standards, and protocols. The good news is that most researchers already do much of the work necessary to make research reproducible. The point here is then to identify those aspects that could improve the level of reproducibility of your research and adapt them to your workflow and research habits.
+No matter your excuse; If you do not want to fool yourself, reproducible research practices are essential to enable not only reproducible but transparent, open and honest science. Indeed, conducting reproducible research is neither overly difficult nor does it require encyclopedic knowledge of multiple research tools, standards, and protocols. The good news is that **most researchers already do much of the work necessary to make research reproducible**. The point here is then to identify those aspects that could improve the level of reproducibility of your research and adapt them to your workflow and research habits.
 
 You should ask yourself:
 
@@ -66,7 +66,7 @@ flowchart TB
   B --> C[After data analysis]
 ```
 
-[@alston2021] outlined basic steps toward making research more reproducible base on three stages of a research project: (1) before data analysis, (2) during analysis, and (3) after analysis. 
+[@alston2021] outlined basic steps toward making research more reproducible base on three stages of a research project: (1) **before** data analysis, (2) **during** analysis, and (3) **after** analysis. 
 
 
-We borrow this simple schema to categorise and better explain the set of practical tips and recommendations that follow. Note that most of the following recommendations are already widely accepted best practices for scientific research and that striving to achieve a reasonable level of reproducibility is more achievable than you may. Essentially, researchers must think carefully before, during, and after analysis to ensure reproducibility of their work.
+We borrow this simple outline to better categorise and explain the set of practical tips and recommendations that follow. Note that most of the following recommendations are already widely accepted best practices for scientific research and that striving for a reasonable level of reproducibility is more achievable than you may expect. Essentially, researchers must think carefully before, during, and after analysis to ensure the reproducibility, openness and transparency of their work.

@@ -1,0 +1,203 @@
+---
+title: "Before analysis"
+subtitle: "Basics to get started"
+author: "Carlos Granell"
+format: 
+  revealjs:
+    slide-number: true
+    show-slide-number: all
+    progress: true
+    logo: ../images/ESCOLA-DOCTORAT-es-blanco.png
+    footer: "[cgranell.github.io/rrp](https://cgranell.github.io/rrp)"
+    theme: default
+    transition: fade
+    preview-links: true
+    author-meta: "Carlos Granell"
+    date-meta: "15/03/2024"
+    chalkboard: 
+      theme: whiteboard
+      buttons: false
+      boardmarker-width: 3
+from: markdown+emoji
+execute:
+  echo: true
+---
+
+# ONE project = ONE folder {#rec01}
+
+
+## What's a project?
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.incremental}
+
+-   an experiment in a PhD project
+
+-   master project thesis
+
+-   ideas for future research
+
+-   regular meeting notes/minutes
+
+-   teaching materials
+
+:::
+
+:::
+
+::: {.column width="50%"}
+
+::: {.incremental}
+
+-   a review paper
+
+-   a conference presentation
+
+-   a workshop/seminar materials
+
+-   a book
+
+-   PhD thesis manuscript
+
+:::
+
+:::
+
+::::
+
+
+
+# Choose your best way to organise a project/folder {#rec02}
+
+## Project/folder structure
+
+
+### Make sure it's consistent, informative,  works for you, and stick to it
+
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+
+-   `README.md`
+
+-   `LICENSE`
+
+-   `CODE_OF_CONDUCT`
+
+-   `CONTRIBUTING`
+
+:::
+
+
+::: {.column width="60%"}
+
+-   data: `data`, `data-raw`
+
+-   code: `scripts`, `analysis` 
+
+-   results: `reports`, `figs`
+
+-   documentation: `notes`, `docs`...
+
+::: 
+
+::::
+
+
+::: {.callout-note}
+## **Example**
+[Turing's project structure](https://the-turing-way.netlify.app/project-design/project-repo/project-repo-advanced.html) [@turingway2019]
+::: 
+
+
+
+
+# Choose a consistent file naming convention {#rec03}
+
+## File naming convention
+
+
+:::: {.columns}
+
+::: {.column width="40%" align="center"}
+
+<img src="../images/phdcomics1531.gif" width="90%" />
+
+:::
+
+
+::: {.column width="60%"}
+
+::: {.incremental}
+
+-   File names are **machine-readable**, **human-readable**, and play well with **default ordering**
+
+-   Script file names begin with numbers/letters to indicate the sequence in the analysis: `01_download_data.R`
+
+-   Data file names begin with dates (YYYYMMDD) as prefix: `20200115_survey.csv`
+
+:::
+
+:::
+
+::::
+
+::: {.notes}
+[Source](http://phdcomics.com/comics/archive.php?comicid=1531)
+:::
+
+
+# Never ever touch raw data {#rec04}
+
+Remember [Newton's letter to Flamsteed](https://cgranell.github.io/rrp-uji/slides/slides11_01.html#newton)
+
+
+## Raw data
+
+-   Store raw data permanently (`data-raw` folder)
+
+-   Use scripts to process/clean raw datasets
+
+-   Store processed data in a separate folder (`data` or `data-clean` folder)
+
+-   Document the process (simple steps, diagrams, content/structure of datasets, provenance) in a plain text README file (See [Recommendation \#6](#rec01))]
+
+
+# [\#5] Use open data formats {#rec05}
+
+## Open formats
+
+-   Use open, text-based formats whenever possible
+-   Alternatively, provide data in an open format besides proprietary format
+  -   .xls + .csv
+
+
+# [\#6] Document, document, and document {#rec06}
+
+
+## README file(s) {.smaller}
+
+
+-   Include a **README file** in the root folder to describe the project, provide basic orientation to use your code, data, etc. ]
+  - Suggestions for writing a good [README](https://www.makeareadme.com/) and [GitHub's README](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
+  - If your project is on GitHub, README files will be automatically visualised if written in [Markdown](https://www.markdownguide.org/)
+
+
+. . .
+
+
+
+-   Include (if required) **README files** in each subfolder to describe metadata/complex content
+
+-   Keep track of ideas, discussions and decisions about the project (in the `notes` folder)]
+
+-   Use simple formatting language/tool for writing plain text files that can be version controlled
+
+
+
+## References

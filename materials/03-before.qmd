@@ -1,3 +1,31 @@
 ---
 title: "Before"
 ---
+
+
+Next recommendations summarise some organizational aspects and reproducible practices for the preparation and first steps of a project.
+
+
+## Slides
+
+
+::: {.callout-tip icon=false}
+## **Slide Deck** Before analysis: basics to get started
+
+::: slides
+[Slides](03-before-slides.qmd)
+:::
+
+::: source
+[Source](https://github.com/cgranell/rrp/tree/main/materials/03-before-slides.qmd)
+:::
+
+:::
+
+
+## Application exercises
+
+
+
+## Additional resources, readings, and videos
+
