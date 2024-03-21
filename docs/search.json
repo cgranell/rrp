@@ -193,21 +193,21 @@
     "href": "materials/03-before-slides.html#raw-data",
     "title": "Before analysis",
     "section": "Raw data",
-    "text": "Raw data\n\nStore raw data permanently (data-raw folder)\nUse scripts to process/clean raw datasets\nStore processed data in a separate folder (data or data-clean folder)\nDocument the process (simple steps, diagrams, content/structure of datasets, provenance) in a plain text README file (See Recommendation #6)]"
+    "text": "Raw data\n\n\nStore raw data permanently (data-raw folder)\nUse scripts to process/clean raw datasets\nStore processed data in a separate folder (data or data-clean folder)\nDocument the process (simple steps, diagrams, content/structure of datasets, provenance) in a plain text README file (See Recommendation #6)]"
   },
   {
     "objectID": "materials/03-before-slides.html#open-formats",
     "href": "materials/03-before-slides.html#open-formats",
     "title": "Before analysis",
     "section": "Open formats",
-    "text": "Open formats\n\nUse open, text-based formats whenever possible\nAlternatively, provide data in an open format besides proprietary format\n.xls + .csv"
+    "text": "Open formats\n\n\nUse open, text-based formats whenever possible\nAlternatively, provide data in an open format besides proprietary format\n\n.xls + .csv"
   },
   {
     "objectID": "materials/03-before-slides.html#readme-files",
     "href": "materials/03-before-slides.html#readme-files",
     "title": "Before analysis",
     "section": "README file(s)",
-    "text": "README file(s)\n\nInclude a README file in the root folder to describe the project, provide basic orientation to use your code, data, etc. ]\nSuggestions for writing a good README and GitHub’s README\nIf your project is on GitHub, README files will be automatically visualised if written in Markdown\n\n\n\nInclude (if required) README files in each subfolder to describe metadata/complex content\nKeep track of ideas, discussions and decisions about the project (in the notes folder)]\nUse simple formatting language/tool for writing plain text files that can be version controlled"
+    "text": "README file(s)\n\nInclude a README file in the root folder to describe the project, provide basic orientation to use your code, data, etc. ]\n\n\n\n\n\n\n\n\n\nTips\n\n\n\nSuggestions for writing a good README and GitHub’s README\nIf your project is on GitHub, README files will be automatically visualised if written in Markdown\n\n\n\n\n\n\n\n\nInclude (if required) README files in each subfolder to describe metadata/complex content\nKeep track of ideas, discussions and decisions about the project (in the notes folder)]\nUse simple formatting language/tool for writing plain text files that can be version controlled"
   },
   {
     "objectID": "materials/03-before-slides.html#references",

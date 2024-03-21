@@ -23,7 +23,7 @@ execute:
   echo: true
 ---
 
-# ONE project = ONE folder {#rec01}
+# [\#1] ONE project = ONE folder {#rec01}
 
 
 ## What's a project?
@@ -70,7 +70,7 @@ execute:
 
 
 
-# Choose your best way to organise a project/folder {#rec02}
+# [\#2] Choose your best way to organise a project/folder {#rec02}
 
 ## Project/folder structure
 
@@ -117,7 +117,7 @@ execute:
 
 
 
-# Choose a consistent file naming convention {#rec03}
+# [\#3] Choose a consistent file naming convention {#rec03}
 
 ## File naming convention
 
@@ -152,12 +152,14 @@ execute:
 :::
 
 
-# Never ever touch raw data {#rec04}
+# [\#4] Never ever touch raw data {#rec04}
 
 Remember [Newton's letter to Flamsteed](https://cgranell.github.io/rrp-uji/slides/slides11_01.html#newton)
 
 
 ## Raw data
+
+::: {.incremental}
 
 -   Store raw data permanently (`data-raw` folder)
 
@@ -166,30 +168,44 @@ Remember [Newton's letter to Flamsteed](https://cgranell.github.io/rrp-uji/slide
 -   Store processed data in a separate folder (`data` or `data-clean` folder)
 
 -   Document the process (simple steps, diagrams, content/structure of datasets, provenance) in a plain text README file (See [Recommendation \#6](#rec01))]
-
+:::
 
 # [\#5] Use open data formats {#rec05}
 
 ## Open formats
 
+::: {.incremental}
 -   Use open, text-based formats whenever possible
+
 -   Alternatively, provide data in an open format besides proprietary format
-  -   .xls + .csv
+    
+    -   .xls + .csv
+:::
 
-
-# [\#6] Document, document, and document {#rec06}
+# [\#6] Document, document, and document {#rec06 .center}
 
 
 ## README file(s) {.smaller}
 
 
 -   Include a **README file** in the root folder to describe the project, provide basic orientation to use your code, data, etc. ]
-  - Suggestions for writing a good [README](https://www.makeareadme.com/) and [GitHub's README](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
-  - If your project is on GitHub, README files will be automatically visualised if written in [Markdown](https://www.markdownguide.org/)
+
+::: {.fragment .fade-in}
+::: {.fragment .semi-fade-out}
 
 
-. . .
+::: {.callout-tip}
+## **Tips**
+- Suggestions for writing a good [README](https://www.makeareadme.com/) and [GitHub's README](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
+- If your project is on GitHub, README files will be automatically visualised if written in [Markdown](https://www.markdownguide.org/)
 
+::: 
+
+
+:::
+:::
+
+.  .  .
 
 
 -   Include (if required) **README files** in each subfolder to describe metadata/complex content
