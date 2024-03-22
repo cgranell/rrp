@@ -415,6 +415,7 @@ Carlos Granell
 </ul>
 </div>
 </div>
+<div class="fragment fade-in">
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -425,6 +426,7 @@ Carlos Granell
 </div>
 <div class="callout-content">
 <p><a href="https://the-turing-way.netlify.app/project-design/project-repo/project-repo-advanced.html">Turing’s project structure</a> <span class="citation" data-cites="turingway2019">(<a href="#/references" role="doc-biblioref" onclick="">The Turing Way Community 2019</a>)</span></p>
+</div>
 </div>
 </div>
 </div>
@@ -450,7 +452,7 @@ Carlos Granell
 </div>
 </div>
 <aside class="notes">
-<p><a href="http://phdcomics.com/comics/archive.php?comicid=1531">Source</a></p>
+<p>Source: <a href="http://phdcomics.com/comics/archive.php?comicid=1531">phdcomics.com</a></p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -475,7 +477,7 @@ Carlos Granell
 <li class="fragment"><p>Store raw data permanently (<code>data-raw</code> folder)</p></li>
 <li class="fragment"><p>Use scripts to process/clean raw datasets</p></li>
 <li class="fragment"><p>Store processed data in a separate folder (<code>data</code> or <code>data-clean</code> folder)</p></li>
-<li class="fragment"><p>Document the process (simple steps, diagrams, content/structure of datasets, provenance) in a plain text README file (See <a href="#/rec01">Recommendation #6</a>)]</p></li>
+<li class="fragment"><p>Document the process (simple steps, diagrams, content/structure of datasets, provenance) in a plain text README file (See <a href="#/rec01">Before Recommendation #6</a>)</p></li>
 </ul>
 </div>
 </section></section>
@@ -489,11 +491,28 @@ Carlos Granell
 <div>
 <ul>
 <li class="fragment"><p>Use open, text-based formats whenever possible</p></li>
+<li class="fragment"><p>Independent of specific software tools or vendors</p></li>
 <li class="fragment"><p>Alternatively, provide data in an open format besides proprietary format</p>
 <ul>
-<li class="fragment">.xls + .csv</li>
+<li class="fragment"><p>Microsoft Excel (<code>.xls</code>) + Comma-separated values (<code>.csv</code>)</p></li>
+<li class="fragment"><p>ESRI Shapefile (<code>.shp</code>) + GeoPackages (<code>.gpkg</code>)</p></li>
 </ul></li>
 </ul>
+</div>
+<div class="fragment fade-in">
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong><strong>Example</strong></strong></p>
+</div>
+<div class="callout-content">
+<p>Dutch national centre of expertise and repository for research data (DANS) - <a href="https://dans.knaw.nl/en/file-formats/">Preferred vs non-preferred formats</a></p>
+</div>
+</div>
+</div>
 </div>
 </section></section>
 <section>
@@ -501,13 +520,13 @@ Carlos Granell
 <h1>[#6] Document, document, and document</h1>
 
 </section>
-<section id="readme-files" class="slide level2 smaller">
+<section id="readme-files" class="slide level2">
 <h2>README file(s)</h2>
+<div>
 <ul>
-<li>Include a <strong>README file</strong> in the root folder to describe the project, provide basic orientation to use your code, data, etc. ]</li>
+<li class="fragment">Include a <strong>README file</strong> in the <code>root</code> folder to describe the project, provide basic orientation to use your code, data, etc.</li>
 </ul>
 <div class="fragment fade-in">
-<div class="fragment semi-fade-out">
 <div class="callout callout-tip callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -517,20 +536,241 @@ Carlos Granell
 <p><strong><strong>Tips</strong></strong></p>
 </div>
 <div class="callout-content">
+<p>Suggestions for writing a good <a href="https://www.makeareadme.com/">README</a> and <a href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes">GitHub’s README</a></p>
+<p>If your project is on GitHub, README files will be automatically visualised if written in <a href="https://www.markdownguide.org/">Markdown</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="readme-files-1" class="slide level2" data-menu-title="README file(s) (II)">
+<h2>README file(s)</h2>
+<div>
 <ul>
-<li>Suggestions for writing a good <a href="https://www.makeareadme.com/">README</a> and <a href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes">GitHub’s README</a></li>
-<li>If your project is on GitHub, README files will be automatically visualised if written in <a href="https://www.markdownguide.org/">Markdown</a></li>
+<li class="fragment"><p>Include (if required) <strong>README files</strong> in each subfolder to describe metadata/complex content</p></li>
+<li class="fragment"><p>Keep track of ideas, discussions and decisions about the project (in the <code>notes</code> folder)</p></li>
+<li class="fragment"><p>Use simple formatting language/tool for writing plain text files that can be version controlled</p></li>
 </ul>
 </div>
+</section></section>
+<section>
+<section id="rec07" class="title-slide slide level1 center">
+<h1>[#7] Add a data license</h1>
+
+</section>
+<section id="concept-of-license" class="slide level2">
+<h2>Concept of license</h2>
+<h3 id="a-license-is-a-contract-between-the-authors-and-users-jolly2012">A license is a <em>contract</em> between the <em>authors</em> and <em>users</em> <span class="citation" data-cites="jolly2012">(<a href="#/references" role="doc-biblioref" onclick="">Jolly, Fletcher, and Bourne 2012</a>)</span></h3>
+<div class="fragment fade-in-then-semi-out">
+<p>Without a license, <strong>copyright</strong> is automatically attached to your work</p>
+</div>
+<div class="fragment fade-in">
+<p>If you plan to make your work (data/databases/documents) public, <strong>always specify a <a href="https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-data.html">license</a></strong> via a <em>LICENSE file</em> (<code>LICENSE.md</code> or <code>LICENSE.txt</code>)</p>
+</div>
+</section>
+<section id="data-licenses-creative-commons" class="slide level2">
+<h2>Data licenses: Creative Commons</h2>
+<div class="columns">
+<div class="column" data-align="center" style="width:5%;">
+
+</div><div class="column" data-align="center" style="width:65%;">
+<p><a href="https://creativecommons.org/about/cclicenses/"><strong>CC BY-SA-NC-ND</strong></a></p>
+<table>
+<tbody>
+<tr class="odd">
+<td><strong>BY</strong></td>
+<td>Creators/authors must be credited</td>
+</tr>
+<tr class="even">
+<td><strong>SA</strong></td>
+<td>Derivatives or redistributions must have identical license</td>
+</tr>
+<tr class="odd">
+<td><strong>NC</strong></td>
+<td>Only non-commercial users are allowed</td>
+</tr>
+<tr class="even">
+<td><strong>ND</strong></td>
+<td>No derivatives are allowed</td>
+</tr>
+</tbody>
+</table>
+</div><div class="column" data-align="center" style="width:30%;">
+<div class="fragment fade-in">
+<p><img data-src="https://cent.uji.es/pub/guia-lpi-docencia/cc-icn-by.png" title="CC Attribution" width="112"> <br></p>
+</div>
+<div class="fragment fade-in">
+<p><img data-src="https://cent.uji.es/pub/guia-lpi-docencia/cc-icn-by-nc.png" title="CC Attribution-NonCommercial" width="112"> <br></p>
+</div>
+<div class="fragment fade-in">
+<p><img data-src="https://cent.uji.es/pub/guia-lpi-docencia/cc-icn-by-nd.png" title="CC Attribution-NoDerivates" width="112"> <br></p>
+</div>
+<div class="fragment fade-in">
+<p><img data-src="https://cent.uji.es/pub/guia-lpi-docencia/cc-icn-by-nd.png" title="CC AttributionShareAlike" width="112"> <br></p>
+</div>
+<div class="fragment fade-in">
+<p><img data-src="https://cent.uji.es/pub/guia-lpi-docencia/cc-icn-by-nc-sa.png" title="CC Attribution-NonCommercial-ShareAlike" width="112"> <br></p>
+</div>
+<div class="fragment fade-in">
+<p><img data-src="https://cent.uji.es/pub/guia-lpi-docencia/cc-icn-by-nc-nd.png" title="CC Attribution-NonCommercial-NoDerivates" width="112"> <br></p>
 </div>
 </div>
 </div>
+</section>
+<section id="data-licenses-creative-commons-1" class="slide level2 smaller" data-menu-title="Data licenses: CC example">
+<h2>Data licenses: Creative Commons</h2>
+<h3 id="ex-article-or-datadatasets-to-be-published">Ex: Article (or data/datasets) to be published</h3>
+<table>
+<colgroup>
+<col style="width: 42%">
+<col style="width: 24%">
+<col style="width: 32%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>As user/viewer, can you</th>
+<th>CC BY 4.0</th>
+<th>CC BY-NC-ND</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Read, print and download it?</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr class="even">
+<td>Redistribute or republish it?</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr class="odd">
+<td>Translate it?</td>
+<td>YES</td>
+<td>YES (private use only and not for distribution)</td>
+</tr>
+<tr class="even">
+<td>Download for text and data mining?</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr class="odd">
+<td>Reuse portions of it in other works <sup>1</sup></td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr class="even">
+<td>Sell or re-use it for commercial purpose</td>
+<td>YES</td>
+<td>NO</td>
+</tr>
+</tbody>
+</table>
+<aside><ol class="aside-footnotes"><li id="fn1"><p>Use with caution!</p></li></ol></aside></section>
+<section id="data-licenses-cc-zero" class="slide level2">
+<h2>Data licenses: CC Zero</h2>
+<div class="columns">
+<div class="column" data-align="center" style="width:5%;">
+
+</div><div class="column" data-align="center" style="width:35%;">
+<p><a href="https://creativecommons.org/public-domain/cc0/"><strong>CC0 “No Rights Reserved”</strong></a></p>
+</div><div class="column" data-align="center" style="width:60%;">
+<p>Creators/researchers/educators put their works into the global public domain for the benefit of society</p>
 </div>
-<div class="fragment">
+</div>
+</section>
+<section id="data-licenses-open-data-commons" class="slide level2">
+<h2>Data licenses: Open Data Commons</h2>
+<div class="columns">
+<div class="column" data-align="center" style="width:5%;">
+
+</div><div class="column" data-align="center" style="width:35%;">
+<p><a href="https://opendatacommons.org/licenses/index.html"><strong>Open Data Commons</strong></a> <sup>1</sup></p>
+</div><div class="column" data-align="center" style="width:60%;">
+<div class="fragment fade-in">
+<p><a href="https://opendatacommons.org/licenses/pddl/">ODC Public Domain Dedication and License (PDDL)</a>: Public Domain for data/databases (≅CC0)</p>
+</div>
+<div class="fragment fade-in">
+<p><a href="https://opendatacommons.org/licenses/by/">ODC-By</a>: Attribution for data/databases (≅CC-BY)</p>
+</div>
+<div class="fragment fade-in">
+<p><a href="https://opendatacommons.org/licenses/odbl/">ODC Open Data License (ODbL)</a>: Attribution Share-Alike for data/databases</p>
+</div>
+</div>
+</div>
+<aside><ol class="aside-footnotes"><li id="fn2"><p><a href="https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-data.html#a-note-on-the-differences-between-cc-and-odc-licenses">Differences between CC and ODC licenses</a></p></li></ol></aside></section>
+<section id="data-licenses-what-uji-recommends" class="slide level2">
+<h2>Data licenses: What UJI recommends</h2>
+<h3 id="copyright-and-licences"><a href="https://www.uji.es/serveis/cd/bib/pco/base/drets2/">Copyright and licences</a></h3>
+</section></section>
+<section>
+<section id="rec08" class="title-slide slide level1 center">
+<h1>[#8] Add a software license</h1>
+
+</section>
+<section id="software-licenses" class="slide level2">
+<h2>Software licenses</h2>
+<h3 id="always-add-a-license-to-the-software-you-plan-to-make-public">Always add a <a href="https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-software.html">license</a> to the software you plan to make public</h3>
+<div class="columns">
+<div class="column" data-align="center" style="width:50%;">
+<p><strong>Permissive</strong> = attribution (recommended for academic work)</p>
+</div><div class="column" data-align="center" style="width:50%;">
+<p><strong>Copyleft</strong> = share-alike (derivative work maintain same license as the original)</p>
+</div>
+</div>
+</section>
+<section id="section" class="slide level2" data-menu-title="Software licenses (II)">
+<h2></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1002598.g002&amp;type=large" style="width:65.0%"></p>
+</figure>
+</div>
+
+<aside><div>
+<p>Source: <span class="citation" data-cites="morin2012">(<a href="#/references" role="doc-biblioref" onclick="">Morin, Urban, and Sliz 2012</a>)</span></p>
+</div></aside></section>
+<section id="software-licenses-what-uji-recommends" class="slide level2">
+<h2>Software licenses: What UJI recommends</h2>
+<h3 id="nothing">Nothing</h3>
+</section></section>
+<section>
+<section id="rec09" class="title-slide slide level1 center">
+<h1>[#9] Learn/use version control systems</h1>
+
+</section>
+<section id="version-control-systems" class="slide level2">
+<h2>Version control systems</h2>
+<h3 id="turn-your-local-project-folder-into-a-version-control-repository">Turn your local project folder into a version control repository</h3>
+<div>
 <ul>
-<li><p>Include (if required) <strong>README files</strong> in each subfolder to describe metadata/complex content</p></li>
-<li><p>Keep track of ideas, discussions and decisions about the project (in the <code>notes</code> folder)]</p></li>
-<li><p>Use simple formatting language/tool for writing plain text files that can be version controlled</p></li>
+<li class="fragment"><p>to keep track changes of your work over time</p></li>
+<li class="fragment"><p>to roll back to past edits (track history)</p></li>
+<li class="fragment"><p>to handle properly text formats (code, text docs, markdown docs) as opposed to rich/binary formats (Word, gif/jpg)</p></li>
+<li class="fragment"><p><strong>Tools:</strong> <a href="https://git-scm.com/">Git</a>, SVN, Mercurial</p></li>
+<li class="fragment"><p><strong>Readings</strong>: <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Getting started with git</a>, <a href="https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/">An introduction to Git: what it is, and how to use it</a>, <span class="citation" data-cites="perez2016">(<a href="#/references" role="doc-biblioref" onclick="">Perez-Riverol et al. 2016</a>)</span>, <span class="citation" data-cites="bryan2018">(<a href="#/references" role="doc-biblioref" onclick="">Jennifer Bryan 2018</a>)</span></p></li>
+</ul>
+</div>
+<p>::::</p>
+</section></section>
+<section>
+<section id="rec10" class="title-slide slide level1 center">
+<h1>[#10] Learn/use online (Git) repository hosting services</h1>
+
+</section>
+<section id="online-git-repository-hosting-services" class="slide level2">
+<h2>Online (Git) repository hosting services</h2>
+<h3 id="easier-for-individuals-and-teams-to-use-git-for-version-control-and-collaboration">Easier for individuals and teams to use Git for version control and collaboration</h3>
+<div>
+<ul>
+<li class="fragment"><p>VCS + collaborative features + development support features</p></li>
+<li class="fragment"><p><strong>Tools</strong>: <a href="https://about.gitlab.com/">GitLab</a>, <a href="https://bitbucket.org/">Bitbucket</a>, <a href="https://github.com/">GitHub</a></p></li>
+<li class="fragment"><p><strong>Readings</strong>:</p>
+<ul>
+<li class="fragment"><p><a href="https://drivendata.github.io/cookiecutter-data-science/">Cookiecutter Data Science: Best practices for organising your repository for easy version control</a></p></li>
+<li class="fragment"><p><span class="citation" data-cites="perez2016">(<a href="#/references" role="doc-biblioref" onclick="">Perez-Riverol et al. 2016</a>)</span>, <span class="citation" data-cites="bryan2020">(<a href="#/references" role="doc-biblioref" onclick="">Jenny Bryan and Hester 2020</a>)</span></p></li>
+</ul></li>
 </ul>
 </div>
 </section>
@@ -542,11 +782,27 @@ Carlos Granell
 <p><a href="https://cgranell.github.io/rrp">cgranell.github.io/rrp</a></p>
 </div>
 <div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-bryan2018" class="csl-entry" role="listitem">
+Bryan, Jennifer. 2018. <span>“Excuse Me, Do You Have a Moment to Talk about Version Control?”</span> <em>The American Statistician</em> 72 (1): 20–27. <a href="https://doi.org/10.1080/00031305.2017.1399928">https://doi.org/10.1080/00031305.2017.1399928</a>.
+</div>
+<div id="ref-bryan2020" class="csl-entry" role="listitem">
+Bryan, Jenny, and Jim Hester. 2020. <em>Happy Git and GitHub for the useR</em>. <a href="https://happygitwithr.com/">https://happygitwithr.com/</a>.
+</div>
+<div id="ref-jolly2012" class="csl-entry" role="listitem">
+Jolly, M, AC Fletcher, and PE Bourne. 2012. <span>“Ten Simple Rules to Protect Your Intellectual Property.”</span> <em>PLoS Computacional Biology</em> 8: e1002766. <a href="https://doi.org/10.1371/journal.pcbi.1002766">https://doi.org/10.1371/journal.pcbi.1002766</a>.
+</div>
+<div id="ref-morin2012" class="csl-entry" role="listitem">
+Morin, A, J Urban, and P Sliz. 2012. <span>“A Quick Guide to Software Licensing for the Scientist-Programmer.”</span> <em>PLoS Computacional Biology</em> 8 (7): e1002598. <a href="https://doi.org/10.1371/journal.pcbi.1002598">https://doi.org/10.1371/journal.pcbi.1002598</a>.
+</div>
+<div id="ref-perez2016" class="csl-entry" role="listitem">
+Perez-Riverol, Y, L Gatto, R Wang, T Sachsenberg, J Uszkoreit, F da Veiga Leprevost, C Fufezan, et al. 2016. <span>“Ten Simple Rules for Taking Advantage of Git and GitHub.”</span> <em>PLoS Computational Biology</em> 12 (7). <a href="https://doi.org/10.1371/journal.pcbi.1004947">https://doi.org/10.1371/journal.pcbi.1004947</a>.
+</div>
 <div id="ref-turingway2019" class="csl-entry" role="listitem">
 The Turing Way Community. 2019. <span>“The Turing Way: A Handbook for Reproducible Data Science.”</span> Zenodo. <a href="https://doi.org/10.5281/zenodo.3233986">https://doi.org/10.5281/zenodo.3233986</a>.
 </div>
 </div>
 </section></section>
+
     </div>
   </div>
 
