@@ -6,10 +6,12 @@ title: "Recommendations and practices for open and reproducible research"
 
 ![](https://upload.wikimedia.org/wikipedia/en/4/42/Richard_Feynman_Nobel.jpg){fig-alt="Richard Feynman" fig-align="center" width="70%"}
 
-Nobel laureate and physics professor [Richard Feynman](https://en.wikipedia.org/wiki/Richard_Feynman)
+> “Science is a way of trying not to fool yourself. The principle is that you must not fool yourself, and you are the easiest person to fool.” 
+
+*Nobel laureate and physics professor [Richard Feynman](https://en.wikipedia.org/wiki/Richard_Feynman)*
+
 :::
 
-> “Science is a way of trying not to fool yourself. The principle is that you must not fool yourself, and you are the easiest person to fool.” 
 
 
 As a reviewer or researcher interested in the work of others, if you were to reproduce a study, you would

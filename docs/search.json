@@ -329,11 +329,193 @@
     "text": "Additional resources, readings, and videos"
   },
   {
+    "objectID": "materials/03-during-slides.html#open-reproducible",
+    "href": "materials/03-during-slides.html#open-reproducible",
+    "title": "During analysis",
+    "section": "Open != reproducible",
+    "text": "Open != reproducible\n\n“Openness and Open Science (data sharing, code sharing, open access, etc.) are enablers of reproducibility, but do not necessarily guarantee it” (Chiarelli, Loffreda, and Johnson 2021)\n\n\n\nOpen != Good (of high academic quality)\nReproducible != Good (of high academic quality)\nOpen != reproducible\n\n\n\nSource: Becoming a better scientist with open and reproducible research (2)"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#data-for-reproducibility",
+    "href": "materials/03-during-slides.html#data-for-reproducibility",
+    "title": "During analysis",
+    "section": "Data for reproducibility",
+    "text": "Data for reproducibility\nIf datasets are valuable contributions by themselves (Noy and Goble 2023)\n\nGo to Recomendation #13"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#data-for-reproducibility-1",
+    "href": "materials/03-during-slides.html#data-for-reproducibility-1",
+    "title": "During analysis",
+    "section": "Data for reproducibility",
+    "text": "Data for reproducibility\nIf datasets are meaningless outside of the accompanying article (Noy and Goble 2023)\n\n\nReproducibility means access to the required datasets to recreate the reported results\nAccess does not necessarily imply that datasets are open or citable or discoverable by themselves\nSuggestion: Deposit reproducibility package (data, code, docs) on Zenodo or similar rather than supplementary material tied to the paper]\n\nHint: connecting GitHub with Zenodo"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#data-for-reproducibility-example",
+    "href": "materials/03-during-slides.html#data-for-reproducibility-example",
+    "title": "During analysis",
+    "section": "Data for reproducibility: Example",
+    "text": "Data for reproducibility: Example\nUsing mobile devices as scientific measurement instruments: Reliable android task scheduling \n\n\n\n\nflowchart LR; \n  I1(Analysis Notebook &lt;br&gt; code + data) -- ref 26 --&gt; Z2[Reproducibility Package archived on Zenodo &lt;br&gt; 'Universitat Jaume I Research Data' Community]\n  click Z2 \"https://zenodo.org/records/5032028\"\n  I1 == input ==&gt; A((PAPER in PDF))\n  click A \"https://doi.org/10.1016/j.pmcj.2022.101550\"\n  A == output: software ==&gt; O1(NTD Software)\n  A == output ==&gt; O2(Fig 4)\n  A == output ==&gt; O3(Fig 5)\n  A == output ==&gt; O4(Other figs)\n  O1 -- ref 21 --&gt; Z1[NTD Software archived on Zenodo]\n  O2 -- ref 26 --&gt; Z2\n  click O2 \"https://ars.els-cdn.com/content/image/1-s2.0-S1574119222000074-gr4_lrg.jpg\"\n  O3 -- ref 26 --&gt; Z2\n  click O3 \"https://ars.els-cdn.com/content/image/1-s2.0-S1574119222000074-gr5_lrg.jpg\"\n  Z1 -- links to --&gt; G1[Github Repo]\n  click Z1 \"https://zenodo.org/records/6477770\"\n  click G1 \"https://github.com/GeoTecINIT/nativescript-task-dispatcher\"\n  Z2 -- links to --&gt; G2[Github Repo]\n  click G2 \"https://github.com/GeoTecINIT/nativescript-journalpaper\"\n\n\n\n\n\n\nSource: Mermaid cheatsheet"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#data-fair",
+    "href": "materials/03-during-slides.html#data-fair",
+    "title": "During analysis",
+    "section": "(Data) FAIR",
+    "text": "(Data) FAIR\n\n\n\n\n\n\nFile names are machine-readable, human-readable, and play well with default ordering\nScript file names begin with numbers/letters to indicate the sequence in the analysis: 01_download_data.R\nData file names begin with dates (YYYYMMDD) as prefix: 20200115_survey.csv\n\n\n\n\n\nSource: phdcomics.com"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#raw-data",
+    "href": "materials/03-during-slides.html#raw-data",
+    "title": "During analysis",
+    "section": "Raw data",
+    "text": "Raw data\n\n\nStore raw data permanently (data-raw folder)\nUse scripts to process/clean raw datasets\nStore processed data in a separate folder (data or data-clean folder)\nDocument the process (simple steps, diagrams, content/structure of datasets, provenance) in a plain text README file (See Before Recommendation #6)"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#open-formats",
+    "href": "materials/03-during-slides.html#open-formats",
+    "title": "During analysis",
+    "section": "Open formats",
+    "text": "Open formats\n\n\nUse open, text-based formats whenever possible\nIndependent of specific software tools or vendors\nAlternatively, provide data in an open format besides proprietary format\n\nMicrosoft Excel (.xls) + Comma-separated values (.csv)\nESRI Shapefile (.shp) + GeoPackages (.gpkg)\n\n\n\n\n\n\n\n\n\n\nExample\n\n\nDutch national centre of expertise and repository for research data (DANS) - Preferred vs non-preferred formats"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#readme-files",
+    "href": "materials/03-during-slides.html#readme-files",
+    "title": "During analysis",
+    "section": "README file(s)",
+    "text": "README file(s)\n\n\nInclude a README file in the root folder to describe the project, provide basic orientation to use your code, data, etc.\n\n\n\n\n\n\n\n\nTips\n\n\nSuggestions for writing a good README and GitHub’s README\nIf your project is on GitHub, README files will be automatically visualised if written in Markdown"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#readme-files-1",
+    "href": "materials/03-during-slides.html#readme-files-1",
+    "title": "During analysis",
+    "section": "README file(s)",
+    "text": "README file(s)\n\n\nInclude (if required) README files in each subfolder to describe metadata/complex content\nKeep track of ideas, discussions and decisions about the project (in the notes folder)\nUse simple formatting language/tool for writing plain text files that can be version controlled"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#concept-of-license",
+    "href": "materials/03-during-slides.html#concept-of-license",
+    "title": "During analysis",
+    "section": "Concept of license",
+    "text": "Concept of license\nA license is a contract between the authors and users (Jolly, Fletcher, and Bourne 2012)\n\nWithout a license, copyright is automatically attached to your work\n\n\nIf you plan to make your work (data/databases/documents) public, always specify a license via a LICENSE file (LICENSE.md or LICENSE.txt)"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#data-licenses-creative-commons",
+    "href": "materials/03-during-slides.html#data-licenses-creative-commons",
+    "title": "During analysis",
+    "section": "Data licenses: Creative Commons",
+    "text": "Data licenses: Creative Commons\n\n\n\n\nCC BY-SA-NC-ND\n\n\n\nBY\nCreators/authors must be credited\n\n\nSA\nDerivatives or redistributions must have identical license\n\n\nNC\nOnly non-commercial users are allowed\n\n\nND\nNo derivatives are allowed"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#data-licenses-creative-commons-1",
+    "href": "materials/03-during-slides.html#data-licenses-creative-commons-1",
+    "title": "During analysis",
+    "section": "Data licenses: Creative Commons",
+    "text": "Data licenses: Creative Commons\nEx: Article (or data/datasets) to be published\n\n\n\n\n\n\n\n\nAs user/viewer, can you\nCC BY 4.0\nCC BY-NC-ND\n\n\n\n\nRead, print and download it?\nYES\nYES\n\n\nRedistribute or republish it?\nYES\nYES\n\n\nTranslate it?\nYES\nYES (private use only and not for distribution)\n\n\nDownload for text and data mining?\nYES\nYES\n\n\nReuse portions of it in other works 1\nYES\nYES\n\n\nSell or re-use it for commercial purpose\nYES\nNO\n\n\n\nUse with caution!"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#data-licenses-cc-zero",
+    "href": "materials/03-during-slides.html#data-licenses-cc-zero",
+    "title": "During analysis",
+    "section": "Data licenses: CC Zero",
+    "text": "Data licenses: CC Zero\n\n\n\n\nCC0 “No Rights Reserved”\n\nCreators/researchers/educators put their works into the global public domain for the benefit of society"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#data-licenses-open-data-commons",
+    "href": "materials/03-during-slides.html#data-licenses-open-data-commons",
+    "title": "During analysis",
+    "section": "Data licenses: Open Data Commons",
+    "text": "Data licenses: Open Data Commons\n\n\n\n\nOpen Data Commons 1\n\n\nODC Public Domain Dedication and License (PDDL): Public Domain for data/databases (≅CC0)\n\n\nODC-By: Attribution for data/databases (≅CC-BY)\n\n\nODC Open Data License (ODbL): Attribution Share-Alike for data/databases\n\n\n\nDifferences between CC and ODC licenses"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#data-licenses-what-uji-recommends",
+    "href": "materials/03-during-slides.html#data-licenses-what-uji-recommends",
+    "title": "During analysis",
+    "section": "Data licenses: What UJI recommends",
+    "text": "Data licenses: What UJI recommends\nCopyright and licences"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#software-licenses",
+    "href": "materials/03-during-slides.html#software-licenses",
+    "title": "During analysis",
+    "section": "Software licenses",
+    "text": "Software licenses\nAlways add a license to the software you plan to make public\n\n\nPermissive = attribution (recommended for academic work)\n\nCopyleft = share-alike (derivative work maintain same license as the original)"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#section",
+    "href": "materials/03-during-slides.html#section",
+    "title": "During analysis",
+    "section": "",
+    "text": "Source: (Morin, Urban, and Sliz 2012)"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#software-licenses-what-uji-recommends",
+    "href": "materials/03-during-slides.html#software-licenses-what-uji-recommends",
+    "title": "During analysis",
+    "section": "Software licenses: What UJI recommends",
+    "text": "Software licenses: What UJI recommends\nNothing"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#version-control-systems",
+    "href": "materials/03-during-slides.html#version-control-systems",
+    "title": "During analysis",
+    "section": "Version control systems",
+    "text": "Version control systems\nTurn your local project folder into a version control repository\n\n\nto keep track changes of your work over time\nto roll back to past edits (track history)\nto handle properly text formats (code, text docs, markdown docs) as opposed to rich/binary formats (Word, gif/jpg)\nTools: Git, SVN, Mercurial\nReadings: Getting started with git, An introduction to Git: what it is, and how to use it, (Perez-Riverol et al. 2016), (Jennifer Bryan 2018)\n\n\n::::"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#online-git-repository-hosting-services",
+    "href": "materials/03-during-slides.html#online-git-repository-hosting-services",
+    "title": "During analysis",
+    "section": "Online (Git) repository hosting services",
+    "text": "Online (Git) repository hosting services\nEasier for individuals and teams to use Git for version control and collaboration\n\n\nVCS + collaborative features + development support features\nTools: GitLab, Bitbucket, GitHub\nReadings:\n\nCookiecutter Data Science: Best practices for organising your repository for easy version control\n(Perez-Riverol et al. 2016), (Jenny Bryan and Hester 2020)"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#references",
+    "href": "materials/03-during-slides.html#references",
+    "title": "During analysis",
+    "section": "References",
+    "text": "References\n\n\n\ncgranell.github.io/rrp\n\n\n\nBryan, Jennifer. 2018. “Excuse Me, Do You Have a Moment to Talk about Version Control?” The American Statistician 72 (1): 20–27. https://doi.org/10.1080/00031305.2017.1399928.\n\n\nBryan, Jenny, and Jim Hester. 2020. Happy Git and GitHub for the useR. https://happygitwithr.com/.\n\n\nChiarelli, Andrea, Lucia Loffreda, and Rob Johnson. 2021. “The Art of Publishing Reproducible Research Outputs: Supporting emerging practices through cultural and technological innovation.” Zenodo. https://doi.org/10.5281/zenodo.5521077.\n\n\nJolly, M, AC Fletcher, and PE Bourne. 2012. “Ten Simple Rules to Protect Your Intellectual Property.” PLoS Computacional Biology 8: e1002766. https://doi.org/10.1371/journal.pcbi.1002766.\n\n\nMorin, A, J Urban, and P Sliz. 2012. “A Quick Guide to Software Licensing for the Scientist-Programmer.” PLoS Computacional Biology 8 (7): e1002598. https://doi.org/10.1371/journal.pcbi.1002598.\n\n\nNoy, Natasha, and Carole Goble. 2023. “Are We Cobblers without Shoes?” Communications of the ACM 66 (1): 36–38. https://doi.org/10.1145/3528574.\n\n\nPerez-Riverol, Y, L Gatto, R Wang, T Sachsenberg, J Uszkoreit, F da Veiga Leprevost, C Fufezan, et al. 2016. “Ten Simple Rules for Taking Advantage of Git and GitHub.” PLoS Computational Biology 12 (7). https://doi.org/10.1371/journal.pcbi.1004947."
+  },
+  {
+    "objectID": "materials/03-during.html",
+    "href": "materials/03-during.html",
+    "title": "During",
+    "section": "",
+    "text": "“The ideas we can most trust are those that have been the most tried and tested.”\n\nPhilosopher of science Karl Popper\nNext recommendations summarise some data/coding practices and tools for conducting data analysis in a reproducible manner."
+  },
+  {
+    "objectID": "materials/03-during.html#slides",
+    "href": "materials/03-during.html#slides",
+    "title": "During",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\n\nSlide Deck During analysis: data/coding practices and tools\n\n\n\n\nSlides\n\n\nSource"
+  },
+  {
+    "objectID": "materials/03-during.html#application-exercises",
+    "href": "materials/03-during.html#application-exercises",
+    "title": "During",
+    "section": "Application exercises",
+    "text": "Application exercises"
+  },
+  {
+    "objectID": "materials/03-during.html#additional-resources-readings-and-videos",
+    "href": "materials/03-during.html#additional-resources-readings-and-videos",
+    "title": "During",
+    "section": "Additional resources, readings, and videos",
+    "text": "Additional resources, readings, and videos"
+  },
+  {
     "objectID": "materials/05-glossary.html",
     "href": "materials/05-glossary.html",
     "title": "Glossary",
     "section": "",
     "text": "To clarify the meaning of some key terms and concepts used throughout this course, such as replication, replicability, open science, and open data, we briefly define them below.\n\nOpen Access\nOpen access content is accessible to all with limited or no copyright and licensing restrictions: no authentication requirements, no resources under an embargo, no paid access, etc. Content may concern scientific publications, data, code, documentation, and any other research artefact relevant to produce or interpret correctly the results of the research.\n\n\nOpen Data\nOpen data refers to the research data gathered or used during a research project and is made available for access and re-use.\n\n\nOpen Science\nFor (MR et al. 2017), “open science refers to the process of making the content and process of producing evidence and claims transparent and accessible to others.”\n\n\nOpen Source\nSoftware artefact that can be publicly accessed, with a license that allows its use, creation of derivatives and distribution.\n\n\nReproducibility\nThe ability of another researcher or team to obtain the same results using the same methods and data (and most likely using the same or similar computational environment) from the original study.\n\n\nRepricability\nThe ability of another researcher or team to obtain results consistent with the original study using different methods and/or data (and most likely using a similar computational environment).\n\n\n\n\n\nReferences\n\nMR, Munafò, Nosek BA, Bishop DVM, Button KS, Chambers CD, Percie du Sert N, Simonsohn U, Wagenmakers E-J, Ware JJ, and Ioannidis JPA. 2017. “A Quick Guide to Software Licensing for the Scientist-Programmer.” Nature Human Behaviour 1 (0021). https://doi.org/10.1038/s41562-016-0021."
+  },
+  {
+    "objectID": "materials/05-key-people.html",
+    "href": "materials/05-key-people.html",
+    "title": "Key people",
+    "section": "",
+    "text": "There are many researchers who are pioneers and leaders in the use and adoption of good practices for reproducible research in their disciplines, either individually or in their research group. Below some examples\nLorena Barba\nPao Corrales\n\nAn R reproducibility toolkit for the practical researcher, by Pao Corrales\nPao’s doctoral thesis written in RMarkdown & thesisdown"
   },
   {
     "objectID": "materials/05-references.html",
@@ -347,7 +529,7 @@
     "href": "practices.html",
     "title": "Recommendations and practices for open and reproducible research",
     "section": "",
-    "text": "Nobel laureate and physics professor Richard Feynman\nAs a reviewer or researcher interested in the work of others, if you were to reproduce a study, you would\nVery cool; But If you had to write a reproducible paper… How do you start?\nWe have heard many excuses to avoid taking reproducible practices seriously in one’s research, such as “I have never heard of reproducibility before”, “I’m not good at using tools; Did you say github and docker?”, “I have never been trained”, “I don’t know where to find tutorials, guidelines…”, “I’m superbusy! I do not have enough time”, and “I do theoretical stuff. Reproduction is not for me”\nNo matter your excuse; If you do not want to fool yourself, reproducible research practices are essential to enable not only reproducible but transparent, open and honest science. Indeed, conducting reproducible research is neither overly difficult nor does it require encyclopedic knowledge of multiple research tools, standards, and protocols. The good news is that most researchers already do much of the work necessary to make research reproducible. The point here is then to identify those aspects that could improve the level of reproducibility of your research and adapt them to your workflow and research habits.\nYou should ask yourself:"
+    "text": "“Science is a way of trying not to fool yourself. The principle is that you must not fool yourself, and you are the easiest person to fool.”\n\nNobel laureate and physics professor Richard Feynman\nAs a reviewer or researcher interested in the work of others, if you were to reproduce a study, you would\nVery cool; But If you had to write a reproducible paper… How do you start?\nWe have heard many excuses to avoid taking reproducible practices seriously in one’s research, such as “I have never heard of reproducibility before”, “I’m not good at using tools; Did you say github and docker?”, “I have never been trained”, “I don’t know where to find tutorials, guidelines…”, “I’m superbusy! I do not have enough time”, and “I do theoretical stuff. Reproduction is not for me”\nNo matter your excuse; If you do not want to fool yourself, reproducible research practices are essential to enable not only reproducible but transparent, open and honest science. Indeed, conducting reproducible research is neither overly difficult nor does it require encyclopedic knowledge of multiple research tools, standards, and protocols. The good news is that most researchers already do much of the work necessary to make research reproducible. The point here is then to identify those aspects that could improve the level of reproducibility of your research and adapt them to your workflow and research habits.\nYou should ask yourself:"
   },
   {
     "objectID": "practices.html#key-guidelines",
@@ -383,12 +565,5 @@
     "title": "Reproducible research at UJI",
     "section": "UJI",
     "text": "UJI\nAs part of the Open Knowledge Portal, the UJI library provides guides for researchers about the open access dissemination of the results of the investigation, and copyright and licenses.\n\nOpen Access Declaration\nDeclaració institucional a favor de la promoció de l’accés obert a la Universitat Jaume I\n\n\nBest practices for research\nCódigo de Buenas Prácticas en Investigación y Doctorado, CBPID – focus on “open access” section"
-  },
-  {
-    "objectID": "materials/05-key-people.html",
-    "href": "materials/05-key-people.html",
-    "title": "Key people",
-    "section": "",
-    "text": "There are many researchers who are pioneers and leaders in the use and adoption of good practices for reproducible research in their disciplines, either individually or in their research group. Below some examples\nLorena Barba\nPao Corrales\n\nAn R reproducibility toolkit for the practical researcher, by Pao Corrales\nPao’s doctoral thesis written in RMarkdown & thesisdown"
   }
 ]
