@@ -1,3 +1,13 @@
 ---
 title: "Key people"
 ---
+
+There are many researchers who are pioneers and leaders in the use and adoption of good practices for reproducible research in their disciplines, either individually or in their research group. Below some examples 
+
+
+[Lorena Barba](https://lorenabarba.com/)
+
+[Pao Corrales](https://paocorrales.github.io/about/)
+
+- [An R reproducibility toolkit for the practical researcher](https://paocorrales.github.io/courses/reproducibility/), by Pao Corrales
+- [Pao's doctoral thesis written in RMarkdown & thesisdown](https://paocorrales.github.io/Tesis_doctorado/index.html)
