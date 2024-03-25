@@ -99,7 +99,7 @@ execute:
 
 ::: columns
 ::: {.column width="40%" align="center"}
-<img src="../images/phdcomics1531.gif" width="90%"/>
+<img src="../images/slides/phdcomics1531.gif" width="90%"/>
 :::
 
 ::: {.column width="60%"}

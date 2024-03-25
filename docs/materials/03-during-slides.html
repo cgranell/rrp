@@ -414,9 +414,9 @@ Carlos Granell
 <ul>
 <li class="fragment"><p>Reproducibility means <strong>access</strong> to the required datasets to recreate the reported results</p></li>
 <li class="fragment"><p>Access does not necessarily imply that datasets are open or citable or discoverable by themselves</p></li>
-<li class="fragment"><p><strong>Suggestion</strong>: Deposit reproducibility package (data, code, docs) on Zenodo or similar rather than supplementary material tied to the paper]</p>
+<li class="fragment"><p><strong>Suggestion</strong>: Deposit reproducibility package (data, code, docs) on Zenodo or similar rather than supplementary material tied to the paper</p>
 <ul>
-<li class="fragment">Hint: <a href="https://genr.eu/wp/cite/">connecting GitHub with Zenodo</a></li>
+<li class="fragment">Hint: <a href="https://help.zenodo.org/docs/profile/linking-accounts/">Linking GitHub with Zenodo</a></li>
 </ul></li>
 </ul>
 </div>
@@ -424,12 +424,12 @@ Carlos Granell
 <section id="data-for-reproducibility-example" class="slide level2">
 <h2>Data for reproducibility: Example</h2>
 <p><a href="https://doi.org/10.1016/j.pmcj.2022.101550">Using mobile devices as scientific measurement instruments: Reliable android task scheduling</a> <i class="fa-solid fa-file-pdf" aria-label="file-pdf"></i></p>
-<div class="cell" data-reveal="true">
+<div class="cell" data-reveal="true" data-messages="false">
 <div class="cell-output-display">
 <div>
 <div>
 <pre class="mermaid mermaid-js">flowchart LR; 
-  I1(Analysis Notebook &lt;br&gt; code + data) -- ref 26 --&gt; Z2[Reproducibility Package archived on Zenodo &lt;br&gt; 'Universitat Jaume I Research Data' Community]
+  I1(Analysis Notebook) -. data+code included in ref 26 .-&gt; Z2[REF 26: Reproducibility Package archived on Zenodo &lt;br&gt; 'Universitat Jaume I Research Data' Community]
   click Z2 "https://zenodo.org/records/5032028"
   I1 == input ==&gt; A((PAPER in PDF))
   click A "https://doi.org/10.1016/j.pmcj.2022.101550"
@@ -437,16 +437,19 @@ Carlos Granell
   A == output ==&gt; O2(Fig 4)
   A == output ==&gt; O3(Fig 5)
   A == output ==&gt; O4(Other figs)
-  O1 -- ref 21 --&gt; Z1[NTD Software archived on Zenodo]
-  O2 -- ref 26 --&gt; Z2
+  O1 -. in ref 21 .-&gt; Z1[NTD Software archived on Zenodo]
+  O2 -. in ref 26 .-&gt; Z2
   click O2 "https://ars.els-cdn.com/content/image/1-s2.0-S1574119222000074-gr4_lrg.jpg"
-  O3 -- ref 26 --&gt; Z2
+  O3 -. in ref 26 .-&gt; Z2
   click O3 "https://ars.els-cdn.com/content/image/1-s2.0-S1574119222000074-gr5_lrg.jpg"
-  Z1 -- links to --&gt; G1[Github Repo]
+  Z1 -. based on .-&gt; G1[Github Repo]
   click Z1 "https://zenodo.org/records/6477770"
   click G1 "https://github.com/GeoTecINIT/nativescript-task-dispatcher"
-  Z2 -- links to --&gt; G2[Github Repo]
+  Z2 -. based on .-&gt; G2[Github Repo]
   click G2 "https://github.com/GeoTecINIT/nativescript-journalpaper"
+  
+  classDef key fill:#aaaaaa,stroke-width:4px
+  class A,O2,O3 key
 </pre>
 </div>
 </div>
@@ -471,343 +474,131 @@ Carlos Granell
 <h1>[#13] Be (data) FAIR, my friend</h1>
 
 </section>
-<section id="data-fair" class="slide level2">
-<h2>(Data) FAIR</h2>
+<section id="data-fair-principles" class="slide level2">
+<h2>(Data) FAIR principles</h2>
 <div class="columns">
 <div class="column" data-align="center" style="width:40%;">
-<p><img src="../images/phdcomics1531.gif" width="90%"></p>
-</div><div class="column" style="width:60%;">
-<div>
-<ul>
-<li class="fragment"><p>File names are <strong>machine-readable</strong>, <strong>human-readable</strong>, and play well with <strong>default ordering</strong></p></li>
-<li class="fragment"><p>Script file names begin with numbers/letters to indicate the sequence in the analysis: <code>01_download_data.R</code></p></li>
-<li class="fragment"><p>Data file names begin with dates (YYYYMMDD) as prefix: <code>20200115_survey.csv</code></p></li>
-</ul>
-</div>
-</div>
-</div>
-<aside class="notes">
-<p>Source: <a href="http://phdcomics.com/comics/archive.php?comicid=1531">phdcomics.com</a></p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section></section>
-<section>
-<section id="rec04" class="title-slide slide level1 center">
-<h1>[#4] Never ever touch raw data</h1>
-<p>Remember <a href="https://cgranell.github.io/rrp-uji/slides/slides11_01.html#newton">Newton’s letter to Flamsteed</a></p>
-</section>
-<section id="raw-data" class="slide level2">
-<h2>Raw data</h2>
-<div>
-<ul>
-<li class="fragment"><p>Store raw data permanently (<code>data-raw</code> folder)</p></li>
-<li class="fragment"><p>Use scripts to process/clean raw datasets</p></li>
-<li class="fragment"><p>Store processed data in a separate folder (<code>data</code> or <code>data-clean</code> folder)</p></li>
-<li class="fragment"><p>Document the process (simple steps, diagrams, content/structure of datasets, provenance) in a plain text README file (See <a href="#/rec01">Before Recommendation #6</a>)</p></li>
-</ul>
-</div>
-</section></section>
-<section>
-<section id="rec05" class="title-slide slide level1 center">
-<h1>[#5] Use open data formats</h1>
-
-</section>
-<section id="open-formats" class="slide level2">
-<h2>Open formats</h2>
-<div>
-<ul>
-<li class="fragment"><p>Use open, text-based formats whenever possible</p></li>
-<li class="fragment"><p>Independent of specific software tools or vendors</p></li>
-<li class="fragment"><p>Alternatively, provide data in an open format besides proprietary format</p>
-<ul>
-<li class="fragment"><p>Microsoft Excel (<code>.xls</code>) + Comma-separated values (<code>.csv</code>)</p></li>
-<li class="fragment"><p>ESRI Shapefile (<code>.shp</code>) + GeoPackages (<code>.gpkg</code>)</p></li>
-</ul></li>
-</ul>
-</div>
-<div class="fragment fade-in">
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong><strong>Example</strong></strong></p>
-</div>
-<div class="callout-content">
-<p>Dutch national centre of expertise and repository for research data (DANS) - <a href="https://dans.knaw.nl/en/file-formats/">Preferred vs non-preferred formats</a></p>
-</div>
-</div>
-</div>
-</div>
-</section></section>
-<section>
-<section id="rec06" class="title-slide slide level1 center">
-<h1>[#6] Document, document, and document</h1>
-
-</section>
-<section id="readme-files" class="slide level2">
-<h2>README file(s)</h2>
-<div>
-<ul>
-<li class="fragment">Include a <strong>README file</strong> in the <code>root</code> folder to describe the project, provide basic orientation to use your code, data, etc.</li>
-</ul>
-<div class="fragment fade-in">
-<div class="callout callout-tip callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong><strong>Tips</strong></strong></p>
-</div>
-<div class="callout-content">
-<p>Suggestions for writing a good <a href="https://www.makeareadme.com/">README</a> and <a href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes">GitHub’s README</a></p>
-<p>If your project is on GitHub, README files will be automatically visualised if written in <a href="https://www.markdownguide.org/">Markdown</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="readme-files-1" class="slide level2" data-menu-title="README file(s) (II)">
-<h2>README file(s)</h2>
-<div>
-<ul>
-<li class="fragment"><p>Include (if required) <strong>README files</strong> in each subfolder to describe metadata/complex content</p></li>
-<li class="fragment"><p>Keep track of ideas, discussions and decisions about the project (in the <code>notes</code> folder)</p></li>
-<li class="fragment"><p>Use simple formatting language/tool for writing plain text files that can be version controlled</p></li>
-</ul>
-</div>
-</section></section>
-<section>
-<section id="rec07" class="title-slide slide level1 center">
-<h1>[#7] Add a data license</h1>
-
-</section>
-<section id="concept-of-license" class="slide level2">
-<h2>Concept of license</h2>
-<h3 id="a-license-is-a-contract-between-the-authors-and-users-jolly2012">A license is a <em>contract</em> between the <em>authors</em> and <em>users</em> <span class="citation" data-cites="jolly2012">(<a href="#/references" role="doc-biblioref" onclick="">Jolly, Fletcher, and Bourne 2012</a>)</span></h3>
-<div class="fragment fade-in-then-semi-out">
-<p>Without a license, <strong>copyright</strong> is automatically attached to your work</p>
-</div>
-<div class="fragment fade-in">
-<p>If you plan to make your work (data/databases/documents) public, <strong>always specify a <a href="https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-data.html">license</a></strong> via a <em>LICENSE file</em> (<code>LICENSE.md</code> or <code>LICENSE.txt</code>)</p>
-</div>
-</section>
-<section id="data-licenses-creative-commons" class="slide level2">
-<h2>Data licenses: Creative Commons</h2>
-<div class="columns">
-<div class="column" data-align="center" style="width:5%;">
-
-</div><div class="column" data-align="center" style="width:65%;">
-<p><a href="https://creativecommons.org/about/cclicenses/"><strong>CC BY-SA-NC-ND</strong></a></p>
-<table>
-<tbody>
-<tr class="odd">
-<td><strong>BY</strong></td>
-<td>Creators/authors must be credited</td>
-</tr>
-<tr class="even">
-<td><strong>SA</strong></td>
-<td>Derivatives or redistributions must have identical license</td>
-</tr>
-<tr class="odd">
-<td><strong>NC</strong></td>
-<td>Only non-commercial users are allowed</td>
-</tr>
-<tr class="even">
-<td><strong>ND</strong></td>
-<td>No derivatives are allowed</td>
-</tr>
-</tbody>
-</table>
-</div><div class="column" data-align="center" style="width:30%;">
-<div class="fragment fade-in">
-<p><img data-src="https://cent.uji.es/pub/guia-lpi-docencia/cc-icn-by.png" title="CC Attribution" width="112"> <br></p>
-</div>
-<div class="fragment fade-in">
-<p><img data-src="https://cent.uji.es/pub/guia-lpi-docencia/cc-icn-by-nc.png" title="CC Attribution-NonCommercial" width="112"> <br></p>
-</div>
-<div class="fragment fade-in">
-<p><img data-src="https://cent.uji.es/pub/guia-lpi-docencia/cc-icn-by-nd.png" title="CC Attribution-NoDerivates" width="112"> <br></p>
-</div>
-<div class="fragment fade-in">
-<p><img data-src="https://cent.uji.es/pub/guia-lpi-docencia/cc-icn-by-nd.png" title="CC AttributionShareAlike" width="112"> <br></p>
-</div>
-<div class="fragment fade-in">
-<p><img data-src="https://cent.uji.es/pub/guia-lpi-docencia/cc-icn-by-nc-sa.png" title="CC Attribution-NonCommercial-ShareAlike" width="112"> <br></p>
-</div>
-<div class="fragment fade-in">
-<p><img data-src="https://cent.uji.es/pub/guia-lpi-docencia/cc-icn-by-nc-nd.png" title="CC Attribution-NonCommercial-NoDerivates" width="112"> <br></p>
-</div>
-</div>
-</div>
-</section>
-<section id="data-licenses-creative-commons-1" class="slide level2 smaller" data-menu-title="Data licenses: CC example">
-<h2>Data licenses: Creative Commons</h2>
-<h3 id="ex-article-or-datadatasets-to-be-published">Ex: Article (or data/datasets) to be published</h3>
-<table>
-<colgroup>
-<col style="width: 41%">
-<col style="width: 25%">
-<col style="width: 33%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>As user/viewer, can you</th>
-<th>CC BY 4.0</th>
-<th>CC BY-NC-ND</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Read, print and download it?</td>
-<td>YES</td>
-<td>YES</td>
-</tr>
-<tr class="even">
-<td>Redistribute or republish it?</td>
-<td>YES</td>
-<td>YES</td>
-</tr>
-<tr class="odd">
-<td>Translate it?</td>
-<td>YES</td>
-<td>YES (private use only and not for distribution)</td>
-</tr>
-<tr class="even">
-<td>Download for text and data mining?</td>
-<td>YES</td>
-<td>YES</td>
-</tr>
-<tr class="odd">
-<td>Reuse portions of it in other works <sup>1</sup></td>
-<td>YES</td>
-<td>YES</td>
-</tr>
-<tr class="even">
-<td>Sell or re-use it for commercial purpose</td>
-<td>YES</td>
-<td>NO</td>
-</tr>
-</tbody>
-</table>
-<aside><ol class="aside-footnotes"><li id="fn1"><p>Use with caution!</p></li></ol></aside></section>
-<section id="data-licenses-cc-zero" class="slide level2">
-<h2>Data licenses: CC Zero</h2>
-<div class="columns">
-<div class="column" data-align="center" style="width:5%;">
-
-</div><div class="column" data-align="center" style="width:35%;">
-<p><a href="https://creativecommons.org/public-domain/cc0/"><strong>CC0 “No Rights Reserved”</strong></a></p>
-</div><div class="column" data-align="center" style="width:60%;">
-<p>Creators/researchers/educators put their works into the global public domain for the benefit of society</p>
-</div>
-</div>
-</section>
-<section id="data-licenses-open-data-commons" class="slide level2">
-<h2>Data licenses: Open Data Commons</h2>
-<div class="columns">
-<div class="column" data-align="center" style="width:5%;">
-
-</div><div class="column" data-align="center" style="width:35%;">
-<p><a href="https://opendatacommons.org/licenses/index.html"><strong>Open Data Commons</strong></a> <sup>1</sup></p>
-</div><div class="column" data-align="center" style="width:60%;">
-<div class="fragment fade-in">
-<p><a href="https://opendatacommons.org/licenses/pddl/">ODC Public Domain Dedication and License (PDDL)</a>: Public Domain for data/databases (≅CC0)</p>
-</div>
-<div class="fragment fade-in">
-<p><a href="https://opendatacommons.org/licenses/by/">ODC-By</a>: Attribution for data/databases (≅CC-BY)</p>
-</div>
-<div class="fragment fade-in">
-<p><a href="https://opendatacommons.org/licenses/odbl/">ODC Open Data License (ODbL)</a>: Attribution Share-Alike for data/databases</p>
-</div>
-</div>
-</div>
-<aside><ol class="aside-footnotes"><li id="fn2"><p><a href="https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-data.html#a-note-on-the-differences-between-cc-and-odc-licenses">Differences between CC and ODC licenses</a></p></li></ol></aside></section>
-<section id="data-licenses-what-uji-recommends" class="slide level2">
-<h2>Data licenses: What UJI recommends</h2>
-<h3 id="copyright-and-licences"><a href="https://www.uji.es/serveis/cd/bib/pco/base/drets2/">Copyright and licences</a></h3>
-</section></section>
-<section>
-<section id="rec08" class="title-slide slide level1 center">
-<h1>[#8] Add a software license</h1>
-
-</section>
-<section id="software-licenses" class="slide level2">
-<h2>Software licenses</h2>
-<h3 id="always-add-a-license-to-the-software-you-plan-to-make-public">Always add a <a href="https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-software.html">license</a> to the software you plan to make public</h3>
-<div class="columns">
-<div class="column" data-align="center" style="width:50%;">
-<p><strong>Permissive</strong> = attribution (recommended for academic work)</p>
-</div><div class="column" data-align="center" style="width:50%;">
-<p><strong>Copyleft</strong> = share-alike (derivative work maintain same license as the original)</p>
-</div>
-</div>
-</section>
-<section id="section" class="slide level2" data-menu-title="Software licenses (II)">
-<h2></h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1002598.g002&amp;type=large" style="width:65.0%"></p>
+<p><img data-src="../images/slides/fair-principles.png" style="width:90.0%"></p>
 </figure>
+</div>
+</div><div class="column" data-align="center" style="width:60%;">
+<ul>
+<li><p>Emphasis on identifiers, metadata, standards, licenses, permanence <span class="citation" data-cites="wilkinson2016">(<a href="#/references" role="doc-biblioref" onclick="">Wilkinson et al. 2016</a>)</span></p></li>
+<li><p>Analysis on <a href="https://github.com/leipzig/metadata-in-rcr">metadata standards</a> for reproducible research <span class="citation" data-cites="leipzig2021">(<a href="#/references" role="doc-biblioref" onclick="">Leipzig et al. 2021</a>)</span></p></li>
+<li><p>Ten simple rules for credit data <span class="citation" data-cites="wood-charlson2022">(<a href="#/references" role="doc-biblioref" onclick="">Wood-Charlson et al. 2022</a>)</span></p></li>
+</ul>
+</div>
 </div>
 
 <aside><div>
-<p>Source: <span class="citation" data-cites="morin2012">(<a href="#/references" role="doc-biblioref" onclick="">Morin, Urban, and Sliz 2012</a>)</span></p>
+<p><a href="https://www.go-fair.org/fair-principles/">go-fair.org</a></p>
 </div></aside></section>
-<section id="software-licenses-what-uji-recommends" class="slide level2">
-<h2>Software licenses: What UJI recommends</h2>
-<h3 id="nothing">Nothing</h3>
-</section></section>
-<section>
-<section id="rec09" class="title-slide slide level1 center">
-<h1>[#9] Learn/use version control systems</h1>
-
-</section>
-<section id="version-control-systems" class="slide level2">
-<h2>Version control systems</h2>
-<h3 id="turn-your-local-project-folder-into-a-version-control-repository">Turn your local project folder into a version control repository</h3>
+<section id="data-fair" class="slide level2">
+<h2>(Data) FAIR</h2>
+<h3 id="if-datasets-are-valuable-contributions-by-themselves-noy2023-1">If datasets <em>are</em> valuable contributions by themselves <span class="citation" data-cites="noy2023">(<a href="#/references" role="doc-biblioref" onclick="">Noy and Goble 2023</a>)</span></h3>
 <div>
 <ul>
-<li class="fragment"><p>to keep track changes of your work over time</p></li>
-<li class="fragment"><p>to roll back to past edits (track history)</p></li>
-<li class="fragment"><p>to handle properly text formats (code, text docs, markdown docs) as opposed to rich/binary formats (Word, gif/jpg)</p></li>
-<li class="fragment"><p><strong>Tools:</strong> <a href="https://git-scm.com/">Git</a>, SVN, Mercurial</p></li>
-<li class="fragment"><p><strong>Readings</strong>: <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Getting started with git</a>, <a href="https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/">An introduction to Git: what it is, and how to use it</a>, <span class="citation" data-cites="perez2016">(<a href="#/references" role="doc-biblioref" onclick="">Perez-Riverol et al. 2016</a>)</span>, <span class="citation" data-cites="bryan2018">(<a href="#/references" role="doc-biblioref" onclick="">Jennifer Bryan 2018</a>)</span></p></li>
+<li class="fragment"><p>Datasets should be findable, accessible, interoperable, and reusable</p></li>
+<li class="fragment"><p>Datasets are <strong>first-class citizen</strong> in scientific discourse…</p></li>
+<li class="fragment"><p>…so others can reuse, cite, evaluate, create value based on them to <strong>advance knowledge</strong></p></li>
 </ul>
 </div>
-<p>::::</p>
+</section>
+<section id="data-fair-1" class="slide level2" data-menu-title="(Data) FAIR (II)">
+<h2>(Data) FAIR</h2>
+<p>TODO: look at Lidon’s course (But, I have doubts)</p>
+<ul>
+<li><p><strong>Findable</strong>: Deposit source code in a repository that provides DOIs and metadata</p></li>
+<li><p><strong>Accessible</strong>: Provide the opportunity to download the source code</p></li>
+<li><p><strong>Interoperable</strong>: Use open source programming languages and software</p></li>
+<li><p><strong>Reusable</strong>: Release the software under a clear and open usage license</p></li>
+</ul>
+</section>
+<section id="data-fair-in-giscience" class="slide level2">
+<h2>(Data) FAIR in GIScience</h2>
+<p><a href="https://copdess.org/enabling-fair-data-project/commitment-statement-in-the-earth-space-and-environmental-sciences/">Coalition for Publishing Data in the Earth and Space Sciences (COPDESS)</a>:</p>
+<blockquote>
+<p>all journals in geosciences require authors to make all data that supports the conclusions in their papers available in publicly accessible repositories that follow the FAIR principles</p>
+</blockquote>
+<div class="fragment fade-in">
+<p>All data? <span class="emoji" data-emoji="anguished">😧</span></p>
+</div>
+</section>
+<section id="data-fair-according-to-uji" class="slide level2">
+<h2>(Data) FAIR according to UJI</h2>
+<p><a href="https://ujiapps.uji.es/ade/rest/storage/5ULDFW5YMLK0ZEFHGZLHRGJRX3V80U73">Declaració institucional a favor de la promoció de l’accés obert a la Universitat Jaume I</a></p>
+<blockquote>
+<p>Los datos de investigación deberán ser FAIR (findable, accessible, interoperable and reusable) e ir acompañados de una licencia estándar que indique explícitamente las condiciones de uso y favorezca la reproductibilidad científica</p>
+</blockquote>
+<div class="fragment fade-in">
+<p>All data? <span class="emoji" data-emoji="fearful">😨</span></p>
+</div>
+</section>
+<section id="data-fair-according-to-uji-1" class="slide level2">
+<h2>(Data) FAIR according to UJI</h2>
+<p><a href="https://www.uji.es/investigacio/base/etica/cbpid/">Código de Buenas Prácticas en Investigación y Doctorado</a></p>
+<blockquote>
+<p>El personal investigador de la Universitat Jaume I […] garantizará la adecuada gestión y conservación de los datos de investigación (datasets) para cumplir siempre que sea posible con los principios FAIR, esto es, que dichos datos puedan ser localizables, accesibles, interoperables y reutilizables</p>
+</blockquote>
+<div class="fragment fade-in">
+<p>¡¡siempre que sea posible!! <span class="emoji" data-emoji="zany_face">🤪</span></p>
+</div>
+</section>
+<section id="a-personal-view-on-13-and-14" class="slide level2">
+<h2>A (personal) view on <a href="#/rec13">#13</a> and <a href="#/rec14">#14</a></h2>
+<div class="fragment fade-in-then-semi-out">
+<p>Is a dataset a <strong>valuable</strong> contribution of your paper? Are you going to exploit it in various experiments?</p>
+</div>
+<div class="fragment fade-in-then-semi-out">
+<ul>
+<li>Invest time to make it FAIRable</li>
+</ul>
+</div>
+<div class="fragment fade-in-then-semi-out">
+<p>Does a dataset play a supporting role in your paper? Does it make sense only for one particular paper/experiment?</p>
+</div>
+<div class="fragment fade-in-then-semi-out">
+<ul>
+<li>Take it easy, my friend: Document (<code>README</code> file), pick a licence, and archive on Zenodo</li>
+</ul>
+</div>
 </section></section>
-<section>
-<section id="rec10" class="title-slide slide level1 center">
-<h1>[#10] Learn/use online (Git) repository hosting services</h1>
+<section id="rec14" class="title-slide slide level1 center">
+<h1>[#14] Use open source software whenever possible</h1>
 
 </section>
-<section id="online-git-repository-hosting-services" class="slide level2">
-<h2>Online (Git) repository hosting services</h2>
-<h3 id="easier-for-individuals-and-teams-to-use-git-for-version-control-and-collaboration">Easier for individuals and teams to use Git for version control and collaboration</h3>
-<div>
-<ul>
-<li class="fragment"><p>VCS + collaborative features + development support features</p></li>
-<li class="fragment"><p><strong>Tools</strong>: <a href="https://about.gitlab.com/">GitLab</a>, <a href="https://bitbucket.org/">Bitbucket</a>, <a href="https://github.com/">GitHub</a></p></li>
-<li class="fragment"><p><strong>Readings</strong>:</p>
-<ul>
-<li class="fragment"><p><a href="https://drivendata.github.io/cookiecutter-data-science/">Cookiecutter Data Science: Best practices for organising your repository for easy version control</a></p></li>
-<li class="fragment"><p><span class="citation" data-cites="perez2016">(<a href="#/references" role="doc-biblioref" onclick="">Perez-Riverol et al. 2016</a>)</span>, <span class="citation" data-cites="bryan2020">(<a href="#/references" role="doc-biblioref" onclick="">Jenny Bryan and Hester 2020</a>)</span></p></li>
-</ul></li>
-</ul>
-</div>
+
+<section id="rec15" class="title-slide slide level1 center">
+<h1>[#15] Learn/use scripting languages</h1>
+
+</section>
+
+<section id="rec16" class="title-slide slide level1 center">
+<h1>[#16] Learn/use computational notebook formats</h1>
+
+</section>
+
+<section id="rec17" class="title-slide slide level1 center">
+<h1>[#17] Preserve computational environment</h1>
+
+</section>
+
+<section id="rec18" class="title-slide slide level1 center">
+<h1>[#18] Learn/use containerisation tools</h1>
+
+</section>
+
+<section id="rec19" class="title-slide slide level1 center">
+<h1>[#19] Be (software) FAIR, my friend</h1>
+
+</section>
+
+<section>
+<section id="make-use-of-make" class="title-slide slide level1 center">
+<h1>[#20] Make use of <em>Make</em></h1>
+
 </section>
 <section id="references" class="slide level2 smaller scrollable">
 <h2>References</h2>
@@ -817,30 +608,23 @@ Carlos Granell
 <p><a href="https://cgranell.github.io/rrp">cgranell.github.io/rrp</a></p>
 </div>
 <div id="refs" class="references csl-bib-body hanging-indent" role="list">
-<div id="ref-bryan2018" class="csl-entry" role="listitem">
-Bryan, Jennifer. 2018. <span>“Excuse Me, Do You Have a Moment to Talk about Version Control?”</span> <em>The American Statistician</em> 72 (1): 20–27. <a href="https://doi.org/10.1080/00031305.2017.1399928">https://doi.org/10.1080/00031305.2017.1399928</a>.
-</div>
-<div id="ref-bryan2020" class="csl-entry" role="listitem">
-Bryan, Jenny, and Jim Hester. 2020. <em>Happy Git and GitHub for the useR</em>. <a href="https://happygitwithr.com/">https://happygitwithr.com/</a>.
-</div>
 <div id="ref-chiarelli2021" class="csl-entry" role="listitem">
 Chiarelli, Andrea, Lucia Loffreda, and Rob Johnson. 2021. <span>“<span class="nocase">The Art of Publishing Reproducible Research Outputs: Supporting emerging practices through cultural and technological innovation</span>.”</span> Zenodo. <a href="https://doi.org/10.5281/zenodo.5521077">https://doi.org/10.5281/zenodo.5521077</a>.
 </div>
-<div id="ref-jolly2012" class="csl-entry" role="listitem">
-Jolly, M, AC Fletcher, and PE Bourne. 2012. <span>“Ten Simple Rules to Protect Your Intellectual Property.”</span> <em>PLoS Computacional Biology</em> 8: e1002766. <a href="https://doi.org/10.1371/journal.pcbi.1002766">https://doi.org/10.1371/journal.pcbi.1002766</a>.
-</div>
-<div id="ref-morin2012" class="csl-entry" role="listitem">
-Morin, A, J Urban, and P Sliz. 2012. <span>“A Quick Guide to Software Licensing for the Scientist-Programmer.”</span> <em>PLoS Computacional Biology</em> 8 (7): e1002598. <a href="https://doi.org/10.1371/journal.pcbi.1002598">https://doi.org/10.1371/journal.pcbi.1002598</a>.
+<div id="ref-leipzig2021" class="csl-entry" role="listitem">
+Leipzig, Jeremy, Daniel Nüst, Charles Tapley Hoyt, Karthik Ram, and Jane Greenberg. 2021. <span>“The Role of Metadata in Reproducible Computational Research.”</span> <em>Patterns</em> 2 (9): 100322. <a href="https://doi.org/10.1016/j.patter.2021.100322">https://doi.org/10.1016/j.patter.2021.100322</a>.
 </div>
 <div id="ref-noy2023" class="csl-entry" role="listitem">
 Noy, Natasha, and Carole Goble. 2023. <span>“<span class="nocase">Are We Cobblers without Shoes?</span>”</span> <em>Communications of the ACM</em> 66 (1): 36–38. <a href="https://doi.org/10.1145/3528574">https://doi.org/10.1145/3528574</a>.
 </div>
-<div id="ref-perez2016" class="csl-entry" role="listitem">
-Perez-Riverol, Y, L Gatto, R Wang, T Sachsenberg, J Uszkoreit, F da Veiga Leprevost, C Fufezan, et al. 2016. <span>“Ten Simple Rules for Taking Advantage of Git and GitHub.”</span> <em>PLoS Computational Biology</em> 12 (7). <a href="https://doi.org/10.1371/journal.pcbi.1004947">https://doi.org/10.1371/journal.pcbi.1004947</a>.
+<div id="ref-wilkinson2016" class="csl-entry" role="listitem">
+Wilkinson, Mark D., Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, et al. 2016. <span>“The FAIR Guiding Principles for Scientific Data Management and Stewardship.”</span> <em>Scientific Data</em> 3 (1). <a href="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</a>.
+</div>
+<div id="ref-wood-charlson2022" class="csl-entry" role="listitem">
+Wood-Charlson, Elisha M., Zachary Crockett, Chris Erdmann, Adam P. Arkin, and Carly B. Robinson. 2022. <span>“Ten Simple Rules for Getting and Giving Credit for Data.”</span> <em>PLOS Computational Biology</em> 18 (9): 1–11. <a href="https://doi.org/10.1371/journal.pcbi.1010476">https://doi.org/10.1371/journal.pcbi.1010476</a>.
 </div>
 </div>
 </section></section>
-
     </div>
   </div>
 
