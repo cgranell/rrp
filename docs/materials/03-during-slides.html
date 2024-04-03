@@ -565,21 +565,127 @@ Carlos Granell
 </ul>
 </div>
 </section></section>
+<section>
 <section id="rec14" class="title-slide slide level1 center">
-<h1>[#14] Use open source software whenever possible</h1>
+<h1>[#14] Use open source tools whenever possible</h1>
 
 </section>
-
+<section id="open-source-tools" class="slide level2">
+<h2>Open source tools</h2>
+<div class="columns">
+<div class="column" data-align="center" style="width:50%;">
+<div class="fragment fade-in-then-semi-out">
+<!-- -->
+<h3 id="instead-of">Instead of</h3>
+<ul>
+<li>ArcGIS</li>
+<li>Google Maps/Places</li>
+<li>Stata, SPSS</li>
+<li>Excel</li>
+</ul>
+</div>
+</div><div class="column" data-align="center" style="width:50%;">
+<div class="fragment fade-in">
+<!-- -->
+<h3 id="use">Use</h3>
+<ul>
+<li>QGIS</li>
+<li>OpenStreetMap</li>
+<li>Python, R, …</li>
+<li>or combination of commercial-open tools</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="fragment fade-in">
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong><strong>Example</strong></strong></p>
+</div>
+<div class="callout-content">
+<p><a href="https://developers.arcgis.com/python/guide/using-the-jupyter-notebook-environment/">ArcGIS Python Notebooks</a>: Mixed approach to make the <strong>implicit</strong> (click-based analytical workflow) <strong>explicit</strong> (code-based analytical workflow)</p>
+</div>
+</div>
+</div>
+</div>
+</section></section>
+<section>
 <section id="rec15" class="title-slide slide level1 center">
 <h1>[#15] Learn/use scripting languages</h1>
 
 </section>
-
+<section id="scripting-languages" class="slide level2">
+<h2>Scripting languages</h2>
+<div>
+<ul>
+<li class="fragment"><p>Play with data, measure &amp; explore, distrust of your intuition</p></li>
+<li class="fragment"><p>R/Python scripts describe every step of an analysis</p>
+<ul>
+<li class="fragment">Descriptive-based analysis (vs.&nbsp;click-based) of what your analysis does</li>
+</ul></li>
+<li class="fragment"><p>Others can understand WHAT and <strong>HOW</strong> has been done (Remember: <a href="slides11_01.html#stark2018"><em>‘Show me’, not ‘trust me’</em></a>) <strong>TODO: REVISE LINKS</strong></p></li>
+</ul>
+</div>
+<div class="fragment fade-in">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong><strong>Tips</strong></strong></p>
+</div>
+<div class="callout-content">
+<p>Look at section <em>During analysis: best coding practices</em> in <span class="citation" data-cites="alston2021">(<a href="#/references" role="doc-biblioref" onclick="">Alston and Rick 2021</a>)</span></p>
+</div>
+</div>
+</div>
+</div>
+</section></section>
+<section>
 <section id="rec16" class="title-slide slide level1 center">
-<h1>[#16] Learn/use computational notebook formats</h1>
+<h1>[#16] Learn/use computational notebooks</h1>
 
 </section>
+<section id="computational-notebooks" class="slide level2">
+<h2>Computational notebooks</h2>
+<div>
+<ul>
+<li class="fragment"><p>A computational notebook is a (cloud-based/local) <strong>editor</strong> composed of cells, which is used for <strong>literate programming</strong></p></li>
+<li class="fragment"><p>Each cell may contain:</p>
+<ul>
+<li class="fragment">narrative/text/documentation, or</li>
+<li class="fragment">executable code (python, R, …), or</li>
+<li class="fragment">results as code output (charts, tables, plots, maps, …)</li>
+</ul></li>
+</ul>
+</div>
 
+<aside><div>
+<p><a href="https://en.wikipedia.org/wiki/Notebook_interface">Wikipedia</a></p>
+</div></aside></section>
+<section id="computational-notebooks-1" class="slide level2" data-menu-title="Computational notebooks (II)">
+<h2>Computational notebooks</h2>
+<h3 id="notebooks-as-first-class-citizens">Notebooks as first-class citizens</h3>
+<ul>
+<li><p>EarthCube annual meetings include a call for notebooks (<a href="https://www.earthcube.org/post/call-for-notebooks-cfn-22">CFN 22</a>) as peer-reviewed submissions - See <a href="https://github.com/earthcube2022">Notebooks 2022 proceedings</a> <strong>TODO: REVISE LINKS</strong></p></li>
+<li><p>Master/<a href="https://paocorrales.github.io/Tesis_doctorado/index.html">PhD theses</a> as computational notebooks?</p></li>
+</ul>
+</section>
+<section id="computational-notebooks-examples" class="slide level2">
+<h2>Computational notebooks: examples</h2>
+<p>Jupyter Labs, RMarkdown, Quarto, Matlab,…</p>
+<p><span class="citation" data-cites="pimentel2019">(<a href="#/references" role="doc-biblioref" onclick="">Pimentel et al. 2019</a>)</span> studied 1.4 millions of notebooks (GitHub)</p>
+<ul>
+<li>Only 24% ran without exceptions</li>
+<li>Only 4% produced same results</li>
+</ul>
+<p>Authors provided <em>best practices for the reproducibility of notebooks</em></p>
+</section></section>
 <section id="rec17" class="title-slide slide level1 center">
 <h1>[#17] Preserve computational environment</h1>
 
@@ -596,7 +702,7 @@ Carlos Granell
 </section>
 
 <section>
-<section id="make-use-of-make" class="title-slide slide level1 center">
+<section id="rec20" class="title-slide slide level1 center">
 <h1>[#20] Make use of <em>Make</em></h1>
 
 </section>
@@ -608,6 +714,9 @@ Carlos Granell
 <p><a href="https://cgranell.github.io/rrp">cgranell.github.io/rrp</a></p>
 </div>
 <div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-alston2021" class="csl-entry" role="listitem">
+Alston, Jesse M., and Jessica A. Rick. 2021. <span>“A Beginner’s Guide to Conducting Reproducible Research.”</span> <em>The Bulletin of the Ecological Society of America</em> 102 (2): e01801. <a href="https://doi.org/10.1002/bes2.1801">https://doi.org/10.1002/bes2.1801</a>.
+</div>
 <div id="ref-chiarelli2021" class="csl-entry" role="listitem">
 Chiarelli, Andrea, Lucia Loffreda, and Rob Johnson. 2021. <span>“<span class="nocase">The Art of Publishing Reproducible Research Outputs: Supporting emerging practices through cultural and technological innovation</span>.”</span> Zenodo. <a href="https://doi.org/10.5281/zenodo.5521077">https://doi.org/10.5281/zenodo.5521077</a>.
 </div>
@@ -616,6 +725,9 @@ Leipzig, Jeremy, Daniel Nüst, Charles Tapley Hoyt, Karthik Ram, and Jane Greenb
 </div>
 <div id="ref-noy2023" class="csl-entry" role="listitem">
 Noy, Natasha, and Carole Goble. 2023. <span>“<span class="nocase">Are We Cobblers without Shoes?</span>”</span> <em>Communications of the ACM</em> 66 (1): 36–38. <a href="https://doi.org/10.1145/3528574">https://doi.org/10.1145/3528574</a>.
+</div>
+<div id="ref-pimentel2019" class="csl-entry" role="listitem">
+Pimentel, João Felipe, Leonardo Murta, Vanessa Braganholo, and Juliana Freire. 2019. <span>“A Large-Scale Study about Quality and Reproducibility of Jupyter Notebooks.”</span> In <em>2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)</em>, 507–17. <a href="https://doi.org/10.1109/MSR.2019.00077">https://doi.org/10.1109/MSR.2019.00077</a>.
 </div>
 <div id="ref-wilkinson2016" class="csl-entry" role="listitem">
 Wilkinson, Mark D., Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, et al. 2016. <span>“The FAIR Guiding Principles for Scientific Data Management and Stewardship.”</span> <em>Scientific Data</em> 3 (1). <a href="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</a>.

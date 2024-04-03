@@ -197,13 +197,127 @@ Does a dataset play a supporting role in your paper? Does it make sense only for
 
 
 
-# \[#14\] Use open source software whenever possible {#rec14 .center .r-fit-text}
+# \[#14\] Use open source tools whenever possible {#rec14 .center .r-fit-text}
+
+## Open source tools
+
+:::: {.columns}
+::: {.column width="50%" align="center"}
+
+::: {.fragment .fade-in-then-semi-out}
+### Instead of
+
+-   ArcGIS
+-   Google Maps/Places
+-   Stata, SPSS 
+-   Excel
+
+:::
+:::
+
+::: {.column width="50%" align="center"}
+
+::: {.fragment .fade-in}
+### Use
+
+-   QGIS
+-   OpenStreetMap
+-   Python, R, ...
+-   or combination of commercial-open tools
+:::
+:::
+::::
+
+
+::: {.fragment .fade-in}
+::: callout-note
+## **Example**
+
+[ArcGIS Python Notebooks](https://developers.arcgis.com/python/guide/using-the-jupyter-notebook-environment/): Mixed approach to make the **implicit** (click-based analytical workflow) **explicit** (code-based analytical workflow)
+
+:::
+:::
 
 
 # \[#15\] Learn/use scripting languages {#rec15 .center .r-fit-text}
 
 
-# \[#16\] Learn/use computational notebook formats {#rec16 .center .r-fit-text}
+## Scripting languages 
+
+
+::: {.incremental}
+
+-   Play with data, measure & explore, distrust of your intuition
+
+
+-   R/Python scripts describe every step of an analysis
+
+
+    -   Descriptive-based analysis (vs. click-based) of what your analysis does
+
+
+-   Others can understand WHAT and **HOW** has been done (Remember: [_'Show me', not 'trust me'_](slides11_01.html#stark2018)) **TODO: REVISE LINKS**
+
+:::
+
+
+::: {.fragment .fade-in}
+::: callout-tip
+## **Tips**
+
+Look at section *During analysis: best coding practices* in [@alston2021] 
+
+:::
+:::
+
+   
+
+
+# \[#16\] Learn/use computational notebooks {#rec16 .center .r-fit-text}
+
+
+## Computational notebooks
+
+::: {.incremental}
+-   A computational notebook is a (cloud-based/local) **editor** composed of cells, which is used for **literate programming**
+
+-   Each cell may contain:
+
+    - narrative/text/documentation, or
+    - executable code (python, R, ...), or 
+    - results as code output (charts, tables, plots, maps, ...)
+
+::: 
+
+
+::: {.aside}
+[Wikipedia](https://en.wikipedia.org/wiki/Notebook_interface)
+:::
+
+## Computational notebooks {data-menu-title="Computational notebooks (II)"}
+
+
+### Notebooks as first-class citizens
+
+  -   EarthCube annual meetings include a call for notebooks ([CFN 22](https://www.earthcube.org/post/call-for-notebooks-cfn-22)) as peer-reviewed submissions - See [Notebooks 2022 proceedings](https://github.com/earthcube2022) **TODO: REVISE LINKS**
+
+  -   Master/[PhD theses](https://paocorrales.github.io/Tesis_doctorado/index.html) as computational notebooks?
+
+
+
+## Computational notebooks: examples
+
+
+Jupyter Labs, RMarkdown, Quarto, Matlab,...
+
+[@pimentel2019] studied 1.4 millions of notebooks (GitHub)
+
+-   Only 24% ran without exceptions 
+-   Only 4% produced same results
+
+
+Authors provided *best practices for the reproducibility of notebooks*
+
 
 
 # \[#17\] Preserve computational environment {#rec17 .center .r-fit-text}
@@ -215,7 +329,7 @@ Does a dataset play a supporting role in your paper? Does it make sense only for
 # \[#19\] Be (software) FAIR, my friend {#rec19 .center .r-fit-text}
 
 
-# \[#20\] Make use of *Make*
+# \[#20\] Make use of *Make* {#rec20 .center .r-fit-text}
 
 
 ## References
