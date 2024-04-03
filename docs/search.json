@@ -410,7 +410,7 @@
     "href": "materials/03-during-slides.html#references",
     "title": "During analysis",
     "section": "References",
-    "text": "References\n\n\n\ncgranell.github.io/rrp\n\n\n\nAlston, Jesse M., and Jessica A. Rick. 2021. “A Beginner’s Guide to Conducting Reproducible Research.” The Bulletin of the Ecological Society of America 102 (2): e01801. https://doi.org/10.1002/bes2.1801.\n\n\nChiarelli, Andrea, Lucia Loffreda, and Rob Johnson. 2021. “The Art of Publishing Reproducible Research Outputs: Supporting emerging practices through cultural and technological innovation.” Zenodo. https://doi.org/10.5281/zenodo.5521077.\n\n\nLeipzig, Jeremy, Daniel Nüst, Charles Tapley Hoyt, Karthik Ram, and Jane Greenberg. 2021. “The Role of Metadata in Reproducible Computational Research.” Patterns 2 (9): 100322. https://doi.org/10.1016/j.patter.2021.100322.\n\n\nNoy, Natasha, and Carole Goble. 2023. “Are We Cobblers without Shoes?” Communications of the ACM 66 (1): 36–38. https://doi.org/10.1145/3528574.\n\n\nPimentel, João Felipe, Leonardo Murta, Vanessa Braganholo, and Juliana Freire. 2019. “A Large-Scale Study about Quality and Reproducibility of Jupyter Notebooks.” In 2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR), 507–17. https://doi.org/10.1109/MSR.2019.00077.\n\n\nWilkinson, Mark D., Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, et al. 2016. “The FAIR Guiding Principles for Scientific Data Management and Stewardship.” Scientific Data 3 (1). https://doi.org/10.1038/sdata.2016.18.\n\n\nWood-Charlson, Elisha M., Zachary Crockett, Chris Erdmann, Adam P. Arkin, and Carly B. Robinson. 2022. “Ten Simple Rules for Getting and Giving Credit for Data.” PLOS Computational Biology 18 (9): 1–11. https://doi.org/10.1371/journal.pcbi.1010476."
+    "text": "References\n\n\n\ncgranell.github.io/rrp\n\n\n\nAlston, Jesse M., and Jessica A. Rick. 2021. “A Beginner’s Guide to Conducting Reproducible Research.” The Bulletin of the Ecological Society of America 102 (2): e01801. https://doi.org/10.1002/bes2.1801.\n\n\nBarker, Michelle, Neil P. Chue Hong, Daniel S. Katz, Anna-Lena Lamprecht, Carlos Martinez-Ortiz, Fotis Psomopoulos, Jennifer Harrow, et al. 2022. “Introducing the FAIR Principles for Research Software.” Scientific Data 9 (1). https://doi.org/10.1038/s41597-022-01710-x.\n\n\nChiarelli, Andrea, Lucia Loffreda, and Rob Johnson. 2021. “The Art of Publishing Reproducible Research Outputs: Supporting emerging practices through cultural and technological innovation.” Zenodo. https://doi.org/10.5281/zenodo.5521077.\n\n\nHasselbring, Wilhelm, Leslie Carr, Simon Hettrick, Heather Packer, and Thanassis Tiropanis. 2020. “Open Source Research Software.” Computer 53 (8): 84–88. https://doi.org/10.1109/MC.2020.2998235.\n\n\nLeipzig, Jeremy, Daniel Nüst, Charles Tapley Hoyt, Karthik Ram, and Jane Greenberg. 2021. “The Role of Metadata in Reproducible Computational Research.” Patterns 2 (9): 100322. https://doi.org/10.1016/j.patter.2021.100322.\n\n\nNoy, Natasha, and Carole Goble. 2023. “Are We Cobblers without Shoes?” Communications of the ACM 66 (1): 36–38. https://doi.org/10.1145/3528574.\n\n\nNust, Daniel, Vanessa Sochat, Ben Marwick, Stephen J. Eglen, Tim Head, Tony Hirst, and Benjamin D. Evans. 2020. “Ten Simple Rules for Writing Dockerfiles for Reproducible Data Science.” PLOS Computational Biology 16 (11): 1–24. https://doi.org/10.1371/journal.pcbi.1008316.\n\n\nPimentel, João Felipe, Leonardo Murta, Vanessa Braganholo, and Juliana Freire. 2019. “A Large-Scale Study about Quality and Reproducibility of Jupyter Notebooks.” In 2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR), 507–17. https://doi.org/10.1109/MSR.2019.00077.\n\n\nSmith, AM, DS Katz, and KE Niemeyer. 2016. “Software Citation Principles.” PeerJ Computer Science 2: e86. https://doi.org/10.7717/peerj-cs.86.\n\n\nWilkinson, Mark D., Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, et al. 2016. “The FAIR Guiding Principles for Scientific Data Management and Stewardship.” Scientific Data 3 (1). https://doi.org/10.1038/sdata.2016.18.\n\n\nWood-Charlson, Elisha M., Zachary Crockett, Chris Erdmann, Adam P. Arkin, and Carly B. Robinson. 2022. “Ten Simple Rules for Getting and Giving Credit for Data.” PLOS Computational Biology 18 (9): 1–11. https://doi.org/10.1371/journal.pcbi.1010476."
   },
   {
     "objectID": "materials/03-during.html",
@@ -522,7 +522,7 @@
     "href": "materials/03-during-slides.html#computational-notebooks",
     "title": "During analysis",
     "section": "Computational notebooks",
-    "text": "Computational notebooks\n\n\nA computational notebook is a (cloud-based/local) editor composed of cells, which is used for literate programming\nEach cell may contain:\n\nnarrative/text/documentation, or\nexecutable code (python, R, …), or\nresults as code output (charts, tables, plots, maps, …)\n\n\n\n\n\nWikipedia"
+    "text": "Computational notebooks\n\n\nA computational notebook is a (cloud-based/local) editor composed of cells, which is used for literate programming\nEach cell may contain:\n\nnarrative/text/documentation, or\nexecutable code (python, R, …), or\nresults as code output (charts, tables, plots, maps, …)"
   },
   {
     "objectID": "materials/03-during-slides.html#computational-notebooks-data-menu-titlecomputational-notebooks-ii",
@@ -536,13 +536,48 @@
     "href": "materials/03-during-slides.html#computational-notebooks-1",
     "title": "During analysis",
     "section": "Computational notebooks",
-    "text": "Computational notebooks\nNotebooks as first-class citizens\n\nEarthCube annual meetings include a call for notebooks (CFN 22) as peer-reviewed submissions - See Notebooks 2022 proceedings TODO: REVISE LINKS\nMaster/PhD theses as computational notebooks?"
+    "text": "Computational notebooks\nNotebooks as first-class citizens\n\n\nEarthCube annual meetings include a call for notebooks (CFN 22 as peer-reviewed submissions - See Notebooks 2022 proceedings TODO: REVISE LINKS\nUrban Data/Code submissions to Environment and Planning B: Urban Analytics and City Science\nMaster/PhD theses as computational notebooks?"
   },
   {
     "objectID": "materials/03-during-slides.html#computational-notebooks-examples",
     "href": "materials/03-during-slides.html#computational-notebooks-examples",
     "title": "During analysis",
     "section": "Computational notebooks: examples",
-    "text": "Computational notebooks: examples\nJupyter Labs, RMarkdown, Quarto, Matlab,…\n(Pimentel et al. 2019) studied 1.4 millions of notebooks (GitHub)\n\nOnly 24% ran without exceptions\nOnly 4% produced same results\n\nAuthors provided best practices for the reproducibility of notebooks"
+    "text": "Computational notebooks: examples\nJupyterLabs, RMarkdown, Quarto, Matlab Live Scripts, Wolfram, see more in Wikipedia\n(Pimentel et al. 2019) studied 1.4 millions of notebooks (GitHub)\n\nOnly 24% ran without exceptions\nOnly 4% produced same results\nOutput: best practices for the reproducibility of notebooks"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#preserve-computational-environment",
+    "href": "materials/03-during-slides.html#preserve-computational-environment",
+    "title": "During analysis",
+    "section": "Preserve computational environment",
+    "text": "Preserve computational environment\nManage packages/libraries dependencies\n\n\ndocument/manage specific versions of all packages and dependences used in a project\n\n\n\n\nrenv for R or venv for Python. See post on renv usage\n\n\n\n\n# authors' workflow\nrenv::activate()  \nrenv::snapshot()  # check state\nrenv::snapshot()  # check state\n\n\n\n# others' workflow\nrenv::restore()  \n\n\n\n\n\n\ncomplement them with best coding practices (setting a seed, etc.)"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#container-tools",
+    "href": "materials/03-during-slides.html#container-tools",
+    "title": "During analysis",
+    "section": "Container tools",
+    "text": "Container tools\nBeyond package management tools…\n\n\n\nDocker and family tools (Nust et al. 2020)\nBinder deploys a cloud-based docker container based on a git repo\nrepo2docker fetches a git repository and builds a container image based on the configuration files found in the repository\n\n\n\n\n\n\n\n\n\n\nContainer: creating a snapshot of a computational environment"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#software-fair",
+    "href": "materials/03-during-slides.html#software-fair",
+    "title": "During analysis",
+    "section": "(Software) FAIR",
+    "text": "(Software) FAIR\nDocument your source code (Barker et al. 2022), (Hasselbring et al. 2020)\n\n\nFindable: Deposit source code in a repository that provides DOIs and metadata\nAccessible: Able to download source code\nInteroperable: Use open source programming languages and software\nReusable: Release software under an open usage license\n\n\n\n\nCite software properly (Smith, Katz, and Niemeyer 2016) - #23 TODO: Revise link"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#software-fair-according-to-uji",
+    "href": "materials/03-during-slides.html#software-fair-according-to-uji",
+    "title": "During analysis",
+    "section": "(Software) FAIR according to UJI",
+    "text": "(Software) FAIR according to UJI\nDeclaración institucional a favor de la promoción del acceso abierto en la Universitat Jaume I\n\nNothing\n\n\nCódigo de Buenas Prácticas en Investigación y Doctorado\n\n\nNothing TODO: TO REVISE"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#make-use-of-make",
+    "href": "materials/03-during-slides.html#make-use-of-make",
+    "title": "During analysis",
+    "section": "Make use of Make",
+    "text": "Make use of Make\nGNU Make is +40 years old but still relevant today\n\n\ncoordinates and automates command-line processes, such as a series of independent scripts\nprovides “one-entry” point to your analysis\n\n\n\n\n\n\n\n\n\nTips/Readings\n\n\nReproducibility with Make\nSnakeMake: Python alternative to Make"
   }
 ]

@@ -32,6 +32,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     /* CSS for citations */
     div.csl-bib-body { }
     div.csl-entry {
@@ -664,47 +729,167 @@ Carlos Granell
 </ul></li>
 </ul>
 </div>
-
-<aside><div>
-<p><a href="https://en.wikipedia.org/wiki/Notebook_interface">Wikipedia</a></p>
-</div></aside></section>
+</section>
 <section id="computational-notebooks-1" class="slide level2" data-menu-title="Computational notebooks (II)">
 <h2>Computational notebooks</h2>
 <h3 id="notebooks-as-first-class-citizens">Notebooks as first-class citizens</h3>
+<div>
 <ul>
-<li><p>EarthCube annual meetings include a call for notebooks (<a href="https://www.earthcube.org/post/call-for-notebooks-cfn-22">CFN 22</a>) as peer-reviewed submissions - See <a href="https://github.com/earthcube2022">Notebooks 2022 proceedings</a> <strong>TODO: REVISE LINKS</strong></p></li>
-<li><p>Master/<a href="https://paocorrales.github.io/Tesis_doctorado/index.html">PhD theses</a> as computational notebooks?</p></li>
+<li class="fragment"><p>EarthCube annual meetings include a call for notebooks (<a href="https://www.earthcube.org/post/call-for-notebooks-cfn-22">CFN 22</a> as peer-reviewed submissions - See <a href="https://github.com/earthcube2022">Notebooks 2022 proceedings</a> <strong>TODO: REVISE LINKS</strong></p></li>
+<li class="fragment"><p><a href="https://doi.org/10.1177/23998083211059670">Urban Data/Code</a> submissions to <a href="https://journals.sagepub.com/home/EPB">Environment and Planning B: Urban Analytics and City Science</a></p></li>
+<li class="fragment"><p>Master/<a href="https://paocorrales.github.io/Tesis_doctorado/index.html">PhD theses</a> as computational notebooks?</p></li>
 </ul>
+</div>
 </section>
 <section id="computational-notebooks-examples" class="slide level2">
 <h2>Computational notebooks: examples</h2>
-<p>Jupyter Labs, RMarkdown, Quarto, Matlab,…</p>
+<p><a href="https://jupyter.org/">JupyterLabs</a>, <a href="https://rmarkdown.rstudio.com/">RMarkdown</a>, <a href="https://quarto.org/">Quarto</a>, <a href="https://es.mathworks.com/help/matlab/live-scripts-and-functions.html">Matlab Live Scripts</a>, <a href="https://www.wolfram.com/computational-notebooks/">Wolfram</a>, see more in <a href="https://en.wikipedia.org/wiki/Notebook_interface">Wikipedia</a></p>
 <p><span class="citation" data-cites="pimentel2019">(<a href="#/references" role="doc-biblioref" onclick="">Pimentel et al. 2019</a>)</span> studied 1.4 millions of notebooks (GitHub)</p>
 <ul>
 <li>Only 24% ran without exceptions</li>
 <li>Only 4% produced same results</li>
+<li>Output: <em>best practices for the reproducibility of notebooks</em></li>
 </ul>
-<p>Authors provided <em>best practices for the reproducibility of notebooks</em></p>
 </section></section>
+<section>
 <section id="rec17" class="title-slide slide level1 center">
 <h1>[#17] Preserve computational environment</h1>
 
 </section>
-
+<section id="preserve-computational-environment" class="slide level2">
+<h2>Preserve computational environment</h2>
+<h3 id="manage-packageslibraries-dependencies">Manage packages/libraries dependencies</h3>
+<div class="fragment fade-in">
+<ul>
+<li>document/manage specific versions of all packages and dependences used in a project</li>
+</ul>
+</div>
+<div class="fragment fade-in">
+<ul>
+<li><code>renv</code> for R or <code>venv</code> for Python. See <a href="https://www.r-bloggers.com/2023/03/r-renv-how-to-manage-dependencies-in-r-projects-easily/">post on <code>renv</code> usage</a></li>
+</ul>
+<div class="columns">
+<div class="column" data-align="center" style="width:50%;">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># authors' workflow</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a>renv<span class="sc">::</span><span class="fu">activate</span>()  </span>
+<span id="cb1-3"><a href="#cb1-3"></a>renv<span class="sc">::</span><span class="fu">snapshot</span>()  <span class="co"># check state</span></span>
+<span id="cb1-4"><a href="#cb1-4"></a>renv<span class="sc">::</span><span class="fu">snapshot</span>()  <span class="co"># check state</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div><div class="column" data-align="center" style="width:50%;">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="co"># others' workflow</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a>renv<span class="sc">::</span><span class="fu">restore</span>()  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="fragment fade-in">
+<ul>
+<li>complement them with best coding practices (setting a seed, etc.)</li>
+</ul>
+</div>
+</section></section>
+<section>
 <section id="rec18" class="title-slide slide level1 center">
 <h1>[#18] Learn/use containerisation tools</h1>
 
 </section>
-
+<section id="container-tools" class="slide level2">
+<h2>Container tools</h2>
+<h3 id="beyond-package-management-tools">Beyond package management tools…</h3>
+<div class="columns">
+<div class="column" data-align="center" style="width:60%;">
+<ul>
+<li><p><a href="https://www.docker.com/">Docker</a> and family tools <span class="citation" data-cites="nust2020-docker">(<a href="#/references" role="doc-biblioref" onclick="">Nust et al. 2020</a>)</span></p></li>
+<li><p><a href="https://mybinder.org/">Binder</a> deploys a cloud-based docker container based on a git repo</p></li>
+<li><p><a href="https://github.com/jupyterhub/repo2docker"><code>repo2docker</code></a> fetches a git repository and builds a container image based on the configuration files found in the repository</p></li>
+</ul>
+</div><div class="column" data-align="center" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="https://journals.plos.org/ploscompbiol/article/figure/image?size=large&amp;id=10.1371/journal.pcbi.1008316.g002" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Container: creating a snapshot of a computational environment</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section>
 <section id="rec19" class="title-slide slide level1 center">
 <h1>[#19] Be (software) FAIR, my friend</h1>
 
 </section>
+<section id="software-fair" class="slide level2">
+<h2>(Software) FAIR</h2>
+<h3 id="document-your-source-code-barker2022-hasselbring2020">Document your source code <span class="citation" data-cites="barker2022">(<a href="#/references" role="doc-biblioref" onclick="">Barker et al. 2022</a>)</span>, <span class="citation" data-cites="hasselbring2020">(<a href="#/references" role="doc-biblioref" onclick="">Hasselbring et al. 2020</a>)</span></h3>
+<div>
+<ul>
+<li class="fragment"><p><strong>Findable</strong>: Deposit source code in a repository that provides DOIs and metadata</p></li>
+<li class="fragment"><p><strong>Accessible</strong>: Able to download source code</p></li>
+<li class="fragment"><p><strong>Interoperable</strong>: Use open source programming languages and software</p></li>
+<li class="fragment"><p><strong>Reusable</strong>: Release software under an open usage license</p></li>
+</ul>
+</div>
 
+<aside><div>
+<p>Cite software properly <span class="citation" data-cites="smith2016">(<a href="#/references" role="doc-biblioref" onclick="">Smith, Katz, and Niemeyer 2016</a>)</span> - <a href="slides23_01.html#rec23">#23</a> <strong>TODO: Revise link</strong></p>
+</div></aside></section>
+<section id="software-fair-according-to-uji" class="slide level2">
+<h2>(Software) FAIR according to UJI</h2>
+<p><a href="http://www.uji.es/upo/rest/contenido/630998650/raw?idioma=es">Declaración institucional a favor de la promoción del acceso abierto en la Universitat Jaume I</a></p>
+<div class="fragment fade-in">
+<p><strong>Nothing</strong></p>
+</div>
+<div class="fragment fade-in">
+<p><a href="https://www.uji.es/investigacio/base/etica/cbpid/">Código de Buenas Prácticas en Investigación y Doctorado</a></p>
+</div>
+<div class="fragment fade-in">
+<p><strong>Nothing</strong> <strong>TODO: TO REVISE</strong></p>
+</div>
+</section></section>
 <section>
 <section id="rec20" class="title-slide slide level1 center">
 <h1>[#20] Make use of <em>Make</em></h1>
 
+</section>
+<section id="make-use-of-make" class="slide level2">
+<h2>Make use of <em>Make</em></h2>
+<h3 id="gnu-make-is-40-years-old-but-still-relevant-today"><a href="https://www.gnu.org/software/make/">GNU Make</a> is +40 years old but still relevant today</h3>
+<div>
+<ul>
+<li class="fragment"><p>coordinates and automates command-line processes, such as a series of independent scripts</p></li>
+<li class="fragment"><p>provides “one-entry” point to your analysis</p></li>
+</ul>
+</div>
+<div class="fragment fade-in">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong><strong>Tips/Readings</strong></strong></p>
+</div>
+<div class="callout-content">
+<p><a href="https://the-turing-way.netlify.app/reproducible-research/make.html">Reproducibility with Make</a></p>
+<p><a href="https://snakemake.readthedocs.io/en/stable/">SnakeMake</a>: Python alternative to Make</p>
+</div>
+</div>
+</div>
+</div>
 </section>
 <section id="references" class="slide level2 smaller scrollable">
 <h2>References</h2>
@@ -717,8 +902,14 @@ Carlos Granell
 <div id="ref-alston2021" class="csl-entry" role="listitem">
 Alston, Jesse M., and Jessica A. Rick. 2021. <span>“A Beginner’s Guide to Conducting Reproducible Research.”</span> <em>The Bulletin of the Ecological Society of America</em> 102 (2): e01801. <a href="https://doi.org/10.1002/bes2.1801">https://doi.org/10.1002/bes2.1801</a>.
 </div>
+<div id="ref-barker2022" class="csl-entry" role="listitem">
+Barker, Michelle, Neil P. Chue Hong, Daniel S. Katz, Anna-Lena Lamprecht, Carlos Martinez-Ortiz, Fotis Psomopoulos, Jennifer Harrow, et al. 2022. <span>“Introducing the FAIR Principles for Research Software.”</span> <em>Scientific Data</em> 9 (1). <a href="https://doi.org/10.1038/s41597-022-01710-x">https://doi.org/10.1038/s41597-022-01710-x</a>.
+</div>
 <div id="ref-chiarelli2021" class="csl-entry" role="listitem">
 Chiarelli, Andrea, Lucia Loffreda, and Rob Johnson. 2021. <span>“<span class="nocase">The Art of Publishing Reproducible Research Outputs: Supporting emerging practices through cultural and technological innovation</span>.”</span> Zenodo. <a href="https://doi.org/10.5281/zenodo.5521077">https://doi.org/10.5281/zenodo.5521077</a>.
+</div>
+<div id="ref-hasselbring2020" class="csl-entry" role="listitem">
+Hasselbring, Wilhelm, Leslie Carr, Simon Hettrick, Heather Packer, and Thanassis Tiropanis. 2020. <span>“Open Source Research Software.”</span> <em>Computer</em> 53 (8): 84–88. <a href="https://doi.org/10.1109/MC.2020.2998235">https://doi.org/10.1109/MC.2020.2998235</a>.
 </div>
 <div id="ref-leipzig2021" class="csl-entry" role="listitem">
 Leipzig, Jeremy, Daniel Nüst, Charles Tapley Hoyt, Karthik Ram, and Jane Greenberg. 2021. <span>“The Role of Metadata in Reproducible Computational Research.”</span> <em>Patterns</em> 2 (9): 100322. <a href="https://doi.org/10.1016/j.patter.2021.100322">https://doi.org/10.1016/j.patter.2021.100322</a>.
@@ -726,8 +917,14 @@ Leipzig, Jeremy, Daniel Nüst, Charles Tapley Hoyt, Karthik Ram, and Jane Greenb
 <div id="ref-noy2023" class="csl-entry" role="listitem">
 Noy, Natasha, and Carole Goble. 2023. <span>“<span class="nocase">Are We Cobblers without Shoes?</span>”</span> <em>Communications of the ACM</em> 66 (1): 36–38. <a href="https://doi.org/10.1145/3528574">https://doi.org/10.1145/3528574</a>.
 </div>
+<div id="ref-nust2020-docker" class="csl-entry" role="listitem">
+Nust, Daniel, Vanessa Sochat, Ben Marwick, Stephen J. Eglen, Tim Head, Tony Hirst, and Benjamin D. Evans. 2020. <span>“Ten Simple Rules for Writing Dockerfiles for Reproducible Data Science.”</span> <em>PLOS Computational Biology</em> 16 (11): 1–24. <a href="https://doi.org/10.1371/journal.pcbi.1008316">https://doi.org/10.1371/journal.pcbi.1008316</a>.
+</div>
 <div id="ref-pimentel2019" class="csl-entry" role="listitem">
 Pimentel, João Felipe, Leonardo Murta, Vanessa Braganholo, and Juliana Freire. 2019. <span>“A Large-Scale Study about Quality and Reproducibility of Jupyter Notebooks.”</span> In <em>2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)</em>, 507–17. <a href="https://doi.org/10.1109/MSR.2019.00077">https://doi.org/10.1109/MSR.2019.00077</a>.
+</div>
+<div id="ref-smith2016" class="csl-entry" role="listitem">
+Smith, AM, DS Katz, and KE Niemeyer. 2016. <span>“Software Citation Principles.”</span> <em>PeerJ Computer Science</em> 2: e86. <a href="https://doi.org/10.7717/peerj-cs.86">https://doi.org/10.7717/peerj-cs.86</a>.
 </div>
 <div id="ref-wilkinson2016" class="csl-entry" role="listitem">
 Wilkinson, Mark D., Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, et al. 2016. <span>“The FAIR Guiding Principles for Scientific Data Management and Stewardship.”</span> <em>Scientific Data</em> 3 (1). <a href="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</a>.
@@ -950,6 +1147,44 @@ Wood-Charlson, Elisha M., Zachary Crockett, Chris Erdmann, Adam P. Arkin, and Ca
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

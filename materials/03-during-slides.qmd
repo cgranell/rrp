@@ -290,46 +290,175 @@ Look at section *During analysis: best coding practices* in [@alston2021]
 ::: 
 
 
-::: {.aside}
-[Wikipedia](https://en.wikipedia.org/wiki/Notebook_interface)
-:::
-
 ## Computational notebooks {data-menu-title="Computational notebooks (II)"}
 
 
 ### Notebooks as first-class citizens
 
-  -   EarthCube annual meetings include a call for notebooks ([CFN 22](https://www.earthcube.org/post/call-for-notebooks-cfn-22)) as peer-reviewed submissions - See [Notebooks 2022 proceedings](https://github.com/earthcube2022) **TODO: REVISE LINKS**
+::: {.incremental}
 
-  -   Master/[PhD theses](https://paocorrales.github.io/Tesis_doctorado/index.html) as computational notebooks?
+  -   EarthCube annual meetings include a call for notebooks ([CFN 22](https://www.earthcube.org/post/call-for-notebooks-cfn-22) as peer-reviewed submissions - See [Notebooks 2022 proceedings](https://github.com/earthcube2022) **TODO: REVISE LINKS**
 
+  - [Urban Data/Code](https://doi.org/10.1177/23998083211059670) submissions to [Environment and Planning B: Urban Analytics and City Science](https://journals.sagepub.com/home/EPB)
 
+  - Master/[PhD theses](https://paocorrales.github.io/Tesis_doctorado/index.html) as computational notebooks?
+
+:::
 
 ## Computational notebooks: examples
 
 
-Jupyter Labs, RMarkdown, Quarto, Matlab,...
+[JupyterLabs](https://jupyter.org/), [RMarkdown](https://rmarkdown.rstudio.com/), [Quarto](https://quarto.org/), [Matlab Live Scripts](https://es.mathworks.com/help/matlab/live-scripts-and-functions.html), [Wolfram](https://www.wolfram.com/computational-notebooks/), see more in [Wikipedia](https://en.wikipedia.org/wiki/Notebook_interface)
 
 [@pimentel2019] studied 1.4 millions of notebooks (GitHub)
 
--   Only 24% ran without exceptions 
--   Only 4% produced same results
-
-
-Authors provided *best practices for the reproducibility of notebooks*
+  -   Only 24% ran without exceptions 
+  -   Only 4% produced same results
+  -   Output:  *best practices for the reproducibility of notebooks*
 
 
 
 # \[#17\] Preserve computational environment {#rec17 .center .r-fit-text}
 
 
+## Preserve computational environment
+
+### Manage packages/libraries dependencies
+
+
+::: {.fragment .fade-in}
+
+  -   document/manage specific versions of all packages and dependences used in a project
+
+:::
+
+::: {.fragment .fade-in}
+  -  `renv` for R or `venv` for Python. See [post on `renv` usage](https://www.r-bloggers.com/2023/03/r-renv-how-to-manage-dependencies-in-r-projects-easily/)
+
+:::: {.columns}
+::: {.column width="50%" align="center"}
+
+```{r}
+#| eval: false
+# authors' workflow
+renv::activate()  
+renv::snapshot()  # check state
+renv::snapshot()  # check state
+```
+:::
+::: {.column width="50%" align="center"}
+
+```{r}
+#| eval: false
+# others' workflow
+renv::restore()  
+```
+:::
+::::
+
+
+:::
+
+::: {.fragment .fade-in}
+  -   complement them with best coding practices (setting a seed, etc.)
+
+:::
+
 # \[#18\] Learn/use containerisation tools {#rec18 .center .r-fit-text}
+
+## Container tools
+
+### Beyond package management tools... 
+
+
+:::: {.columns}
+::: {.column width="60%" align="center"}
+
+  -   [Docker](https://www.docker.com/) and family tools [@nust2020-docker]
+
+  -   [Binder](https://mybinder.org/) deploys a cloud-based docker container based on a git repo
+
+  -   [`repo2docker`](https://github.com/jupyterhub/repo2docker) fetches a git repository and builds a container image based on the configuration files found in the repository
+
+:::
+
+::: {.column width="40%" align="center"}
+
+![](https://journals.plos.org/ploscompbiol/article/figure/image?size=large&id=10.1371/journal.pcbi.1008316.g002){width="100%" fig-align="center"}
+
+:::
+::::
+
+
+::: notes
+Container: creating a snapshot of a computational environment
+:::
 
 
 # \[#19\] Be (software) FAIR, my friend {#rec19 .center .r-fit-text}
 
+## (Software) FAIR
+
+### Document your source code [@barker2022], [@hasselbring2020] 
+
+::: {.incremental}
+
+  -   **Findable**: Deposit source code in a repository that provides DOIs and metadata
+
+  -   **Accessible**: Able to download source code
+
+  -   **Interoperable**: Use open source programming languages and software
+
+  -   **Reusable**: Release software under an open usage license
+
+:::
+
+::: aside
+Cite software properly [@smith2016] - [#23](slides23_01.html#rec23) **TODO: Revise link**
+:::
+
+## (Software) FAIR according to UJI
+
+[Declaración institucional a favor de la promoción del acceso abierto en la
+Universitat Jaume I](http://www.uji.es/upo/rest/contenido/630998650/raw?idioma=es)
+
+::: {.fragment .fade-in}
+**Nothing** 
+:::
+
+::: {.fragment .fade-in}
+
+[Código de Buenas Prácticas en Investigación y Doctorado](https://www.uji.es/investigacio/base/etica/cbpid/)
+:::
+
+::: {.fragment .fade-in}
+**Nothing** **TODO: TO REVISE**
+:::
+
 
 # \[#20\] Make use of *Make* {#rec20 .center .r-fit-text}
+
+
+## Make use of *Make*
+
+### [GNU Make](https://www.gnu.org/software/make/) is +40 years old but still relevant today 
+
+::: {.incremental}
+  -   coordinates and automates command-line processes, such as a series of independent scripts
+
+  -   provides “one-entry” point to your analysis
+
+:::
+
+::: {.fragment .fade-in}
+::: callout-tip
+## **Tips/Readings**
+
+[Reproducibility with Make](https://the-turing-way.netlify.app/reproducible-research/make.html)
+
+[SnakeMake](https://snakemake.readthedocs.io/en/stable/): Python alternative to Make
+:::
+:::
 
 
 ## References
