@@ -23,29 +23,79 @@ execute:
   echo: true
 ---
 
-# \[#21\] Avoid *Data (or code) available upon request* {#rec21 .center .r-fit-text}
+# \[#21\] *"Resources (data, code, ...) available upon request"* {#rec21 .center .r-fit-text}
 
-# \[#22\] Report the software version you use {#rec22 .center .r-fit-text}
 
+
+## {data-menu-title="Resources available upon request"}
+
+::: {.r-fit-text}
+NEVER
+:::
+
+
+## {data-menu-title="Resources available upon request (II)"}
+
+### Data and code must be made available at *prepublication or submission* time (SHOW ME), rather than *postpublication* (TRUST ME)
+
+
+::: {.fragment .fade-in}
+::: callout-note
+## **Example**
+
+
+[@stodden2018] analysed 204 computational articles from *Science* (with
+policy "data and code available postpublication upon request")
+
+  - Received data and/or code from authors for **44%**;
+
+  - Were able to reproduce findings for **26%**;
+
+  - Improvement over no policy, but insufficient for reproducibility
+:::
+:::
+
+
+
+# \[#22\] Report software tool versions you use {#rec22 .center .r-fit-text}
+
+## Software version
+
+::: {.incremental}
+  -  Specify versions of software tools/components used in the paper (packages, libraries, frameworks, etc.)
+
+
+  -  A different version can lead to different results!
+
+
+  - **Readings**:  Check "Story 4: Different Versions of Code, External Libraries, or Compilers can Challenge Reproducibility" [@mesnard2017]
+  
+
+:::
 
 # \[#23\] Cite the software you use {#rec23 .center .r-fit-text}
 
-# \[#24\] Hello Quarto (and friends) {#rec24 .center .r-fit-text}
+
+# \[#24\] *DASA* Section {#rec24 .center .r-fit-text}
 
 
 # \[#25\] Share pre-prints {#rec25 .center .r-fit-text}
 
-# \[#26\] Research Compendia {#rec26 .center .r-fit-text}
+
+# \[#26\] Share data/code {#rec26 .center .r-fit-text}
 
 
-# \[#27\] Interactive papers {#rec27 .center .r-fit-text}
+# \[#27\] Research Compendia {#rec27 .center .r-fit-text}
 
 
-# \[#28\] TODO {#rec28 .center .r-fit-text}
+# \[#28\] Hello Quarto (and friends) {#rec28 .center .r-fit-text}
 
-# \[#29\] TOOD {#rec29 .center .r-fit-text}
 
-# \[#30\] TODO {#rec30 .center .r-fit-text}
+# \[#29\] Reproducible (interactive) manuscripts {#rec29 .center .r-fit-text}
+
+https://mine.quarto.pub/quarto-manuscripts-rmed/#/title-slide
+
+# \[#30\] Spread the word {#rec30 .center .r-fit-text}
 
 
 ## References

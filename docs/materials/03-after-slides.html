@@ -30,7 +30,26 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -340,23 +359,63 @@ Carlos Granell
 </div>
 
 </section>
+<section>
 <section id="rec21" class="title-slide slide level1 center">
-<h1>[#21] Avoid <em>Data (or code) available upon request</em></h1>
+<h1>[#21] <em>“Resources (data, code, …) available upon request”</em></h1>
 
 </section>
-
+<section id="section" class="slide level2" data-menu-title="Resources available upon request">
+<h2></h2>
+<div class="r-fit-text">
+<p>NEVER</p>
+</div>
+</section>
+<section id="section-1" class="slide level2" data-menu-title="Resources available upon request (II)">
+<h2></h2>
+<h3 id="data-and-code-must-be-made-available-at-prepublication-or-submission-time-show-me-rather-than-postpublication-trust-me">Data and code must be made available at <em>prepublication or submission</em> time (SHOW ME), rather than <em>postpublication</em> (TRUST ME)</h3>
+<div class="fragment fade-in">
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong><strong>Example</strong></strong></p>
+</div>
+<div class="callout-content">
+<p><span class="citation" data-cites="stodden2018">(<a href="#/references" role="doc-biblioref" onclick="">Stodden, Seiler, and Ma 2018</a>)</span> analysed 204 computational articles from <em>Science</em> (with policy “data and code available postpublication upon request”)</p>
+<ul>
+<li><p>Received data and/or code from authors for <strong>44%</strong>;</p></li>
+<li><p>Were able to reproduce findings for <strong>26%</strong>;</p></li>
+<li><p>Improvement over no policy, but insufficient for reproducibility</p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section></section>
+<section>
 <section id="rec22" class="title-slide slide level1 center">
-<h1>[#22] Report the software version you use</h1>
+<h1>[#22] Report software tool versions you use</h1>
 
 </section>
-
+<section id="software-version" class="slide level2">
+<h2>Software version</h2>
+<div>
+<ul>
+<li class="fragment"><p>Specify versions of software tools/components used in the paper (packages, libraries, frameworks, etc.)</p></li>
+<li class="fragment"><p>A different version can lead to different results!</p></li>
+<li class="fragment"><p><strong>Readings</strong>: Check “Story 4: Different Versions of Code, External Libraries, or Compilers can Challenge Reproducibility” <span class="citation" data-cites="mesnard2017">(<a href="#/references" role="doc-biblioref" onclick="">Mesnard and Barba 2017</a>)</span></p></li>
+</ul>
+</div>
+</section></section>
 <section id="rec23" class="title-slide slide level1 center">
 <h1>[#23] Cite the software you use</h1>
 
 </section>
 
 <section id="rec24" class="title-slide slide level1 center">
-<h1>[#24] Hello Quarto (and friends)</h1>
+<h1>[#24] <em>DASA</em> Section</h1>
 
 </section>
 
@@ -366,36 +425,44 @@ Carlos Granell
 </section>
 
 <section id="rec26" class="title-slide slide level1 center">
-<h1>[#26] Research Compendia</h1>
+<h1>[#26] Share data/code</h1>
 
 </section>
 
 <section id="rec27" class="title-slide slide level1 center">
-<h1>[#27] Interactive papers</h1>
+<h1>[#27] Research Compendia</h1>
 
 </section>
 
 <section id="rec28" class="title-slide slide level1 center">
-<h1>[#28] TODO</h1>
+<h1>[#28] Hello Quarto (and friends)</h1>
 
 </section>
 
 <section id="rec29" class="title-slide slide level1 center">
-<h1>[#29] TOOD</h1>
-
+<h1>[#29] Reproducible (interactive) manuscripts</h1>
+<p>https://mine.quarto.pub/quarto-manuscripts-rmed/#/title-slide</p>
 </section>
 
 <section>
 <section id="rec30" class="title-slide slide level1 center">
-<h1>[#30] TODO</h1>
+<h1>[#30] Spread the word</h1>
 
 </section>
-<section id="references" class="slide level2">
+<section id="references" class="slide level2 smaller scrollable">
 <h2>References</h2>
 
 
 <img src="../images/ESCOLA-DOCTORAT-es-blanco.png" class="slide-logo r-stretch"><div class="footer footer-default">
 <p><a href="https://cgranell.github.io/rrp">cgranell.github.io/rrp</a></p>
+</div>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-mesnard2017" class="csl-entry" role="listitem">
+Mesnard, Olivier, and Lorena A. Barba. 2017. <span>“Reproducible and Replicable Computational Fluid Dynamics: It’s Harder Than You Think.”</span> <em>Computing in Science Engineering</em> 19 (4): 44–55. <a href="https://doi.org/10.1109/MCSE.2017.3151254">https://doi.org/10.1109/MCSE.2017.3151254</a>.
+</div>
+<div id="ref-stodden2018" class="csl-entry" role="listitem">
+Stodden, Victoria, Jennifer Seiler, and Zhaokun Ma. 2018. <span>“An Empirical Analysis of Journal Policy Effectiveness for Computational Reproducibility.”</span> <em>Proceedings of the National Academy of Sciences</em> 115 (11): 2584–89. <a href="https://doi.org/10.1073/pnas.1708290115">https://doi.org/10.1073/pnas.1708290115</a>.
+</div>
 </div>
 </section></section>
     </div>

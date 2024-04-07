@@ -172,7 +172,7 @@
     "href": "materials/03-after-slides.html#references",
     "title": "After analysis",
     "section": "References",
-    "text": "References\n\n\n\ncgranell.github.io/rrp"
+    "text": "References\n\n\n\ncgranell.github.io/rrp\n\n\n\nMesnard, Olivier, and Lorena A. Barba. 2017. “Reproducible and Replicable Computational Fluid Dynamics: It’s Harder Than You Think.” Computing in Science Engineering 19 (4): 44–55. https://doi.org/10.1109/MCSE.2017.3151254.\n\n\nStodden, Victoria, Jennifer Seiler, and Zhaokun Ma. 2018. “An Empirical Analysis of Journal Policy Effectiveness for Computational Reproducibility.” Proceedings of the National Academy of Sciences 115 (11): 2584–89. https://doi.org/10.1073/pnas.1708290115."
   },
   {
     "objectID": "materials/03-after.html",
@@ -607,5 +607,40 @@
     "title": "Reproducible research at UJI",
     "section": "UJI",
     "text": "UJI\nAs part of the Open Knowledge Portal, the UJI library provides guides for researchers about the open access dissemination of the results of the investigation, and copyright and licenses.\n\nOpen Access Declaration\nDeclaració institucional a favor de la promoció de l’accés obert a la Universitat Jaume I\n\n\nBest practices for research\nCódigo de Buenas Prácticas en Investigación y Doctorado, CBPID – focus on “open access” section"
+  },
+  {
+    "objectID": "materials/03-after-slides.html#data-or-code-available-upon-request",
+    "href": "materials/03-after-slides.html#data-or-code-available-upon-request",
+    "title": "After analysis",
+    "section": "Data (or code) available upon request",
+    "text": "Data (or code) available upon request\nData and code must be made available prepublication (SHOW ME), rather than postpublication (TRUST ME)\n\n\n\n\n\n\n\nExample\n\n\n(Stodden, Seiler, and Ma 2018) analysed 204 computational articles published in Science\n\nreceived data and/or code from authors for 44%\nwere able to reproduce findings for 26%"
+  },
+  {
+    "objectID": "materials/03-after-slides.html#section",
+    "href": "materials/03-after-slides.html#section",
+    "title": "After analysis",
+    "section": "",
+    "text": "NEVER"
+  },
+  {
+    "objectID": "materials/03-after-slides.html#avoid-resources-available-upon-request",
+    "href": "materials/03-after-slides.html#avoid-resources-available-upon-request",
+    "title": "After analysis",
+    "section": "Avoid Resources available upon request",
+    "text": "Avoid Resources available upon request\nData and code must be made available prepublication (SHOW ME), rather than postpublication (TRUST ME)\n\n\n\n\n\n\n\nExample\n\n\n(Stodden, Seiler, and Ma 2018) analysed 204 computational articles from Science\n\nReceived data and/or code from authors for 44%;\nWere able to reproduce findings for 26%;\nImprovement over no policy, but insufficient for reproducibility"
+  },
+  {
+    "objectID": "materials/03-after-slides.html#software-version",
+    "href": "materials/03-after-slides.html#software-version",
+    "title": "After analysis",
+    "section": "Software version",
+    "text": "Software version\n\n\nSpecify versions of software tools/components used in the paper (packages, libraries, frameworks, etc.)\nA different version can lead to different results!\nReadings: Check “Story 4: Different Versions of Code, External Libraries, or Compilers can Challenge Reproducibility” (Mesnard and Barba 2017)"
+  },
+  {
+    "objectID": "materials/03-after-slides.html#section-1",
+    "href": "materials/03-after-slides.html#section-1",
+    "title": "After analysis",
+    "section": "",
+    "text": "Data and code must be made available at prepublication or submission time (SHOW ME), rather than postpublication (TRUST ME)\n\n\n\n\n\n\n\nExample\n\n\n(Stodden, Seiler, and Ma 2018) analysed 204 computational articles from Science (with policy “data and code available postpublication upon request”)\n\nReceived data and/or code from authors for 44%;\nWere able to reproduce findings for 26%;\nImprovement over no policy, but insufficient for reproducibility"
   }
 ]
