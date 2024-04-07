@@ -1,3 +1,42 @@
 ---
 title: "After"
 ---
+
+
+::: {.column-margin}
+
+![](https://upload.wikimedia.org/wikipedia/commons/4/43/Pauli.jpg){fig-alt="Wolfgang Pauli" fig-align="center" width="70%"}
+
+> “I do not mind if you think slowly, but I do object when you publish more quickly than you think.” *([Quotes](https://en.wikiquote.org/wiki/Wolfgang_Pauli))* 
+
+*Nobel laureate and physics professor [Wolfgang Pauli](https://en.wikipedia.org/wiki/Wolfgang_Pauli);  ([Quotes](https://en.wikiquote.org/wiki/Wolfgang_Pauli))*
+
+:::
+
+
+Next recommendations summarise some reproducible practices for writing and depositing results (written paper and associated resources).
+
+
+## Slides
+
+
+::: {.callout-tip icon=false}
+## **Slide Deck** After analysis: writing and sharing reproducible resources
+
+::: slides
+[Slides](03-after-slides.qmd)
+:::
+
+::: source
+[Source](https://github.com/cgranell/rrp/tree/main/materials/03-after-slides.qmd)
+:::
+
+:::
+
+
+## Application exercises
+
+
+
+## Additional resources, readings, and videos
+

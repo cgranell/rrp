@@ -2,18 +2,17 @@
 title: "During"
 ---
 
-
 ::: {.column-margin}
 
 ![](https://upload.wikimedia.org/wikipedia/commons/4/43/Karl_Popper.jpg){fig-alt="Karl Popper" fig-align="center" width="70%"}
 
-> “The ideas we can most trust are those that have been the most tried and tested.” 
+> “The ideas we can most trust are those that have been the most tried and tested.”    *([Quotes](https://en.wikiquote.org/wiki/Karl_Popper))* 
 
 *Philosopher of science [Karl Popper](https://en.wikipedia.org/wiki/Karl_Popper)*
 :::
 
 
-Next recommendations summarise some data/coding practices and tools for conducting data analysis in a reproducible manner.
+Next recommendations summarise some data/coding practices and tools for conducting computational data analysis in a reproducible manner.
 
 
 ## Slides
@@ -27,7 +26,7 @@ Next recommendations summarise some data/coding practices and tools for conducti
 :::
 
 ::: source
-[Source](https://github.com/cgranell/rrp/tree/main/materials/03-before-slides.qmd)
+[Source](https://github.com/cgranell/rrp/tree/main/materials/03-during-slides.qmd)
 :::
 
 :::

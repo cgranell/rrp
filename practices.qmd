@@ -2,18 +2,6 @@
 title: "Recommendations and practices for open and reproducible research"
 ---
 
-::: {.column-margin}
-
-![](https://upload.wikimedia.org/wikipedia/en/4/42/Richard_Feynman_Nobel.jpg){fig-alt="Richard Feynman" fig-align="center" width="70%"}
-
-> “Science is a way of trying not to fool yourself. The principle is that you must not fool yourself, and you are the easiest person to fool.” 
-
-*Nobel laureate and physics professor [Richard Feynman](https://en.wikipedia.org/wiki/Richard_Feynman)*
-
-:::
-
-
-
 As a reviewer or researcher interested in the work of others, if you were to reproduce a study, you would
 
 -   read the published manuscript [@keshav2007] under the lens of the assessment criteria for reproducibility [@nust2018_readpaper]
@@ -31,7 +19,7 @@ Very cool; But If you had to write a reproducible paper... How do you start?
 
 We have heard many excuses to avoid taking reproducible practices seriously in one's research, such as "I have never heard of reproducibility before", "I'm not good at using tools; Did you say github and docker?", "I have never been trained", "I don't know where to find tutorials, guidelines...", "I'm superbusy! I do not have enough time", and "I do theoretical stuff. Reproduction is not for me"
 
-No matter your excuse; If you do not want to fool yourself, reproducible research practices are essential to enable not only reproducible but transparent, open and honest science. Indeed, conducting reproducible research is neither overly difficult nor does it require encyclopedic knowledge of multiple research tools, standards, and protocols. The good news is that **most researchers already do much of the work necessary to make research reproducible**. The point here is then to identify those aspects that could improve the level of reproducibility of your research and adapt them to your workflow and research habits.
+No matter your excuse; If you do not want to *fool* yourself, reproducible research practices are essential to enable not only reproducible but transparent, open and honest science. Indeed, conducting reproducible research is neither overly difficult nor does it require encyclopedic knowledge of multiple research tools, standards, and protocols. The good news is that **most researchers already do much of the work necessary to make research reproducible**. The point here is then to identify those aspects that could improve the level of reproducibility of your research and adapt them to your workflow and research habits.
 
 You should ask yourself:
 

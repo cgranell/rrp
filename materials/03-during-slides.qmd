@@ -41,7 +41,7 @@ execute:
 Source: [Becoming a better scientist with open and reproducible research (2)](https://lgatto.github.io/open-and-rr-2/)
 :::
 
-# \[#12\] Data (required) for reproducibility {#rec02 .center .r-fit-text}
+# \[#12\] Data (required) for reproducibility {#rec12 .center .r-fit-text}
 
 ## Data for reproducibility
 

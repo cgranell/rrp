@@ -1,0 +1,51 @@
+---
+title: "After analysis"
+subtitle: "Writing and sharing reproducible resources"
+author: "Carlos Granell"
+format: 
+  revealjs:
+    slide-number: true
+    show-slide-number: all
+    progress: true
+    logo: ../images/ESCOLA-DOCTORAT-es-blanco.png
+    footer: "[cgranell.github.io/rrp](https://cgranell.github.io/rrp)"
+    theme: default
+    transition: fade
+    preview-links: true
+    author-meta: "Carlos Granell"
+    date-meta: "15/03/2024"
+    chalkboard: 
+      theme: whiteboard
+      buttons: false
+      boardmarker-width: 3
+from: markdown+emoji
+execute:
+  echo: true
+---
+
+# \[#21\] Avoid *Data (or code) available upon request* {#rec21 .center .r-fit-text}
+
+# \[#22\] Report the software version you use {#rec22 .center .r-fit-text}
+
+
+# \[#23\] Cite the software you use {#rec23 .center .r-fit-text}
+
+# \[#24\] Hello Quarto (and friends) {#rec24 .center .r-fit-text}
+
+
+# \[#25\] Share pre-prints {#rec25 .center .r-fit-text}
+
+# \[#26\] Research Compendia {#rec26 .center .r-fit-text}
+
+
+# \[#27\] Interactive papers {#rec27 .center .r-fit-text}
+
+
+# \[#28\] TODO {#rec28 .center .r-fit-text}
+
+# \[#29\] TOOD {#rec29 .center .r-fit-text}
+
+# \[#30\] TODO {#rec30 .center .r-fit-text}
+
+
+## References
