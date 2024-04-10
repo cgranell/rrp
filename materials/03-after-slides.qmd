@@ -284,12 +284,12 @@ Universitat Jaume I](http://www.uji.es/upo/rest/contenido/630998650/raw?idioma=e
 
 ![](../images/slides/qmd-knitr.jpeg)
 
-## {data-menu-title="Quarto with python"}
+## `Quarto` with python
 
 ![](../images/slides/qmd-jupyter.jpeg)
 
 
-## {data-menu-title="Quarto with python (II)"}
+## `Quarto` with python {data-menu-title="Quarto with python (II)"}
 
 ![](../images/slides/jupyter-alone.jpeg)
 
@@ -316,7 +316,39 @@ Universitat Jaume I](http://www.uji.es/upo/rest/contenido/630998650/raw?idioma=e
 
 ## 
 
+
+:::: {.columns}
+::: {.column width="5%" align="center"}
+:::
+
+::: {.column width="30%" align="center"}
+::: {.fragment .fade-in}
+Business as usual: static PDF content
+:::
+:::
+
+::: {.column width="30%" align="center"}
+::: {.fragment .fade-in}
+[Interactive papers](https://distill.pub/2020/communicating-with-interactive-articles/) [@hohman2020]
+:::
+:::
+
+::: {.column width="30%" align="center"}
+::: {.fragment .fade-in}
+[Reproducible (interactive) papers](https://agu.curve.space/articles/NN0000)
+:::
+:::
+
+::: {.column width="5%" align="center"}
+:::
+
+::::
+
+
+
+::: {.notes}
 https://mine.quarto.pub/quarto-manuscripts-rmed/#/title-slide
+:::
 
 # \[#30\] Spread the word {#rec30 .center .r-fit-text}
 

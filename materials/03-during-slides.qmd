@@ -297,8 +297,10 @@ Look at section *During analysis: best coding practices* in [@alston2021]
 
 ::: {.incremental}
 
-  -   EarthCube annual meetings include a call for notebooks ([CFN 22](https://www.earthcube.org/post/call-for-notebooks-cfn-22) as peer-reviewed submissions - See [Notebooks 2022 proceedings](https://github.com/earthcube2022) **TODO: REVISE LINKS**
+  -   EarthCube annual meetings include a call for notebooks ([CFN 22](https://www.earthcube.org/post/call-for-notebooks-cfn-22) as peer-reviewed submissions - See [Notebooks 2022 proceedings](https://github.com/earthcube2022)
 
+  - American Geophysical Union (AGU)'s [Notebooks Now!](https://data.agu.org/notebooks-now/) [@caprarelli2023]
+  
   - [Urban Data/Code](https://doi.org/10.1177/23998083211059670) submissions to [Environment and Planning B: Urban Analytics and City Science](https://journals.sagepub.com/home/EPB)
 
   - Master/[PhD theses](https://paocorrales.github.io/Tesis_doctorado/index.html) as computational notebooks?

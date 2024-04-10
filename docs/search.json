@@ -270,14 +270,14 @@
     "href": "materials/03-after-slides.html#section-12",
     "title": "After analysis",
     "section": "",
-    "text": "https://mine.quarto.pub/quarto-manuscripts-rmed/#/title-slide"
+    "text": "Business as usual: static PDF content\n\n\n\nInteractive papers (Hohman et al. 2020)\n\n\n\nReproducible (interactive papers)\n\n\n\n\n\nhttps://mine.quarto.pub/quarto-manuscripts-rmed/#/title-slide"
   },
   {
     "objectID": "materials/03-after-slides.html#references",
     "href": "materials/03-after-slides.html#references",
     "title": "After analysis",
     "section": "References",
-    "text": "References\n\n\n\ncgranell.github.io/rrp\n\n\n\nAllaire, JJ. 2023. Quarto: R Interface to ’Quarto’ Markdown Publishing System. https://CRAN.R-project.org/package=quarto.\n\n\nDhar, Payal. 2023. “Octopus and ResearchEquals Aim to Break the Publishing Mould.” Nature. Springer Science; Business Media LLC. https://doi.org/10.1038/d41586-023-00861-0.\n\n\nMesnard, Olivier, and Lorena A. Barba. 2017. “Reproducible and Replicable Computational Fluid Dynamics: It’s Harder Than You Think.” Computing in Science Engineering 19 (4): 44–55. https://doi.org/10.1109/MCSE.2017.3151254.\n\n\nSmith, AM, DS Katz, and KE Niemeyer. 2016. “Software Citation Principles.” PeerJ Computer Science 2: e86. https://doi.org/10.7717/peerj-cs.86.\n\n\nStodden, Victoria, Jennifer Seiler, and Zhaokun Ma. 2018. “An Empirical Analysis of Journal Policy Effectiveness for Computational Reproducibility.” Proceedings of the National Academy of Sciences 115 (11): 2584–89. https://doi.org/10.1073/pnas.1708290115.\n\n\nXie, Y, JJ Allaire, and G Grolemund. 2018. R Markdown: The Definitive Guide. CRC Press. https://bookdown.org/yihui/rmarkdown/.\n\n\nXie, Yihui. 2015. Dynamic Documents with R and Knitr. 2nd ed. Boca Raton, Florida: Chapman; Hall/CRC. https://yihui.org/knitr/."
+    "text": "References\n\n\n\ncgranell.github.io/rrp\n\n\n\nAllaire, JJ. 2023. Quarto: R Interface to ’Quarto’ Markdown Publishing System. https://CRAN.R-project.org/package=quarto.\n\n\nDhar, Payal. 2023. “Octopus and ResearchEquals Aim to Break the Publishing Mould.” Nature. Springer Science; Business Media LLC. https://doi.org/10.1038/d41586-023-00861-0.\n\n\nHohman, Fred, Matthew Conlen, Jeffrey Heer, and Duen Chau. 2020. “Communicating with Interactive Articles.” Distill 5 (9). https://doi.org/10.23915/distill.00028.\n\n\nMesnard, Olivier, and Lorena A. Barba. 2017. “Reproducible and Replicable Computational Fluid Dynamics: It’s Harder Than You Think.” Computing in Science Engineering 19 (4): 44–55. https://doi.org/10.1109/MCSE.2017.3151254.\n\n\nSmith, AM, DS Katz, and KE Niemeyer. 2016. “Software Citation Principles.” PeerJ Computer Science 2: e86. https://doi.org/10.7717/peerj-cs.86.\n\n\nStodden, Victoria, Jennifer Seiler, and Zhaokun Ma. 2018. “An Empirical Analysis of Journal Policy Effectiveness for Computational Reproducibility.” Proceedings of the National Academy of Sciences 115 (11): 2584–89. https://doi.org/10.1073/pnas.1708290115.\n\n\nXie, Y, JJ Allaire, and G Grolemund. 2018. R Markdown: The Definitive Guide. CRC Press. https://bookdown.org/yihui/rmarkdown/.\n\n\nXie, Yihui. 2015. Dynamic Documents with R and Knitr. 2nd ed. Boca Raton, Florida: Chapman; Hall/CRC. https://yihui.org/knitr/."
   },
   {
     "objectID": "materials/03-after.html",
@@ -712,5 +712,26 @@
     "title": "Reproducible research at UJI",
     "section": "UJI",
     "text": "UJI\nAs part of the Open Knowledge Portal, the UJI library provides guides for researchers about the open access dissemination of the results of the investigation, and copyright and licenses.\n\nOpen Access Declaration\nDeclaració institucional a favor de la promoció de l’accés obert a la Universitat Jaume I\n\n\nBest practices for research\nCódigo de Buenas Prácticas en Investigación y Doctorado, CBPID – focus on “open access” section"
+  },
+  {
+    "objectID": "materials/03-after-slides.html#quarto-with-python",
+    "href": "materials/03-after-slides.html#quarto-with-python",
+    "title": "After analysis",
+    "section": "Quarto with python",
+    "text": "Quarto with python"
+  },
+  {
+    "objectID": "materials/03-after-slides.html#quarto-with-python-1",
+    "href": "materials/03-after-slides.html#quarto-with-python-1",
+    "title": "After analysis",
+    "section": "Quarto with python",
+    "text": "Quarto with python"
+  },
+  {
+    "objectID": "materials/03-after-slides.html#section-10",
+    "href": "materials/03-after-slides.html#section-10",
+    "title": "After analysis",
+    "section": "",
+    "text": "Business as usual: static PDF content\n\n\n\nInteractive papers (Hohman et al. 2020)\n\n\n\nReproducible (interactive papers)\n\n\n\n\n\n\nhttps://mine.quarto.pub/quarto-manuscripts-rmed/#/title-slide"
   }
 ]
