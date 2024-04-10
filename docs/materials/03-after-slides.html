@@ -30,6 +30,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     /* CSS for citations */
     div.csl-bib-body { }
     div.csl-entry {
@@ -405,51 +470,321 @@ Carlos Granell
 <ul>
 <li class="fragment"><p>Specify versions of software tools/components used in the paper (packages, libraries, frameworks, etc.)</p></li>
 <li class="fragment"><p>A different version can lead to different results!</p></li>
-<li class="fragment"><p><strong>Readings</strong>: Check “Story 4: Different Versions of Code, External Libraries, or Compilers can Challenge Reproducibility” <span class="citation" data-cites="mesnard2017">(<a href="#/references" role="doc-biblioref" onclick="">Mesnard and Barba 2017</a>)</span></p></li>
 </ul>
 </div>
+<div class="fragment fade-in">
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong><strong>Example</strong></strong></p>
+</div>
+<div class="callout-content">
+<p>Check <em>“Story 4: Different Versions of Code, External Libraries, or Compilers can Challenge Reproducibility”</em> <span class="citation" data-cites="mesnard2017">(<a href="#/references" role="doc-biblioref" onclick="">Mesnard and Barba 2017</a>)</span> to understand why using different software versions makes a difference in some disciplines</p>
+</div>
+</div>
+</div>
+</div>
 </section></section>
+<section>
 <section id="rec23" class="title-slide slide level1 center">
 <h1>[#23] Cite the software you use</h1>
 
 </section>
+<section id="section-2" class="slide level2" data-menu-title="Software citation">
+<h2></h2>
+<h3 id="do-i-cite-all-software-used-in-my-paper">Do I cite all software used in my paper?</h3>
+<div class="fragment fade-in-then-semi-out">
+<p><a href="https://ropensci.org/blog/2021/11/16/how-to-cite-r-and-r-packages/">It depends…</a></p>
+</div>
+<div class="fragment fade-in">
+<!-- -->
+<h3 id="cite-software-thats-key-to-research-results">Cite software that’s KEY to research results</h3>
+</div>
+<div class="columns">
+<div class="column" data-align="center" style="width:50%;">
+<div class="fragment fade-in">
+<p><strong>How to cite R engine</strong></p>
+<!-- type  `citation()` to get reference publication in bibtex entry -->
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">citation</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>To cite R in publications use:
 
+  R Core Team (2023). _R: A Language and Environment for Statistical
+  Computing_. R Foundation for Statistical Computing, Vienna, Austria.
+  &lt;https://www.R-project.org/&gt;.
+
+A BibTeX entry for LaTeX users is
+
+  @Manual{,
+    title = {R: A Language and Environment for Statistical Computing},
+    author = {{R Core Team}},
+    organization = {R Foundation for Statistical Computing},
+    address = {Vienna, Austria},
+    year = {2023},
+    url = {https://www.R-project.org/},
+  }
+
+We have invested a lot of time and effort in creating R, please cite it
+when using it for data analysis. See also 'citation("pkgname")' for
+citing R packages.</code></pre>
+</div>
+</div>
+</div>
+</div><div class="column" data-align="center" style="width:50%;">
+<div class="fragment fade-in">
+<!-- type `citation("<packageName>")` to get reference publication in bibtex format -->
+<p><strong>How to cite R packages</strong></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="fu">citation</span>(<span class="st">"palmerpenguins"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>To cite palmerpenguins in publications use:
+
+  Horst AM, Hill AP, Gorman KB (2020). palmerpenguins: Palmer
+  Archipelago (Antarctica) penguin data. R package version 0.1.0.
+  https://allisonhorst.github.io/palmerpenguins/. doi:
+  10.5281/zenodo.3960218.
+
+A BibTeX entry for LaTeX users is
+
+  @Manual{,
+    title = {palmerpenguins: Palmer Archipelago (Antarctica) penguin data},
+    author = {Allison Marie Horst and Alison Presmanes Hill and Kristen B Gorman},
+    year = {2020},
+    note = {R package version 0.1.0},
+    doi = {10.5281/zenodo.3960218},
+    url = {https://allisonhorst.github.io/palmerpenguins/},
+  }</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="section-3" class="slide level2" data-menu-title="Software citation (II)">
+<h2></h2>
+<ul>
+<li>Do you cite <code>SciPy</code> library as a footnote <sup>1</sup> or as a regular article instead?</li>
+</ul>
+<div>
+<ul>
+<li class="fragment"><p>Do not use URL; cite <code>SciPy</code> as a regular <a href="https://doi.org/10.1038/s41592-019-0686-2">paper</a> (if it is relevant for your research)</p></li>
+<li class="fragment"><p>Authors of software articles <a href="(https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=SciPy+1.0%3A+fundamental+algorithms+for+scientific+computing+in+Python&amp;btnG=)">should receive equal credit</a></p></li>
+</ul>
+</div>
+<div class="fragment fade-in">
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong><strong>Example</strong></strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li><p><a href="https://zenodo.org/record/3479199#.YYmfT73MKAk">Software Citation Checklist for Authors</a></p></li>
+<li><p><span class="citation" data-cites="smith2016">(<a href="#/references" role="doc-biblioref" onclick="">Smith, Katz, and Niemeyer 2016</a>)</span></p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<aside><ol class="aside-footnotes"><li id="fn1"><p>https://scipy.org</p></li></ol></aside></section></section>
+<section>
 <section id="rec24" class="title-slide slide level1 center">
 <h1>[#24] <em>DASA</em> Section</h1>
 
 </section>
-
+<section id="section-4" class="slide level2" data-menu-title="DASA">
+<h2></h2>
+<h3 id="dasa-data-and-software-availability">DASA = Data and Software Availability</h3>
+<blockquote>
+<p>“All analyses were performed using R Statistical Software (v4.3.0; R Core Team 2023). Penguin data was obtained via the <code>palmerpenguins</code> R package (v0.1.0; Horst AM, Hill AP, Gorman KB (2020)”.</p>
+</blockquote>
+</section></section>
+<section>
 <section id="rec25" class="title-slide slide level1 center">
 <h1>[#25] Share pre-prints</h1>
 
 </section>
+<section id="section-5" class="slide level2" data-menu-title="Pre-prints">
+<h2></h2>
+<h3 id="preprints-are-versions-of-papers-that-have-not-yet-been-sent-to-a-journal-for-review">Preprints are versions of papers that have not yet been sent to a journal for review</h3>
+<div>
+<ul>
+<li class="fragment"><p>Sharing preprints increases <strong>access and visibility</strong> to your work</p></li>
+<li class="fragment"><p>Before sharing: choose the most appropriate <a href="03-before-slides.qmd #rec07">license</a></p></li>
+</ul>
+</div>
+<div class="fragment fade-in">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong><strong>Tips</strong></strong></p>
+</div>
+<div class="callout-content">
+<p>Preprint and published versions can be merged in Google Scholar for citation</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="section-6" class="slide level2" data-menu-title="Preprint repositories">
+<h2></h2>
+<h3 id="where-to-deposit">Where to deposit?</h3>
+<ul>
+<li><a href="https://arxiv.org/">arXiv</a>: physics, mathematics, computer science, quantitative biology, statistics, electrical engineering, and system sciences.</li>
+<li><a href="https://www.biorxiv.org/">BioRxiv</a>: biological sciences.</li>
+<li><a href="https://chemrxiv.org/engage/chemrxiv/public-dashboard">ChemRxiv</a>: chemical science.</li>
+<li><a href="https://eartharxiv.org/">EarthArXiv</a>]: Earth Science and related domains of planetary science</li>
+<li><a href="https://psyarxiv.com/">psyArXiv</a>: psychology, powered by <a href="https://osf.io/preprints/">OSFPreprints</a>.</li>
+<li><a href="https://osf.io/preprints/socarxiv">SocArXiv</a>: social sciences, powered by <a href="https://osf.io/preprints/">OSFPreprints</a>.</li>
+</ul>
+</section>
+<section id="sharing-preprints-according-to-uji" class="slide level2 smaller">
+<h2>Sharing preprints according to UJI</h2>
+<div class="fragment fade-in">
+<p><a href="https://www.uji.es/serveis/cd/bib/serveis/investigacio/oa">Open access dissemination of research results</a></p>
+<blockquote>
+<p>“What type of publication must be deposited?”</p>
+<ul>
+<li>Mandatory: scientific articles</li>
+<li>Recommended: monographs, book chapters, working papers, conference papers, etc.</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>“Regarding the version of the article to be deposited, the <em>final document</em> (published version) in PDF format is recommended. If the editorial policy does not allow it, the <em>postprint</em> (the manuscript revised and accepted for publication, before adaptations to the publisher’s final format) or the preprint will be deposited.”</p>
+</blockquote>
+</div>
 
+<aside><div>
+<p><a href="https://www.sherpa.ac.uk/romeo/">Sherpa Romeo</a> analyses publisher open access policies from around the world</p>
+</div></aside></section>
+<section id="section-7" class="slide level2" data-menu-title="Sharing preprints according to UJI (II)">
+<h2></h2>
+<p><a href="http://www.uji.es/upo/rest/contenido/630998650/raw?idioma=es">Declaración institucional a favor de la promoción del acceso abierto en la Universitat Jaume I</a></p>
+<blockquote>
+<p>“Cuando no se permita la difusión en acceso abierto del texto completo revisado, se solicitará que se deposite la versión no revisada de autor o autora (<em>preprint</em>)”</p>
+</blockquote>
+<div class="fragment fade-in">
+<p><a href="https://www.uji.es/investigacio/base/etica/cbpid/">Código de Buenas Prácticas en Investigación y Doctorado</a></p>
+<blockquote>
+<p>“[Researchers] will save the different versions of their publications (preprint, postprint and publisher’s PDF) in order to be able to deposit the document corresponding to the copyright and intellectual property rights in the UJI Repository”</p>
+</blockquote>
+<blockquote>
+<p>“When the revised full text (postprint) is not allowed to be disseminated in open access, the author’s unrevised version (preprint) must be deposited.”</p>
+</blockquote>
+</div>
+</section></section>
 <section id="rec26" class="title-slide slide level1 center">
 <h1>[#26] Share data/code</h1>
 
 </section>
 
+<section>
 <section id="rec27" class="title-slide slide level1 center">
 <h1>[#27] Research Compendia</h1>
 
 </section>
-
+<section id="a-research-compendium-is" class="slide level2">
+<h2>A research compendium is…</h2>
+<div>
+<ul>
+<li class="fragment"><p>Collection of data, code, products (reports, questionnaires, etc.) of a research project that are archived together</p></li>
+<li class="fragment"><p>Standardised and easily recognisable way to organise digital materials of a research project</p></li>
+<li class="fragment"><p>Basic <a href="https://book.the-turing-way.org/reproducible-research/compendia.html#structure-of-a-research-compendium">principles</a> when creating a research compendia</p></li>
+</ul>
+</div>
+<div class="fragment fade-in">
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong><strong>Tools to share every step of the scientific process</strong></strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li><p><a href="http://osf.io/">Open Science Framework (OSF)</a> <a href="https://help.osf.io/article/342-getting-started-on-the-osf">Getting started on the OSF</a></p></li>
+<li><p><a href="https://www.octopus.ac/">Octopus</a> <span class="citation" data-cites="dhar2023">(<a href="#/references" role="doc-biblioref" onclick="">Dhar 2023</a>)</span></p></li>
+<li><p><a href="https://www.researchequals.com/">ResearchEquals</a> <span class="citation" data-cites="dhar2023">(<a href="#/references" role="doc-biblioref" onclick="">Dhar 2023</a>)</span></p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section></section>
+<section>
 <section id="rec28" class="title-slide slide level1 center">
 <h1>[#28] Hello Quarto (and friends)</h1>
 
 </section>
+<section id="section-8" class="slide level2" data-menu-title="Early tools">
+<h2></h2>
+<h3 id="knitr-xie2015-started-in-2011-rmarkdown-xie2018-in-2014"><code>knitr</code> <span class="citation" data-cites="xie2015">(<a href="#/references" role="doc-biblioref" onclick="">Yihui Xie 2015</a>)</span> started in 2011, <code>RMarkdown</code> <span class="citation" data-cites="xie2018">(<a href="#/references" role="doc-biblioref" onclick="">Y. Xie, Allaire, and Grolemund 2018</a>)</span> in 2014</h3>
 
+<img data-src="../images/slides/rmd-knitr.png" class="r-stretch"></section>
+<section id="section-9" class="slide level2" data-menu-title="Quarto with R">
+<h2></h2>
+<h3 id="quarto-allaire2023-started-in-2022"><code>Quarto</code> <span class="citation" data-cites="allaire2023">(<a href="#/references" role="doc-biblioref" onclick="">Allaire 2023</a>)</span> started in 2022</h3>
+
+<img data-src="../images/slides/qmd-knitr.jpeg" class="r-stretch"></section>
+<section id="section-10" class="slide level2" data-menu-title="Quarto with python">
+<h2></h2>
+
+<img data-src="../images/slides/qmd-jupyter.jpeg" class="r-stretch"></section>
+<section id="section-11" class="slide level2" data-menu-title="Quarto with python (II)">
+<h2></h2>
+
+<img data-src="../images/slides/jupyter-alone.jpeg" class="r-stretch"></section>
+<section id="quarto" class="slide level2">
+<h2><code>Quarto</code></h2>
+<ul>
+<li><p>Weave together <strong>text and code</strong> to produce formatted output such as documents, web pages, blog posts, books, articles</p></li>
+<li><p><strong>Dynamic document</strong>: Reproducible figures/tables are created with code and integrated into documents in a way that are automatically updated when analyses are re-run</p></li>
+</ul>
+<div class="fragment fade-in">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong><strong>Tips</strong></strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li><p><a href="https://quarto.org/">Quarto.org</a></p></li>
+<li><p><a href="https://jthomasmock.github.io/quarto-2hr-webinar/materials/01-intro-quarto.html">Quarto in 2 hours</a></p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section></section>
+<section>
 <section id="rec29" class="title-slide slide level1 center">
 <h1>[#29] Reproducible (interactive) manuscripts</h1>
-<p>https://mine.quarto.pub/quarto-manuscripts-rmed/#/title-slide</p>
-</section>
 
+</section>
+<section id="section-12" class="slide level2">
+<h2></h2>
+<p>https://mine.quarto.pub/quarto-manuscripts-rmed/#/title-slide</p>
+</section></section>
 <section>
 <section id="rec30" class="title-slide slide level1 center">
 <h1>[#30] Spread the word</h1>
 
 </section>
-<section id="references" class="slide level2 smaller scrollable">
+<section id="references" class="slide level2 scrollable smaller">
 <h2>References</h2>
 
 
@@ -457,14 +792,30 @@ Carlos Granell
 <p><a href="https://cgranell.github.io/rrp">cgranell.github.io/rrp</a></p>
 </div>
 <div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-allaire2023" class="csl-entry" role="listitem">
+Allaire, JJ. 2023. <em>Quarto: R Interface to ’Quarto’ Markdown Publishing System</em>. <a href="https://CRAN.R-project.org/package=quarto">https://CRAN.R-project.org/package=quarto</a>.
+</div>
+<div id="ref-dhar2023" class="csl-entry" role="listitem">
+Dhar, Payal. 2023. <span>“Octopus and ResearchEquals Aim to Break the Publishing Mould.”</span> <em>Nature</em>. Springer Science; Business Media LLC. <a href="https://doi.org/10.1038/d41586-023-00861-0">https://doi.org/10.1038/d41586-023-00861-0</a>.
+</div>
 <div id="ref-mesnard2017" class="csl-entry" role="listitem">
 Mesnard, Olivier, and Lorena A. Barba. 2017. <span>“Reproducible and Replicable Computational Fluid Dynamics: It’s Harder Than You Think.”</span> <em>Computing in Science Engineering</em> 19 (4): 44–55. <a href="https://doi.org/10.1109/MCSE.2017.3151254">https://doi.org/10.1109/MCSE.2017.3151254</a>.
+</div>
+<div id="ref-smith2016" class="csl-entry" role="listitem">
+Smith, AM, DS Katz, and KE Niemeyer. 2016. <span>“Software Citation Principles.”</span> <em>PeerJ Computer Science</em> 2: e86. <a href="https://doi.org/10.7717/peerj-cs.86">https://doi.org/10.7717/peerj-cs.86</a>.
 </div>
 <div id="ref-stodden2018" class="csl-entry" role="listitem">
 Stodden, Victoria, Jennifer Seiler, and Zhaokun Ma. 2018. <span>“An Empirical Analysis of Journal Policy Effectiveness for Computational Reproducibility.”</span> <em>Proceedings of the National Academy of Sciences</em> 115 (11): 2584–89. <a href="https://doi.org/10.1073/pnas.1708290115">https://doi.org/10.1073/pnas.1708290115</a>.
 </div>
+<div id="ref-xie2018" class="csl-entry" role="listitem">
+Xie, Y, JJ Allaire, and G Grolemund. 2018. <em>R Markdown: The Definitive Guide</em>. CRC Press. <a href="https://bookdown.org/yihui/rmarkdown/">https://bookdown.org/yihui/rmarkdown/</a>.
+</div>
+<div id="ref-xie2015" class="csl-entry" role="listitem">
+Xie, Yihui. 2015. <em>Dynamic Documents with <span>R</span> and Knitr</em>. 2nd ed. Boca Raton, Florida: Chapman; Hall/CRC. <a href="https://yihui.org/knitr/">https://yihui.org/knitr/</a>.
+</div>
 </div>
 </section></section>
+
     </div>
   </div>
 
@@ -678,6 +1029,44 @@ Stodden, Victoria, Jennifer Seiler, and Zhaokun Ma. 2018. <span>“An Empirical 
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

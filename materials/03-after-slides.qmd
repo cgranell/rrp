@@ -68,34 +68,258 @@ policy "data and code available postpublication upon request")
   -  A different version can lead to different results!
 
 
-  - **Readings**:  Check "Story 4: Different Versions of Code, External Libraries, or Compilers can Challenge Reproducibility" [@mesnard2017]
-  
+:::
+
+::: {.fragment .fade-in}
+::: callout-note
+## **Example**
+
+Check *"Story 4: Different Versions of Code, External Libraries, or Compilers can Challenge Reproducibility"* [@mesnard2017] to understand why using different software versions makes a difference in some disciplines
+
+:::
+:::
+
+
+
+# \[#23\] Cite the software you use {#rec23 .center .r-fit-text}
+
+## {data-menu-title="Software citation"}
+
+### Do I cite all software used in my paper? 
+
+::: {.fragment .fade-in-then-semi-out}
+[It depends...](https://ropensci.org/blog/2021/11/16/how-to-cite-r-and-r-packages/)
+:::
+
+::: {.fragment .fade-in}
+### Cite software that's KEY to research results
+:::
+
+:::: {.columns}
+::: {.column width="50%" align="center"}
+
+::: {.fragment .fade-in}
+
+**How to cite R engine** 
+
+<!-- type  `citation()` to get reference publication in bibtex entry -->
+
+```{r}
+#| eval: true
+#| echo: true
+citation()
+
+```
+:::
+:::
+
+::: {.column width="50%" align="center"}
+::: {.fragment .fade-in}
+<!-- type `citation("<packageName>")` to get reference publication in bibtex format -->
+**How to cite R packages**
+
+```{r}
+#| eval: true
+#| echo: true
+citation("palmerpenguins")
+
+```
+:::
+:::
+::::
+
+
+## {data-menu-title="Software citation (II)"}
+
+
+-   Do you cite `SciPy` library as a footnote ^[https://scipy.org] or as a regular article instead?
+
+::: {.incremental}
+
+-   Do not use URL; cite `SciPy` as a regular [paper](https://doi.org/10.1038/s41592-019-0686-2) (if it is relevant for your research)
+
+- Authors of software articles [should receive equal credit]((https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=SciPy+1.0%3A+fundamental+algorithms+for+scientific+computing+in+Python&btnG=))
 
 :::
 
-# \[#23\] Cite the software you use {#rec23 .center .r-fit-text}
+::: {.fragment .fade-in}
+::: callout-note
+## **Example**
+
+ -    [Software Citation Checklist for Authors](https://zenodo.org/record/3479199#.YYmfT73MKAk)
+
+ -    [@smith2016]
+
+:::
+:::
 
 
 # \[#24\] *DASA* Section {#rec24 .center .r-fit-text}
 
+## {data-menu-title="DASA"}
+
+### DASA = Data and Software Availability
+
+
+
+> "All analyses were performed using R Statistical Software (v4.3.0; R Core Team 2023). Penguin data was obtained via the `palmerpenguins` R package (v0.1.0; Horst AM, Hill AP, Gorman KB (2020)".
+
 
 # \[#25\] Share pre-prints {#rec25 .center .r-fit-text}
+
+## {data-menu-title="Pre-prints"}
+
+### Preprints are versions of papers that have not yet been sent to a journal for review
+
+::: {.incremental}
+
+- Sharing preprints increases **access and visibility** to your work 
+
+- Before sharing: choose the most appropriate [license](03-before-slides.qmd #rec07)
+
+:::
+
+::: {.fragment .fade-in}
+::: callout-tip
+## **Tips**
+
+Preprint and published versions can be merged in Google Scholar for citation 
+
+:::
+:::
+
+## {data-menu-title="Preprint repositories"}
+
+### Where to deposit? 
+
+- [arXiv](https://arxiv.org/): physics, mathematics, computer science, quantitative biology, statistics, electrical engineering, and system sciences.
+- [BioRxiv](https://www.biorxiv.org/): biological sciences.
+- [ChemRxiv](https://chemrxiv.org/engage/chemrxiv/public-dashboard): chemical science.
+- [EarthArXiv](https://eartharxiv.org/)]: Earth Science and related domains of planetary science
+- [psyArXiv](https://psyarxiv.com/): psychology, powered by [OSFPreprints](https://osf.io/preprints/).
+- [SocArXiv](https://osf.io/preprints/socarxiv): social sciences, powered by [OSFPreprints](https://osf.io/preprints/).
+
+
+## Sharing preprints according to UJI {.smaller}
+
+::: {.fragment .fade-in}
+
+[Open access dissemination of research results](https://www.uji.es/serveis/cd/bib/serveis/investigacio/oa)
+
+> "What type of publication must be deposited?"
+>
+> -  Mandatory: scientific articles
+> -  Recommended: monographs, book chapters, working papers, conference papers, etc.
+
+> "Regarding the version of the article to be deposited, the *final document* (published version) in PDF format is recommended. If the editorial policy does not allow it, the *postprint* (the manuscript revised and accepted for publication, before adaptations to the publisher's final format) or the preprint will be deposited."
+:::
+
+::: aside
+[Sherpa Romeo](https://www.sherpa.ac.uk/romeo/) analyses publisher open access policies from around the world
+:::
+
+## {data-menu-title="Sharing preprints according to UJI (II)"}
+
+[Declaración institucional a favor de la promoción del acceso abierto en la
+Universitat Jaume I](http://www.uji.es/upo/rest/contenido/630998650/raw?idioma=es)
+
+> "Cuando no se permita la difusión en acceso abierto del texto completo revisado, se solicitará que se deposite la versión no revisada de autor o autora (*preprint*)"
+
+::: {.fragment .fade-in}
+
+[Código de Buenas Prácticas en Investigación y Doctorado](https://www.uji.es/investigacio/base/etica/cbpid/)
+
+> "[Researchers] will save the different versions of their publications (preprint, postprint and publisher’s PDF) in order to be able to deposit the document corresponding to the copyright and intellectual property rights in the UJI Repository"
+
+> "When the revised full text (postprint) is not allowed to be disseminated in open access, the author’s unrevised version (preprint) must be deposited."
+
+:::
 
 
 # \[#26\] Share data/code {#rec26 .center .r-fit-text}
 
 
+
+
 # \[#27\] Research Compendia {#rec27 .center .r-fit-text}
+
+## A research compendium is...
+
+::: {.incremental}
+- Collection of data, code, products (reports, questionnaires, etc.) of a research project that are archived together
+
+- Standardised and easily recognisable way to organise digital materials of a research project
+
+- Basic [principles](https://book.the-turing-way.org/reproducible-research/compendia.html#structure-of-a-research-compendium) when creating a research compendia
+
+::: 
+
+::: {.fragment .fade-in}
+::: callout-note
+## **Tools to share every step of the scientific process**
+
+-   [Open Science Framework (OSF)](http://osf.io/) [Getting started on the OSF](https://help.osf.io/article/342-getting-started-on-the-osf)
+
+-   [Octopus](https://www.octopus.ac/) [@dhar2023]
+  
+-   [ResearchEquals](https://www.researchequals.com/) [@dhar2023]
+
+:::
+:::
+
 
 
 # \[#28\] Hello Quarto (and friends) {#rec28 .center .r-fit-text}
 
 
+## {data-menu-title="Early tools"}
+
+### `knitr` [@xie2015] started in 2011, `RMarkdown` [@xie2018] in 2014
+
+![](../images/slides/rmd-knitr.png)
+
+## {data-menu-title="Quarto with R"}
+
+### `Quarto` [@allaire2023] started in 2022
+
+![](../images/slides/qmd-knitr.jpeg)
+
+## {data-menu-title="Quarto with python"}
+
+![](../images/slides/qmd-jupyter.jpeg)
+
+
+## {data-menu-title="Quarto with python (II)"}
+
+![](../images/slides/jupyter-alone.jpeg)
+
+## `Quarto`
+
+- Weave together **text and code** to produce formatted output such as documents, web pages, blog posts, books, articles
+
+- **Dynamic document**: Reproducible figures/tables are created with code and integrated into documents in a way that are automatically updated when analyses are re-run
+
+
+::: {.fragment .fade-in}
+::: callout-tip
+## **Tips**
+
+- [Quarto.org](https://quarto.org/)
+
+- [Quarto in 2 hours](https://jthomasmock.github.io/quarto-2hr-webinar/materials/01-intro-quarto.html)
+
+:::
+:::
+
+
 # \[#29\] Reproducible (interactive) manuscripts {#rec29 .center .r-fit-text}
+
+## 
 
 https://mine.quarto.pub/quarto-manuscripts-rmed/#/title-slide
 
 # \[#30\] Spread the word {#rec30 .center .r-fit-text}
 
 
-## References
+## References {.scrollable}
+
