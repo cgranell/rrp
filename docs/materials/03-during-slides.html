@@ -479,7 +479,7 @@ Carlos Granell
 <ul>
 <li class="fragment"><p>Reproducibility means <strong>access</strong> to the required datasets to recreate the reported results</p></li>
 <li class="fragment"><p>Access does not necessarily imply that datasets are open or citable or discoverable by themselves</p></li>
-<li class="fragment"><p><strong>Suggestion</strong>: Deposit reproducibility package (data, code, docs) on Zenodo or similar rather than supplementary material tied to the paper</p>
+<li class="fragment"><p><strong>Recommended</strong>: Deposit reproducibility package (data, code, docs) on Zenodo or similar rather than supplementary material tied to the paper</p>
 <ul>
 <li class="fragment">Hint: <a href="https://help.zenodo.org/docs/profile/linking-accounts/">Linking GitHub with Zenodo</a></li>
 </ul></li>
@@ -573,19 +573,33 @@ Carlos Granell
 </section>
 <section id="data-fair-1" class="slide level2" data-menu-title="(Data) FAIR (II)">
 <h2>(Data) FAIR</h2>
-<p>TODO: look at Lidon’s course (But, I have doubts)</p>
+<div>
 <ul>
-<li><p><strong>Findable</strong>: Deposit source code in a repository that provides DOIs and metadata</p></li>
-<li><p><strong>Accessible</strong>: Provide the opportunity to download the source code</p></li>
-<li><p><strong>Interoperable</strong>: Use open source programming languages and software</p></li>
-<li><p><strong>Reusable</strong>: Release the software under a clear and open usage license</p></li>
+<li class="fragment"><p><strong>Findable</strong>: DOI/Handler (when deposited) + metadata (<code>README</code> file) + deposit (institutional/<a href="https://zenodo.org/">general</a>/<a href="https://www.re3data.org/">thematic</a> repositories)</p></li>
+<li class="fragment"><p><strong>Accessible</strong>: standard protocol (HTTP,…) + how-to-access info (<code>README</code> file) + deposit</p></li>
+<li class="fragment"><p><strong>Interoperable</strong>: Open formats + standard schema or vocabularies + deposit</p></li>
+<li class="fragment"><p><strong>Reusable</strong>: Open license + deposit</p></li>
 </ul>
+</div>
+<aside class="notes">
+<p>Write on blackboard: <strong>Minimum to be FAIR compliant is</strong>: <code>README</code> file + Open formats + License + Zenodo</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="data-fair-in-giscience" class="slide level2">
 <h2>(Data) FAIR in GIScience</h2>
 <p><a href="https://copdess.org/enabling-fair-data-project/commitment-statement-in-the-earth-space-and-environmental-sciences/">Coalition for Publishing Data in the Earth and Space Sciences (COPDESS)</a>:</p>
 <blockquote>
-<p>all journals in geosciences require authors to make all data that supports the conclusions in their papers available in publicly accessible repositories that follow the FAIR principles</p>
+<p>All journals in geosciences require authors to make all data that supports the conclusions in their papers available in publicly accessible repositories that follow the FAIR principles</p>
 </blockquote>
 <div class="fragment fade-in">
 <p>All data? <span class="emoji" data-emoji="anguished">😧</span></p>
@@ -635,8 +649,8 @@ Carlos Granell
 <h1>[#14] Use open source tools whenever possible</h1>
 
 </section>
-<section id="open-source-tools" class="slide level2">
-<h2>Open source tools</h2>
+<section id="section" class="slide level2" data-menu-title="Open source tools">
+<h2></h2>
 <div class="columns">
 <div class="column" data-align="center" style="width:50%;">
 <div class="fragment fade-in-then-semi-out">
@@ -692,7 +706,7 @@ Carlos Granell
 <ul>
 <li class="fragment">Descriptive-based analysis (vs.&nbsp;click-based) of what your analysis does</li>
 </ul></li>
-<li class="fragment"><p>Others can understand WHAT and <strong>HOW</strong> has been done (Remember: <a href="slides11_01.html#stark2018"><em>‘Show me’, not ‘trust me’</em></a>) <strong>TODO: REVISE LINKS</strong></p></li>
+<li class="fragment"><p>Others can understand WHAT and <strong>HOW</strong> has been done (Remember: <a href="slides11_01.html#stark2018"><em>‘Show me’, not ‘trust me’</em></a>) <!--**TODO: REVISE LINKS**--></p></li>
 </ul>
 </div>
 <div class="fragment fade-in">
@@ -730,9 +744,9 @@ Carlos Granell
 </ul>
 </div>
 </section>
-<section id="computational-notebooks-1" class="slide level2" data-menu-title="Computational notebooks (II)">
-<h2>Computational notebooks</h2>
-<h3 id="notebooks-as-first-class-citizens">Notebooks as first-class citizens</h3>
+<section id="section-1" class="slide level2" data-menu-title="Computational notebooks (II)">
+<h2></h2>
+<h3 id="computational-notebooks-as-first-class-citizens">Computational notebooks as first-class citizens</h3>
 <div>
 <ul>
 <li class="fragment"><p>EarthCube annual meetings include a call for notebooks (<a href="https://www.earthcube.org/post/call-for-notebooks-cfn-22">CFN 22</a> as peer-reviewed submissions - See <a href="https://github.com/earthcube2022">Notebooks 2022 proceedings</a></p></li>
@@ -757,8 +771,8 @@ Carlos Granell
 <h1>[#17] Preserve computational environment</h1>
 
 </section>
-<section id="preserve-computational-environment" class="slide level2">
-<h2>Preserve computational environment</h2>
+<section id="section-2" class="slide level2" data-menu-title="Preserve computational environment">
+<h2></h2>
 <h3 id="manage-packageslibraries-dependencies">Manage packages/libraries dependencies</h3>
 <div class="fragment fade-in">
 <ul>
@@ -846,28 +860,34 @@ Carlos Granell
 </div>
 
 <aside><div>
-<p>Cite software properly <span class="citation" data-cites="smith2016">(<a href="#/references" role="doc-biblioref" onclick="">Smith, Katz, and Niemeyer 2016</a>)</span> - <a href="slides23_01.html#rec23">#23</a> <strong>TODO: Revise link</strong></p>
+<p>Cite software properly <span class="citation" data-cites="smith2016">(<a href="#/references" role="doc-biblioref" onclick="">Smith, Katz, and Niemeyer 2016</a>)</span> - <a href="03-after-slides.qmd#rec23">#23</a></p>
 </div></aside></section>
 <section id="software-fair-according-to-uji" class="slide level2">
 <h2>(Software) FAIR according to UJI</h2>
 <p><a href="http://www.uji.es/upo/rest/contenido/630998650/raw?idioma=es">Declaración institucional a favor de la promoción del acceso abierto en la Universitat Jaume I</a></p>
 <div class="fragment fade-in">
-<p><strong>Nothing</strong></p>
+<p>Nothing</p>
 </div>
 <div class="fragment fade-in">
 <p><a href="https://www.uji.es/investigacio/base/etica/cbpid/">Código de Buenas Prácticas en Investigación y Doctorado</a></p>
+<blockquote>
+<p>La Universitat Jaume I […] adoptará medidas para facilitar al personal investigador el depósito de […] herramientas de código abierto en acceso abierto en el repositorio institucional o específico</p>
+</blockquote>
 </div>
-<div class="fragment fade-in">
-<p><strong>Nothing</strong> <strong>TODO: TO REVISE</strong></p>
-</div>
+</section>
+<section id="software-fair-according-to-uji-1" class="slide level2">
+<h2>(Software) FAIR according to UJI</h2>
+<blockquote>
+<p>El investigador o investigadora deberá decidir si comparte el código (software) desarrollado en su trabajo. Para ello tendrá en cuenta si la comunidad científica puede beneficiarse de dicho trabajo, o en aras a una mayor reproducibilidad de su trabajo. En tales casos, podría ser conveniente publicarlo con una licencia adecuada que proteja la autoría y derechos. La publicación del código podría restringirse si el investigador o investigadora tiene perspectivas futuras de comercialización o si el código incluye secretos comerciales o registrados.</p>
+</blockquote>
 </section></section>
 <section>
 <section id="rec20" class="title-slide slide level1 center">
 <h1>[#20] Make use of <em>Make</em></h1>
 
 </section>
-<section id="make-use-of-make" class="slide level2">
-<h2>Make use of <em>Make</em></h2>
+<section id="section-3" class="slide level2" data-menu-title="*Make*">
+<h2></h2>
 <h3 id="gnu-make-is-40-years-old-but-still-relevant-today"><a href="https://www.gnu.org/software/make/">GNU Make</a> is +40 years old but still relevant today</h3>
 <div>
 <ul>
@@ -892,7 +912,7 @@ Carlos Granell
 </div>
 </div>
 </section>
-<section id="references" class="slide level2 smaller scrollable">
+<section id="references" class="slide level2 scrollable smaller">
 <h2>References</h2>
 
 

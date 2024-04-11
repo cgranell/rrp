@@ -501,7 +501,7 @@
     "href": "materials/03-during-slides.html#data-for-reproducibility-1",
     "title": "During analysis",
     "section": "Data for reproducibility",
-    "text": "Data for reproducibility\nIf datasets are meaningless outside of the accompanying article (Noy and Goble 2023)\n\n\nReproducibility means access to the required datasets to recreate the reported results\nAccess does not necessarily imply that datasets are open or citable or discoverable by themselves\nSuggestion: Deposit reproducibility package (data, code, docs) on Zenodo or similar rather than supplementary material tied to the paper\n\nHint: Linking GitHub with Zenodo"
+    "text": "Data for reproducibility\nIf datasets are meaningless outside of the accompanying article (Noy and Goble 2023)\n\n\nReproducibility means access to the required datasets to recreate the reported results\nAccess does not necessarily imply that datasets are open or citable or discoverable by themselves\nRecommended: Deposit reproducibility package (data, code, docs) on Zenodo or similar rather than supplementary material tied to the paper\n\nHint: Linking GitHub with Zenodo"
   },
   {
     "objectID": "materials/03-during-slides.html#data-for-reproducibility-example",
@@ -529,14 +529,14 @@
     "href": "materials/03-during-slides.html#data-fair-1",
     "title": "During analysis",
     "section": "(Data) FAIR",
-    "text": "(Data) FAIR\nTODO: look at Lidon’s course (But, I have doubts)\n\nFindable: Deposit source code in a repository that provides DOIs and metadata\nAccessible: Provide the opportunity to download the source code\nInteroperable: Use open source programming languages and software\nReusable: Release the software under a clear and open usage license"
+    "text": "(Data) FAIR\n\n\nFindable: DOI/Handler (when deposited) + metadata (README file) + deposit (institutional/general/thematic repositories)\nAccessible: standard protocol (HTTP,…) + how-to-access info (README file) + deposit\nInteroperable: Open formats + standard schema or vocabularies + deposit\nReusable: Open license + deposit\n\n\n\nWrite on blackboard: Minimum to be FAIR compliant is: README file + Open formats + License + Zenodo"
   },
   {
     "objectID": "materials/03-during-slides.html#data-fair-in-giscience",
     "href": "materials/03-during-slides.html#data-fair-in-giscience",
     "title": "During analysis",
     "section": "(Data) FAIR in GIScience",
-    "text": "(Data) FAIR in GIScience\nCoalition for Publishing Data in the Earth and Space Sciences (COPDESS):\n\nall journals in geosciences require authors to make all data that supports the conclusions in their papers available in publicly accessible repositories that follow the FAIR principles\n\n\nAll data? 😧"
+    "text": "(Data) FAIR in GIScience\nCoalition for Publishing Data in the Earth and Space Sciences (COPDESS):\n\nAll journals in geosciences require authors to make all data that supports the conclusions in their papers available in publicly accessible repositories that follow the FAIR principles\n\n\nAll data? 😧"
   },
   {
     "objectID": "materials/03-during-slides.html#data-fair-according-to-uji",
@@ -571,7 +571,7 @@
     "href": "materials/03-during-slides.html#scripting-languages",
     "title": "During analysis",
     "section": "Scripting languages",
-    "text": "Scripting languages\n\n\nPlay with data, measure & explore, distrust of your intuition\nR/Python scripts describe every step of an analysis\n\nDescriptive-based analysis (vs. click-based) of what your analysis does\n\nOthers can understand WHAT and HOW has been done (Remember: ‘Show me’, not ‘trust me’) TODO: REVISE LINKS\n\n\n\n\n\n\n\n\n\nTips\n\n\nLook at section During analysis: best coding practices in (Alston and Rick 2021)"
+    "text": "Scripting languages\n\n\nPlay with data, measure & explore, distrust of your intuition\nR/Python scripts describe every step of an analysis\n\nDescriptive-based analysis (vs. click-based) of what your analysis does\n\nOthers can understand WHAT and HOW has been done (Remember: ‘Show me’, not ‘trust me’) \n\n\n\n\n\n\n\n\n\nTips\n\n\nLook at section During analysis: best coding practices in (Alston and Rick 2021)"
   },
   {
     "objectID": "materials/03-during-slides.html#computational-notebooks",
@@ -613,14 +613,14 @@
     "href": "materials/03-during-slides.html#software-fair",
     "title": "During analysis",
     "section": "(Software) FAIR",
-    "text": "(Software) FAIR\nDocument your source code (Barker et al. 2022), (Hasselbring et al. 2020)\n\n\nFindable: Deposit source code in a repository that provides DOIs and metadata\nAccessible: Able to download source code\nInteroperable: Use open source programming languages and software\nReusable: Release software under an open usage license\n\n\n\n\nCite software properly (Smith, Katz, and Niemeyer 2016) - #23 TODO: Revise link"
+    "text": "(Software) FAIR\nDocument your source code (Barker et al. 2022), (Hasselbring et al. 2020)\n\n\nFindable: Deposit source code in a repository that provides DOIs and metadata\nAccessible: Able to download source code\nInteroperable: Use open source programming languages and software\nReusable: Release software under an open usage license\n\n\n\n\nCite software properly (Smith, Katz, and Niemeyer 2016) - #23"
   },
   {
     "objectID": "materials/03-during-slides.html#software-fair-according-to-uji",
     "href": "materials/03-during-slides.html#software-fair-according-to-uji",
     "title": "During analysis",
     "section": "(Software) FAIR according to UJI",
-    "text": "(Software) FAIR according to UJI\nDeclaración institucional a favor de la promoción del acceso abierto en la Universitat Jaume I\n\nNothing\n\n\nCódigo de Buenas Prácticas en Investigación y Doctorado\n\n\nNothing TODO: TO REVISE"
+    "text": "(Software) FAIR according to UJI\nDeclaración institucional a favor de la promoción del acceso abierto en la Universitat Jaume I\n\nNothing\n\n\nCódigo de Buenas Prácticas en Investigación y Doctorado\n\nLa Universitat Jaume I […] adoptará medidas para facilitar al personal investigador el depósito de […] herramientas de código abierto en acceso abierto en el repositorio institucional o específico"
   },
   {
     "objectID": "materials/03-during-slides.html#make-use-of-make",
@@ -747,5 +747,54 @@
     "title": "Before analysis",
     "section": "",
     "text": "Easier for individuals and teams to use Git for version control and collaboration\n\n\nVCS + collaborative features + development support features\nTools: GitLab, Bitbucket, GitHub\nReadings:\n\nCookiecutter Data Science: Best practices for organising your repository for easy version control\n(Perez-Riverol et al. 2016), (Jenny Bryan and Hester 2020)"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#minimum-fair-compliance",
+    "href": "materials/03-during-slides.html#minimum-fair-compliance",
+    "title": "During analysis",
+    "section": "Minimum FAIR compliance",
+    "text": "Minimum FAIR compliance\n\nREADME file + OPEN FORMAT + LICENSE + ZENODO"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#minimum-to-be-fair-compliance",
+    "href": "materials/03-during-slides.html#minimum-to-be-fair-compliance",
+    "title": "During analysis",
+    "section": "Minimum to be FAIR compliance",
+    "text": "Minimum to be FAIR compliance\nREADME file + Open formats + License + ZENODO"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#section",
+    "href": "materials/03-during-slides.html#section",
+    "title": "During analysis",
+    "section": "",
+    "text": "Instead of\n\nArcGIS\nGoogle Maps/Places\nStata, SPSS\nExcel\n\n\n\n\n\nUse\n\nQGIS\nOpenStreetMap\nPython, R, …\nor combination of commercial-open tools\n\n\n\n\n\n\n\n\n\n\n\nExample\n\n\nArcGIS Python Notebooks: Mixed approach to make the implicit (click-based analytical workflow) explicit (code-based analytical workflow)"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#section-1",
+    "href": "materials/03-during-slides.html#section-1",
+    "title": "During analysis",
+    "section": "",
+    "text": "Computational notebooks as first-class citizens\n\n\nEarthCube annual meetings include a call for notebooks (CFN 22 as peer-reviewed submissions - See Notebooks 2022 proceedings\nAmerican Geophysical Union (AGU)’s Notebooks Now! (Caprarelli et al. 2023)\nUrban Data/Code submissions to Environment and Planning B: Urban Analytics and City Science\nMaster/PhD theses as computational notebooks?"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#section-2",
+    "href": "materials/03-during-slides.html#section-2",
+    "title": "During analysis",
+    "section": "",
+    "text": "Manage packages/libraries dependencies\n\n\ndocument/manage specific versions of all packages and dependences used in a project\n\n\n\n\nrenv for R or venv for Python. See post on renv usage\n\n\n\n\n# authors' workflow\nrenv::activate()  \nrenv::snapshot()  # check state\nrenv::snapshot()  # check state\n\n\n\n# others' workflow\nrenv::restore()  \n\n\n\n\n\n\ncomplement them with best coding practices (setting a seed, etc.)"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#section-3",
+    "href": "materials/03-during-slides.html#section-3",
+    "title": "During analysis",
+    "section": "",
+    "text": "GNU Make is +40 years old but still relevant today\n\n\ncoordinates and automates command-line processes, such as a series of independent scripts\nprovides “one-entry” point to your analysis\n\n\n\n\n\n\n\n\n\nTips/Readings\n\n\nReproducibility with Make\nSnakeMake: Python alternative to Make"
+  },
+  {
+    "objectID": "materials/03-during-slides.html#software-fair-according-to-uji-1",
+    "href": "materials/03-during-slides.html#software-fair-according-to-uji-1",
+    "title": "During analysis",
+    "section": "(Software) FAIR according to UJI",
+    "text": "(Software) FAIR according to UJI\n\nEl investigador o investigadora deberá decidir si comparte el código (software) desarrollado en su trabajo. Para ello tendrá en cuenta si la comunidad científica puede beneficiarse de dicho trabajo, o en aras a una mayor reproducibilidad de su trabajo. En tales casos, podría ser conveniente publicarlo con una licencia adecuada que proteja la autoría y derechos. La publicación del código podría restringirse si el investigador o investigadora tiene perspectivas futuras de comercialización o si el código incluye secretos comerciales o registrados."
   }
 ]

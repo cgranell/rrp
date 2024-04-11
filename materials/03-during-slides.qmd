@@ -60,7 +60,7 @@ Go to [Recomendation #13](#rec13)
 
 -   Access does not necessarily imply that datasets are open or citable or discoverable by themselves
 
--   **Suggestion**: Deposit reproducibility package (data, code, docs) on Zenodo or similar rather than supplementary material tied to the paper
+-   **Recommended**: Deposit reproducibility package (data, code, docs) on Zenodo or similar rather than supplementary material tied to the paper
 
     -   Hint: [Linking GitHub with Zenodo](https://help.zenodo.org/docs/profile/linking-accounts/)
 :::
@@ -137,21 +137,28 @@ Source: [Mermaid cheatsheet](https://jojozhuang.github.io/tutorial/mermaid-cheat
 
 ## (Data) FAIR {data-menu-title="(Data) FAIR (II)"}
 
-TODO: look at Lidon's course (But, I have doubts)
+::: {.incremental}
 
--   **Findable**: Deposit source code in a repository that provides DOIs and metadata
+-   **Findable**: DOI/Handler (when deposited) + metadata (`README` file) + deposit (institutional/[general](https://zenodo.org/)/[thematic](https://www.re3data.org/) repositories)
 
--   **Accessible**: Provide the opportunity to download the source code
+-   **Accessible**: standard protocol (HTTP,...) + how-to-access info (`README` file) + deposit
 
--   **Interoperable**: Use open source programming languages and software
+-   **Interoperable**: Open formats + standard schema or vocabularies + deposit
 
--   **Reusable**: Release the software under a clear and open usage license
+-   **Reusable**: Open license + deposit
+
+:::
+
+::: {.notes}
+Write on blackboard: **Minimum to be FAIR compliant is**: `README` file + Open formats + License + Zenodo
+:::
+
 
 ## (Data) FAIR in GIScience
 
 [Coalition for Publishing Data in the Earth and Space Sciences (COPDESS)](https://copdess.org/enabling-fair-data-project/commitment-statement-in-the-earth-space-and-environmental-sciences/):
 
-> all journals in geosciences require authors to make all data that supports the conclusions in their papers available in publicly accessible repositories that follow the FAIR principles
+> All journals in geosciences require authors to make all data that supports the conclusions in their papers available in publicly accessible repositories that follow the FAIR principles
 
 ::: {.fragment .fade-in}
 All data? :anguished:
@@ -199,7 +206,7 @@ Does a dataset play a supporting role in your paper? Does it make sense only for
 
 # \[#14\] Use open source tools whenever possible {#rec14 .center .r-fit-text}
 
-## Open source tools
+## {data-menu-title="Open source tools"}
 
 :::: {.columns}
 ::: {.column width="50%" align="center"}
@@ -256,7 +263,7 @@ Does a dataset play a supporting role in your paper? Does it make sense only for
     -   Descriptive-based analysis (vs. click-based) of what your analysis does
 
 
--   Others can understand WHAT and **HOW** has been done (Remember: [_'Show me', not 'trust me'_](slides11_01.html#stark2018)) **TODO: REVISE LINKS**
+-   Others can understand WHAT and **HOW** has been done (Remember: [_'Show me', not 'trust me'_](slides11_01.html#stark2018)) <!--**TODO: REVISE LINKS**-->
 
 :::
 
@@ -290,10 +297,10 @@ Look at section *During analysis: best coding practices* in [@alston2021]
 ::: 
 
 
-## Computational notebooks {data-menu-title="Computational notebooks (II)"}
+## {data-menu-title="Computational notebooks (II)"}
 
 
-### Notebooks as first-class citizens
+### Computational notebooks as first-class citizens
 
 ::: {.incremental}
 
@@ -323,7 +330,7 @@ Look at section *During analysis: best coding practices* in [@alston2021]
 # \[#17\] Preserve computational environment {#rec17 .center .r-fit-text}
 
 
-## Preserve computational environment
+## {data-menu-title="Preserve computational environment"}
 
 ### Manage packages/libraries dependencies
 
@@ -416,7 +423,7 @@ Container: creating a snapshot of a computational environment
 :::
 
 ::: aside
-Cite software properly [@smith2016] - [#23](slides23_01.html#rec23) **TODO: Revise link**
+Cite software properly [@smith2016] - [#23](03-after-slides.qmd#rec23) 
 :::
 
 ## (Software) FAIR according to UJI
@@ -425,23 +432,27 @@ Cite software properly [@smith2016] - [#23](slides23_01.html#rec23) **TODO: Revi
 Universitat Jaume I](http://www.uji.es/upo/rest/contenido/630998650/raw?idioma=es)
 
 ::: {.fragment .fade-in}
-**Nothing** 
+Nothing
 :::
 
 ::: {.fragment .fade-in}
 
 [Código de Buenas Prácticas en Investigación y Doctorado](https://www.uji.es/investigacio/base/etica/cbpid/)
+
+> La Universitat Jaume I [...] adoptará medidas para facilitar al personal investigador el depósito de [...] herramientas de código abierto en acceso abierto en el repositorio institucional o específico
+
 :::
 
-::: {.fragment .fade-in}
-**Nothing** **TODO: TO REVISE**
-:::
+## (Software) FAIR according to UJI
+
+> El investigador o investigadora deberá decidir si comparte el código (software) desarrollado en su trabajo. Para ello tendrá en cuenta si la comunidad científica puede beneficiarse de dicho trabajo, o en aras a una mayor reproducibilidad de su trabajo. En tales casos, podría ser conveniente publicarlo con una licencia adecuada que proteja la autoría y derechos. La publicación del código podría restringirse si el investigador o investigadora tiene perspectivas
+futuras de comercialización o si el código incluye secretos comerciales o registrados.
 
 
 # \[#20\] Make use of *Make* {#rec20 .center .r-fit-text}
 
+## {data-menu-title="*Make*"}
 
-## Make use of *Make*
 
 ### [GNU Make](https://www.gnu.org/software/make/) is +40 years old but still relevant today 
 
@@ -463,4 +474,4 @@ Universitat Jaume I](http://www.uji.es/upo/rest/contenido/630998650/raw?idioma=e
 :::
 
 
-## References
+## References {.scrollable}
