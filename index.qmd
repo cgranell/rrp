@@ -12,7 +12,7 @@ format: html
 This introductory course **Reproducible Research Practices (RRP)** is currently scheduled to be offered in 2 or 3 weeks. While the course is running, some material might not be visible and will be unlocked as the course proceeds. At any other time, this website is continuously online, with small updates happening on an ongoing basis and larger updates every time the course is offered again.
 
 
-This course emphasises the principles and strategies of open science and reproducible research practices and gives you practice in their application to present scientific and technical material in an informative and clear manner.
+This course emphasises the principles and strategies of open science and reproducible research practices and gives you practice (recommendations) in their application to present scientific and technical material in an informative and clear manner.
 
 The source code for everything you see here can be found [on GitHub](https://github.com/cgranell/rpp).
 

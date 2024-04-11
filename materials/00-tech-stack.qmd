@@ -1,19 +1,26 @@
 ---
 title: "Tech stack"
+column: margin
 ---
 
 This course teaches best practices and recommendations for getting started with computational reproducibility to PhD students and research staff from diverse backgrounds with no prior experience, in principle, in computational skills.
 
-While the set of recommended technologies for computational reproducibility is extensive and changing rapidly, course participants can follow this course without using any specific tool. However, to put recommendations into practice, participants are encouraged to familiarize themselves with some key technologies:
+|                       | Before | During | After |
+|-----------------------|--------|--------|-------|
+| [Git](#git)           | ✓✓     | ✓      | ✗     |
+| [GitHub](#github)     | ✗      | ✓✓     | ✓     |
+| [Markdown](#markdown) | ✓✓     | ✓✓✓    | ✗     |
 
--   **Markdown:**
+: Importance of each tech/tool according to the [stages of a research project](../practices.qmd); ✓✓✓ very important , ✓✓ fairly important, ✓ important, ✗: Not at all {#tbl-tech} {tbl-colwidths: "[55,15,15,15]"} {striped .hover}
 
+Course participants can follow this course without using any specific tools, although the technologies for computational reproducibility are broad and changing rapidly. The following list (ordered alphabetically) is an ongoing effort to compile recent and mature technology to support any stage and/or of reproducibility research (see side table). While they are not strictly necessary to follow this course, participants are encouraged to familiarise themselves with some of these technologies and tools to begin practising.
 
-### Technology stack
+### Git {#git}
 
-The following list is an ongoing effort to compile recent and mature technology to support any facet of reproducibility research.
+### GitHub {#github}
 
--   **Git:**
+Using [GitHub](https://github.com/) also goes a long way in helping participants visualise and understand the [Git](#git) process, which also helps them engage. The tool allows participant to view diffs (file changes over time) in the files they collaborate on, track commit histories, and search the current state and the entire history of the code base.
 
--   **Github:** Using [GitHub](https://github.com/) also goes a long way in helping participants visualize and understand the Git process, which also helps them engage. The tool allows participant to view diffs (file changes over time) in the files they collaborate on, track commit histories, and search the current state and the entire history of the code base.
+### Markdown {#markdown}
 
+Markdown is a lightweight markup language for creating formatted text using a plain-text editor", [Wikipedia says](https://en.wikipedia.org/wiki/Markdown). When compared to other markup language, Markdown is really easy to read in its source code form. That's why it is widely used for blogs, collaborative software (from Trello to Github and Moodle), documentation pages, readme files, and computational notebooks. Did you know that complete books have only been written using Markdown?

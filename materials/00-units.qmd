@@ -18,12 +18,12 @@ flowchart LR
 
 **Unit 1 - Introduction to reproducibility:** This unit is an introduction to the key terms of reproducibility and replicability across disciplines. It also offers a historical account to put reproducibility in science into perspective.
 
-**Unit 2 - Reproducibility assessment:** This unit takes the perspective of a reviewer or reader, similar to the reviewer's role in traditional peer review, to assess the level of reproducibility of an article or research report. It gives some general evaluation criteria and puts them into practice in the field of GIScience.
+**Unit 2 - Reproducibility assessment:** This unit takes the perspective of a reviewer or reader, similar to the reviewer's role in traditional peer review, to assess the level of reproducibility of an article or research report. It gives some general evaluation criteria and puts them into practice in the field of [GIScience and Technology](https://bok.eo4geo.eu/CF1-1b).
 
 **Unit 3 - Reproducibility practices and recommendations:** This unit takes the perspective of a principal investigator or author, similar to the author's role in traditional peer review, who needs practical recommendations and practices to write their next article in a reproducible manner. In this unit we discuss a series of practices, tips and recommendations, in increasing order of complexity and technological sophistication, to integrate reproducibility into your daily research tasks. Specific practices produced by the [Reproducible Research @ AGILE](https://reproducible-agile.github.io/) group are also available in the field of GIScience.
 
 **Unit 4 - Reproducibility research at UJI:** 
-In this unit we introduce the local context of the [Universitat Jaume I](https://www.uji.es/), as part of the Spanish research system, regarding on how open science, reproducibility, code and data sharing, and FAIR principles apply to UJI researchers. Therefore, you can skip this section if you are not affiliated with UJI and check with your host institution if similar rules and regulations apply to you.
+In this unit we introduce the local context of the [Universitat Jaume I](https://www.uji.es/), as an actor if the Spanish research ecosystem, regarding on how open science, reproducibility, code and data sharing, and FAIR principles apply to UJI researchers. Therefore, you can skip this section if you are not affiliated with UJI and check with your host institution if similar rules and regulations apply to you.
 
 
 ---
