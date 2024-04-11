@@ -448,11 +448,11 @@ Carlos Granell
 <p><strong><strong>Example</strong></strong></p>
 </div>
 <div class="callout-content">
-<p><span class="citation" data-cites="stodden2018">(<a href="#/references" role="doc-biblioref" onclick="">Stodden, Seiler, and Ma 2018</a>)</span> analysed 204 computational articles from <em>Science</em> (with policy “data and code available postpublication upon request”)</p>
+<p><span class="citation" data-cites="stodden2018">(<a href="#/references" role="doc-biblioref" onclick="">Stodden, Seiler, and Ma 2018</a>)</span> analysed 204 computational articles from <em>Science</em> with policy “data and code available postpublication upon request” in place. Authors:</p>
 <ul>
 <li><p>Received data and/or code from authors for <strong>44%</strong>;</p></li>
 <li><p>Were able to reproduce findings for <strong>26%</strong>;</p></li>
-<li><p>Improvement over no policy, but insufficient for reproducibility</p></li>
+<li><p>Concluded improvement over no policy, but insufficient for reproducibility</p></li>
 </ul>
 </div>
 </div>
@@ -602,9 +602,21 @@ A BibTeX entry for LaTeX users is
 <section id="section-4" class="slide level2" data-menu-title="DASA">
 <h2></h2>
 <h3 id="dasa-data-and-software-availability">DASA = Data and Software Availability</h3>
+<p>AGILE Reproducible Paper Guidelines <span class="citation" data-cites="nust2020">(<a href="#/references" role="doc-biblioref" onclick="">Nust et al. 2020</a>)</span></p>
+<blockquote>
+<p>“The DASA section provides references to where data, software and documentation is available (e.g., paper section or README file) and under what conditions (e.g., copyright, licenses or access procedures for protected data). It should be concise and contain persistent links to repositories using Digital Object Identifiers (DOI).”</p>
+</blockquote>
+</section>
+<section id="dasa-examples" class="slide level2 smaller">
+<h2>DASA Examples</h2>
 <blockquote>
 <p>“All analyses were performed using R Statistical Software (v4.3.0; R Core Team 2023). Penguin data was obtained via the <code>palmerpenguins</code> R package (v0.1.0; Horst AM, Hill AP, Gorman KB (2020)”.</p>
 </blockquote>
+<p>Based on <code>citation()</code> examples in <a href="#/rec23">recommendation 23</a></p>
+<blockquote>
+<p>“The input data for this work are the full texts of GIScience conference proceedings from the years 2012 to 2018. The paper assessment results and source code of figures are published at <a href="https://github.com/nuest/reproducible-research-at-giscience">https://github.com/nuest/reproducible-research-at-giscience</a> and archived on Zenodo [Daniel Nüst et al., 2020]. The used computing environment is <a href="https://github.com/rocker-org/binder/">https://github.com/rocker-org/binder/</a> pinning the R version to 3.6.3 and R packages to the <a href="https://mran.microsoft.com/timemachine">https://mran.microsoft.com/timemachine</a> of July 5th 2019.”</p>
+</blockquote>
+<p>Extracted from <span class="citation" data-cites="ostermann2021">(<a href="#/references" role="doc-biblioref" onclick="">Ostermann et al. 2021</a>)</span></p>
 </section></section>
 <section>
 <section id="rec25" class="title-slide slide level1 center">
@@ -614,10 +626,14 @@ A BibTeX entry for LaTeX users is
 <section id="section-5" class="slide level2" data-menu-title="Pre-prints">
 <h2></h2>
 <h3 id="preprints-are-versions-of-papers-that-have-not-yet-been-sent-to-a-journal-for-review">Preprints are versions of papers that have not yet been sent to a journal for review</h3>
+<div class="columns">
+<div class="column" data-align="center" style="width:40%;">
+<p><img data-src="https://www.uam.es/uam/media/imgl/1606901840863/preprint-postprint-published.svg.png" style="width:100.0%"></p>
+</div><div class="column" data-align="center" style="width:60%;">
 <div>
 <ul>
 <li class="fragment"><p>Sharing preprints increases <strong>access and visibility</strong> to your work</p></li>
-<li class="fragment"><p>Before sharing: choose the most appropriate <a href="03-before-slides.qmd #rec07">license</a></p></li>
+<li class="fragment"><p>Before sharing (depositing): choose appropriate <a href="03-before-slides.qmd#rec07">license</a></p></li>
 </ul>
 </div>
 <div class="fragment fade-in">
@@ -635,7 +651,12 @@ A BibTeX entry for LaTeX users is
 </div>
 </div>
 </div>
-</section>
+</div>
+</div>
+
+<aside><div>
+<p><a href="https://www.uam.es/uam/en/vida-uam/bibliotecas/biblioteca-politecnica/noticias/conoce-que-es-un-preprint-posprint-y-la-version-aceptada-por-el-autor">Source</a></p>
+</div></aside></section>
 <section id="section-6" class="slide level2" data-menu-title="Preprint repositories">
 <h2></h2>
 <h3 id="where-to-deposit">Where to deposit?</h3>
@@ -643,24 +664,20 @@ A BibTeX entry for LaTeX users is
 <li><a href="https://arxiv.org/">arXiv</a>: physics, mathematics, computer science, quantitative biology, statistics, electrical engineering, and system sciences.</li>
 <li><a href="https://www.biorxiv.org/">BioRxiv</a>: biological sciences.</li>
 <li><a href="https://chemrxiv.org/engage/chemrxiv/public-dashboard">ChemRxiv</a>: chemical science.</li>
-<li><a href="https://eartharxiv.org/">EarthArXiv</a>]: Earth Science and related domains of planetary science</li>
+<li><a href="https://eartharxiv.org/">EarthArXiv</a>]: Earth Science and related domains of planetary science.</li>
 <li><a href="https://psyarxiv.com/">psyArXiv</a>: psychology, powered by <a href="https://osf.io/preprints/">OSFPreprints</a>.</li>
 <li><a href="https://osf.io/preprints/socarxiv">SocArXiv</a>: social sciences, powered by <a href="https://osf.io/preprints/">OSFPreprints</a>.</li>
 </ul>
 </section>
-<section id="sharing-preprints-according-to-uji" class="slide level2 smaller">
+<section id="sharing-preprints-according-to-uji" class="slide level2">
 <h2>Sharing preprints according to UJI</h2>
-<div class="fragment fade-in">
 <p><a href="https://www.uji.es/serveis/cd/bib/serveis/investigacio/oa">Open access dissemination of research results</a></p>
+<div class="fragment fade-in">
 <blockquote>
-<p>“What type of publication must be deposited?”</p>
-<ul>
-<li>Mandatory: scientific articles</li>
-<li>Recommended: monographs, book chapters, working papers, conference papers, etc.</li>
-</ul>
+<p>“What type of publication must be deposited? Scientific articles. Also recommended: monographs, book chapters, conference papers, etc.</p>
 </blockquote>
 <blockquote>
-<p>“Regarding the version of the article to be deposited, the <em>final document</em> (published version) in PDF format is recommended. If the editorial policy does not allow it, the <em>postprint</em> (the manuscript revised and accepted for publication, before adaptations to the publisher’s final format) or the preprint will be deposited.”</p>
+<p>“Regarding the version of the article to be deposited, the <em>published document</em> in PDF format is recommended. If the editorial policy does not allow it, the <em>postprint</em> or the <em>preprint</em> will be deposited.”</p>
 </blockquote>
 </div>
 
@@ -683,14 +700,44 @@ A BibTeX entry for LaTeX users is
 </blockquote>
 </div>
 </section></section>
+<section>
 <section id="rec26" class="title-slide slide level1 center">
 <h1>[#26] Share data/code</h1>
 
 </section>
-
+<section id="section-8" class="slide level2" data-menu-title="Share data/code">
+<h2></h2>
+<h3 id="as-part-of-the-writing-and-sharing-process">As part of the writing and sharing process…</h3>
+<div>
+<ul>
+<li class="fragment"><p>Document and <strong>deposit</strong> your data/code resources</p></li>
+<li class="fragment"><p>Include them as <strong>references</strong> in your paper</p></li>
+<li class="fragment"><p><strong>Cite</strong> them (most likely in the <strong>DASA</strong> section)</p></li>
+<li class="fragment"><p>See flowchart in <a href="03-during-slides.qmd#rec13">Recommendation 13</a></p></li>
+</ul>
+</div>
+<div class="fragment fade-in">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong><strong>Tips</strong></strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Check “Reproducibility checklist” <span class="citation" data-cites="nust2020">(<a href="#/references" role="doc-biblioref" onclick="">Nust et al. 2020</a>)</span></li>
+<li><a href="https://help.zenodo.org/docs/profile/linking-accounts/">Linking GitHub with Zenodo</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section></section>
 <section>
 <section id="rec27" class="title-slide slide level1 center">
-<h1>[#27] Research Compendia</h1>
+<h1>[#27] Research compendia</h1>
 
 </section>
 <section id="a-research-compendium-is" class="slide level2">
@@ -713,7 +760,7 @@ A BibTeX entry for LaTeX users is
 </div>
 <div class="callout-content">
 <ul>
-<li><p><a href="http://osf.io/">Open Science Framework (OSF)</a> <a href="https://help.osf.io/article/342-getting-started-on-the-osf">Getting started on the OSF</a></p></li>
+<li><p><a href="http://osf.io/">Open Science Framework (OSF)</a> - <a href="https://help.osf.io/article/342-getting-started-on-the-osf">Getting started on the OSF</a></p></li>
 <li><p><a href="https://www.octopus.ac/">Octopus</a> <span class="citation" data-cites="dhar2023">(<a href="#/references" role="doc-biblioref" onclick="">Dhar 2023</a>)</span></p></li>
 <li><p><a href="https://www.researchequals.com/">ResearchEquals</a> <span class="citation" data-cites="dhar2023">(<a href="#/references" role="doc-biblioref" onclick="">Dhar 2023</a>)</span></p></li>
 </ul>
@@ -727,12 +774,12 @@ A BibTeX entry for LaTeX users is
 <h1>[#28] Hello Quarto (and friends)</h1>
 
 </section>
-<section id="section-8" class="slide level2" data-menu-title="Early tools">
+<section id="section-9" class="slide level2" data-menu-title="Early tools">
 <h2></h2>
 <h3 id="knitr-xie2015-started-in-2011-rmarkdown-xie2018-in-2014"><code>knitr</code> <span class="citation" data-cites="xie2015">(<a href="#/references" role="doc-biblioref" onclick="">Yihui Xie 2015</a>)</span> started in 2011, <code>RMarkdown</code> <span class="citation" data-cites="xie2018">(<a href="#/references" role="doc-biblioref" onclick="">Y. Xie, Allaire, and Grolemund 2018</a>)</span> in 2014</h3>
 
 <img data-src="../images/slides/rmd-knitr.png" class="r-stretch"></section>
-<section id="section-9" class="slide level2" data-menu-title="Quarto with R">
+<section id="section-10" class="slide level2" data-menu-title="Quarto with R">
 <h2></h2>
 <h3 id="quarto-allaire2023-started-in-2022"><code>Quarto</code> <span class="citation" data-cites="allaire2023">(<a href="#/references" role="doc-biblioref" onclick="">Allaire 2023</a>)</span> started in 2022</h3>
 
@@ -775,29 +822,34 @@ A BibTeX entry for LaTeX users is
 <h1>[#29] Reproducible (interactive) manuscripts</h1>
 
 </section>
-<section id="section-10" class="slide level2">
+<section id="section-11" class="slide level2" data-menu-title="From static to reproducible papers">
 <h2></h2>
 <div class="columns">
-<div class="column" data-align="center" style="width:5%;">
-
-</div><div class="column" data-align="center" style="width:30%;">
-<div class="fragment fade-in">
-<p>Business as usual: static PDF content</p>
+<div class="column" data-align="center" style="width:33%;">
+<p>Business as usual</p>
+<p><img data-src="https://drops.dagstuhl.de/storage/00lipics/lipics-vol208-giscience2021/thumbnails/LIPIcs.GIScience.2021.II.2/LIPIcs.GIScience.2021.II.2.png" width="400"></p>
+</div><div class="column" data-align="center" style="width:33%;">
+<div class="fragment fade-in" data-fragment-index="1">
+<p><strong><a href="https://distill.pub/2020/communicating-with-interactive-articles/">Interactive papers</a></strong> <span class="citation" data-cites="hohman2020">(<a href="#/references" role="doc-biblioref" onclick="">Hohman et al. 2020</a>)</span></p>
+<p><img data-src="../images/slides/umap-interactive-paper.png" style="width:100.0%"></p>
 </div>
-</div><div class="column" data-align="center" style="width:30%;">
-<div class="fragment fade-in">
-<p><a href="https://distill.pub/2020/communicating-with-interactive-articles/">Interactive papers</a> <span class="citation" data-cites="hohman2020">(<a href="#/references" role="doc-biblioref" onclick="">Hohman et al. 2020</a>)</span></p>
+</div><div class="column" data-align="center" style="width:33%;">
+<div class="fragment fade-in" data-fragment-index="2">
+<!-- -->
+<h3 id="reproducible-papers"><a href="https://agu.curve.space/articles/NN0000">Reproducible papers</a></h3>
+<p><img data-src="../images/slides/lasplamas-agu-paper.png" style="width:100.0%"></p>
 </div>
-</div><div class="column" data-align="center" style="width:30%;">
-<div class="fragment fade-in">
-<p><a href="https://agu.curve.space/articles/NN0000">Reproducible (interactive) papers</a></p>
 </div>
-</div><div class="column" data-align="center" style="width:5%;">
-
+</div>
+<div class="r-stack">
+<div class="fragment fade-in" data-fragment-index="3">
+<div class="fragment grow highlight-blue" data-fragment-index="3">
+<p>Towards interactive AND reproducible papers</p>
+</div>
 </div>
 </div>
 <aside class="notes">
-<p>https://mine.quarto.pub/quarto-manuscripts-rmed/#/title-slide</p>
+
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -814,6 +866,20 @@ A BibTeX entry for LaTeX users is
 <section id="rec30" class="title-slide slide level1 center">
 <h1>[#30] Spread the word</h1>
 
+</section>
+<section id="section-12" class="slide level2" data-menu-title="Cultural change">
+<h2></h2>
+<h3 id="dear-colleagues">Dear colleagues,</h3>
+<div class="r-stack">
+<p><img data-src="https://media.giphy.com/media/mbhseRYedlG5W/giphy.gif" width="450"></p>
+</div>
+<div class="r-fit-text">
+<div class="fragment fade-in" data-fragment-index="1">
+<div class="fragment highlight-blue" data-fragment-index="1">
+<p>Cultural change &amp; Community effort</p>
+</div>
+</div>
+</div>
 </section>
 <section id="references" class="slide level2 scrollable smaller">
 <h2>References</h2>
@@ -834,6 +900,12 @@ Hohman, Fred, Matthew Conlen, Jeffrey Heer, and Duen Chau. 2020. <span>“Commun
 </div>
 <div id="ref-mesnard2017" class="csl-entry" role="listitem">
 Mesnard, Olivier, and Lorena A. Barba. 2017. <span>“Reproducible and Replicable Computational Fluid Dynamics: It’s Harder Than You Think.”</span> <em>Computing in Science Engineering</em> 19 (4): 44–55. <a href="https://doi.org/10.1109/MCSE.2017.3151254">https://doi.org/10.1109/MCSE.2017.3151254</a>.
+</div>
+<div id="ref-nust2020" class="csl-entry" role="listitem">
+Nust, Daniel, Frank Ostermann, Rusne Sileryte, Barbara Hofer, Carlos Granell, Marta Teperek, Anita Graser, et al. 2020. <span>“Reproducible Publications at AGILE Conferences: Guidelines for Authors, Scientific Reviewers, and Reproducibility Reviewers.”</span> <a href="https://doi.org/10.17605/OSF.IO/CB7Z8">https://doi.org/10.17605/OSF.IO/CB7Z8</a>.
+</div>
+<div id="ref-ostermann2021" class="csl-entry" role="listitem">
+Ostermann, Frank O., Daniel Nüst, Carlos Granell, Barbara Hofer, and Markus Konkol. 2021. <span>“<span class="nocase">Reproducible Research and GIScience: An Evaluation Using GIScience Conference Papers</span>.”</span> In <em>11th International Conference on Geographic Information Science (GIScience 2021) - Part II</em>, edited by Krzysztof Janowicz and Judith A. Verstegen, 208:2:1–16. Leibniz International Proceedings in Informatics (LIPIcs). Dagstuhl, Germany: Schloss Dagstuhl – Leibniz-Zentrum f<span>ü</span>r Informatik. <a href="https://doi.org/10.4230/LIPIcs.GIScience.2021.II.2">https://doi.org/10.4230/LIPIcs.GIScience.2021.II.2</a>.
 </div>
 <div id="ref-smith2016" class="csl-entry" role="listitem">
 Smith, AM, DS Katz, and KE Niemeyer. 2016. <span>“Software Citation Principles.”</span> <em>PeerJ Computer Science</em> 2: e86. <a href="https://doi.org/10.7717/peerj-cs.86">https://doi.org/10.7717/peerj-cs.86</a>.

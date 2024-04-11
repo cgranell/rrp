@@ -62,7 +62,6 @@ Go to [Recomendation #13](#rec13)
 
 -   **Recommended**: Deposit reproducibility package (data, code, docs) on Zenodo or similar rather than supplementary material tied to the paper
 
-    -   Hint: [Linking GitHub with Zenodo](https://help.zenodo.org/docs/profile/linking-accounts/)
 :::
 
 ## Data for reproducibility: Example

@@ -43,15 +43,14 @@ NEVER
 ::: callout-note
 ## **Example**
 
-
-[@stodden2018] analysed 204 computational articles from *Science* (with
-policy "data and code available postpublication upon request")
+[@stodden2018] analysed 204 computational articles from *Science* with
+policy "data and code available postpublication upon request" in place. Authors:
 
   - Received data and/or code from authors for **44%**;
 
   - Were able to reproduce findings for **26%**;
 
-  - Improvement over no policy, but insufficient for reproducibility
+  - Concluded improvement over no policy, but insufficient for reproducibility
 :::
 :::
 
@@ -63,7 +62,6 @@ policy "data and code available postpublication upon request")
 
 ::: {.incremental}
   -  Specify versions of software tools/components used in the paper (packages, libraries, frameworks, etc.)
-
 
   -  A different version can lead to different results!
 
@@ -160,9 +158,19 @@ citation("palmerpenguins")
 
 ### DASA = Data and Software Availability
 
+AGILE Reproducible Paper Guidelines [@nust2020]
 
+> "The DASA section provides references to where data, software and documentation is available (e.g., paper section or README file) and under what conditions (e.g., copyright, licenses or access procedures for protected data). It should be concise and contain persistent links to repositories using Digital Object Identifiers (DOI)."
 
-> "All analyses were performed using R Statistical Software (v4.3.0; R Core Team 2023). Penguin data was obtained via the `palmerpenguins` R package (v0.1.0; Horst AM, Hill AP, Gorman KB (2020)".
+## DASA Examples {.smaller}
+
+> "All analyses were performed using R Statistical Software (v4.3.0; R Core Team 2023). Penguin data was obtained via the `palmerpenguins` R package (v0.1.0; Horst AM, Hill AP, Gorman KB (2020)". 
+
+Based on `citation()` examples in [recommendation 23](#rec23)
+
+> "The input data for this work are the full texts of GIScience conference proceedings from the years 2012 to 2018. The paper assessment results and source code of figures are published at [https://github.com/nuest/reproducible-research-at-giscience](https://github.com/nuest/reproducible-research-at-giscience) and archived on Zenodo [Daniel Nüst et al., 2020]. The used computing environment is [https://github.com/rocker-org/binder/](https://github.com/rocker-org/binder/) pinning the R version to 3.6.3 and R packages to the [https://mran.microsoft.com/timemachine](https://mran.microsoft.com/timemachine) of July 5th 2019." 
+
+Extracted from [@ostermann2021]
 
 
 # \[#25\] Share pre-prints {#rec25 .center .r-fit-text}
@@ -171,11 +179,18 @@ citation("palmerpenguins")
 
 ### Preprints are versions of papers that have not yet been sent to a journal for review
 
+:::: columns
+
+::: {.column width="40%" align="center"}
+![](https://www.uam.es/uam/media/imgl/1606901840863/preprint-postprint-published.svg.png){width="100%"}
+:::
+
+::: {.column width="60%" align="center"}
 ::: {.incremental}
 
 - Sharing preprints increases **access and visibility** to your work 
 
-- Before sharing: choose the most appropriate [license](03-before-slides.qmd #rec07)
+- Before sharing (depositing): choose appropriate [license](03-before-slides.qmd#rec07)
 
 :::
 
@@ -188,6 +203,13 @@ Preprint and published versions can be merged in Google Scholar for citation
 :::
 :::
 
+:::
+::::
+
+::: aside
+
+[Source](https://www.uam.es/uam/en/vida-uam/bibliotecas/biblioteca-politecnica/noticias/conoce-que-es-un-preprint-posprint-y-la-version-aceptada-por-el-autor)
+:::
 ## {data-menu-title="Preprint repositories"}
 
 ### Where to deposit? 
@@ -195,23 +217,19 @@ Preprint and published versions can be merged in Google Scholar for citation
 - [arXiv](https://arxiv.org/): physics, mathematics, computer science, quantitative biology, statistics, electrical engineering, and system sciences.
 - [BioRxiv](https://www.biorxiv.org/): biological sciences.
 - [ChemRxiv](https://chemrxiv.org/engage/chemrxiv/public-dashboard): chemical science.
-- [EarthArXiv](https://eartharxiv.org/)]: Earth Science and related domains of planetary science
+- [EarthArXiv](https://eartharxiv.org/)]: Earth Science and related domains of planetary science.
 - [psyArXiv](https://psyarxiv.com/): psychology, powered by [OSFPreprints](https://osf.io/preprints/).
 - [SocArXiv](https://osf.io/preprints/socarxiv): social sciences, powered by [OSFPreprints](https://osf.io/preprints/).
 
 
-## Sharing preprints according to UJI {.smaller}
-
-::: {.fragment .fade-in}
+## Sharing preprints according to UJI 
 
 [Open access dissemination of research results](https://www.uji.es/serveis/cd/bib/serveis/investigacio/oa)
 
-> "What type of publication must be deposited?"
->
-> -  Mandatory: scientific articles
-> -  Recommended: monographs, book chapters, working papers, conference papers, etc.
+::: {.fragment .fade-in}
+> "What type of publication must be deposited? Scientific articles. Also recommended: monographs, book chapters,  conference papers, etc.
 
-> "Regarding the version of the article to be deposited, the *final document* (published version) in PDF format is recommended. If the editorial policy does not allow it, the *postprint* (the manuscript revised and accepted for publication, before adaptations to the publisher's final format) or the preprint will be deposited."
+> "Regarding the version of the article to be deposited, the *published document* in PDF format is recommended. If the editorial policy does not allow it, the *postprint* or the *preprint* will be deposited."
 :::
 
 ::: aside
@@ -238,10 +256,34 @@ Universitat Jaume I](http://www.uji.es/upo/rest/contenido/630998650/raw?idioma=e
 
 # \[#26\] Share data/code {#rec26 .center .r-fit-text}
 
+## {data-menu-title="Share data/code"}
+
+### As part of the writing and sharing process... 
+
+::: {.incremental}
+-   Document and **deposit** your data/code resources
+
+-   Include them as **references** in your paper
+
+-   **Cite** them (most likely in the **DASA** section)
+
+-   See flowchart in [Recommendation 13](03-during-slides.qmd#rec13)
+
+:::
+
+::: {.fragment .fade-in}
+::: callout-tip
+## **Tips**
+
+-   Check "Reproducibility checklist" [@nust2020]
+-   [Linking GitHub with Zenodo](https://help.zenodo.org/docs/profile/linking-accounts/)
+
+:::
+:::
 
 
 
-# \[#27\] Research Compendia {#rec27 .center .r-fit-text}
+# \[#27\] Research compendia {#rec27 .center .r-fit-text}
 
 ## A research compendium is...
 
@@ -258,9 +300,9 @@ Universitat Jaume I](http://www.uji.es/upo/rest/contenido/630998650/raw?idioma=e
 ::: callout-note
 ## **Tools to share every step of the scientific process**
 
--   [Open Science Framework (OSF)](http://osf.io/) [Getting started on the OSF](https://help.osf.io/article/342-getting-started-on-the-osf)
+-   [Open Science Framework (OSF)](http://osf.io/) - [Getting started on the OSF](https://help.osf.io/article/342-getting-started-on-the-osf)
 
--   [Octopus](https://www.octopus.ac/) [@dhar2023]
+-   [Octopus](https://www.octopus.ac/) [@dhar2023] 
   
 -   [ResearchEquals](https://www.researchequals.com/) [@dhar2023]
 
@@ -314,43 +356,66 @@ Universitat Jaume I](http://www.uji.es/upo/rest/contenido/630998650/raw?idioma=e
 
 # \[#29\] Reproducible (interactive) manuscripts {#rec29 .center .r-fit-text}
 
-## 
-
+## {data-menu-title="From static to reproducible papers"}
 
 :::: {.columns}
-::: {.column width="5%" align="center"}
+
+::: {.column width="33%" align="center"}
+
+Business as usual
+
+![](https://drops.dagstuhl.de/storage/00lipics/lipics-vol208-giscience2021/thumbnails/LIPIcs.GIScience.2021.II.2/LIPIcs.GIScience.2021.II.2.png){width="400px"}
+
 :::
 
-::: {.column width="30%" align="center"}
-::: {.fragment .fade-in}
-Business as usual: static PDF content
-:::
-:::
+::: {.column width="33%" align="center"}
+::: {.fragment .fade-in fragment-index=1}
+**[Interactive papers](https://distill.pub/2020/communicating-with-interactive-articles/)** [@hohman2020]
 
-::: {.column width="30%" align="center"}
-::: {.fragment .fade-in}
-[Interactive papers](https://distill.pub/2020/communicating-with-interactive-articles/) [@hohman2020]
-:::
-:::
+![](../images/slides/umap-interactive-paper.png){width="100%"}
 
-::: {.column width="30%" align="center"}
-::: {.fragment .fade-in}
-[Reproducible (interactive) papers](https://agu.curve.space/articles/NN0000)
 :::
 :::
 
-::: {.column width="5%" align="center"}
+::: {.column width="33%" align="center"}
+::: {.fragment .fade-in fragment-index=2}
+### [Reproducible papers](https://agu.curve.space/articles/NN0000)
+
+![](../images/slides/lasplamas-agu-paper.png){width="100%"}
+:::
 :::
 
 ::::
 
-
+:::{.r-stack}
+::: {.fragment .fade-in fragment-index=3}
+::: {.fragment .grow .highlight-blue fragment-index=3}
+Towards interactive AND reproducible papers
+:::
+:::
+:::
 
 ::: {.notes}
-https://mine.quarto.pub/quarto-manuscripts-rmed/#/title-slide
+
 :::
 
 # \[#30\] Spread the word {#rec30 .center .r-fit-text}
+
+## {data-menu-title="Cultural change"}
+
+### Dear colleagues, 
+
+:::{.r-stack}
+![](https://media.giphy.com/media/mbhseRYedlG5W/giphy.gif){width="450px"}
+:::
+
+::: {.r-fit-text}
+::: {.fragment .fade-in fragment-index=1}
+::: {.fragment .highlight-blue fragment-index=1}
+Cultural change & Community effort
+:::
+:::
+:::
 
 
 ## References {.scrollable}

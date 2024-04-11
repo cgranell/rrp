@@ -179,7 +179,7 @@
     "href": "materials/03-after-slides.html#section-1",
     "title": "After analysis",
     "section": "",
-    "text": "Data and code must be made available at prepublication or submission time (SHOW ME), rather than postpublication (TRUST ME)\n\n\n\n\n\n\n\nExample\n\n\n(Stodden, Seiler, and Ma 2018) analysed 204 computational articles from Science (with policy “data and code available postpublication upon request”)\n\nReceived data and/or code from authors for 44%;\nWere able to reproduce findings for 26%;\nImprovement over no policy, but insufficient for reproducibility"
+    "text": "Data and code must be made available at prepublication or submission time (SHOW ME), rather than postpublication (TRUST ME)\n\n\n\n\n\n\n\nExample\n\n\n(Stodden, Seiler, and Ma 2018) analysed 204 computational articles from Science with policy “data and code available postpublication upon request” in place. Authors:\n\nReceived data and/or code from authors for 44%;\nWere able to reproduce findings for 26%;\nConcluded improvement over no policy, but insufficient for reproducibility"
   },
   {
     "objectID": "materials/03-after-slides.html#software-version",
@@ -207,28 +207,35 @@
     "href": "materials/03-after-slides.html#section-4",
     "title": "After analysis",
     "section": "",
-    "text": "DASA = Data and Software Availability\n\n“All analyses were performed using R Statistical Software (v4.3.0; R Core Team 2023). Penguin data was obtained via the palmerpenguins R package (v0.1.0; Horst AM, Hill AP, Gorman KB (2020)”."
+    "text": "DASA = Data and Software Availability\nAGILE Reproducible Paper Guidelines (Nust et al. 2020)\n\n“The DASA section provides references to where data, software and documentation is available (e.g., paper section or README file) and under what conditions (e.g., copyright, licenses or access procedures for protected data). It should be concise and contain persistent links to repositories using Digital Object Identifiers (DOI).”"
+  },
+  {
+    "objectID": "materials/03-after-slides.html#dasa-examples",
+    "href": "materials/03-after-slides.html#dasa-examples",
+    "title": "After analysis",
+    "section": "DASA Examples",
+    "text": "DASA Examples\n\n“All analyses were performed using R Statistical Software (v4.3.0; R Core Team 2023). Penguin data was obtained via the palmerpenguins R package (v0.1.0; Horst AM, Hill AP, Gorman KB (2020)”.\n\nBased on citation() examples in recommendation 23\n\n“The input data for this work are the full texts of GIScience conference proceedings from the years 2012 to 2018. The paper assessment results and source code of figures are published at https://github.com/nuest/reproducible-research-at-giscience and archived on Zenodo [Daniel Nüst et al., 2020]. The used computing environment is https://github.com/rocker-org/binder/ pinning the R version to 3.6.3 and R packages to the https://mran.microsoft.com/timemachine of July 5th 2019.”\n\nExtracted from (Ostermann et al. 2021)"
   },
   {
     "objectID": "materials/03-after-slides.html#section-5",
     "href": "materials/03-after-slides.html#section-5",
     "title": "After analysis",
     "section": "",
-    "text": "Preprints are versions of papers that have not yet been sent to a journal for review\n\n\nSharing preprints increases access and visibility to your work\nBefore sharing: choose the most appropriate license\n\n\n\n\n\n\n\n\n\nTips\n\n\nPreprint and published versions can be merged in Google Scholar for citation"
+    "text": "Preprints are versions of papers that have not yet been sent to a journal for review\n\n\n\n\n\n\nSharing preprints increases access and visibility to your work\nBefore sharing (depositing): choose appropriate license\n\n\n\n\n\n\n\n\n\nTips\n\n\nPreprint and published versions can be merged in Google Scholar for citation\n\n\n\n\n\n\n\n\nSource"
   },
   {
     "objectID": "materials/03-after-slides.html#section-6",
     "href": "materials/03-after-slides.html#section-6",
     "title": "After analysis",
     "section": "",
-    "text": "Where to deposit?\n\narXiv: physics, mathematics, computer science, quantitative biology, statistics, electrical engineering, and system sciences.\nBioRxiv: biological sciences.\nChemRxiv: chemical science.\nEarthArXiv]: Earth Science and related domains of planetary science\npsyArXiv: psychology, powered by OSFPreprints.\nSocArXiv: social sciences, powered by OSFPreprints."
+    "text": "Where to deposit?\n\narXiv: physics, mathematics, computer science, quantitative biology, statistics, electrical engineering, and system sciences.\nBioRxiv: biological sciences.\nChemRxiv: chemical science.\nEarthArXiv]: Earth Science and related domains of planetary science.\npsyArXiv: psychology, powered by OSFPreprints.\nSocArXiv: social sciences, powered by OSFPreprints."
   },
   {
     "objectID": "materials/03-after-slides.html#sharing-preprints-according-to-uji",
     "href": "materials/03-after-slides.html#sharing-preprints-according-to-uji",
     "title": "After analysis",
     "section": "Sharing preprints according to UJI",
-    "text": "Sharing preprints according to UJI\n\nOpen access dissemination of research results\n\n“What type of publication must be deposited?”\n\nMandatory: scientific articles\nRecommended: monographs, book chapters, working papers, conference papers, etc.\n\n\n\n“Regarding the version of the article to be deposited, the final document (published version) in PDF format is recommended. If the editorial policy does not allow it, the postprint (the manuscript revised and accepted for publication, before adaptations to the publisher’s final format) or the preprint will be deposited.”\n\n\n\n\nSherpa Romeo analyses publisher open access policies from around the world"
+    "text": "Sharing preprints according to UJI\nOpen access dissemination of research results\n\n\n“What type of publication must be deposited? Scientific articles. Also recommended: monographs, book chapters, conference papers, etc.\n\n\n“Regarding the version of the article to be deposited, the published document in PDF format is recommended. If the editorial policy does not allow it, the postprint or the preprint will be deposited.”\n\n\n\n\nSherpa Romeo analyses publisher open access policies from around the world"
   },
   {
     "objectID": "materials/03-after-slides.html#section-7",
@@ -238,22 +245,29 @@
     "text": "Declaración institucional a favor de la promoción del acceso abierto en la Universitat Jaume I\n\n“Cuando no se permita la difusión en acceso abierto del texto completo revisado, se solicitará que se deposite la versión no revisada de autor o autora (preprint)”\n\n\nCódigo de Buenas Prácticas en Investigación y Doctorado\n\n“[Researchers] will save the different versions of their publications (preprint, postprint and publisher’s PDF) in order to be able to deposit the document corresponding to the copyright and intellectual property rights in the UJI Repository”\n\n\n“When the revised full text (postprint) is not allowed to be disseminated in open access, the author’s unrevised version (preprint) must be deposited.”"
   },
   {
+    "objectID": "materials/03-after-slides.html#section-8",
+    "href": "materials/03-after-slides.html#section-8",
+    "title": "After analysis",
+    "section": "",
+    "text": "As part of the writing and sharing process…\n\n\nDocument and deposit your data/code resources\nInclude them as references in your paper\nCite them (most likely in the DASA section)\nSee flowchart in Recommendation 13\n\n\n\n\n\n\n\n\n\nTips\n\n\n\nCheck “Reproducibility checklist” (Nust et al. 2020)\nLinking GitHub with Zenodo"
+  },
+  {
     "objectID": "materials/03-after-slides.html#a-research-compendium-is",
     "href": "materials/03-after-slides.html#a-research-compendium-is",
     "title": "After analysis",
     "section": "A research compendium is…",
-    "text": "A research compendium is…\n\n\nCollection of data, code, products (reports, questionnaires, etc.) of a research project that are archived together\nStandardised and easily recognisable way to organise digital materials of a research project\nBasic principles when creating a research compendia\n\n\n\n\n\n\n\n\n\nTools to share every step of the scientific process\n\n\n\nOpen Science Framework (OSF) Getting started on the OSF\nOctopus (Dhar 2023)\nResearchEquals (Dhar 2023)"
+    "text": "A research compendium is…\n\n\nCollection of data, code, products (reports, questionnaires, etc.) of a research project that are archived together\nStandardised and easily recognisable way to organise digital materials of a research project\nBasic principles when creating a research compendia\n\n\n\n\n\n\n\n\n\nTools to share every step of the scientific process\n\n\n\nOpen Science Framework (OSF) - Getting started on the OSF\nOctopus (Dhar 2023)\nResearchEquals (Dhar 2023)"
   },
   {
-    "objectID": "materials/03-after-slides.html#section-8",
-    "href": "materials/03-after-slides.html#section-8",
+    "objectID": "materials/03-after-slides.html#section-9",
+    "href": "materials/03-after-slides.html#section-9",
     "title": "After analysis",
     "section": "",
     "text": "knitr (Yihui Xie 2015) started in 2011, RMarkdown (Y. Xie, Allaire, and Grolemund 2018) in 2014"
   },
   {
-    "objectID": "materials/03-after-slides.html#section-9",
-    "href": "materials/03-after-slides.html#section-9",
+    "objectID": "materials/03-after-slides.html#section-10",
+    "href": "materials/03-after-slides.html#section-10",
     "title": "After analysis",
     "section": "",
     "text": "Quarto (Allaire 2023) started in 2022"
@@ -280,18 +294,25 @@
     "text": "Quarto\n\nWeave together text and code to produce formatted output such as documents, web pages, blog posts, books, articles\nDynamic document: Reproducible figures/tables are created with code and integrated into documents in a way that are automatically updated when analyses are re-run\n\n\n\n\n\n\n\n\nTips\n\n\n\nQuarto.org\nQuarto in 2 hours"
   },
   {
-    "objectID": "materials/03-after-slides.html#section-10",
-    "href": "materials/03-after-slides.html#section-10",
+    "objectID": "materials/03-after-slides.html#section-11",
+    "href": "materials/03-after-slides.html#section-11",
     "title": "After analysis",
     "section": "",
-    "text": "Business as usual: static PDF content\n\n\n\nInteractive papers (Hohman et al. 2020)\n\n\n\nReproducible (interactive) papers\n\n\n\n\n\n\nhttps://mine.quarto.pub/quarto-manuscripts-rmed/#/title-slide"
+    "text": "Business as usual\n\n\n\nInteractive papers (Hohman et al. 2020)\n\n\n\n\n\nReproducible papers\n\n\n\n\n\n\n\nTowards interactive AND reproducible papers"
+  },
+  {
+    "objectID": "materials/03-after-slides.html#section-12",
+    "href": "materials/03-after-slides.html#section-12",
+    "title": "After analysis",
+    "section": "",
+    "text": "Dear colleagues,\n\n\n\n\n\n\nCultural change & Community effort"
   },
   {
     "objectID": "materials/03-after-slides.html#references",
     "href": "materials/03-after-slides.html#references",
     "title": "After analysis",
     "section": "References",
-    "text": "References\n\n\n\ncgranell.github.io/rrp\n\n\n\nAllaire, JJ. 2023. Quarto: R Interface to ’Quarto’ Markdown Publishing System. https://CRAN.R-project.org/package=quarto.\n\n\nDhar, Payal. 2023. “Octopus and ResearchEquals Aim to Break the Publishing Mould.” Nature. Springer Science; Business Media LLC. https://doi.org/10.1038/d41586-023-00861-0.\n\n\nHohman, Fred, Matthew Conlen, Jeffrey Heer, and Duen Chau. 2020. “Communicating with Interactive Articles.” Distill 5 (9). https://doi.org/10.23915/distill.00028.\n\n\nMesnard, Olivier, and Lorena A. Barba. 2017. “Reproducible and Replicable Computational Fluid Dynamics: It’s Harder Than You Think.” Computing in Science Engineering 19 (4): 44–55. https://doi.org/10.1109/MCSE.2017.3151254.\n\n\nSmith, AM, DS Katz, and KE Niemeyer. 2016. “Software Citation Principles.” PeerJ Computer Science 2: e86. https://doi.org/10.7717/peerj-cs.86.\n\n\nStodden, Victoria, Jennifer Seiler, and Zhaokun Ma. 2018. “An Empirical Analysis of Journal Policy Effectiveness for Computational Reproducibility.” Proceedings of the National Academy of Sciences 115 (11): 2584–89. https://doi.org/10.1073/pnas.1708290115.\n\n\nXie, Y, JJ Allaire, and G Grolemund. 2018. R Markdown: The Definitive Guide. CRC Press. https://bookdown.org/yihui/rmarkdown/.\n\n\nXie, Yihui. 2015. Dynamic Documents with R and Knitr. 2nd ed. Boca Raton, Florida: Chapman; Hall/CRC. https://yihui.org/knitr/."
+    "text": "References\n\n\n\ncgranell.github.io/rrp\n\n\n\nAllaire, JJ. 2023. Quarto: R Interface to ’Quarto’ Markdown Publishing System. https://CRAN.R-project.org/package=quarto.\n\n\nDhar, Payal. 2023. “Octopus and ResearchEquals Aim to Break the Publishing Mould.” Nature. Springer Science; Business Media LLC. https://doi.org/10.1038/d41586-023-00861-0.\n\n\nHohman, Fred, Matthew Conlen, Jeffrey Heer, and Duen Chau. 2020. “Communicating with Interactive Articles.” Distill 5 (9). https://doi.org/10.23915/distill.00028.\n\n\nMesnard, Olivier, and Lorena A. Barba. 2017. “Reproducible and Replicable Computational Fluid Dynamics: It’s Harder Than You Think.” Computing in Science Engineering 19 (4): 44–55. https://doi.org/10.1109/MCSE.2017.3151254.\n\n\nNust, Daniel, Frank Ostermann, Rusne Sileryte, Barbara Hofer, Carlos Granell, Marta Teperek, Anita Graser, et al. 2020. “Reproducible Publications at AGILE Conferences: Guidelines for Authors, Scientific Reviewers, and Reproducibility Reviewers.” https://doi.org/10.17605/OSF.IO/CB7Z8.\n\n\nOstermann, Frank O., Daniel Nüst, Carlos Granell, Barbara Hofer, and Markus Konkol. 2021. “Reproducible Research and GIScience: An Evaluation Using GIScience Conference Papers.” In 11th International Conference on Geographic Information Science (GIScience 2021) - Part II, edited by Krzysztof Janowicz and Judith A. Verstegen, 208:2:1–16. Leibniz International Proceedings in Informatics (LIPIcs). Dagstuhl, Germany: Schloss Dagstuhl – Leibniz-Zentrum für Informatik. https://doi.org/10.4230/LIPIcs.GIScience.2021.II.2.\n\n\nSmith, AM, DS Katz, and KE Niemeyer. 2016. “Software Citation Principles.” PeerJ Computer Science 2: e86. https://doi.org/10.7717/peerj-cs.86.\n\n\nStodden, Victoria, Jennifer Seiler, and Zhaokun Ma. 2018. “An Empirical Analysis of Journal Policy Effectiveness for Computational Reproducibility.” Proceedings of the National Academy of Sciences 115 (11): 2584–89. https://doi.org/10.1073/pnas.1708290115.\n\n\nXie, Y, JJ Allaire, and G Grolemund. 2018. R Markdown: The Definitive Guide. CRC Press. https://bookdown.org/yihui/rmarkdown/.\n\n\nXie, Yihui. 2015. Dynamic Documents with R and Knitr. 2nd ed. Boca Raton, Florida: Chapman; Hall/CRC. https://yihui.org/knitr/."
   },
   {
     "objectID": "materials/03-after.html",
@@ -371,11 +392,11 @@
     "text": "README file(s)\n\n\nInclude (if required) README files in each subfolder to describe metadata/complex content\nKeep track of ideas, discussions and decisions about the project (in the notes folder)\nPlain text files can be easily version controlled (See Recommendations #9 and #10)"
   },
   {
-    "objectID": "materials/03-before-slides.html#concept-of-license",
-    "href": "materials/03-before-slides.html#concept-of-license",
+    "objectID": "materials/03-before-slides.html#concept",
+    "href": "materials/03-before-slides.html#concept",
     "title": "Before analysis",
-    "section": "Concept of license",
-    "text": "Concept of license\nA license is a contract between the authors and users (Jolly, Fletcher, and Bourne 2012)\n\nWithout a license, copyright is automatically attached to your work\n\n\nIf you plan to make your work (data/databases/documents) public, always specify a license via a LICENSE file (LICENSE.md or LICENSE.txt)"
+    "section": "Concept",
+    "text": "Concept\nA license is a contract between the authors and users (Jolly, Fletcher, and Bourne 2012)\n\nWithout a license, copyright is automatically attached to your work\n\n\nIf you plan to make your work (data/databases/documents) public, always specify a license via a LICENSE file (LICENSE.md or LICENSE.txt)\n\n\nChoosealicense.com"
   },
   {
     "objectID": "materials/03-before-slides.html#data-licenses-creative-commons",
@@ -434,18 +455,18 @@
     "text": "Software licenses: What UJI recommends\nNothing"
   },
   {
-    "objectID": "materials/03-before-slides.html#version-control-systems",
-    "href": "materials/03-before-slides.html#version-control-systems",
+    "objectID": "materials/03-before-slides.html#section-1",
+    "href": "materials/03-before-slides.html#section-1",
     "title": "Before analysis",
-    "section": "Version control systems",
-    "text": "Version control systems\nTurn your local project folder into a version control repository\n\n\nto keep track changes of your work over time\nto roll back to past edits (track history)\nto handle properly text formats (code, text docs, markdown docs) as opposed to rich/binary formats (Word, gif/jpg)\nTools: Git, SVN, Mercurial\nReadings: Getting started with git, An introduction to Git: what it is, and how to use it, (Perez-Riverol et al. 2016), (Jennifer Bryan 2018)\n\n\n::::"
+    "section": "",
+    "text": "Turn your local project folder into a version control repository\n\n\nto keep track changes of your work over time\nto roll back to past edits (track history)\nto handle properly text formats (code, text docs, markdown docs) as opposed to rich/binary formats (Word, gif/jpg)\nTools: Git, SVN, Mercurial\nReadings: Getting started with Git, An introduction to Git: what it is, and how to use it, (Perez-Riverol et al. 2016), (Jennifer Bryan 2018)\n\n\n::::"
   },
   {
-    "objectID": "materials/03-before-slides.html#online-git-repository-hosting-services",
-    "href": "materials/03-before-slides.html#online-git-repository-hosting-services",
+    "objectID": "materials/03-before-slides.html#section-2",
+    "href": "materials/03-before-slides.html#section-2",
     "title": "Before analysis",
-    "section": "Online (Git) repository hosting services",
-    "text": "Online (Git) repository hosting services\nEasier for individuals and teams to use Git for version control and collaboration\n\n\nVCS + collaborative features + development support features\nTools: GitLab, Bitbucket, GitHub\nReadings:\n\nCookiecutter Data Science: Best practices for organising your repository for easy version control\n(Perez-Riverol et al. 2016), (Jenny Bryan and Hester 2020)"
+    "section": "",
+    "text": "Easier for individuals and teams to use Git for version control and collaboration\n\n\nVCS + collaborative features + development support features\nTools: GitLab, Bitbucket, GitHub\nReadings:\n\nCookiecutter Data Science: Best practices for organising your repository for easy version control\n(Perez-Riverol et al. 2016), (Jenny Bryan and Hester 2020)"
   },
   {
     "objectID": "materials/03-before-slides.html#references",
@@ -501,7 +522,7 @@
     "href": "materials/03-during-slides.html#data-for-reproducibility-1",
     "title": "During analysis",
     "section": "Data for reproducibility",
-    "text": "Data for reproducibility\nIf datasets are meaningless outside of the accompanying article (Noy and Goble 2023)\n\n\nReproducibility means access to the required datasets to recreate the reported results\nAccess does not necessarily imply that datasets are open or citable or discoverable by themselves\nRecommended: Deposit reproducibility package (data, code, docs) on Zenodo or similar rather than supplementary material tied to the paper\n\nHint: Linking GitHub with Zenodo"
+    "text": "Data for reproducibility\nIf datasets are meaningless outside of the accompanying article (Noy and Goble 2023)\n\n\nReproducibility means access to the required datasets to recreate the reported results\nAccess does not necessarily imply that datasets are open or citable or discoverable by themselves\nRecommended: Deposit reproducibility package (data, code, docs) on Zenodo or similar rather than supplementary material tied to the paper"
   },
   {
     "objectID": "materials/03-during-slides.html#data-for-reproducibility-example",
@@ -560,11 +581,11 @@
     "text": "A (personal) view on #13 and #14\n\nIs a dataset a valuable contribution of your paper? Are you going to exploit it in various experiments?\n\n\n\nInvest time to make it FAIRable\n\n\n\nDoes a dataset play a supporting role in your paper? Does it make sense only for one particular paper/experiment?\n\n\n\nTake it easy, my friend: Document (README file), pick a licence, and archive on Zenodo"
   },
   {
-    "objectID": "materials/03-during-slides.html#open-source-tools",
-    "href": "materials/03-during-slides.html#open-source-tools",
+    "objectID": "materials/03-during-slides.html#section",
+    "href": "materials/03-during-slides.html#section",
     "title": "During analysis",
-    "section": "Open source tools",
-    "text": "Open source tools\n\n\n\n\nInstead of\n\nArcGIS\nGoogle Maps/Places\nStata, SPSS\nExcel\n\n\n\n\n\nUse\n\nQGIS\nOpenStreetMap\nPython, R, …\nor combination of commercial-open tools\n\n\n\n\n\n\n\n\n\n\n\nExample\n\n\nArcGIS Python Notebooks: Mixed approach to make the implicit (click-based analytical workflow) explicit (code-based analytical workflow)"
+    "section": "",
+    "text": "Instead of\n\nArcGIS\nGoogle Maps/Places\nStata, SPSS\nExcel\n\n\n\n\n\nUse\n\nQGIS\nOpenStreetMap\nPython, R, …\nor combination of commercial-open tools\n\n\n\n\n\n\n\n\n\n\n\nExample\n\n\nArcGIS Python Notebooks: Mixed approach to make the implicit (click-based analytical workflow) explicit (code-based analytical workflow)"
   },
   {
     "objectID": "materials/03-during-slides.html#scripting-languages",
@@ -581,11 +602,11 @@
     "text": "Computational notebooks\n\n\nA computational notebook is a (cloud-based/local) editor composed of cells, which is used for literate programming\nEach cell may contain:\n\nnarrative/text/documentation, or\nexecutable code (python, R, …), or\nresults as code output (charts, tables, plots, maps, …)"
   },
   {
-    "objectID": "materials/03-during-slides.html#computational-notebooks-1",
-    "href": "materials/03-during-slides.html#computational-notebooks-1",
+    "objectID": "materials/03-during-slides.html#section-1",
+    "href": "materials/03-during-slides.html#section-1",
     "title": "During analysis",
-    "section": "Computational notebooks",
-    "text": "Computational notebooks\nNotebooks as first-class citizens\n\n\nEarthCube annual meetings include a call for notebooks (CFN 22 as peer-reviewed submissions - See Notebooks 2022 proceedings\nAmerican Geophysical Union (AGU)’s Notebooks Now! (Caprarelli et al. 2023)\nUrban Data/Code submissions to Environment and Planning B: Urban Analytics and City Science\nMaster/PhD theses as computational notebooks?"
+    "section": "",
+    "text": "Computational notebooks as first-class citizens\n\n\nEarthCube annual meetings include a call for notebooks (CFN 22 as peer-reviewed submissions - See Notebooks 2022 proceedings\nAmerican Geophysical Union (AGU)’s Notebooks Now! (Caprarelli et al. 2023)\nUrban Data/Code submissions to Environment and Planning B: Urban Analytics and City Science\nMaster/PhD theses as computational notebooks?"
   },
   {
     "objectID": "materials/03-during-slides.html#computational-notebooks-examples",
@@ -595,11 +616,11 @@
     "text": "Computational notebooks: examples\nJupyterLabs, RMarkdown, Quarto, Matlab Live Scripts, Wolfram, see more in Wikipedia\n(Pimentel et al. 2019) studied 1.4 millions of notebooks (GitHub)\n\nOnly 24% ran without exceptions\nOnly 4% produced same results\nOutput: best practices for the reproducibility of notebooks"
   },
   {
-    "objectID": "materials/03-during-slides.html#preserve-computational-environment",
-    "href": "materials/03-during-slides.html#preserve-computational-environment",
+    "objectID": "materials/03-during-slides.html#section-2",
+    "href": "materials/03-during-slides.html#section-2",
     "title": "During analysis",
-    "section": "Preserve computational environment",
-    "text": "Preserve computational environment\nManage packages/libraries dependencies\n\n\ndocument/manage specific versions of all packages and dependences used in a project\n\n\n\n\nrenv for R or venv for Python. See post on renv usage\n\n\n\n\n# authors' workflow\nrenv::activate()  \nrenv::snapshot()  # check state\nrenv::snapshot()  # check state\n\n\n\n# others' workflow\nrenv::restore()  \n\n\n\n\n\n\ncomplement them with best coding practices (setting a seed, etc.)"
+    "section": "",
+    "text": "Manage packages/libraries dependencies\n\n\ndocument/manage specific versions of all packages and dependences used in a project\n\n\n\n\nrenv for R or venv for Python. See post on renv usage\n\n\n\n\n# authors' workflow\nrenv::activate()  \nrenv::snapshot()  # check state\nrenv::snapshot()  # check state\n\n\n\n# others' workflow\nrenv::restore()  \n\n\n\n\n\n\ncomplement them with best coding practices (setting a seed, etc.)"
   },
   {
     "objectID": "materials/03-during-slides.html#container-tools",
@@ -623,11 +644,18 @@
     "text": "(Software) FAIR according to UJI\nDeclaración institucional a favor de la promoción del acceso abierto en la Universitat Jaume I\n\nNothing\n\n\nCódigo de Buenas Prácticas en Investigación y Doctorado\n\nLa Universitat Jaume I […] adoptará medidas para facilitar al personal investigador el depósito de […] herramientas de código abierto en acceso abierto en el repositorio institucional o específico"
   },
   {
-    "objectID": "materials/03-during-slides.html#make-use-of-make",
-    "href": "materials/03-during-slides.html#make-use-of-make",
+    "objectID": "materials/03-during-slides.html#software-fair-according-to-uji-1",
+    "href": "materials/03-during-slides.html#software-fair-according-to-uji-1",
     "title": "During analysis",
-    "section": "Make use of Make",
-    "text": "Make use of Make\nGNU Make is +40 years old but still relevant today\n\n\ncoordinates and automates command-line processes, such as a series of independent scripts\nprovides “one-entry” point to your analysis\n\n\n\n\n\n\n\n\n\nTips/Readings\n\n\nReproducibility with Make\nSnakeMake: Python alternative to Make"
+    "section": "(Software) FAIR according to UJI",
+    "text": "(Software) FAIR according to UJI\n\nEl investigador o investigadora deberá decidir si comparte el código (software) desarrollado en su trabajo. Para ello tendrá en cuenta si la comunidad científica puede beneficiarse de dicho trabajo, o en aras a una mayor reproducibilidad de su trabajo. En tales casos, podría ser conveniente publicarlo con una licencia adecuada que proteja la autoría y derechos. La publicación del código podría restringirse si el investigador o investigadora tiene perspectivas futuras de comercialización o si el código incluye secretos comerciales o registrados."
+  },
+  {
+    "objectID": "materials/03-during-slides.html#section-3",
+    "href": "materials/03-during-slides.html#section-3",
+    "title": "During analysis",
+    "section": "",
+    "text": "GNU Make is +40 years old but still relevant today\n\n\ncoordinates and automates command-line processes, such as a series of independent scripts\nprovides “one-entry” point to your analysis\n\n\n\n\n\n\n\n\n\nTips/Readings\n\n\nReproducibility with Make\nSnakeMake: Python alternative to Make"
   },
   {
     "objectID": "materials/03-during-slides.html#references",
@@ -726,75 +754,5 @@
     "title": "Reproducible research at UJI",
     "section": "UJI",
     "text": "UJI\nAs part of the Open Knowledge Portal, the UJI library provides guides for researchers about the open access dissemination of the results of the investigation, and copyright and licenses.\n\nOpen Access Declaration\nDeclaració institucional a favor de la promoció de l’accés obert a la Universitat Jaume I\n\n\nBest practices for research\nCódigo de Buenas Prácticas en Investigación y Doctorado, CBPID – focus on “open access” section"
-  },
-  {
-    "objectID": "materials/03-before-slides.html#concept",
-    "href": "materials/03-before-slides.html#concept",
-    "title": "Before analysis",
-    "section": "Concept",
-    "text": "Concept\nA license is a contract between the authors and users (Jolly, Fletcher, and Bourne 2012)\n\nWithout a license, copyright is automatically attached to your work\n\n\nIf you plan to make your work (data/databases/documents) public, always specify a license via a LICENSE file (LICENSE.md or LICENSE.txt)\n\n\nChoosealicense.com"
-  },
-  {
-    "objectID": "materials/03-before-slides.html#section-1",
-    "href": "materials/03-before-slides.html#section-1",
-    "title": "Before analysis",
-    "section": "",
-    "text": "Turn your local project folder into a version control repository\n\n\nto keep track changes of your work over time\nto roll back to past edits (track history)\nto handle properly text formats (code, text docs, markdown docs) as opposed to rich/binary formats (Word, gif/jpg)\nTools: Git, SVN, Mercurial\nReadings: Getting started with Git, An introduction to Git: what it is, and how to use it, (Perez-Riverol et al. 2016), (Jennifer Bryan 2018)\n\n\n::::"
-  },
-  {
-    "objectID": "materials/03-before-slides.html#section-2",
-    "href": "materials/03-before-slides.html#section-2",
-    "title": "Before analysis",
-    "section": "",
-    "text": "Easier for individuals and teams to use Git for version control and collaboration\n\n\nVCS + collaborative features + development support features\nTools: GitLab, Bitbucket, GitHub\nReadings:\n\nCookiecutter Data Science: Best practices for organising your repository for easy version control\n(Perez-Riverol et al. 2016), (Jenny Bryan and Hester 2020)"
-  },
-  {
-    "objectID": "materials/03-during-slides.html#minimum-fair-compliance",
-    "href": "materials/03-during-slides.html#minimum-fair-compliance",
-    "title": "During analysis",
-    "section": "Minimum FAIR compliance",
-    "text": "Minimum FAIR compliance\n\nREADME file + OPEN FORMAT + LICENSE + ZENODO"
-  },
-  {
-    "objectID": "materials/03-during-slides.html#minimum-to-be-fair-compliance",
-    "href": "materials/03-during-slides.html#minimum-to-be-fair-compliance",
-    "title": "During analysis",
-    "section": "Minimum to be FAIR compliance",
-    "text": "Minimum to be FAIR compliance\nREADME file + Open formats + License + ZENODO"
-  },
-  {
-    "objectID": "materials/03-during-slides.html#section",
-    "href": "materials/03-during-slides.html#section",
-    "title": "During analysis",
-    "section": "",
-    "text": "Instead of\n\nArcGIS\nGoogle Maps/Places\nStata, SPSS\nExcel\n\n\n\n\n\nUse\n\nQGIS\nOpenStreetMap\nPython, R, …\nor combination of commercial-open tools\n\n\n\n\n\n\n\n\n\n\n\nExample\n\n\nArcGIS Python Notebooks: Mixed approach to make the implicit (click-based analytical workflow) explicit (code-based analytical workflow)"
-  },
-  {
-    "objectID": "materials/03-during-slides.html#section-1",
-    "href": "materials/03-during-slides.html#section-1",
-    "title": "During analysis",
-    "section": "",
-    "text": "Computational notebooks as first-class citizens\n\n\nEarthCube annual meetings include a call for notebooks (CFN 22 as peer-reviewed submissions - See Notebooks 2022 proceedings\nAmerican Geophysical Union (AGU)’s Notebooks Now! (Caprarelli et al. 2023)\nUrban Data/Code submissions to Environment and Planning B: Urban Analytics and City Science\nMaster/PhD theses as computational notebooks?"
-  },
-  {
-    "objectID": "materials/03-during-slides.html#section-2",
-    "href": "materials/03-during-slides.html#section-2",
-    "title": "During analysis",
-    "section": "",
-    "text": "Manage packages/libraries dependencies\n\n\ndocument/manage specific versions of all packages and dependences used in a project\n\n\n\n\nrenv for R or venv for Python. See post on renv usage\n\n\n\n\n# authors' workflow\nrenv::activate()  \nrenv::snapshot()  # check state\nrenv::snapshot()  # check state\n\n\n\n# others' workflow\nrenv::restore()  \n\n\n\n\n\n\ncomplement them with best coding practices (setting a seed, etc.)"
-  },
-  {
-    "objectID": "materials/03-during-slides.html#section-3",
-    "href": "materials/03-during-slides.html#section-3",
-    "title": "During analysis",
-    "section": "",
-    "text": "GNU Make is +40 years old but still relevant today\n\n\ncoordinates and automates command-line processes, such as a series of independent scripts\nprovides “one-entry” point to your analysis\n\n\n\n\n\n\n\n\n\nTips/Readings\n\n\nReproducibility with Make\nSnakeMake: Python alternative to Make"
-  },
-  {
-    "objectID": "materials/03-during-slides.html#software-fair-according-to-uji-1",
-    "href": "materials/03-during-slides.html#software-fair-according-to-uji-1",
-    "title": "During analysis",
-    "section": "(Software) FAIR according to UJI",
-    "text": "(Software) FAIR according to UJI\n\nEl investigador o investigadora deberá decidir si comparte el código (software) desarrollado en su trabajo. Para ello tendrá en cuenta si la comunidad científica puede beneficiarse de dicho trabajo, o en aras a una mayor reproducibilidad de su trabajo. En tales casos, podría ser conveniente publicarlo con una licencia adecuada que proteja la autoría y derechos. La publicación del código podría restringirse si el investigador o investigadora tiene perspectivas futuras de comercialización o si el código incluye secretos comerciales o registrados."
   }
 ]
