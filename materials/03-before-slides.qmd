@@ -89,7 +89,7 @@ execute:
 ::: callout-note
 ## **Example**
 
-[Turing's project structure](https://the-turing-way.netlify.app/project-design/project-repo/project-repo-advanced.html) [@turingway2019]
+[Turing's project structure](https://book.the-turing-way.org/project-design/project-repo/project-repo-advanced.html) [@turingway2022]
 :::
 :::
 
@@ -119,25 +119,25 @@ Source: [phdcomics.com](http://phdcomics.com/comics/archive.php?comicid=1531)
 
 # \[#4\] Never ever touch raw data {#rec04}
 
-Remember [Newton's letter to Flamsteed](https://cgranell.github.io/rrp-uji/slides/slides11_01.html#newton)
+Remember [Newton's letter to Flamsteed](https://cgranell.github.io/rrp-uji/slides/slides11_01.html#newton) <!--TO BE REVISED-->
 
 ## Raw data
 
-::: incremental
+::: {.incremental}
 -   Store raw data permanently (`data-raw` folder)
 
 -   Use scripts to process/clean raw datasets
 
 -   Store processed data in a separate folder (`data` or `data-clean` folder)
 
--   Document the process (simple steps, diagrams, content/structure of datasets, provenance) in a plain text README file (See [Before Recommendation #6](#rec01))
+-   Document the process (simple steps, diagrams, content/structure of datasets, provenance) in a plain text README file (See [Recommendation #6](#rec06))
 :::
 
 # \[#5\] Use open data formats {#rec05}
 
 ## Open formats
 
-::: incremental
+::: {.incremental}
 -   Use open, text-based formats whenever possible
 
 -   Independent of specific software tools or vendors
@@ -165,7 +165,7 @@ Dutch national centre of expertise and repository for research data (DANS) - [Pr
 ## README file(s)
 
 ::: incremental
--   Include a **README file** in the `root` folder to describe the project, provide basic orientation to use your code, data, etc.
+-   Include a **README file** in the `root` folder to describe the project, basic orientation to use your code, data, etc.
 
 ::: {.fragment .fade-in}
 ::: callout-tip
@@ -180,17 +180,17 @@ If your project is on GitHub, README files will be automatically visualised if w
 
 ## README file(s) {data-menu-title="README file(s) (II)"}
 
-::: incremental
+::: {.incremental}
 -   Include (if required) **README files** in each subfolder to describe metadata/complex content
 
 -   Keep track of ideas, discussions and decisions about the project (in the `notes` folder)
 
--   Use simple formatting language/tool for writing plain text files that can be version controlled
+-   Plain text files can be easily version controlled (See [Recommendations #9](#rec10) and [#10](#rec10))
 :::
 
-# \[#7\] Add a data license {#rec07 .center .r-fit-text}
+# \[#7\] Add a (data) license {#rec07 .center .r-fit-text}
 
-## Concept of license
+## Concept
 
 ### A license is a *contract* between the *authors* and *users* [@jolly2012]
 
@@ -199,7 +199,11 @@ Without a license, **copyright** is automatically attached to your work
 :::
 
 ::: {.fragment .fade-in}
-If you plan to make your work (data/databases/documents) public, **always specify a [license](https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-data.html)** via a *LICENSE file* (`LICENSE.md` or `LICENSE.txt`)
+If you plan to make your work (data/databases/documents) public, **always specify a [license](https://book.the-turing-way.org/reproducible-research/licensing/licensing-data.html)** via a *LICENSE file* (`LICENSE.md` or `LICENSE.txt`)
+:::
+
+::: {.notes}
+[Choosealicense.com](https://choosealicense.com/)
 :::
 
 ## Data licenses: Creative Commons
@@ -215,7 +219,7 @@ If you plan to make your work (data/databases/documents) public, **always specif
 |--------|------------------------------------------------------------|
 | **BY** | Creators/authors must be credited                          |
 | **SA** | Derivatives or redistributions must have identical license |
-| **NC** | Only non-commercial users are allowed                      |
+| **NC** | Only non-commercial usage is allowed                       |
 | **ND** | No derivatives are allowed                                 |
 :::
 
@@ -256,8 +260,8 @@ If you plan to make your work (data/databases/documents) public, **always specif
 | Redistribute or republish it?                        | YES       | YES                                             |
 | Translate it?                                        | YES       | YES (private use only and not for distribution) |
 | Download for text and data mining?                   | YES       | YES                                             |
-| Reuse portions of it in other works [^1] | YES       | YES                                             |
-| Sell or re-use it for commercial purpose                         | YES       | NO                                              |
+| Reuse portions in other works [^1]? | YES       | YES                                             |
+| Sell or re-use it for commercial purpose?                        | YES       | NO                                              |
 
 [^1]: Use with caution!
 
@@ -296,7 +300,7 @@ Creators/researchers/educators put their works into the global public domain for
 :::
 
 ::: {.fragment .fade-in}
-[ODC Open Data License (ODbL)](https://opendatacommons.org/licenses/odbl/): Attribution Share-Alike for data/databases
+[ODC Open Data License (ODbL)](https://opendatacommons.org/licenses/odbl/): Attribution Share-Alike for data/databases (≅CC-BY-SA)
 :::
 :::
 ::::
@@ -307,12 +311,19 @@ Creators/researchers/educators put their works into the global public domain for
 ### [Copyright and licences](https://www.uji.es/serveis/cd/bib/pco/base/drets2/)
 
 
-# \[#8\] Add a software license {#rec08 .center .r-fit-text}
+- Final projects (TFG, TFM): CC BY-SA
+ 
+- Doctoral theses: CC BY-SA or CC BY-NC-SA
+  
+- Teaching materials: CC BY-NC-SA     
+
+
+# \[#8\] Add a (software) license {#rec08 .center .r-fit-text}
 
 ## Software licenses
 
 
-### Always add a [license](https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-software.html) to the software you plan to make public
+### Always add a [license](https://book.the-turing-way.org/reproducible-research/licensing/licensing-compatibility) to the software you plan to make public
 
 :::: columns
 
@@ -341,13 +352,13 @@ Source: [@morin2012]
 
 ## Software licenses: What UJI recommends
 
-### Nothing
+Nothing
 
 
 # \[#9\] Learn/use version control systems {#rec09 .center .r-fit-text}
 
 
-## Version control systems
+## {data-menu-title="Version control systems"}
 
 ### Turn your local project folder into a version control repository
 
@@ -361,15 +372,14 @@ Source: [@morin2012]
 
 -   **Tools:** [Git](https://git-scm.com/), SVN, Mercurial
 
--   **Readings**: [Getting started with git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), [An introduction to Git: what it is, and how to use it](https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/), [@perez2016], [@bryan2018]
+-   **Readings**: [Getting started with Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), [An introduction to Git: what it is, and how to use it](https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/), [@perez2016], [@bryan2018]
 
 :::
 ::::
 
 # \[#10\] Learn/use online (Git) repository hosting services {#rec10 .center .r-fit-text}
 
-
-## Online (Git) repository hosting services
+## {data-menu-title="Online (Git) repository hosting services"}
 
 ### Easier for individuals and teams to use Git for version control and collaboration
 
@@ -388,4 +398,4 @@ Source: [@morin2012]
 :::
 
 
-## References
+## References {.scrollable}

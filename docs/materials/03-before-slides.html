@@ -425,7 +425,7 @@ Carlos Granell
 <p><strong><strong>Example</strong></strong></p>
 </div>
 <div class="callout-content">
-<p><a href="https://the-turing-way.netlify.app/project-design/project-repo/project-repo-advanced.html">Turing’s project structure</a> <span class="citation" data-cites="turingway2019">(<a href="#/references" role="doc-biblioref" onclick="">The Turing Way Community 2019</a>)</span></p>
+<p><a href="https://book.the-turing-way.org/project-design/project-repo/project-repo-advanced.html">Turing’s project structure</a> <span class="citation" data-cites="turingway2022">(<a href="#/references" role="doc-biblioref" onclick="">The Turing Way Community 2022</a>)</span></p>
 </div>
 </div>
 </div>
@@ -468,7 +468,7 @@ Carlos Granell
 <section>
 <section id="rec04" class="title-slide slide level1 center">
 <h1>[#4] Never ever touch raw data</h1>
-<p>Remember <a href="https://cgranell.github.io/rrp-uji/slides/slides11_01.html#newton">Newton’s letter to Flamsteed</a></p>
+<p>Remember <a href="https://cgranell.github.io/rrp-uji/slides/slides11_01.html#newton">Newton’s letter to Flamsteed</a> <!--TO BE REVISED--></p>
 </section>
 <section id="raw-data" class="slide level2">
 <h2>Raw data</h2>
@@ -477,7 +477,7 @@ Carlos Granell
 <li class="fragment"><p>Store raw data permanently (<code>data-raw</code> folder)</p></li>
 <li class="fragment"><p>Use scripts to process/clean raw datasets</p></li>
 <li class="fragment"><p>Store processed data in a separate folder (<code>data</code> or <code>data-clean</code> folder)</p></li>
-<li class="fragment"><p>Document the process (simple steps, diagrams, content/structure of datasets, provenance) in a plain text README file (See <a href="#/rec01">Before Recommendation #6</a>)</p></li>
+<li class="fragment"><p>Document the process (simple steps, diagrams, content/structure of datasets, provenance) in a plain text README file (See <a href="#/rec06">Recommendation #6</a>)</p></li>
 </ul>
 </div>
 </section></section>
@@ -524,7 +524,7 @@ Carlos Granell
 <h2>README file(s)</h2>
 <div>
 <ul>
-<li class="fragment">Include a <strong>README file</strong> in the <code>root</code> folder to describe the project, provide basic orientation to use your code, data, etc.</li>
+<li class="fragment">Include a <strong>README file</strong> in the <code>root</code> folder to describe the project, basic orientation to use your code, data, etc.</li>
 </ul>
 <div class="fragment fade-in">
 <div class="callout callout-tip callout-titled callout-style-default">
@@ -550,24 +550,37 @@ Carlos Granell
 <ul>
 <li class="fragment"><p>Include (if required) <strong>README files</strong> in each subfolder to describe metadata/complex content</p></li>
 <li class="fragment"><p>Keep track of ideas, discussions and decisions about the project (in the <code>notes</code> folder)</p></li>
-<li class="fragment"><p>Use simple formatting language/tool for writing plain text files that can be version controlled</p></li>
+<li class="fragment"><p>Plain text files can be easily version controlled (See <a href="#/rec10">Recommendations #9</a> and <a href="#/rec10">#10</a>)</p></li>
 </ul>
 </div>
 </section></section>
 <section>
 <section id="rec07" class="title-slide slide level1 center">
-<h1>[#7] Add a data license</h1>
+<h1>[#7] Add a (data) license</h1>
 
 </section>
-<section id="concept-of-license" class="slide level2">
-<h2>Concept of license</h2>
+<section id="concept" class="slide level2">
+<h2>Concept</h2>
 <h3 id="a-license-is-a-contract-between-the-authors-and-users-jolly2012">A license is a <em>contract</em> between the <em>authors</em> and <em>users</em> <span class="citation" data-cites="jolly2012">(<a href="#/references" role="doc-biblioref" onclick="">Jolly, Fletcher, and Bourne 2012</a>)</span></h3>
 <div class="fragment fade-in-then-semi-out">
 <p>Without a license, <strong>copyright</strong> is automatically attached to your work</p>
 </div>
 <div class="fragment fade-in">
-<p>If you plan to make your work (data/databases/documents) public, <strong>always specify a <a href="https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-data.html">license</a></strong> via a <em>LICENSE file</em> (<code>LICENSE.md</code> or <code>LICENSE.txt</code>)</p>
+<p>If you plan to make your work (data/databases/documents) public, <strong>always specify a <a href="https://book.the-turing-way.org/reproducible-research/licensing/licensing-data.html">license</a></strong> via a <em>LICENSE file</em> (<code>LICENSE.md</code> or <code>LICENSE.txt</code>)</p>
 </div>
+<aside class="notes">
+<p><a href="https://choosealicense.com/">Choosealicense.com</a></p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="data-licenses-creative-commons" class="slide level2">
 <h2>Data licenses: Creative Commons</h2>
@@ -588,7 +601,7 @@ Carlos Granell
 </tr>
 <tr class="odd">
 <td><strong>NC</strong></td>
-<td>Only non-commercial users are allowed</td>
+<td>Only non-commercial usage is allowed</td>
 </tr>
 <tr class="even">
 <td><strong>ND</strong></td>
@@ -656,12 +669,12 @@ Carlos Granell
 <td>YES</td>
 </tr>
 <tr class="odd">
-<td>Reuse portions of it in other works <sup>1</sup></td>
+<td>Reuse portions in other works <sup>1</sup>?</td>
 <td>YES</td>
 <td>YES</td>
 </tr>
 <tr class="even">
-<td>Sell or re-use it for commercial purpose</td>
+<td>Sell or re-use it for commercial purpose?</td>
 <td>YES</td>
 <td>NO</td>
 </tr>
@@ -695,7 +708,7 @@ Carlos Granell
 <p><a href="https://opendatacommons.org/licenses/by/">ODC-By</a>: Attribution for data/databases (≅CC-BY)</p>
 </div>
 <div class="fragment fade-in">
-<p><a href="https://opendatacommons.org/licenses/odbl/">ODC Open Data License (ODbL)</a>: Attribution Share-Alike for data/databases</p>
+<p><a href="https://opendatacommons.org/licenses/odbl/">ODC Open Data License (ODbL)</a>: Attribution Share-Alike for data/databases (≅CC-BY-SA)</p>
 </div>
 </div>
 </div>
@@ -703,15 +716,20 @@ Carlos Granell
 <section id="data-licenses-what-uji-recommends" class="slide level2">
 <h2>Data licenses: What UJI recommends</h2>
 <h3 id="copyright-and-licences"><a href="https://www.uji.es/serveis/cd/bib/pco/base/drets2/">Copyright and licences</a></h3>
+<ul>
+<li><p>Final projects (TFG, TFM): CC BY-SA</p></li>
+<li><p>Doctoral theses: CC BY-SA or CC BY-NC-SA</p></li>
+<li><p>Teaching materials: CC BY-NC-SA</p></li>
+</ul>
 </section></section>
 <section>
 <section id="rec08" class="title-slide slide level1 center">
-<h1>[#8] Add a software license</h1>
+<h1>[#8] Add a (software) license</h1>
 
 </section>
 <section id="software-licenses" class="slide level2">
 <h2>Software licenses</h2>
-<h3 id="always-add-a-license-to-the-software-you-plan-to-make-public">Always add a <a href="https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-software.html">license</a> to the software you plan to make public</h3>
+<h3 id="always-add-a-license-to-the-software-you-plan-to-make-public">Always add a <a href="https://book.the-turing-way.org/reproducible-research/licensing/licensing-compatibility">license</a> to the software you plan to make public</h3>
 <div class="columns">
 <div class="column" data-align="center" style="width:50%;">
 <p><strong>Permissive</strong> = attribution (recommended for academic work)</p>
@@ -733,15 +751,15 @@ Carlos Granell
 </div></aside></section>
 <section id="software-licenses-what-uji-recommends" class="slide level2">
 <h2>Software licenses: What UJI recommends</h2>
-<h3 id="nothing">Nothing</h3>
+<p>Nothing</p>
 </section></section>
 <section>
 <section id="rec09" class="title-slide slide level1 center">
 <h1>[#9] Learn/use version control systems</h1>
 
 </section>
-<section id="version-control-systems" class="slide level2">
-<h2>Version control systems</h2>
+<section id="section-1" class="slide level2" data-menu-title="Version control systems">
+<h2></h2>
 <h3 id="turn-your-local-project-folder-into-a-version-control-repository">Turn your local project folder into a version control repository</h3>
 <div>
 <ul>
@@ -749,7 +767,7 @@ Carlos Granell
 <li class="fragment"><p>to roll back to past edits (track history)</p></li>
 <li class="fragment"><p>to handle properly text formats (code, text docs, markdown docs) as opposed to rich/binary formats (Word, gif/jpg)</p></li>
 <li class="fragment"><p><strong>Tools:</strong> <a href="https://git-scm.com/">Git</a>, SVN, Mercurial</p></li>
-<li class="fragment"><p><strong>Readings</strong>: <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Getting started with git</a>, <a href="https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/">An introduction to Git: what it is, and how to use it</a>, <span class="citation" data-cites="perez2016">(<a href="#/references" role="doc-biblioref" onclick="">Perez-Riverol et al. 2016</a>)</span>, <span class="citation" data-cites="bryan2018">(<a href="#/references" role="doc-biblioref" onclick="">Jennifer Bryan 2018</a>)</span></p></li>
+<li class="fragment"><p><strong>Readings</strong>: <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Getting started with Git</a>, <a href="https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/">An introduction to Git: what it is, and how to use it</a>, <span class="citation" data-cites="perez2016">(<a href="#/references" role="doc-biblioref" onclick="">Perez-Riverol et al. 2016</a>)</span>, <span class="citation" data-cites="bryan2018">(<a href="#/references" role="doc-biblioref" onclick="">Jennifer Bryan 2018</a>)</span></p></li>
 </ul>
 </div>
 <p>::::</p>
@@ -759,8 +777,8 @@ Carlos Granell
 <h1>[#10] Learn/use online (Git) repository hosting services</h1>
 
 </section>
-<section id="online-git-repository-hosting-services" class="slide level2">
-<h2>Online (Git) repository hosting services</h2>
+<section id="section-2" class="slide level2" data-menu-title="Online (Git) repository hosting services">
+<h2></h2>
 <h3 id="easier-for-individuals-and-teams-to-use-git-for-version-control-and-collaboration">Easier for individuals and teams to use Git for version control and collaboration</h3>
 <div>
 <ul>
@@ -774,7 +792,7 @@ Carlos Granell
 </ul>
 </div>
 </section>
-<section id="references" class="slide level2 smaller scrollable">
+<section id="references" class="slide level2 scrollable smaller">
 <h2>References</h2>
 
 
@@ -797,8 +815,8 @@ Morin, A, J Urban, and P Sliz. 2012. <span>“A Quick Guide to Software Licensin
 <div id="ref-perez2016" class="csl-entry" role="listitem">
 Perez-Riverol, Y, L Gatto, R Wang, T Sachsenberg, J Uszkoreit, F da Veiga Leprevost, C Fufezan, et al. 2016. <span>“Ten Simple Rules for Taking Advantage of Git and GitHub.”</span> <em>PLoS Computational Biology</em> 12 (7). <a href="https://doi.org/10.1371/journal.pcbi.1004947">https://doi.org/10.1371/journal.pcbi.1004947</a>.
 </div>
-<div id="ref-turingway2019" class="csl-entry" role="listitem">
-The Turing Way Community. 2019. <span>“The Turing Way: A Handbook for Reproducible Data Science.”</span> Zenodo. <a href="https://doi.org/10.5281/zenodo.3233986">https://doi.org/10.5281/zenodo.3233986</a>.
+<div id="ref-turingway2022" class="csl-entry" role="listitem">
+The Turing Way Community. 2022. <span>“The Turing Way: A Handbook for Reproducible, Ethical and Collaborative Research.”</span> Zenodo. <a href="https://doi.org/10.5281/zenodo.3233853">https://doi.org/10.5281/zenodo.3233853</a>.
 </div>
 </div>
 </section></section>

@@ -333,7 +333,7 @@
     "href": "materials/03-before-slides.html#projectfolder-structure",
     "title": "Before analysis",
     "section": "Project/folder structure",
-    "text": "Project/folder structure\nMake sure it’s consistent, informative, works for you, and stick to it\n\n\n\nREADME.md\nLICENSE\nCODE_OF_CONDUCT\nCONTRIBUTING\n\n\n\ndata: data, data-raw\ncode: scripts, analysis\nresults: reports, figs\ndocumentation: notes, docs…\n\n\n\n\n\n\n\n\n\n\nExample\n\n\nTuring’s project structure (The Turing Way Community 2019)"
+    "text": "Project/folder structure\nMake sure it’s consistent, informative, works for you, and stick to it\n\n\n\nREADME.md\nLICENSE\nCODE_OF_CONDUCT\nCONTRIBUTING\n\n\n\ndata: data, data-raw\ncode: scripts, analysis\nresults: reports, figs\ndocumentation: notes, docs…\n\n\n\n\n\n\n\n\n\n\nExample\n\n\nTuring’s project structure (The Turing Way Community 2022)"
   },
   {
     "objectID": "materials/03-before-slides.html#file-naming-convention",
@@ -347,7 +347,7 @@
     "href": "materials/03-before-slides.html#raw-data",
     "title": "Before analysis",
     "section": "Raw data",
-    "text": "Raw data\n\n\nStore raw data permanently (data-raw folder)\nUse scripts to process/clean raw datasets\nStore processed data in a separate folder (data or data-clean folder)\nDocument the process (simple steps, diagrams, content/structure of datasets, provenance) in a plain text README file (See Before Recommendation #6)"
+    "text": "Raw data\n\n\nStore raw data permanently (data-raw folder)\nUse scripts to process/clean raw datasets\nStore processed data in a separate folder (data or data-clean folder)\nDocument the process (simple steps, diagrams, content/structure of datasets, provenance) in a plain text README file (See Recommendation #6)"
   },
   {
     "objectID": "materials/03-before-slides.html#open-formats",
@@ -361,14 +361,14 @@
     "href": "materials/03-before-slides.html#readme-files",
     "title": "Before analysis",
     "section": "README file(s)",
-    "text": "README file(s)\n\n\nInclude a README file in the root folder to describe the project, provide basic orientation to use your code, data, etc.\n\n\n\n\n\n\n\n\nTips\n\n\nSuggestions for writing a good README and GitHub’s README\nIf your project is on GitHub, README files will be automatically visualised if written in Markdown"
+    "text": "README file(s)\n\n\nInclude a README file in the root folder to describe the project, basic orientation to use your code, data, etc.\n\n\n\n\n\n\n\n\nTips\n\n\nSuggestions for writing a good README and GitHub’s README\nIf your project is on GitHub, README files will be automatically visualised if written in Markdown"
   },
   {
     "objectID": "materials/03-before-slides.html#readme-files-1",
     "href": "materials/03-before-slides.html#readme-files-1",
     "title": "Before analysis",
     "section": "README file(s)",
-    "text": "README file(s)\n\n\nInclude (if required) README files in each subfolder to describe metadata/complex content\nKeep track of ideas, discussions and decisions about the project (in the notes folder)\nUse simple formatting language/tool for writing plain text files that can be version controlled"
+    "text": "README file(s)\n\n\nInclude (if required) README files in each subfolder to describe metadata/complex content\nKeep track of ideas, discussions and decisions about the project (in the notes folder)\nPlain text files can be easily version controlled (See Recommendations #9 and #10)"
   },
   {
     "objectID": "materials/03-before-slides.html#concept-of-license",
@@ -382,14 +382,14 @@
     "href": "materials/03-before-slides.html#data-licenses-creative-commons",
     "title": "Before analysis",
     "section": "Data licenses: Creative Commons",
-    "text": "Data licenses: Creative Commons\n\n\n\n\nCC BY-SA-NC-ND\n\n\n\nBY\nCreators/authors must be credited\n\n\nSA\nDerivatives or redistributions must have identical license\n\n\nNC\nOnly non-commercial users are allowed\n\n\nND\nNo derivatives are allowed"
+    "text": "Data licenses: Creative Commons\n\n\n\n\nCC BY-SA-NC-ND\n\n\n\nBY\nCreators/authors must be credited\n\n\nSA\nDerivatives or redistributions must have identical license\n\n\nNC\nOnly non-commercial usage is allowed\n\n\nND\nNo derivatives are allowed"
   },
   {
     "objectID": "materials/03-before-slides.html#data-licenses-creative-commons-1",
     "href": "materials/03-before-slides.html#data-licenses-creative-commons-1",
     "title": "Before analysis",
     "section": "Data licenses: Creative Commons",
-    "text": "Data licenses: Creative Commons\nEx: Article (or data/datasets) to be published\n\n\n\n\n\n\n\n\nAs user/viewer, can you\nCC BY 4.0\nCC BY-NC-ND\n\n\n\n\nRead, print and download it?\nYES\nYES\n\n\nRedistribute or republish it?\nYES\nYES\n\n\nTranslate it?\nYES\nYES (private use only and not for distribution)\n\n\nDownload for text and data mining?\nYES\nYES\n\n\nReuse portions of it in other works 1\nYES\nYES\n\n\nSell or re-use it for commercial purpose\nYES\nNO\n\n\n\nUse with caution!"
+    "text": "Data licenses: Creative Commons\nEx: Article (or data/datasets) to be published\n\n\n\n\n\n\n\n\nAs user/viewer, can you\nCC BY 4.0\nCC BY-NC-ND\n\n\n\n\nRead, print and download it?\nYES\nYES\n\n\nRedistribute or republish it?\nYES\nYES\n\n\nTranslate it?\nYES\nYES (private use only and not for distribution)\n\n\nDownload for text and data mining?\nYES\nYES\n\n\nReuse portions in other works 1?\nYES\nYES\n\n\nSell or re-use it for commercial purpose?\nYES\nNO\n\n\n\nUse with caution!"
   },
   {
     "objectID": "materials/03-before-slides.html#data-licenses-cc-zero",
@@ -403,14 +403,14 @@
     "href": "materials/03-before-slides.html#data-licenses-open-data-commons",
     "title": "Before analysis",
     "section": "Data licenses: Open Data Commons",
-    "text": "Data licenses: Open Data Commons\n\n\n\n\nOpen Data Commons 1\n\n\nODC Public Domain Dedication and License (PDDL): Public Domain for data/databases (≅CC0)\n\n\nODC-By: Attribution for data/databases (≅CC-BY)\n\n\nODC Open Data License (ODbL): Attribution Share-Alike for data/databases\n\n\n\nDifferences between CC and ODC licenses"
+    "text": "Data licenses: Open Data Commons\n\n\n\n\nOpen Data Commons 1\n\n\nODC Public Domain Dedication and License (PDDL): Public Domain for data/databases (≅CC0)\n\n\nODC-By: Attribution for data/databases (≅CC-BY)\n\n\nODC Open Data License (ODbL): Attribution Share-Alike for data/databases (≅CC-BY-SA)\n\n\n\nDifferences between CC and ODC licenses"
   },
   {
     "objectID": "materials/03-before-slides.html#data-licenses-what-uji-recommends",
     "href": "materials/03-before-slides.html#data-licenses-what-uji-recommends",
     "title": "Before analysis",
     "section": "Data licenses: What UJI recommends",
-    "text": "Data licenses: What UJI recommends\nCopyright and licences"
+    "text": "Data licenses: What UJI recommends\nCopyright and licences\n\nFinal projects (TFG, TFM): CC BY-SA\nDoctoral theses: CC BY-SA or CC BY-NC-SA\nTeaching materials: CC BY-NC-SA"
   },
   {
     "objectID": "materials/03-before-slides.html#software-licenses",
@@ -452,7 +452,7 @@
     "href": "materials/03-before-slides.html#references",
     "title": "Before analysis",
     "section": "References",
-    "text": "References\n\n\n\ncgranell.github.io/rrp\n\n\n\nBryan, Jennifer. 2018. “Excuse Me, Do You Have a Moment to Talk about Version Control?” The American Statistician 72 (1): 20–27. https://doi.org/10.1080/00031305.2017.1399928.\n\n\nBryan, Jenny, and Jim Hester. 2020. Happy Git and GitHub for the useR. https://happygitwithr.com/.\n\n\nJolly, M, AC Fletcher, and PE Bourne. 2012. “Ten Simple Rules to Protect Your Intellectual Property.” PLoS Computacional Biology 8: e1002766. https://doi.org/10.1371/journal.pcbi.1002766.\n\n\nMorin, A, J Urban, and P Sliz. 2012. “A Quick Guide to Software Licensing for the Scientist-Programmer.” PLoS Computacional Biology 8 (7): e1002598. https://doi.org/10.1371/journal.pcbi.1002598.\n\n\nPerez-Riverol, Y, L Gatto, R Wang, T Sachsenberg, J Uszkoreit, F da Veiga Leprevost, C Fufezan, et al. 2016. “Ten Simple Rules for Taking Advantage of Git and GitHub.” PLoS Computational Biology 12 (7). https://doi.org/10.1371/journal.pcbi.1004947.\n\n\nThe Turing Way Community. 2019. “The Turing Way: A Handbook for Reproducible Data Science.” Zenodo. https://doi.org/10.5281/zenodo.3233986."
+    "text": "References\n\n\n\ncgranell.github.io/rrp\n\n\n\nBryan, Jennifer. 2018. “Excuse Me, Do You Have a Moment to Talk about Version Control?” The American Statistician 72 (1): 20–27. https://doi.org/10.1080/00031305.2017.1399928.\n\n\nBryan, Jenny, and Jim Hester. 2020. Happy Git and GitHub for the useR. https://happygitwithr.com/.\n\n\nJolly, M, AC Fletcher, and PE Bourne. 2012. “Ten Simple Rules to Protect Your Intellectual Property.” PLoS Computacional Biology 8: e1002766. https://doi.org/10.1371/journal.pcbi.1002766.\n\n\nMorin, A, J Urban, and P Sliz. 2012. “A Quick Guide to Software Licensing for the Scientist-Programmer.” PLoS Computacional Biology 8 (7): e1002598. https://doi.org/10.1371/journal.pcbi.1002598.\n\n\nPerez-Riverol, Y, L Gatto, R Wang, T Sachsenberg, J Uszkoreit, F da Veiga Leprevost, C Fufezan, et al. 2016. “Ten Simple Rules for Taking Advantage of Git and GitHub.” PLoS Computational Biology 12 (7). https://doi.org/10.1371/journal.pcbi.1004947.\n\n\nThe Turing Way Community. 2022. “The Turing Way: A Handbook for Reproducible, Ethical and Collaborative Research.” Zenodo. https://doi.org/10.5281/zenodo.3233853."
   },
   {
     "objectID": "materials/03-before.html",
@@ -726,5 +726,26 @@
     "title": "Reproducible research at UJI",
     "section": "UJI",
     "text": "UJI\nAs part of the Open Knowledge Portal, the UJI library provides guides for researchers about the open access dissemination of the results of the investigation, and copyright and licenses.\n\nOpen Access Declaration\nDeclaració institucional a favor de la promoció de l’accés obert a la Universitat Jaume I\n\n\nBest practices for research\nCódigo de Buenas Prácticas en Investigación y Doctorado, CBPID – focus on “open access” section"
+  },
+  {
+    "objectID": "materials/03-before-slides.html#concept",
+    "href": "materials/03-before-slides.html#concept",
+    "title": "Before analysis",
+    "section": "Concept",
+    "text": "Concept\nA license is a contract between the authors and users (Jolly, Fletcher, and Bourne 2012)\n\nWithout a license, copyright is automatically attached to your work\n\n\nIf you plan to make your work (data/databases/documents) public, always specify a license via a LICENSE file (LICENSE.md or LICENSE.txt)\n\n\nChoosealicense.com"
+  },
+  {
+    "objectID": "materials/03-before-slides.html#section-1",
+    "href": "materials/03-before-slides.html#section-1",
+    "title": "Before analysis",
+    "section": "",
+    "text": "Turn your local project folder into a version control repository\n\n\nto keep track changes of your work over time\nto roll back to past edits (track history)\nto handle properly text formats (code, text docs, markdown docs) as opposed to rich/binary formats (Word, gif/jpg)\nTools: Git, SVN, Mercurial\nReadings: Getting started with Git, An introduction to Git: what it is, and how to use it, (Perez-Riverol et al. 2016), (Jennifer Bryan 2018)\n\n\n::::"
+  },
+  {
+    "objectID": "materials/03-before-slides.html#section-2",
+    "href": "materials/03-before-slides.html#section-2",
+    "title": "Before analysis",
+    "section": "",
+    "text": "Easier for individuals and teams to use Git for version control and collaboration\n\n\nVCS + collaborative features + development support features\nTools: GitLab, Bitbucket, GitHub\nReadings:\n\nCookiecutter Data Science: Best practices for organising your repository for easy version control\n(Perez-Riverol et al. 2016), (Jenny Bryan and Hester 2020)"
   }
 ]
