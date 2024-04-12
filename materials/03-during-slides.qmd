@@ -2,6 +2,9 @@
 title: "During analysis"
 subtitle: "Data/coding practices and tools"
 author: "Carlos Granell"
+institute: "[GEOTEC](https://geotec.uji.es/), Universitat Jaume I"
+date: last-modified
+date-format: "MMM D, YYYY"
 format: 
   revealjs:
     slide-number: true
@@ -104,19 +107,20 @@ Source: [Mermaid cheatsheet](https://jojozhuang.github.io/tutorial/mermaid-cheat
 
 ## (Data) FAIR principles
 
-::: columns
-::: {.column width="40%" align="center"}
+:::: {.columns}
+
+::: {.column width="40%"}
 ![](../images/slides/fair-principles.png){width="90%" fig-align="center"}
 :::
 
-::: {.column width="60%" align="center"}
+::: {.column width="60%"}
 -   Emphasis on identifiers, metadata, standards, licenses, permanence [@wilkinson2016]
 
 -   Analysis on [metadata standards](https://github.com/leipzig/metadata-in-rcr) for reproducible research [@leipzig2021]
 
 -   Ten simple rules for credit data [@wood-charlson2022]
 :::
-:::
+::::
 
 ::: aside
 [go-fair.org](https://www.go-fair.org/fair-principles/)
@@ -208,7 +212,7 @@ Does a dataset play a supporting role in your paper? Does it make sense only for
 ## {data-menu-title="Open source tools"}
 
 :::: {.columns}
-::: {.column width="50%" align="center"}
+::: {.column width="50%"}
 
 ::: {.fragment .fade-in-then-semi-out}
 ### Instead of
@@ -221,7 +225,7 @@ Does a dataset play a supporting role in your paper? Does it make sense only for
 :::
 :::
 
-::: {.column width="50%" align="center"}
+::: {.column width="50%"}
 
 ::: {.fragment .fade-in}
 ### Use
@@ -316,13 +320,13 @@ Look at section *During analysis: best coding practices* in [@alston2021]
 ## Computational notebooks: examples
 
 
-[JupyterLabs](https://jupyter.org/), [RMarkdown](https://rmarkdown.rstudio.com/), [Quarto](https://quarto.org/), [Matlab Live Scripts](https://es.mathworks.com/help/matlab/live-scripts-and-functions.html), [Wolfram](https://www.wolfram.com/computational-notebooks/), see more in [Wikipedia](https://en.wikipedia.org/wiki/Notebook_interface)
+[JupyterLabs](https://jupyter.org/), [RMarkdown](https://rmarkdown.rstudio.com/), [Quarto](https://quarto.org/), [Google Colab](https://colab.research.google.com/), [Matlab Live Scripts](https://es.mathworks.com/help/matlab/live-scripts-and-functions.html), [Wolfram](https://www.wolfram.com/computational-notebooks/), see more in [Wikipedia](https://en.wikipedia.org/wiki/Notebook_interface)
 
 [@pimentel2019] studied 1.4 millions of notebooks (GitHub)
 
   -   Only 24% ran without exceptions 
   -   Only 4% produced same results
-  -   Output:  *best practices for the reproducibility of notebooks*
+  -   Conclusions: *best practices for the reproducibility of notebooks*
 
 
 
@@ -344,7 +348,7 @@ Look at section *During analysis: best coding practices* in [@alston2021]
   -  `renv` for R or `venv` for Python. See [post on `renv` usage](https://www.r-bloggers.com/2023/03/r-renv-how-to-manage-dependencies-in-r-projects-easily/)
 
 :::: {.columns}
-::: {.column width="50%" align="center"}
+::: {.column width="50%"}
 
 ```{r}
 #| eval: false
@@ -354,7 +358,7 @@ renv::snapshot()  # check state
 renv::snapshot()  # check state
 ```
 :::
-::: {.column width="50%" align="center"}
+::: {.column width="50%"}
 
 ```{r}
 #| eval: false
@@ -380,7 +384,8 @@ renv::restore()
 
 
 :::: {.columns}
-::: {.column width="60%" align="center"}
+
+::: {.column width="60%"}
 
   -   [Docker](https://www.docker.com/) and family tools [@nust2020-docker]
 
@@ -390,7 +395,7 @@ renv::restore()
 
 :::
 
-::: {.column width="40%" align="center"}
+::: {.column width="40%"}
 
 ![](https://journals.plos.org/ploscompbiol/article/figure/image?size=large&id=10.1371/journal.pcbi.1008316.g002){width="100%" fig-align="center"}
 
@@ -422,7 +427,7 @@ Container: creating a snapshot of a computational environment
 :::
 
 ::: aside
-Cite software properly [@smith2016] - [#23](03-after-slides.qmd#rec23) 
+Cite software properly [@smith2016] - See [Recommendation #23](03-after-slides.qmd#rec23) 
 :::
 
 ## (Software) FAIR according to UJI

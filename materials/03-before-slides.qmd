@@ -2,6 +2,9 @@
 title: "Before analysis"
 subtitle: "Basics to get started"
 author: "Carlos Granell"
+institute: "[GEOTEC](https://geotec.uji.es/), Universitat Jaume I"
+date: last-modified
+date-format: "MMM D, YYYY"
 format: 
   revealjs:
     slide-number: true
@@ -208,11 +211,12 @@ If you plan to make your work (data/databases/documents) public, **always specif
 
 ## Data licenses: Creative Commons
 
-::: columns
-::: {.column width="5%" align="center"}
+:::: {.columns}
+
+::: {.column width="5%"}
 :::
 
-::: {.column width="65%" align="center"}
+::: {.column width="75%" style="text-align: center"}
 [**CC BY-SA-NC-ND**](https://creativecommons.org/about/cclicenses/)
 
 |        |                                                            |
@@ -223,7 +227,7 @@ If you plan to make your work (data/databases/documents) public, **always specif
 | **ND** | No derivatives are allowed                                 |
 :::
 
-::: {.column width="30%" align="center"}
+::: {.column width="20%"}
 ::: {.fragment .fade-in}
 ![](https://cent.uji.es/pub/guia-lpi-docencia/cc-icn-by.png){width="112px" title="CC Attribution"} <br/>
 :::
@@ -248,7 +252,7 @@ If you plan to make your work (data/databases/documents) public, **always specif
 ![](https://cent.uji.es/pub/guia-lpi-docencia/cc-icn-by-nc-nd.png){width="112px" title="CC Attribution-NonCommercial-NoDerivates"} <br/>
 :::
 :::
-:::
+::::
 
 ## Data licenses: Creative Commons {.smaller data-menu-title="Data licenses: CC example"}
 
@@ -267,30 +271,30 @@ If you plan to make your work (data/databases/documents) public, **always specif
 
 ## Data licenses: CC Zero
 
-::: columns
-::: {.column width="5%" align="center"}
+:::: {.columns}
+::: {.column width="5%"}
 :::
 
-::: {.column width="35%" align="center"}
+::: {.column width="35%"}
 [**CC0 “No Rights Reserved"**](https://creativecommons.org/public-domain/cc0/)
 :::
 
-::: {.column width="60%" align="center"}
+::: {.column width="60%"}
 Creators/researchers/educators put their works into the global public domain for the benefit of society
 :::
-:::
+::::
 
 ## Data licenses: Open Data Commons
 
-:::: columns
-::: {.column width="5%" align="center"}
+:::: {.columns}
+::: {.column width="5%"}
 :::
 
-::: {.column width="35%" align="center"}
+::: {.column width="35%"}
 [**Open Data Commons**](https://opendatacommons.org/licenses/index.html) ^[[Differences between CC and ODC licenses](https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-data.html#a-note-on-the-differences-between-cc-and-odc-licenses)]
 :::
 
-::: {.column width="60%" align="center"}
+::: {.column width="60%"}
 ::: {.fragment .fade-in}
 [ODC Public Domain Dedication and License (PDDL)](https://opendatacommons.org/licenses/pddl/): Public Domain for data/databases (≅CC0)
 :::
@@ -325,14 +329,14 @@ Creators/researchers/educators put their works into the global public domain for
 
 ### Always add a [license](https://book.the-turing-way.org/reproducible-research/licensing/licensing-compatibility) to the software you plan to make public
 
-:::: columns
+:::: {.columns}
 
-::: {.column width="50%" align="center"}
+::: {.column width="50%" style="text-align: center"}
 
 **Permissive** = attribution (recommended for academic work)
 :::
 
-::: {.column width="50%" align="center"}
+::: {.column width="50%" style="text-align: center"}
 
 **Copyleft** = share-alike (derivative work maintain same license as the original)
 
@@ -352,7 +356,7 @@ Source: [@morin2012]
 
 ## Software licenses: What UJI recommends
 
-Nothing
+See [Recommendation 19](03-during-slides.qmd#rec19)
 
 
 # \[#9\] Learn/use version control systems {#rec09 .center .r-fit-text}

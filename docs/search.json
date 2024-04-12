@@ -133,11 +133,95 @@
     "text": "Additional resources, readings, and videos\n\nIf you’re still hesitant to embrace reproducibility, next talk by Dr. Florian Markowetz, based on his paper (Markowetz 2015), will convince you!\n\nMarkowetz, F. 2015. “Five Selfish Reasons to Work Reproducibly.” Genome Biology 16: 274. https://doi.org/10.1186/s13059-015-0850-7."
   },
   {
-    "objectID": "materials/01-historical-notes-slides.html#should-we-trust-science",
-    "href": "materials/01-historical-notes-slides.html#should-we-trust-science",
+    "objectID": "materials/01-historical-notes-slides.html#science-progresses-through-conjectures-and-refutations-popper",
+    "href": "materials/01-historical-notes-slides.html#science-progresses-through-conjectures-and-refutations-popper",
     "title": "Historical notes",
-    "section": "Should we trust science?",
-    "text": "Should we trust science?\n\n\n\ncgranell.github.io/rrp"
+    "section": "Science progresses through conjectures and refutations (Popper)",
+    "text": "Science progresses through conjectures and refutations (Popper)\n\n\nScientists are confronted with some question, and offer an answer (conjecture), which might be right or wrong\nScientists do their best to refute it, or prove it wrong\nTypically it is refuted, rejected, and replaced by a better one\n\nAnd tested over and over, and eventually replaced by a better one\n\nIf scientists have not been able to refute a theory over a long period of time, then the theory is corroborated\n\n\n\nSource: Why should we trust science? Because it doesn’t trust itself"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#section",
+    "href": "materials/01-historical-notes-slides.html#section",
+    "title": "Historical notes",
+    "section": "",
+    "text": "For Popper, the ideas we can most trust are those that have been the most\n\n\n\ntried & tested\n\n\n\n\n\nAdvancing science and knowledge is all about\n\n\n\n\nthe scientific method!"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#if-science-drivers-are",
+    "href": "materials/01-historical-notes-slides.html#if-science-drivers-are",
+    "title": "Historical notes",
+    "section": "If science drivers are",
+    "text": "If science drivers are\n\n\nOpenness\n\n\n\n\nTransparency\n\n\n\n\nHonesty\n\n\n\n\nIntegrity\n\n\n\n\nReproduction (try & test)\n\n\n\n\nReplication (accumulative evidence over time)"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#why-are-reproduction-replication-not-integral-parts-of-the-scientific-method-and-modern-scientific-publishing",
+    "href": "materials/01-historical-notes-slides.html#why-are-reproduction-replication-not-integral-parts-of-the-scientific-method-and-modern-scientific-publishing",
+    "title": "Historical notes",
+    "section": "Why are reproduction & replication NOT integral parts of the scientific method and modern scientific publishing?",
+    "text": "Why are reproduction & replication NOT integral parts of the scientific method and modern scientific publishing?"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#should-we-trust-modern-science-without-proper-reproduction-replication",
+    "href": "materials/01-historical-notes-slides.html#should-we-trust-modern-science-without-proper-reproduction-replication",
+    "title": "Historical notes",
+    "section": "Should we trust modern science without proper reproduction & replication?",
+    "text": "Should we trust modern science without proper reproduction & replication?"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#lets-go-back-to-the-17th-century",
+    "href": "materials/01-historical-notes-slides.html#lets-go-back-to-the-17th-century",
+    "title": "Historical notes",
+    "section": "Let’s go back to the 17th century…",
+    "text": "Let’s go back to the 17th century…\n\n\n\nChristiaan Huygens\n\n\nRobert Boyle"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#section-1",
+    "href": "materials/01-historical-notes-slides.html#section-1",
+    "title": "Historical notes",
+    "section": "",
+    "text": "Boyle’s air pump was one of the first documented disputes over reproducibility and experimental science…"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#huygens-vs-boyle",
+    "href": "materials/01-historical-notes-slides.html#huygens-vs-boyle",
+    "title": "Historical notes",
+    "section": "Huygens vs Boyle",
+    "text": "Huygens vs Boyle\n\n\n\nHuygens observed a new effect (anomalous suspension) in NL\n\n\n\nBoyle could not replicate this effect in his own air pump in UK\n\n\n\n\n\nHuygens went to UK (1663) to personally help Boyle replicate anomalous suspension of water\n\n\n\nSource. Note here that non-replication can be good! Here, a new, valid effect during replication was not observed in the original study. That’s how science progresses!"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#newton-vs-flamsteed",
+    "href": "materials/01-historical-notes-slides.html#newton-vs-flamsteed",
+    "title": "Historical notes",
+    "section": "Newton vs Flamsteed",
+    "text": "Newton vs Flamsteed\n\n\n\nIsaac Newton\n\n\nJohn Flamsteed"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#newton-vs-flamsteed-1",
+    "href": "materials/01-historical-notes-slides.html#newton-vs-flamsteed-1",
+    "title": "Historical notes",
+    "section": "Newton vs Flamsteed",
+    "text": "Newton vs Flamsteed\n\n\nFlamsteed’s lunar data & Newston’s request for raw data…\n\n\n\n\nlunardata\n\n\n\n\n\nSAO/NASA Astrophysics Data System (ADS)"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#newton-vs-flamsteed-2",
+    "href": "materials/01-historical-notes-slides.html#newton-vs-flamsteed-2",
+    "title": "Historical notes",
+    "section": "Newton vs Flamsteed",
+    "text": "Newton vs Flamsteed\n\n\nIn 1695, Sir Isaac Newton wrote a letter to the British Astronomer Royal John Flamsteed, whose data on lunar positions he was trying to get for more than half a year…\nNewton wrote that…\n\n\n\n\n“these and all your communications will be useless to me unless you can propose some practicable way or other of supplying me with observations … I want not your calculations, but your observations only.” (Noy and Noy 2019)\n\n\n\nKollerstrom, N. & Yallop, B. D. J. Hist. Astron. 26, 237–246 (1995)."
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#lets-go-back-to-the-19th-century",
+    "href": "materials/01-historical-notes-slides.html#lets-go-back-to-the-19th-century",
+    "title": "Historical notes",
+    "section": "Let’s go back to the 19th century…",
+    "text": "Let’s go back to the 19th century…"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#references",
+    "href": "materials/01-historical-notes-slides.html#references",
+    "title": "Historical notes",
+    "section": "References",
+    "text": "References\n\n\n\ncgranell.github.io/rrp\n\n\n\nNoy, Natasha, and Aleksandr Noy. 2019. “Let Go of Your Data.” Nature Materials 19 (1): 128–28. https://doi.org/10.1038/s41563-019-0539-5."
   },
   {
     "objectID": "materials/01-historical-notes.html",
@@ -221,7 +305,7 @@
     "href": "materials/03-after-slides.html#section-5",
     "title": "After analysis",
     "section": "",
-    "text": "Preprints are versions of papers that have not yet been sent to a journal for review\n\n\n\n\n\n\nSharing preprints increases access and visibility to your work\nBefore sharing (depositing): choose appropriate license\n\n\n\n\n\n\n\n\n\nTips\n\n\nPreprint and published versions can be merged in Google Scholar for citation\n\n\n\n\n\n\n\n\nSource"
+    "text": "Preprints are versions of papers that have not yet been sent to a journal for review\n\n\n\n\n\nSharing preprints increases access and visibility to your work\nBefore sharing (depositing): choose appropriate license\n\n\n\n\n\n\n\n\nTips\n\n\nPreprint and published versions can be merged in Google Scholar for citation\n\n\n\n\n\n\n\n\nSource"
   },
   {
     "objectID": "materials/03-after-slides.html#section-6",
@@ -242,11 +326,18 @@
     "href": "materials/03-after-slides.html#section-7",
     "title": "After analysis",
     "section": "",
-    "text": "Declaración institucional a favor de la promoción del acceso abierto en la Universitat Jaume I\n\n“Cuando no se permita la difusión en acceso abierto del texto completo revisado, se solicitará que se deposite la versión no revisada de autor o autora (preprint)”\n\n\nCódigo de Buenas Prácticas en Investigación y Doctorado\n\n“[Researchers] will save the different versions of their publications (preprint, postprint and publisher’s PDF) in order to be able to deposit the document corresponding to the copyright and intellectual property rights in the UJI Repository”\n\n\n“When the revised full text (postprint) is not allowed to be disseminated in open access, the author’s unrevised version (preprint) must be deposited.”"
+    "text": "Declaración institucional a favor de la promoción del acceso abierto en la Universitat Jaume I\n\n“Cuando no se permita la difusión en acceso abierto del texto completo revisado, se solicitará que se deposite la versión no revisada de autor o autora (preprint)”"
   },
   {
     "objectID": "materials/03-after-slides.html#section-8",
     "href": "materials/03-after-slides.html#section-8",
+    "title": "After analysis",
+    "section": "",
+    "text": "Código de Buenas Prácticas en Investigación y Doctorado\n\n“[Researchers] will save the different versions of their publications (preprint, postprint and publisher’s PDF) in order to be able to deposit the document corresponding to the copyright and intellectual property rights in the UJI Repository”\n\n\n“When the revised full text (postprint) is not allowed to be disseminated in open access, the author’s unrevised version (preprint) must be deposited.”"
+  },
+  {
+    "objectID": "materials/03-after-slides.html#section-9",
+    "href": "materials/03-after-slides.html#section-9",
     "title": "After analysis",
     "section": "",
     "text": "As part of the writing and sharing process…\n\n\nDocument and deposit your data/code resources\nInclude them as references in your paper\nCite them (most likely in the DASA section)\nSee flowchart in Recommendation 13\n\n\n\n\n\n\n\n\n\nTips\n\n\n\nCheck “Reproducibility checklist” (Nust et al. 2020)\nLinking GitHub with Zenodo"
@@ -259,60 +350,60 @@
     "text": "A research compendium is…\n\n\nCollection of data, code, products (reports, questionnaires, etc.) of a research project that are archived together\nStandardised and easily recognisable way to organise digital materials of a research project\nBasic principles when creating a research compendia\n\n\n\n\n\n\n\n\n\nTools to share every step of the scientific process\n\n\n\nOpen Science Framework (OSF) - Getting started on the OSF\nOctopus (Dhar 2023)\nResearchEquals (Dhar 2023)"
   },
   {
-    "objectID": "materials/03-after-slides.html#section-9",
-    "href": "materials/03-after-slides.html#section-9",
-    "title": "After analysis",
-    "section": "",
-    "text": "knitr (Yihui Xie 2015) started in 2011, RMarkdown (Y. Xie, Allaire, and Grolemund 2018) in 2014"
-  },
-  {
     "objectID": "materials/03-after-slides.html#section-10",
     "href": "materials/03-after-slides.html#section-10",
     "title": "After analysis",
     "section": "",
-    "text": "Quarto (Allaire 2023) started in 2022"
-  },
-  {
-    "objectID": "materials/03-after-slides.html#quarto-with-python",
-    "href": "materials/03-after-slides.html#quarto-with-python",
-    "title": "After analysis",
-    "section": "Quarto with python",
-    "text": "Quarto with python"
-  },
-  {
-    "objectID": "materials/03-after-slides.html#quarto-with-python-1",
-    "href": "materials/03-after-slides.html#quarto-with-python-1",
-    "title": "After analysis",
-    "section": "Quarto with python",
-    "text": "Quarto with python"
-  },
-  {
-    "objectID": "materials/03-after-slides.html#quarto",
-    "href": "materials/03-after-slides.html#quarto",
-    "title": "After analysis",
-    "section": "Quarto",
-    "text": "Quarto\n\nWeave together text and code to produce formatted output such as documents, web pages, blog posts, books, articles\nDynamic document: Reproducible figures/tables are created with code and integrated into documents in a way that are automatically updated when analyses are re-run\n\n\n\n\n\n\n\n\nTips\n\n\n\nQuarto.org\nQuarto in 2 hours"
+    "text": "knitr (Yihui Xie 2015) started in 2011, RMarkdown (Y. Xie, Allaire, and Grolemund 2018) in 2014"
   },
   {
     "objectID": "materials/03-after-slides.html#section-11",
     "href": "materials/03-after-slides.html#section-11",
     "title": "After analysis",
     "section": "",
-    "text": "Business as usual\n\n\n\nInteractive papers (Hohman et al. 2020)\n\n\n\n\n\nReproducible papers\n\n\n\n\n\n\n\nTowards interactive AND reproducible papers"
+    "text": "Quarto (Allaire 2023) started in 2022\n\nWeave together text and code to produce formatted output such as documents, web pages, blog posts, books, articles\nDynamic document: Reproducible figures/tables are created with code and integrated into documents in a way that are automatically updated when analyses are re-run\n\n\n\n\n\n\n\n\nTips\n\n\n\nQuarto.org\nQuarto in 2 hours"
   },
   {
     "objectID": "materials/03-after-slides.html#section-12",
     "href": "materials/03-after-slides.html#section-12",
     "title": "After analysis",
     "section": "",
-    "text": "Dear colleagues,\n\n\n\n\n\n\nCultural change & Community effort"
+    "text": "Quarto with R"
+  },
+  {
+    "objectID": "materials/03-after-slides.html#section-13",
+    "href": "materials/03-after-slides.html#section-13",
+    "title": "After analysis",
+    "section": "",
+    "text": "Quarto with python"
+  },
+  {
+    "objectID": "materials/03-after-slides.html#section-14",
+    "href": "materials/03-after-slides.html#section-14",
+    "title": "After analysis",
+    "section": "",
+    "text": "Quarto with python"
+  },
+  {
+    "objectID": "materials/03-after-slides.html#section-15",
+    "href": "materials/03-after-slides.html#section-15",
+    "title": "After analysis",
+    "section": "",
+    "text": "Business as usual\n\n\n\nInteractive papers (Hohman et al. 2020)\n\n\n\n\nReproducible papers (Caprarelli et al. 2023)\n\n\n\n\n\n\n\nFuture is interactive AND reproducible papers"
+  },
+  {
+    "objectID": "materials/03-after-slides.html#section-16",
+    "href": "materials/03-after-slides.html#section-16",
+    "title": "After analysis",
+    "section": "",
+    "text": "Dear colleagues,\n\n\n\n\n\n\n\nCultural change\n\n\n\n\n\n\nCommunity effort"
   },
   {
     "objectID": "materials/03-after-slides.html#references",
     "href": "materials/03-after-slides.html#references",
     "title": "After analysis",
     "section": "References",
-    "text": "References\n\n\n\ncgranell.github.io/rrp\n\n\n\nAllaire, JJ. 2023. Quarto: R Interface to ’Quarto’ Markdown Publishing System. https://CRAN.R-project.org/package=quarto.\n\n\nDhar, Payal. 2023. “Octopus and ResearchEquals Aim to Break the Publishing Mould.” Nature. Springer Science; Business Media LLC. https://doi.org/10.1038/d41586-023-00861-0.\n\n\nHohman, Fred, Matthew Conlen, Jeffrey Heer, and Duen Chau. 2020. “Communicating with Interactive Articles.” Distill 5 (9). https://doi.org/10.23915/distill.00028.\n\n\nMesnard, Olivier, and Lorena A. Barba. 2017. “Reproducible and Replicable Computational Fluid Dynamics: It’s Harder Than You Think.” Computing in Science Engineering 19 (4): 44–55. https://doi.org/10.1109/MCSE.2017.3151254.\n\n\nNust, Daniel, Frank Ostermann, Rusne Sileryte, Barbara Hofer, Carlos Granell, Marta Teperek, Anita Graser, et al. 2020. “Reproducible Publications at AGILE Conferences: Guidelines for Authors, Scientific Reviewers, and Reproducibility Reviewers.” https://doi.org/10.17605/OSF.IO/CB7Z8.\n\n\nOstermann, Frank O., Daniel Nüst, Carlos Granell, Barbara Hofer, and Markus Konkol. 2021. “Reproducible Research and GIScience: An Evaluation Using GIScience Conference Papers.” In 11th International Conference on Geographic Information Science (GIScience 2021) - Part II, edited by Krzysztof Janowicz and Judith A. Verstegen, 208:2:1–16. Leibniz International Proceedings in Informatics (LIPIcs). Dagstuhl, Germany: Schloss Dagstuhl – Leibniz-Zentrum für Informatik. https://doi.org/10.4230/LIPIcs.GIScience.2021.II.2.\n\n\nSmith, AM, DS Katz, and KE Niemeyer. 2016. “Software Citation Principles.” PeerJ Computer Science 2: e86. https://doi.org/10.7717/peerj-cs.86.\n\n\nStodden, Victoria, Jennifer Seiler, and Zhaokun Ma. 2018. “An Empirical Analysis of Journal Policy Effectiveness for Computational Reproducibility.” Proceedings of the National Academy of Sciences 115 (11): 2584–89. https://doi.org/10.1073/pnas.1708290115.\n\n\nXie, Y, JJ Allaire, and G Grolemund. 2018. R Markdown: The Definitive Guide. CRC Press. https://bookdown.org/yihui/rmarkdown/.\n\n\nXie, Yihui. 2015. Dynamic Documents with R and Knitr. 2nd ed. Boca Raton, Florida: Chapman; Hall/CRC. https://yihui.org/knitr/."
+    "text": "References\n\n\n\ncgranell.github.io/rrp\n\n\n\nAllaire, JJ. 2023. Quarto: R Interface to ’Quarto’ Markdown Publishing System. https://CRAN.R-project.org/package=quarto.\n\n\nCaprarelli, Graziella, Brian Sedora, Mia Ricci, Shelley Stall, and Matthew Giampoala. 2023. “Notebooks Now! The Future of Reproducible Research.” Earth and Space Science 10 (12). https://doi.org/10.1029/2023ea003458.\n\n\nDhar, Payal. 2023. “Octopus and ResearchEquals Aim to Break the Publishing Mould.” Nature. Springer Science; Business Media LLC. https://doi.org/10.1038/d41586-023-00861-0.\n\n\nHohman, Fred, Matthew Conlen, Jeffrey Heer, and Duen Chau. 2020. “Communicating with Interactive Articles.” Distill 5 (9). https://doi.org/10.23915/distill.00028.\n\n\nMesnard, Olivier, and Lorena A. Barba. 2017. “Reproducible and Replicable Computational Fluid Dynamics: It’s Harder Than You Think.” Computing in Science Engineering 19 (4): 44–55. https://doi.org/10.1109/MCSE.2017.3151254.\n\n\nNust, Daniel, Frank Ostermann, Rusne Sileryte, Barbara Hofer, Carlos Granell, Marta Teperek, Anita Graser, et al. 2020. “Reproducible Publications at AGILE Conferences: Guidelines for Authors, Scientific Reviewers, and Reproducibility Reviewers.” https://doi.org/10.17605/OSF.IO/CB7Z8.\n\n\nOstermann, Frank O., Daniel Nüst, Carlos Granell, Barbara Hofer, and Markus Konkol. 2021. “Reproducible Research and GIScience: An Evaluation Using GIScience Conference Papers.” In 11th International Conference on Geographic Information Science (GIScience 2021) - Part II, edited by Krzysztof Janowicz and Judith A. Verstegen, 208:2:1–16. Leibniz International Proceedings in Informatics (LIPIcs). Dagstuhl, Germany: Schloss Dagstuhl – Leibniz-Zentrum für Informatik. https://doi.org/10.4230/LIPIcs.GIScience.2021.II.2.\n\n\nSmith, AM, DS Katz, and KE Niemeyer. 2016. “Software Citation Principles.” PeerJ Computer Science 2: e86. https://doi.org/10.7717/peerj-cs.86.\n\n\nStodden, Victoria, Jennifer Seiler, and Zhaokun Ma. 2018. “An Empirical Analysis of Journal Policy Effectiveness for Computational Reproducibility.” Proceedings of the National Academy of Sciences 115 (11): 2584–89. https://doi.org/10.1073/pnas.1708290115.\n\n\nXie, Y, JJ Allaire, and G Grolemund. 2018. R Markdown: The Definitive Guide. CRC Press. https://bookdown.org/yihui/rmarkdown/.\n\n\nXie, Yihui. 2015. Dynamic Documents with R and Knitr. 2nd ed. Boca Raton, Florida: Chapman; Hall/CRC. https://yihui.org/knitr/."
   },
   {
     "objectID": "materials/03-after.html",
@@ -452,7 +543,7 @@
     "href": "materials/03-before-slides.html#software-licenses-what-uji-recommends",
     "title": "Before analysis",
     "section": "Software licenses: What UJI recommends",
-    "text": "Software licenses: What UJI recommends\nNothing"
+    "text": "Software licenses: What UJI recommends\nSee Recommendation 19"
   },
   {
     "objectID": "materials/03-before-slides.html#section-1",
@@ -613,7 +704,7 @@
     "href": "materials/03-during-slides.html#computational-notebooks-examples",
     "title": "During analysis",
     "section": "Computational notebooks: examples",
-    "text": "Computational notebooks: examples\nJupyterLabs, RMarkdown, Quarto, Matlab Live Scripts, Wolfram, see more in Wikipedia\n(Pimentel et al. 2019) studied 1.4 millions of notebooks (GitHub)\n\nOnly 24% ran without exceptions\nOnly 4% produced same results\nOutput: best practices for the reproducibility of notebooks"
+    "text": "Computational notebooks: examples\nJupyterLabs, RMarkdown, Quarto, Google Colab, Matlab Live Scripts, Wolfram, see more in Wikipedia\n(Pimentel et al. 2019) studied 1.4 millions of notebooks (GitHub)\n\nOnly 24% ran without exceptions\nOnly 4% produced same results\nConclusions: best practices for the reproducibility of notebooks"
   },
   {
     "objectID": "materials/03-during-slides.html#section-2",
@@ -634,7 +725,7 @@
     "href": "materials/03-during-slides.html#software-fair",
     "title": "During analysis",
     "section": "(Software) FAIR",
-    "text": "(Software) FAIR\nDocument your source code (Barker et al. 2022), (Hasselbring et al. 2020)\n\n\nFindable: Deposit source code in a repository that provides DOIs and metadata\nAccessible: Able to download source code\nInteroperable: Use open source programming languages and software\nReusable: Release software under an open usage license\n\n\n\n\nCite software properly (Smith, Katz, and Niemeyer 2016) - #23"
+    "text": "(Software) FAIR\nDocument your source code (Barker et al. 2022), (Hasselbring et al. 2020)\n\n\nFindable: Deposit source code in a repository that provides DOIs and metadata\nAccessible: Able to download source code\nInteroperable: Use open source programming languages and software\nReusable: Release software under an open usage license\n\n\n\n\nCite software properly (Smith, Katz, and Niemeyer 2016) - See Recommendation #23"
   },
   {
     "objectID": "materials/03-during-slides.html#software-fair-according-to-uji",
@@ -754,180 +845,5 @@
     "title": "Reproducible research at UJI",
     "section": "UJI",
     "text": "UJI\nAs part of the Open Knowledge Portal, the UJI library provides guides for researchers about the open access dissemination of the results of the investigation, and copyright and licenses.\n\nOpen Access Declaration\nDeclaració institucional a favor de la promoció de l’accés obert a la Universitat Jaume I\n\n\nBest practices for research\nCódigo de Buenas Prácticas en Investigación y Doctorado, CBPID – focus on “open access” section"
-  },
-  {
-    "objectID": "materials/01-historical-notes-slides.html#science-progresses-through-conjectures-and-refutations",
-    "href": "materials/01-historical-notes-slides.html#science-progresses-through-conjectures-and-refutations",
-    "title": "Historical notes",
-    "section": "Science progresses through conjectures and refutations",
-    "text": "Science progresses through conjectures and refutations\n\n\nScientists are confronted with some question, and offer a possible answer\nThe answer is a conjecture initially (is it right or wrong?)\nScientists do their best to refute this conjecture, or prove it wrong\nTypically it is refuted, rejected, and replaced by a better one\nThis too will then be tested, and eventually replaced by an even better one\nIf scientists have not been able to refute a theory over a long period of time, despite their best efforts, then the theory has been corroborated\n\n\n\nSource: Why should we trust science? Because it doesn’t trust itself"
-  },
-  {
-    "objectID": "materials/01-historical-notes-slides.html#science-progresses-through-conjectures-and-refutations-popper",
-    "href": "materials/01-historical-notes-slides.html#science-progresses-through-conjectures-and-refutations-popper",
-    "title": "Historical notes",
-    "section": "Science progresses through conjectures and refutations (Popper)",
-    "text": "Science progresses through conjectures and refutations (Popper)\n\n\nScientists are confronted with some question, and offer an answer (conjecture), which might be right or wrong\nScientists do their best to refute it, or prove it wrong\nTypically it is refuted, rejected, and replaced by a better one\n\nAnd tested over and over, and eventually replaced by a better one\n\nIf scientists have not been able to refute a theory over a long period of time, then the theory is corroborated\n\n\n\nSource: Why should we trust science? Because it doesn’t trust itself"
-  },
-  {
-    "objectID": "materials/01-historical-notes-slides.html#openness-transparency-honesty-integrity-reproduction-test-replication-cumulative-evidence",
-    "href": "materials/01-historical-notes-slides.html#openness-transparency-honesty-integrity-reproduction-test-replication-cumulative-evidence",
-    "title": "Historical notes",
-    "section": "Openness, Transparency, Honesty, Integrity, Reproduction (test), [Replication] (cumulative evidence)",
-    "text": "Openness, Transparency, Honesty, Integrity, Reproduction (test), [Replication] (cumulative evidence)"
-  },
-  {
-    "objectID": "materials/01-historical-notes-slides.html#should-we-trust-modenr-science-without-reproduction-replication",
-    "href": "materials/01-historical-notes-slides.html#should-we-trust-modenr-science-without-reproduction-replication",
-    "title": "Historical notes",
-    "section": "Should we trust modenr science without reproduction & replication ?",
-    "text": "Should we trust modenr science without reproduction & replication ?\n\n\n\ncgranell.github.io/rrp"
-  },
-  {
-    "objectID": "materials/01-historical-notes-slides.html#advancing-science-and-knowledge",
-    "href": "materials/01-historical-notes-slides.html#advancing-science-and-knowledge",
-    "title": "Historical notes",
-    "section": "Advancing science and knowledge…",
-    "text": "Advancing science and knowledge…\n\n\n\n… is all about the scientific method!"
-  },
-  {
-    "objectID": "materials/01-historical-notes-slides.html#if-science-drivers-areshould-be",
-    "href": "materials/01-historical-notes-slides.html#if-science-drivers-areshould-be",
-    "title": "Historical notes",
-    "section": "If science drivers are/should be",
-    "text": "If science drivers are/should be\n\n\nOpenness\n\n\nTransparency, Honesty, Integrity, Reproduction (test), Replication (cumulative evidence)"
-  },
-  {
-    "objectID": "materials/01-historical-notes-slides.html#what-are-not-reproduction-replication-integral-parts-of-the-scientific-method-and-of-the-modern-scientific-publications",
-    "href": "materials/01-historical-notes-slides.html#what-are-not-reproduction-replication-integral-parts-of-the-scientific-method-and-of-the-modern-scientific-publications",
-    "title": "Historical notes",
-    "section": "What are NOT reproduction & replication integral parts of the scientific method and of the modern scientific publications?",
-    "text": "What are NOT reproduction & replication integral parts of the scientific method and of the modern scientific publications?"
-  },
-  {
-    "objectID": "materials/01-historical-notes-slides.html#should-we-trust-modern-science-without-reproduction-replication",
-    "href": "materials/01-historical-notes-slides.html#should-we-trust-modern-science-without-reproduction-replication",
-    "title": "Historical notes",
-    "section": "Should we trust modern science without reproduction & replication ?",
-    "text": "Should we trust modern science without reproduction & replication ?\n\n\n\ncgranell.github.io/rrp"
-  },
-  {
-    "objectID": "materials/01-historical-notes-slides.html#section",
-    "href": "materials/01-historical-notes-slides.html#section",
-    "title": "Historical notes",
-    "section": "",
-    "text": "For Popper, the ideas we can most trust are those that have been the most\n\n\n\ntried & tested\n\n\n\n\n\nAdvancing science and knowledge is all about\n\n\n\n\nthe scientific method!"
-  },
-  {
-    "objectID": "materials/01-historical-notes-slides.html#advancing-science-and-knowledge-is-all-about",
-    "href": "materials/01-historical-notes-slides.html#advancing-science-and-knowledge-is-all-about",
-    "title": "Historical notes",
-    "section": "Advancing science and knowledge is all about …",
-    "text": "Advancing science and knowledge is all about …\n\n\n\n… the scientific method!"
-  },
-  {
-    "objectID": "materials/01-historical-notes-slides.html#if-science-drivers-are",
-    "href": "materials/01-historical-notes-slides.html#if-science-drivers-are",
-    "title": "Historical notes",
-    "section": "If science drivers are",
-    "text": "If science drivers are\n\n\nOpenness\n\n\n\n\nTransparency\n\n\n\n\nHonesty\n\n\n\n\nIntegrity\n\n\n\n\nReproduction (try & test)\n\n\n\n\nReplication (accumulative evidence over time)"
-  },
-  {
-    "objectID": "materials/01-historical-notes-slides.html#why-are-not-reproduction-replication-integral-parts-of-the-scientific-method-and-of-the-modern-scientific-publications",
-    "href": "materials/01-historical-notes-slides.html#why-are-not-reproduction-replication-integral-parts-of-the-scientific-method-and-of-the-modern-scientific-publications",
-    "title": "Historical notes",
-    "section": "Why are NOT reproduction & replication integral parts of the scientific method and of the modern scientific publications?",
-    "text": "Why are NOT reproduction & replication integral parts of the scientific method and of the modern scientific publications?"
-  },
-  {
-    "objectID": "materials/01-historical-notes-slides.html#why-are-not-reproduction-replication-integral-parts-of-the-scientific-method-and-of-the-modern-scientific-publications-background-color4f6952",
-    "href": "materials/01-historical-notes-slides.html#why-are-not-reproduction-replication-integral-parts-of-the-scientific-method-and-of-the-modern-scientific-publications-background-color4f6952",
-    "title": "Historical notes",
-    "section": "Why are NOT reproduction & replication integral parts of the scientific method and of the modern scientific publications? {background-color=“#4f6952”}",
-    "text": "Why are NOT reproduction & replication integral parts of the scientific method and of the modern scientific publications? {background-color=“#4f6952”}"
-  },
-  {
-    "objectID": "materials/01-historical-notes-slides.html#why-are-reproduction-replication-not-integral-parts-of-the-scientific-method-and-modern-scientific-publishing",
-    "href": "materials/01-historical-notes-slides.html#why-are-reproduction-replication-not-integral-parts-of-the-scientific-method-and-modern-scientific-publishing",
-    "title": "Historical notes",
-    "section": "Why are reproduction & replication NOT integral parts of the scientific method and modern scientific publishing?",
-    "text": "Why are reproduction & replication NOT integral parts of the scientific method and modern scientific publishing?"
-  },
-  {
-    "objectID": "materials/01-historical-notes-slides.html#should-we-trust-modern-science-without-proper-reproduction-replication",
-    "href": "materials/01-historical-notes-slides.html#should-we-trust-modern-science-without-proper-reproduction-replication",
-    "title": "Historical notes",
-    "section": "Should we trust modern science without proper reproduction & replication?",
-    "text": "Should we trust modern science without proper reproduction & replication?"
-  },
-  {
-    "objectID": "materials/01-historical-notes-slides.html#lets-go-back-to-the-17th-century",
-    "href": "materials/01-historical-notes-slides.html#lets-go-back-to-the-17th-century",
-    "title": "Historical notes",
-    "section": "Let’s go back to the 17th century…",
-    "text": "Let’s go back to the 17th century…\n\n\n\nChristiaan Huygens\n\n\nRobert Boyle"
-  },
-  {
-    "objectID": "materials/01-historical-notes-slides.html#section-1",
-    "href": "materials/01-historical-notes-slides.html#section-1",
-    "title": "Historical notes",
-    "section": "",
-    "text": "Boyle’s air pump was one of the first documented disputes over reproducibility and experimental science…"
-  },
-  {
-    "objectID": "materials/01-historical-notes-slides.html#huygens-vs-boyle",
-    "href": "materials/01-historical-notes-slides.html#huygens-vs-boyle",
-    "title": "Historical notes",
-    "section": "Huygens vs Boyle",
-    "text": "Huygens vs Boyle\n\n\n\nHuygens observed a new effect (anomalous suspension) in NL\n\n\n\nBoyle could not replicate this effect in his own air pump in UK\n\n\n\n\n\nHuygens went to UK (1663) to personally help Boyle replicate anomalous suspension of water\n\n\n\nSource. Note here that non-replication can be good! Here, a new, valid effect during replication was not observed in the original study. That’s how science progresses!"
-  },
-  {
-    "objectID": "materials/01-historical-notes-slides.html#newton-vs-flamsteed",
-    "href": "materials/01-historical-notes-slides.html#newton-vs-flamsteed",
-    "title": "Historical notes",
-    "section": "Newton vs Flamsteed",
-    "text": "Newton vs Flamsteed\n\n\n\nIsaac Newton\n\n\nJohn Flamsteed"
-  },
-  {
-    "objectID": "materials/01-historical-notes-slides.html#section-2",
-    "href": "materials/01-historical-notes-slides.html#section-2",
-    "title": "Historical notes",
-    "section": "",
-    "text": "Boyle’s air pump was one of the first documented disputes over reproducibility and experimental science…"
-  },
-  {
-    "objectID": "materials/01-historical-notes-slides.html#data-menu-titleboyles-air-pump",
-    "href": "materials/01-historical-notes-slides.html#data-menu-titleboyles-air-pump",
-    "title": "Historical notes",
-    "section": "{data-menu-title=“Boyle’s air pump”}",
-    "text": "{data-menu-title=“Boyle’s air pump”}\n\n\nBoyle’s air pump was one of the first documented disputes over reproducibility and experimental science…"
-  },
-  {
-    "objectID": "materials/01-historical-notes-slides.html#newton-vs-flamsteed-1",
-    "href": "materials/01-historical-notes-slides.html#newton-vs-flamsteed-1",
-    "title": "Historical notes",
-    "section": "Newton vs Flamsteed",
-    "text": "Newton vs Flamsteed\n\n\nFlamsteed’s lunar data & Newston’s request for raw data…\n\n\n\n\nlunardata\n\n\n\n\n\nSAO/NASA Astrophysics Data System (ADS)"
-  },
-  {
-    "objectID": "materials/01-historical-notes-slides.html#newton-vs-flamsteed-2",
-    "href": "materials/01-historical-notes-slides.html#newton-vs-flamsteed-2",
-    "title": "Historical notes",
-    "section": "Newton vs Flamsteed",
-    "text": "Newton vs Flamsteed\n\n\nIn 1695, Sir Isaac Newton wrote a letter to the British Astronomer Royal John Flamsteed, whose data on lunar positions he was trying to get for more than half a year…\nNewton wrote that…\n\n\n\n\n“these and all your communications will be useless to me unless you can propose some practicable way or other of supplying me with observations … I want not your calculations, but your observations only.” (Noy and Noy 2019)\n\n\n\nKollerstrom, N. & Yallop, B. D. J. Hist. Astron. 26, 237–246 (1995)."
-  },
-  {
-    "objectID": "materials/01-historical-notes-slides.html#lets-go-back-to-the-19th-century",
-    "href": "materials/01-historical-notes-slides.html#lets-go-back-to-the-19th-century",
-    "title": "Historical notes",
-    "section": "Let’s go back to the 19th century…",
-    "text": "Let’s go back to the 19th century…"
-  },
-  {
-    "objectID": "materials/01-historical-notes-slides.html#references",
-    "href": "materials/01-historical-notes-slides.html#references",
-    "title": "Historical notes",
-    "section": "References",
-    "text": "References\n\n\n\ncgranell.github.io/rrp\n\n\n\nNoy, Natasha, and Aleksandr Noy. 2019. “Let Go of Your Data.” Nature Materials 19 (1): 128–28. https://doi.org/10.1038/s41563-019-0539-5."
   }
 ]

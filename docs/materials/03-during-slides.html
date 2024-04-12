@@ -425,9 +425,13 @@
 <div class="quarto-title-author-name">
 Carlos Granell 
 </div>
-</div>
+        <p class="quarto-title-affiliation">
+            <a href="https://geotec.uji.es/">GEOTEC</a>, Universitat Jaume I
+          </p>
+    </div>
 </div>
 
+  <p class="date">Apr 12, 2024</p>
 </section>
 <section>
 <section id="rec11" class="title-slide slide level1 center">
@@ -539,13 +543,13 @@ Carlos Granell
 <section id="data-fair-principles" class="slide level2">
 <h2>(Data) FAIR principles</h2>
 <div class="columns">
-<div class="column" data-align="center" style="width:40%;">
+<div class="column" style="width:40%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="../images/slides/fair-principles.png" style="width:90.0%"></p>
 </figure>
 </div>
-</div><div class="column" data-align="center" style="width:60%;">
+</div><div class="column" style="width:60%;">
 <ul>
 <li><p>Emphasis on identifiers, metadata, standards, licenses, permanence <span class="citation" data-cites="wilkinson2016">(<a href="#/references" role="doc-biblioref" onclick="">Wilkinson et al. 2016</a>)</span></p></li>
 <li><p>Analysis on <a href="https://github.com/leipzig/metadata-in-rcr">metadata standards</a> for reproducible research <span class="citation" data-cites="leipzig2021">(<a href="#/references" role="doc-biblioref" onclick="">Leipzig et al. 2021</a>)</span></p></li>
@@ -649,7 +653,7 @@ Carlos Granell
 <section id="section" class="slide level2" data-menu-title="Open source tools">
 <h2></h2>
 <div class="columns">
-<div class="column" data-align="center" style="width:50%;">
+<div class="column" style="width:50%;">
 <div class="fragment fade-in-then-semi-out">
 <!-- -->
 <h3 id="instead-of">Instead of</h3>
@@ -660,7 +664,7 @@ Carlos Granell
 <li>Excel</li>
 </ul>
 </div>
-</div><div class="column" data-align="center" style="width:50%;">
+</div><div class="column" style="width:50%;">
 <div class="fragment fade-in">
 <!-- -->
 <h3 id="use">Use</h3>
@@ -755,12 +759,12 @@ Carlos Granell
 </section>
 <section id="computational-notebooks-examples" class="slide level2">
 <h2>Computational notebooks: examples</h2>
-<p><a href="https://jupyter.org/">JupyterLabs</a>, <a href="https://rmarkdown.rstudio.com/">RMarkdown</a>, <a href="https://quarto.org/">Quarto</a>, <a href="https://es.mathworks.com/help/matlab/live-scripts-and-functions.html">Matlab Live Scripts</a>, <a href="https://www.wolfram.com/computational-notebooks/">Wolfram</a>, see more in <a href="https://en.wikipedia.org/wiki/Notebook_interface">Wikipedia</a></p>
+<p><a href="https://jupyter.org/">JupyterLabs</a>, <a href="https://rmarkdown.rstudio.com/">RMarkdown</a>, <a href="https://quarto.org/">Quarto</a>, <a href="https://colab.research.google.com/">Google Colab</a>, <a href="https://es.mathworks.com/help/matlab/live-scripts-and-functions.html">Matlab Live Scripts</a>, <a href="https://www.wolfram.com/computational-notebooks/">Wolfram</a>, see more in <a href="https://en.wikipedia.org/wiki/Notebook_interface">Wikipedia</a></p>
 <p><span class="citation" data-cites="pimentel2019">(<a href="#/references" role="doc-biblioref" onclick="">Pimentel et al. 2019</a>)</span> studied 1.4 millions of notebooks (GitHub)</p>
 <ul>
 <li>Only 24% ran without exceptions</li>
 <li>Only 4% produced same results</li>
-<li>Output: <em>best practices for the reproducibility of notebooks</em></li>
+<li>Conclusions: <em>best practices for the reproducibility of notebooks</em></li>
 </ul>
 </section></section>
 <section>
@@ -781,14 +785,14 @@ Carlos Granell
 <li><code>renv</code> for R or <code>venv</code> for Python. See <a href="https://www.r-bloggers.com/2023/03/r-renv-how-to-manage-dependencies-in-r-projects-easily/">post on <code>renv</code> usage</a></li>
 </ul>
 <div class="columns">
-<div class="column" data-align="center" style="width:50%;">
+<div class="column" style="width:50%;">
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># authors' workflow</span></span>
 <span id="cb1-2"><a href="#cb1-2"></a>renv<span class="sc">::</span><span class="fu">activate</span>()  </span>
 <span id="cb1-3"><a href="#cb1-3"></a>renv<span class="sc">::</span><span class="fu">snapshot</span>()  <span class="co"># check state</span></span>
 <span id="cb1-4"><a href="#cb1-4"></a>renv<span class="sc">::</span><span class="fu">snapshot</span>()  <span class="co"># check state</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-</div><div class="column" data-align="center" style="width:50%;">
+</div><div class="column" style="width:50%;">
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="co"># others' workflow</span></span>
 <span id="cb2-2"><a href="#cb2-2"></a>renv<span class="sc">::</span><span class="fu">restore</span>()  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -811,13 +815,13 @@ Carlos Granell
 <h2>Container tools</h2>
 <h3 id="beyond-package-management-tools">Beyond package management tools…</h3>
 <div class="columns">
-<div class="column" data-align="center" style="width:60%;">
+<div class="column" style="width:60%;">
 <ul>
 <li><p><a href="https://www.docker.com/">Docker</a> and family tools <span class="citation" data-cites="nust2020-docker">(<a href="#/references" role="doc-biblioref" onclick="">Nust et al. 2020</a>)</span></p></li>
 <li><p><a href="https://mybinder.org/">Binder</a> deploys a cloud-based docker container based on a git repo</p></li>
 <li><p><a href="https://github.com/jupyterhub/repo2docker"><code>repo2docker</code></a> fetches a git repository and builds a container image based on the configuration files found in the repository</p></li>
 </ul>
-</div><div class="column" data-align="center" style="width:40%;">
+</div><div class="column" style="width:40%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="https://journals.plos.org/ploscompbiol/article/figure/image?size=large&amp;id=10.1371/journal.pcbi.1008316.g002" style="width:100.0%"></p>
@@ -857,7 +861,7 @@ Carlos Granell
 </div>
 
 <aside><div>
-<p>Cite software properly <span class="citation" data-cites="smith2016">(<a href="#/references" role="doc-biblioref" onclick="">Smith, Katz, and Niemeyer 2016</a>)</span> - <a href="03-after-slides.qmd#rec23">#23</a></p>
+<p>Cite software properly <span class="citation" data-cites="smith2016">(<a href="#/references" role="doc-biblioref" onclick="">Smith, Katz, and Niemeyer 2016</a>)</span> - See <a href="03-after-slides.qmd#rec23">Recommendation #23</a></p>
 </div></aside></section>
 <section id="software-fair-according-to-uji" class="slide level2">
 <h2>(Software) FAIR according to UJI</h2>
