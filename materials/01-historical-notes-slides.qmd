@@ -1,37 +1,263 @@
 ---
-title: "Reproducibility: historical notes"
+title: "Historical notes"
+subtitle: "Reproducibility in Science"
 author: "Carlos Granell"
-institute: "Universitat Jaume I"
-date: "04/17/2023"
-date-modified: last-modified
+institute: "[GEOTEC](https://geotec.uji.es/), Universitat Jaume I"
+date: last-modified
 date-format: "MMM D, YYYY"
 format: 
   revealjs:
     slide-number: true
-    width: 1920
-    height: 1080
-    logo: "http://geotec.uji.es/wp-content/uploads/2016/11/geotecLOGO.fw_.png"
+    show-slide-number: all
+    progress: true
+    logo: ../images/ESCOLA-DOCTORAT-es-blanco.png
     footer: "[cgranell.github.io/rrp](https://cgranell.github.io/rrp)"
-    theme: simple
+    theme: default  # theme: dark
+    transition: fade
+    preview-links: true
+    author-meta: "Carlos Granell"
+    date-meta: "15/03/2024"
+    chalkboard: 
+      theme: whiteboard
+      buttons: false
+      boardmarker-width: 3
+from: markdown+emoji
+execute:
+  echo: true
 ---
 
 
 # Focus is the art of knowing what to ignore. {background-color="#4f6952"}
 
-::: {.fragment}
+::: {.fragment .fade-in}
 
 The fastest way to raise your level of performance: Cut your number of commitments in half.
 
 :::
 
-# Reproducibility in Science
 
-## Should we trust science?
+# What is the scientific method? {background-color="#4f6952"}
 
-Doubt is inherently human and we (scientists) also have doubts!
 
-Karl Pooper's *Conjectures and Refutations*
+## Science progresses through [*conjectures and refutations*](https://joelvelasco.net/teaching/hum9/popper-conjecturesrefutations.pdf) (Popper)
 
-> "At the core of the scientific method is the attempt to refute or disprove theories"
+::: {.incremental}
 
- 
+-   Scientists are confronted with some question, and offer an answer (**conjecture**), which might be right or wrong
+
+-   Scientists do their best to **refute** it, or prove it wrong
+
+-   Typically it is refuted, rejected, and replaced by a better one
+
+    -   And tested over and over, and eventually replaced by a better one
+
+-   If scientists have not been able to refute a theory over a long period of time, then the theory is **corroborated**
+
+
+:::
+
+::: {.notes}
+Source: [Why should we trust science? Because it doesn’t trust itself](https://theconversation.com/why-should-we-trust-science-because-it-doesnt-trust-itself-188988)
+:::
+
+## {data-menu-title="Popper's view on science"}
+
+### For Popper, the ideas we can most trust are those that have been the most 
+
+::: {.r-fit-text}
+::: {.fragment .fade-in fragment-index=1}
+::: {.fragment .highlight-blue fragment-index=1}
+**tried & tested**
+:::
+:::
+:::
+
+::: {.fragment .fade-in fragment-index=2}
+### Advancing science and knowledge is all about
+:::
+
+::: {.r-fit-text}
+::: {.fragment .fade-in fragment-index=3}
+::: {.fragment .highlight-blue fragment-index=3}
+the **scientific method**!
+:::
+:::
+:::
+
+
+## If **science drivers** are {data-menu-title="Science drivers"}
+
+::: {.fragment .fade-in fragment-index=1}
+::: {.fragment .highlight-current-blue fragment-index=1}
+**Openness**
+
+:::
+:::
+
+::: {.fragment .fade-in fragment-index=2}
+::: {.fragment .highlight-current-blue fragment-index=2}
+Transparency
+:::
+:::
+
+::: {.fragment .fade-in fragment-index=3}
+::: {.fragment .highlight-current-blue fragment-index=3}
+Honesty 
+:::
+:::
+
+::: {.fragment .fade-in fragment-index=4}
+::: {.fragment .highlight-current-blue fragment-index=4}
+Integrity
+:::
+:::
+
+::: {.fragment .fade-in fragment-index=5}
+::: {.fragment .highlight-current-blue fragment-index=5}
+Reproduction (try & test)
+:::
+:::
+
+::: {.fragment .fade-in fragment-index=6}
+::: {.fragment .highlight-current-blue fragment-index=6}
+Replication (accumulative evidence over time)
+:::
+:::
+
+## Why are *reproduction & replication* NOT integral parts of the scientific method and modern scientific publishing? {.center}
+
+
+## Should we trust modern science without proper *reproduction & replication*?  {.center}
+
+# Is reproducibility a new problem? {background-color="#4f6952"}
+
+## Let's go back to the 17th century...
+
+:::: {.columns}
+
+::: {.column width="50%" style="text-align: center"}
+
+![](https://upload.wikimedia.org/wikipedia/commons/a/a4/Christiaan_Huygens-painting.jpeg){width="60%"}
+
+[Christiaan Huygens](https://en.wikipedia.org/wiki/Christiaan_Huygens)
+
+:::
+
+::: {.column width="50%" style="text-align: center"}
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/The_Shannon_Portrait_of_the_Hon_Robert_Boyle.jpg/800px-The_Shannon_Portrait_of_the_Hon_Robert_Boyle.jpg){width="63%"}
+
+[Robert Boyle](https://en.wikipedia.org/wiki/Robert_Boyle)
+
+:::
+::::
+
+## {data-menu-title="Boyle's air pump"}
+
+:::: {.columns}
+
+::: {.column width="60%" style="text-align: center"}
+### Boyle's [air pump](https://en.wikipedia.org/wiki/Air_pump) was one of the first documented disputes over reproducibility and experimental science...
+:::
+
+::: {.column width="40%" style="text-align: center"}
+![](https://upload.wikimedia.org/wikipedia/commons/3/31/Boyle_air_pump.jpg){width="70%"}
+:::
+::::
+
+## Huygens vs Boyle 
+
+:::: {.columns}
+
+::: {.column width="50%" style="text-align: center"}
+
+![](https://upload.wikimedia.org/wikipedia/commons/a/a4/Christiaan_Huygens-painting.jpeg){width="40%"}
+
+**Huygens** observed a new effect (*[anomalous suspension](https://www.youtube.com/watch?v=vekG7rotwy4)*) in NL
+:::
+
+::: {.column width="50%" style="text-align: center"}
+::: {.fragment .fade-in}
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/The_Shannon_Portrait_of_the_Hon_Robert_Boyle.jpg/800px-The_Shannon_Portrait_of_the_Hon_Robert_Boyle.jpg){width="40%"}
+
+**Boyle** could not replicate this effect in his own air pump in UK
+:::
+:::
+
+::::
+
+::: {.r-stack}
+::: {.fragment .fade-in}
+Huygens went to UK (1663) to personally help Boyle *replicate* anomalous suspension of water
+:::
+:::
+
+
+::: {.notes}
+[Source](https://en.wikipedia.org/wiki/Reproducibility). Note here that non-replication can be good! Here, a new, valid effect during replication was not observed in the original study. That's how science progresses!
+:::
+
+## Newton vs Flamsteed
+
+:::: {.columns}
+
+::: {.column width="50%" style="text-align: center"}
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Portrait_of_Sir_Isaac_Newton%2C_1689.jpg/1280px-Portrait_of_Sir_Isaac_Newton%2C_1689.jpg){width="65%"}
+
+[Isaac Newton](https://en.wikipedia.org/wiki/Isaac_Newton)
+:::
+
+::: {.column width="50%" style="text-align: center"}
+
+![](https://upload.wikimedia.org/wikipedia/commons/1/16/John_Flamsteed_1702.jpg){width="60%"}
+
+[John Flamsteed](https://en.wikipedia.org/wiki/John_Flamsteed)
+
+:::
+::::
+
+
+## Newton vs Flamsteed {data-menu-title="Newton vs Flamsteed (II)"}
+
+:::: {.columns}
+
+::: {.column width="20%" style="text-align: center"}
+
+Flamsteed's [lunar data](https://articles.adsabs.harvard.edu//full/1995JHA....26..237K/0000237.000.html) & Newston's request for raw data...
+:::
+
+::: {.column width="80%" style="text-align: center"}
+
+![lunardata](../images/slides/flamsteed-newton-lunardata.jpg)
+:::
+::::
+
+::: {.notes}
+
+[SAO/NASA Astrophysics Data System (ADS)](https://articles.adsabs.harvard.edu//full/1995JHA....26..237K/0000237.000.html)
+
+:::
+
+## Newton vs Flamsteed {data-menu-title="Newton vs Flamsteed (III)"}
+
+::: {.incremental}
+
+-   In 1695, Sir Isaac Newton wrote a letter to the British Astronomer Royal John Flamsteed, whose data on lunar positions he was trying to get for more than half a year...
+
+
+-   Newton wrote that...
+:::
+
+::: {.fragment .fade-in}
+> “these and all your communications will be useless to me unless you can propose some practicable way or other of supplying me with observations ... **I want not your calculations, but your observations only**.” [@noy2019]
+:::
+
+::: {.notes}
+
+[Kollerstrom, N. & Yallop, B. D. J. Hist. Astron. 26, 237–246 (1995)](https://doi.org/10.1177%2F002182869502600303).
+::: 
+
+## Let's go back to the 19th century...
+
+## References

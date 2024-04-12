@@ -4,7 +4,7 @@
     "href": "assessment.html",
     "title": "Reproduciblity assessment",
     "section": "",
-    "text": "Assessment criteria as a reviewer or reader\n\n\n\n\n\n\nWarning\n\n\n\nThis is work in progress"
+    "text": "Assessment criteria as a reviewer or reader\nNext, we start with the Reproduction Plan by assessing the reproducibility criteria over research papers.\n\n\n\n\n\n\nWarning\n\n\n\nThis is work in progress"
   },
   {
     "objectID": "CODE_OF_CONDUCT.html",
@@ -53,7 +53,7 @@
     "href": "intro.html",
     "title": "Introduction to Reproducibility and Replicability",
     "section": "",
-    "text": "We look at landmark examples that have influenced the emphasis on reproducibility in the past decades and explain why reproducibility is so important in current scientific endeavour.\nWe highlight which components may be reproducible and take a PhD perspective for reproducibility too. Next, we start with the Reproduction Plan by assessing the reproducibility criteria over research papers."
+    "text": "We first look at landmark examples that have influenced the emphasis on reproducibility in the past decades and explain why reproducibility is so important in current scientific endeavour.\nNext, we highlight which research components/resources are eligible to be reproducible and take a PhD perspective for reproducibility too."
   },
   {
     "objectID": "LICENSE.html",
@@ -135,35 +135,35 @@
   {
     "objectID": "materials/01-historical-notes-slides.html#should-we-trust-science",
     "href": "materials/01-historical-notes-slides.html#should-we-trust-science",
-    "title": "Reproducibility: historical notes",
+    "title": "Historical notes",
     "section": "Should we trust science?",
-    "text": "Should we trust science?\nDoubt is inherently human and we (scientists) also have doubts!\nKarl Pooper’s Conjectures and Refutations\n\n“At the core of the scientific method is the attempt to refute or disprove theories”\n\n\n\n\ncgranell.github.io/rrp"
+    "text": "Should we trust science?\n\n\n\ncgranell.github.io/rrp"
   },
   {
     "objectID": "materials/01-historical-notes.html",
     "href": "materials/01-historical-notes.html",
-    "title": "Reproducibility: historical notes",
+    "title": "Historical notes",
     "section": "",
-    "text": "Reproducibility is not a new concept that has emerged recently. We can find traces of reproducibility in past periods of science."
+    "text": "“At the core of the scientific method is the attempt to refute or disprove theories.”\n(Popper’s Conjectures and Refutations)\n\nPhilosopher of science Karl Popper\nReproducibility is not a new concept that has emerged recently. We, of course, find traces of reproducibility in past periods of science."
   },
   {
     "objectID": "materials/01-historical-notes.html#slides",
     "href": "materials/01-historical-notes.html#slides",
-    "title": "Reproducibility: historical notes",
+    "title": "Historical notes",
     "section": "Slides",
-    "text": "Slides\n\n\n\n\n\n\nSlide Deck Reproducibility: historical notes\n\n\n\n\nSlides\n\n\nSource"
+    "text": "Slides\n\n\n\n\n\n\nSlide Deck Historical notes\n\n\n\n\nSlides\n\n\nSource"
   },
   {
     "objectID": "materials/01-historical-notes.html#application-exercises",
     "href": "materials/01-historical-notes.html#application-exercises",
-    "title": "Reproducibility: historical notes",
+    "title": "Historical notes",
     "section": "Application exercises",
     "text": "Application exercises"
   },
   {
     "objectID": "materials/01-historical-notes.html#additional-resources-readings-and-videos",
     "href": "materials/01-historical-notes.html#additional-resources-readings-and-videos",
-    "title": "Reproducibility: historical notes",
+    "title": "Historical notes",
     "section": "Additional resources, readings, and videos",
     "text": "Additional resources, readings, and videos"
   },
@@ -754,5 +754,180 @@
     "title": "Reproducible research at UJI",
     "section": "UJI",
     "text": "UJI\nAs part of the Open Knowledge Portal, the UJI library provides guides for researchers about the open access dissemination of the results of the investigation, and copyright and licenses.\n\nOpen Access Declaration\nDeclaració institucional a favor de la promoció de l’accés obert a la Universitat Jaume I\n\n\nBest practices for research\nCódigo de Buenas Prácticas en Investigación y Doctorado, CBPID – focus on “open access” section"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#science-progresses-through-conjectures-and-refutations",
+    "href": "materials/01-historical-notes-slides.html#science-progresses-through-conjectures-and-refutations",
+    "title": "Historical notes",
+    "section": "Science progresses through conjectures and refutations",
+    "text": "Science progresses through conjectures and refutations\n\n\nScientists are confronted with some question, and offer a possible answer\nThe answer is a conjecture initially (is it right or wrong?)\nScientists do their best to refute this conjecture, or prove it wrong\nTypically it is refuted, rejected, and replaced by a better one\nThis too will then be tested, and eventually replaced by an even better one\nIf scientists have not been able to refute a theory over a long period of time, despite their best efforts, then the theory has been corroborated\n\n\n\nSource: Why should we trust science? Because it doesn’t trust itself"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#science-progresses-through-conjectures-and-refutations-popper",
+    "href": "materials/01-historical-notes-slides.html#science-progresses-through-conjectures-and-refutations-popper",
+    "title": "Historical notes",
+    "section": "Science progresses through conjectures and refutations (Popper)",
+    "text": "Science progresses through conjectures and refutations (Popper)\n\n\nScientists are confronted with some question, and offer an answer (conjecture), which might be right or wrong\nScientists do their best to refute it, or prove it wrong\nTypically it is refuted, rejected, and replaced by a better one\n\nAnd tested over and over, and eventually replaced by a better one\n\nIf scientists have not been able to refute a theory over a long period of time, then the theory is corroborated\n\n\n\nSource: Why should we trust science? Because it doesn’t trust itself"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#openness-transparency-honesty-integrity-reproduction-test-replication-cumulative-evidence",
+    "href": "materials/01-historical-notes-slides.html#openness-transparency-honesty-integrity-reproduction-test-replication-cumulative-evidence",
+    "title": "Historical notes",
+    "section": "Openness, Transparency, Honesty, Integrity, Reproduction (test), [Replication] (cumulative evidence)",
+    "text": "Openness, Transparency, Honesty, Integrity, Reproduction (test), [Replication] (cumulative evidence)"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#should-we-trust-modenr-science-without-reproduction-replication",
+    "href": "materials/01-historical-notes-slides.html#should-we-trust-modenr-science-without-reproduction-replication",
+    "title": "Historical notes",
+    "section": "Should we trust modenr science without reproduction & replication ?",
+    "text": "Should we trust modenr science without reproduction & replication ?\n\n\n\ncgranell.github.io/rrp"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#advancing-science-and-knowledge",
+    "href": "materials/01-historical-notes-slides.html#advancing-science-and-knowledge",
+    "title": "Historical notes",
+    "section": "Advancing science and knowledge…",
+    "text": "Advancing science and knowledge…\n\n\n\n… is all about the scientific method!"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#if-science-drivers-areshould-be",
+    "href": "materials/01-historical-notes-slides.html#if-science-drivers-areshould-be",
+    "title": "Historical notes",
+    "section": "If science drivers are/should be",
+    "text": "If science drivers are/should be\n\n\nOpenness\n\n\nTransparency, Honesty, Integrity, Reproduction (test), Replication (cumulative evidence)"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#what-are-not-reproduction-replication-integral-parts-of-the-scientific-method-and-of-the-modern-scientific-publications",
+    "href": "materials/01-historical-notes-slides.html#what-are-not-reproduction-replication-integral-parts-of-the-scientific-method-and-of-the-modern-scientific-publications",
+    "title": "Historical notes",
+    "section": "What are NOT reproduction & replication integral parts of the scientific method and of the modern scientific publications?",
+    "text": "What are NOT reproduction & replication integral parts of the scientific method and of the modern scientific publications?"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#should-we-trust-modern-science-without-reproduction-replication",
+    "href": "materials/01-historical-notes-slides.html#should-we-trust-modern-science-without-reproduction-replication",
+    "title": "Historical notes",
+    "section": "Should we trust modern science without reproduction & replication ?",
+    "text": "Should we trust modern science without reproduction & replication ?\n\n\n\ncgranell.github.io/rrp"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#section",
+    "href": "materials/01-historical-notes-slides.html#section",
+    "title": "Historical notes",
+    "section": "",
+    "text": "For Popper, the ideas we can most trust are those that have been the most\n\n\n\ntried & tested\n\n\n\n\n\nAdvancing science and knowledge is all about\n\n\n\n\nthe scientific method!"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#advancing-science-and-knowledge-is-all-about",
+    "href": "materials/01-historical-notes-slides.html#advancing-science-and-knowledge-is-all-about",
+    "title": "Historical notes",
+    "section": "Advancing science and knowledge is all about …",
+    "text": "Advancing science and knowledge is all about …\n\n\n\n… the scientific method!"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#if-science-drivers-are",
+    "href": "materials/01-historical-notes-slides.html#if-science-drivers-are",
+    "title": "Historical notes",
+    "section": "If science drivers are",
+    "text": "If science drivers are\n\n\nOpenness\n\n\n\n\nTransparency\n\n\n\n\nHonesty\n\n\n\n\nIntegrity\n\n\n\n\nReproduction (try & test)\n\n\n\n\nReplication (accumulative evidence over time)"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#why-are-not-reproduction-replication-integral-parts-of-the-scientific-method-and-of-the-modern-scientific-publications",
+    "href": "materials/01-historical-notes-slides.html#why-are-not-reproduction-replication-integral-parts-of-the-scientific-method-and-of-the-modern-scientific-publications",
+    "title": "Historical notes",
+    "section": "Why are NOT reproduction & replication integral parts of the scientific method and of the modern scientific publications?",
+    "text": "Why are NOT reproduction & replication integral parts of the scientific method and of the modern scientific publications?"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#why-are-not-reproduction-replication-integral-parts-of-the-scientific-method-and-of-the-modern-scientific-publications-background-color4f6952",
+    "href": "materials/01-historical-notes-slides.html#why-are-not-reproduction-replication-integral-parts-of-the-scientific-method-and-of-the-modern-scientific-publications-background-color4f6952",
+    "title": "Historical notes",
+    "section": "Why are NOT reproduction & replication integral parts of the scientific method and of the modern scientific publications? {background-color=“#4f6952”}",
+    "text": "Why are NOT reproduction & replication integral parts of the scientific method and of the modern scientific publications? {background-color=“#4f6952”}"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#why-are-reproduction-replication-not-integral-parts-of-the-scientific-method-and-modern-scientific-publishing",
+    "href": "materials/01-historical-notes-slides.html#why-are-reproduction-replication-not-integral-parts-of-the-scientific-method-and-modern-scientific-publishing",
+    "title": "Historical notes",
+    "section": "Why are reproduction & replication NOT integral parts of the scientific method and modern scientific publishing?",
+    "text": "Why are reproduction & replication NOT integral parts of the scientific method and modern scientific publishing?"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#should-we-trust-modern-science-without-proper-reproduction-replication",
+    "href": "materials/01-historical-notes-slides.html#should-we-trust-modern-science-without-proper-reproduction-replication",
+    "title": "Historical notes",
+    "section": "Should we trust modern science without proper reproduction & replication?",
+    "text": "Should we trust modern science without proper reproduction & replication?"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#lets-go-back-to-the-17th-century",
+    "href": "materials/01-historical-notes-slides.html#lets-go-back-to-the-17th-century",
+    "title": "Historical notes",
+    "section": "Let’s go back to the 17th century…",
+    "text": "Let’s go back to the 17th century…\n\n\n\nChristiaan Huygens\n\n\nRobert Boyle"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#section-1",
+    "href": "materials/01-historical-notes-slides.html#section-1",
+    "title": "Historical notes",
+    "section": "",
+    "text": "Boyle’s air pump was one of the first documented disputes over reproducibility and experimental science…"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#huygens-vs-boyle",
+    "href": "materials/01-historical-notes-slides.html#huygens-vs-boyle",
+    "title": "Historical notes",
+    "section": "Huygens vs Boyle",
+    "text": "Huygens vs Boyle\n\n\n\nHuygens observed a new effect (anomalous suspension) in NL\n\n\n\nBoyle could not replicate this effect in his own air pump in UK\n\n\n\n\n\nHuygens went to UK (1663) to personally help Boyle replicate anomalous suspension of water\n\n\n\nSource. Note here that non-replication can be good! Here, a new, valid effect during replication was not observed in the original study. That’s how science progresses!"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#newton-vs-flamsteed",
+    "href": "materials/01-historical-notes-slides.html#newton-vs-flamsteed",
+    "title": "Historical notes",
+    "section": "Newton vs Flamsteed",
+    "text": "Newton vs Flamsteed\n\n\n\nIsaac Newton\n\n\nJohn Flamsteed"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#section-2",
+    "href": "materials/01-historical-notes-slides.html#section-2",
+    "title": "Historical notes",
+    "section": "",
+    "text": "Boyle’s air pump was one of the first documented disputes over reproducibility and experimental science…"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#data-menu-titleboyles-air-pump",
+    "href": "materials/01-historical-notes-slides.html#data-menu-titleboyles-air-pump",
+    "title": "Historical notes",
+    "section": "{data-menu-title=“Boyle’s air pump”}",
+    "text": "{data-menu-title=“Boyle’s air pump”}\n\n\nBoyle’s air pump was one of the first documented disputes over reproducibility and experimental science…"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#newton-vs-flamsteed-1",
+    "href": "materials/01-historical-notes-slides.html#newton-vs-flamsteed-1",
+    "title": "Historical notes",
+    "section": "Newton vs Flamsteed",
+    "text": "Newton vs Flamsteed\n\n\nFlamsteed’s lunar data & Newston’s request for raw data…\n\n\n\n\nlunardata\n\n\n\n\n\nSAO/NASA Astrophysics Data System (ADS)"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#newton-vs-flamsteed-2",
+    "href": "materials/01-historical-notes-slides.html#newton-vs-flamsteed-2",
+    "title": "Historical notes",
+    "section": "Newton vs Flamsteed",
+    "text": "Newton vs Flamsteed\n\n\nIn 1695, Sir Isaac Newton wrote a letter to the British Astronomer Royal John Flamsteed, whose data on lunar positions he was trying to get for more than half a year…\nNewton wrote that…\n\n\n\n\n“these and all your communications will be useless to me unless you can propose some practicable way or other of supplying me with observations … I want not your calculations, but your observations only.” (Noy and Noy 2019)\n\n\n\nKollerstrom, N. & Yallop, B. D. J. Hist. Astron. 26, 237–246 (1995)."
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#lets-go-back-to-the-19th-century",
+    "href": "materials/01-historical-notes-slides.html#lets-go-back-to-the-19th-century",
+    "title": "Historical notes",
+    "section": "Let’s go back to the 19th century…",
+    "text": "Let’s go back to the 19th century…"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#references",
+    "href": "materials/01-historical-notes-slides.html#references",
+    "title": "Historical notes",
+    "section": "References",
+    "text": "References\n\n\n\ncgranell.github.io/rrp\n\n\n\nNoy, Natasha, and Aleksandr Noy. 2019. “Let Go of Your Data.” Nature Materials 19 (1): 128–28. https://doi.org/10.1038/s41563-019-0539-5."
   }
 ]

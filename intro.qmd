@@ -2,7 +2,6 @@
 title: "Introduction to Reproducibility and Replicability"
 ---
 
-We look at landmark examples that have influenced the emphasis on reproducibility in the past decades and explain why reproducibility is so important in current scientific endeavour. 
+We first look at landmark examples that have influenced the emphasis on reproducibility in the past decades and explain why reproducibility is so important in current scientific endeavour. 
 
-We highlight which components may be reproducible and take a PhD perspective for reproducibility too. Next, we start with the Reproduction Plan by assessing the reproducibility criteria over research papers.
-
+Next, we highlight which research components/resources are eligible to be reproducible and take a PhD perspective for reproducibility too.

@@ -4,6 +4,8 @@ title: "Reproduciblity assessment"
 
 Assessment criteria as a reviewer or reader 
 
+Next, we start with the Reproduction Plan by assessing the reproducibility criteria over research papers.
+
 :::{.callout-warning}
 
 This is work in progress

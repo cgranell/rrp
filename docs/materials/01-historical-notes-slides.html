@@ -11,7 +11,8 @@
   <meta name="generator" content="quarto-1.3.353">
 
   <meta name="author" content="Carlos Granell">
-  <title>RRP’24 - Reproducibility: historical notes</title>
+  <meta name="dcterms.date" content="15/03/2024">
+  <title>RRP’24 - Historical notes</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -29,11 +30,32 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
@@ -325,7 +347,8 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Reproducibility: historical notes</h1>
+  <h1 class="title">Historical notes</h1>
+  <p class="subtitle">Reproducibility in Science</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -333,36 +356,253 @@
 Carlos Granell 
 </div>
         <p class="quarto-title-affiliation">
-            Universitat Jaume I
+            <a href="https://geotec.uji.es/">GEOTEC</a>, Universitat Jaume I
           </p>
     </div>
 </div>
 
-  <p class="date">Apr 17, 2023</p>
+  <p class="date">Apr 12, 2024</p>
 </section>
 <section id="focus-is-the-art-of-knowing-what-to-ignore." class="title-slide slide level1 center" data-background-color="#4f6952">
 <h1>Focus is the art of knowing what to ignore.</h1>
-<div class="fragment">
+<div class="fragment fade-in">
 <p>The fastest way to raise your level of performance: Cut your number of commitments in half.</p>
 </div>
 </section>
 
 <section>
-<section id="reproducibility-in-science" class="title-slide slide level1 center">
-<h1>Reproducibility in Science</h1>
+<section id="what-is-the-scientific-method" class="title-slide slide level1 center" data-background-color="#4f6952">
+<h1>What is the scientific method?</h1>
 
 </section>
-<section id="should-we-trust-science" class="slide level2">
-<h2>Should we trust science?</h2>
-<p>Doubt is inherently human and we (scientists) also have doubts!</p>
-<p>Karl Pooper’s <em>Conjectures and Refutations</em></p>
+<section id="science-progresses-through-conjectures-and-refutations-popper" class="slide level2">
+<h2>Science progresses through <a href="https://joelvelasco.net/teaching/hum9/popper-conjecturesrefutations.pdf"><em>conjectures and refutations</em></a> (Popper)</h2>
+<div>
+<ul>
+<li class="fragment"><p>Scientists are confronted with some question, and offer an answer (<strong>conjecture</strong>), which might be right or wrong</p></li>
+<li class="fragment"><p>Scientists do their best to <strong>refute</strong> it, or prove it wrong</p></li>
+<li class="fragment"><p>Typically it is refuted, rejected, and replaced by a better one</p>
+<ul>
+<li class="fragment">And tested over and over, and eventually replaced by a better one</li>
+</ul></li>
+<li class="fragment"><p>If scientists have not been able to refute a theory over a long period of time, then the theory is <strong>corroborated</strong></p></li>
+</ul>
+</div>
+<aside class="notes">
+<p>Source: <a href="https://theconversation.com/why-should-we-trust-science-because-it-doesnt-trust-itself-188988">Why should we trust science? Because it doesn’t trust itself</a></p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section" class="slide level2" data-menu-title="Popper's view on science">
+<h2></h2>
+<h3 id="for-popper-the-ideas-we-can-most-trust-are-those-that-have-been-the-most">For Popper, the ideas we can most trust are those that have been the most</h3>
+<div class="r-fit-text">
+<div class="fragment fade-in" data-fragment-index="1">
+<div class="fragment highlight-blue" data-fragment-index="1">
+<p><strong>tried &amp; tested</strong></p>
+</div>
+</div>
+</div>
+<div class="fragment fade-in" data-fragment-index="2">
+<!-- -->
+<h3 id="advancing-science-and-knowledge-is-all-about">Advancing science and knowledge is all about</h3>
+</div>
+<div class="r-fit-text">
+<div class="fragment fade-in" data-fragment-index="3">
+<div class="fragment highlight-blue" data-fragment-index="3">
+<p>the <strong>scientific method</strong>!</p>
+</div>
+</div>
+</div>
+</section>
+<section id="if-science-drivers-are" class="slide level2" data-menu-title="Science drivers">
+<h2>If <strong>science drivers</strong> are</h2>
+<div class="fragment fade-in" data-fragment-index="1">
+<div class="fragment highlight-current-blue" data-fragment-index="1">
+<p><strong>Openness</strong></p>
+</div>
+</div>
+<div class="fragment fade-in" data-fragment-index="2">
+<div class="fragment highlight-current-blue" data-fragment-index="2">
+<p>Transparency</p>
+</div>
+</div>
+<div class="fragment fade-in" data-fragment-index="3">
+<div class="fragment highlight-current-blue" data-fragment-index="3">
+<p>Honesty</p>
+</div>
+</div>
+<div class="fragment fade-in" data-fragment-index="4">
+<div class="fragment highlight-current-blue" data-fragment-index="4">
+<p>Integrity</p>
+</div>
+</div>
+<div class="fragment fade-in" data-fragment-index="5">
+<div class="fragment highlight-current-blue" data-fragment-index="5">
+<p>Reproduction (try &amp; test)</p>
+</div>
+</div>
+<div class="fragment fade-in" data-fragment-index="6">
+<div class="fragment highlight-current-blue" data-fragment-index="6">
+<p>Replication (accumulative evidence over time)</p>
+</div>
+</div>
+</section>
+<section id="why-are-reproduction-replication-not-integral-parts-of-the-scientific-method-and-modern-scientific-publishing" class="slide level2 center">
+<h2>Why are <em>reproduction &amp; replication</em> NOT integral parts of the scientific method and modern scientific publishing?</h2>
+</section>
+<section id="should-we-trust-modern-science-without-proper-reproduction-replication" class="slide level2 center">
+<h2>Should we trust modern science without proper <em>reproduction &amp; replication</em>?</h2>
+</section></section>
+<section>
+<section id="is-reproducibility-a-new-problem" class="title-slide slide level1 center" data-background-color="#4f6952">
+<h1>Is reproducibility a new problem?</h1>
+
+</section>
+<section id="lets-go-back-to-the-17th-century" class="slide level2">
+<h2>Let’s go back to the 17th century…</h2>
+<div class="columns">
+<div class="column" style="text-align: center">
+<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Christiaan_Huygens-painting.jpeg" style="width:60.0%"></p>
+<p><a href="https://en.wikipedia.org/wiki/Christiaan_Huygens">Christiaan Huygens</a></p>
+</div><div class="column" style="text-align: center">
+<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/The_Shannon_Portrait_of_the_Hon_Robert_Boyle.jpg/800px-The_Shannon_Portrait_of_the_Hon_Robert_Boyle.jpg" style="width:63.0%"></p>
+<p><a href="https://en.wikipedia.org/wiki/Robert_Boyle">Robert Boyle</a></p>
+</div>
+</div>
+</section>
+<section id="section-1" class="slide level2" data-menu-title="Boyle's air pump">
+<h2></h2>
+<div class="columns">
+<div class="column" style="text-align: center">
+<h3 id="boyles-air-pump-was-one-of-the-first-documented-disputes-over-reproducibility-and-experimental-science">Boyle’s <a href="https://en.wikipedia.org/wiki/Air_pump">air pump</a> was one of the first documented disputes over reproducibility and experimental science…</h3>
+</div><div class="column" style="text-align: center">
+<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/3/31/Boyle_air_pump.jpg" style="width:70.0%"></p>
+</div>
+</div>
+</section>
+<section id="huygens-vs-boyle" class="slide level2">
+<h2>Huygens vs Boyle</h2>
+<div class="columns">
+<div class="column" style="text-align: center">
+<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Christiaan_Huygens-painting.jpeg" style="width:40.0%"></p>
+<p><strong>Huygens</strong> observed a new effect (<em><a href="https://www.youtube.com/watch?v=vekG7rotwy4">anomalous suspension</a></em>) in NL</p>
+</div><div class="column" style="text-align: center">
+<div class="fragment fade-in">
+<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/The_Shannon_Portrait_of_the_Hon_Robert_Boyle.jpg/800px-The_Shannon_Portrait_of_the_Hon_Robert_Boyle.jpg" style="width:40.0%"></p>
+<p><strong>Boyle</strong> could not replicate this effect in his own air pump in UK</p>
+</div>
+</div>
+</div>
+<div class="r-stack">
+<div class="fragment fade-in">
+<p>Huygens went to UK (1663) to personally help Boyle <em>replicate</em> anomalous suspension of water</p>
+</div>
+</div>
+<aside class="notes">
+<p><a href="https://en.wikipedia.org/wiki/Reproducibility">Source</a>. Note here that non-replication can be good! Here, a new, valid effect during replication was not observed in the original study. That’s how science progresses!</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="newton-vs-flamsteed" class="slide level2">
+<h2>Newton vs Flamsteed</h2>
+<div class="columns">
+<div class="column" style="text-align: center">
+<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Portrait_of_Sir_Isaac_Newton%2C_1689.jpg/1280px-Portrait_of_Sir_Isaac_Newton%2C_1689.jpg" style="width:65.0%"></p>
+<p><a href="https://en.wikipedia.org/wiki/Isaac_Newton">Isaac Newton</a></p>
+</div><div class="column" style="text-align: center">
+<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/1/16/John_Flamsteed_1702.jpg" style="width:60.0%"></p>
+<p><a href="https://en.wikipedia.org/wiki/John_Flamsteed">John Flamsteed</a></p>
+</div>
+</div>
+</section>
+<section id="newton-vs-flamsteed-1" class="slide level2" data-menu-title="Newton vs Flamsteed (II)">
+<h2>Newton vs Flamsteed</h2>
+<div class="columns">
+<div class="column" style="text-align: center">
+<p>Flamsteed’s <a href="https://articles.adsabs.harvard.edu//full/1995JHA....26..237K/0000237.000.html">lunar data</a> &amp; Newston’s request for raw data…</p>
+</div><div class="column" style="text-align: center">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/slides/flamsteed-newton-lunardata.jpg"></p>
+<figcaption>lunardata</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p><a href="https://articles.adsabs.harvard.edu//full/1995JHA....26..237K/0000237.000.html">SAO/NASA Astrophysics Data System (ADS)</a></p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="newton-vs-flamsteed-2" class="slide level2" data-menu-title="Newton vs Flamsteed (III)">
+<h2>Newton vs Flamsteed</h2>
+<div>
+<ul>
+<li class="fragment"><p>In 1695, Sir Isaac Newton wrote a letter to the British Astronomer Royal John Flamsteed, whose data on lunar positions he was trying to get for more than half a year…</p></li>
+<li class="fragment"><p>Newton wrote that…</p></li>
+</ul>
+</div>
+<div class="fragment fade-in">
 <blockquote>
-<p>“At the core of the scientific method is the attempt to refute or disprove theories”</p>
+<p>“these and all your communications will be useless to me unless you can propose some practicable way or other of supplying me with observations … <strong>I want not your calculations, but your observations only</strong>.” <span class="citation" data-cites="noy2019">(<a href="#/references" role="doc-biblioref" onclick="">Noy and Noy 2019</a>)</span></p>
 </blockquote>
+</div>
+<aside class="notes">
+<p><a href="https://doi.org/10.1177%2F002182869502600303">Kollerstrom, N. &amp; Yallop, B. D. J. Hist. Astron. 26, 237–246 (1995)</a>.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="lets-go-back-to-the-19th-century" class="slide level2">
+<h2>Let’s go back to the 19th century…</h2>
+</section>
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
 
 
-<img src="http://geotec.uji.es/wp-content/uploads/2016/11/geotecLOGO.fw_.png" class="slide-logo r-stretch"><div class="footer footer-default">
+<img src="../images/ESCOLA-DOCTORAT-es-blanco.png" class="slide-logo r-stretch"><div class="footer footer-default">
 <p><a href="https://cgranell.github.io/rrp">cgranell.github.io/rrp</a></p>
+</div>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-noy2019" class="csl-entry" role="listitem">
+Noy, Natasha, and Aleksandr Noy. 2019. <span>“Let Go of Your Data.”</span> <em>Nature Materials</em> 19 (1): 128–28. <a href="https://doi.org/10.1038/s41563-019-0539-5">https://doi.org/10.1038/s41563-019-0539-5</a>.
+</div>
 </div>
 </section></section>
     </div>
@@ -375,6 +615,7 @@ Carlos Granell
   <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
   <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -396,7 +637,8 @@ Carlos Granell
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":false,"theme":"whiteboard","boardmarkerWidth":3},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -519,10 +761,10 @@ Carlos Granell
         hideCursorTime: 5000,
 
         // Opens links in an iframe preview overlay
-        previewLinks: false,
+        previewLinks: true,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'none',
+        transition: 'fade',
 
         // Transition speed (default/fast/slow)
         transitionSpeed: 'default',
@@ -542,9 +784,9 @@ Carlos Granell
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 1920,
+        width: 1050,
 
-        height: 1080,
+        height: 700,
 
         // Factor of the display size that should remain empty around the content
         margin: 0.1,
@@ -567,7 +809,7 @@ Carlos Granell
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
 
           RevealMath,
           RevealNotes,

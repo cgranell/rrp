@@ -1,15 +1,25 @@
 ---
-title: "Reproducibility: historical notes"
+title: "Historical notes"
 ---
 
+::: {.column-margin}
 
-Reproducibility is not a new concept that has emerged recently. We can find traces of reproducibility in past periods of science.  
+![](https://upload.wikimedia.org/wikipedia/commons/4/43/Karl_Popper.jpg){fig-alt="Karl Popper" fig-align="center" width="70%"}
+
+> “At the core of the scientific method is the attempt to refute or disprove theories.”    
+*(Popper's Conjectures and Refutations)* 
+
+*Philosopher of science [Karl Popper](https://en.wikipedia.org/wiki/Karl_Popper)*
+:::
+
+
+Reproducibility is not a new concept that has emerged recently. We, of course, find traces of reproducibility in past periods of science.  
 
 ## Slides
 
 
 ::: {.callout-tip icon=false}
-## **Slide Deck** Reproducibility: historical notes
+## **Slide Deck** Historical notes
 
 ::: slides
 [Slides](01-historical-notes-slides.qmd)
