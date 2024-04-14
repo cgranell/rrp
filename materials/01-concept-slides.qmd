@@ -1,0 +1,211 @@
+---
+title: "Concept"
+subtitle: "Reproducibility & Replicability"
+author: "Carlos Granell"
+institute: "[GEOTEC](https://geotec.uji.es/), Universitat Jaume I"
+date: last-modified
+date-format: "MMM D, YYYY"
+format: 
+  revealjs:
+    slide-number: true
+    show-slide-number: all
+    progress: true
+    logo: ../images/ESCOLA-DOCTORAT-es-blanco.png
+    footer: "[cgranell.github.io/rrp](https://cgranell.github.io/rrp)"
+    theme: default  # theme: dark
+    transition: fade
+    preview-links: true
+    author-meta: "Carlos Granell"
+    date-meta: "15/03/2024"
+    chalkboard: 
+      theme: whiteboard
+      buttons: false
+      boardmarker-width: 3
+from: markdown+emoji
+execute:
+  echo: true
+---
+
+# Today's reality {background-color="#4f6952"}
+
+## {data-menu-title="Computation in research"}
+
+-   **Computation** has an increasing role in scientific research [@stodden2014]
+
+-   Many and diverse **computational** sciences (bio-informatics, geophysics, material science, fluid mechanics, climate modelling, computational chemistry, ... [@barba2021]
+
+. . . 
+
+
+-   As results are increasingly produced by complex **computational** processes...
+
+
+## {data-menu-title="Computation in papers" .center}
+
+
+### ...the traditional *methods* section of a scientific paper is *no longer sufficient*
+
+
+## The inverse problem
+
+![](../images/slides/nust2021_f1000.gif)
+
+::: {.aside}
+[@nust2021]
+:::
+
+
+## *'Show me', not 'trust me'* 
+
+:::: {.columns}
+
+::: {.column width="20%"}
+:::
+
+::: {.column width="80%"}
+![](../images/slides/preproducibility.png){width="70%"}
+
+:::
+::::
+
+::: {.aside}
+[@stark2018]
+:::
+
+## {data-menu-title="'Show me', not 'trust me' (II)"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### Show me = help me if you can
+
+> "If I say: ‘here’s my work’ and it’s wrong, I might have erred, but at least I am honest". 
+
+:::
+
+::: {.column width="50%"}
+
+::: {.fragment .fade-in}
+### Trust me = catch me if you can
+
+> "If I publish a paper long on results but short on methods, and it’s wrong, that makes me untrustworthy."
+:::
+
+:::
+::::
+
+::: {.aside}
+[@stark2018]
+:::
+
+# Definitions {background-color="#4f6952"}
+
+## {data-menu-title="The Turing Way" background-iframe="https://book.the-turing-way.org/reproducible-research/overview/overview-definitions"}
+
+::: {.notes}
+Source: [@turingway2022]
+:::
+
+
+## {Re}* terms
+
+::: {.incremental}
+
+-   **Reproducible research**: Authors provide all the necessary data and the computer codes to run the analysis again, re-creating the results.
+
+-   **Reproducibility**: A study is reproducible if all of the code and data used to generate the numbers and figures in the paper are available and exactly produce the published results.
+
+:::
+
+::: {.aside}
+[@claerbout1992], [@donoho2009], [@peng2011], [@leek2017], [@barba2018]
+:::
+
+
+## {data-menu-title="{Re}* terms (II)"}
+
+-   **Replication**: A study that arrives at the same scientific findings as another study, collecting new data (possibly with different methods) and completing new analyses.
+
+-   **Replicability**: A study is replicable if an identical experiment can be performed like the first study and the statistical results are consistent.
+
+-   **False discovery**: A study is a false discovery if the result presented in the study produces the wrong answer to the question of interest.
+
+
+::: {.aside}
+[@claerbout1992], [@donoho2009], [@peng2011], [@leek2017], [@barba2018]
+:::
+
+
+## Our view
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+A reproducible paper ensures a reader can recreate the computational workflow of a study, including the **prerequisite knowledge** and **computational environment**
+
+:::
+
+::: {.column width="30%"}
+
+[![](../images/slides/AGILE00-logo-square.svg){width="60%"}](https://reproducible-agile.github.io/)
+
+:::
+::::
+
+::: {.incremental}
+- The former implies the scientific argument to be understandable and sound
+
+- The latter requires a detailed description of used software and data, and both being openly available
+:::
+
+::: {.aside}
+[@ostermann2017], [@nust2018], [@ostermann2021] 
+:::
+
+## We define *reproducibility* to mean {.center}
+
+## *computational reproducibility* {.center}
+
+
+## Course definition {.center}
+
+::: {.fragment .fade-in fragment-index=1}
+::: {.fragment .highlight-current-blue fragment-index=1}
+**REPRODUCIBILITY** involves **ORIGINAL** data and (computational) methods
+:::
+:::
+
+
+::: {.fragment .fade-in fragment-index=2}
+::: {.fragment .highlight-current-blue fragment-index=2}
+**REPLICABILITY** involves **NEW** data and/or (computational) methods
+:::
+:::
+
+::: {.fragment .fade-in fragment-index=3}
+::: callout-note
+## **Multiple interpretations**
+[Reproducibility vs. replicability across disciplines](01-comparison.qmd)
+
+:::
+:::
+
+
+
+## Reproducibility spectrum
+
+![](../images/slides/spectrumreproducibility.jpg){width="100%"}
+
+
+::: {.aside}
+[@peng2011]
+:::
+
+::: {.notes}
+Linked to criteria assessment of reproducibility
+:::
+
+
+# References {.scrollable}

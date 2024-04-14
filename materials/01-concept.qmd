@@ -3,7 +3,6 @@ title: "Concept"
 citation-location: margin
 ---
 
-
 Review the concepts of reproducibility, replication, and computational reproducibility
 
 
@@ -13,11 +12,11 @@ Review the concepts of reproducibility, replication, and computational reproduci
 ## **Slide Deck** Reproducibility: concepts
 
 ::: slides
-[Slides](https://cgranell.githib.io/rrp/materials/01-historical-notes-slides.html)
+[Slides](https://cgranell.githib.io/rrp/materials/01-concept-slides.html)
 :::
 
 ::: source
-[Source](https://github.com/cgranell/rrp/tree/main/materials/01-historical-notes-slides.qmd)
+[Source](https://github.com/cgranell/rrp/tree/main/materials/01-concept-slides.qmd)
 :::
 
 :::

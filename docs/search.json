@@ -901,5 +901,159 @@
     "title": "Reproducible research at UJI",
     "section": "UJI",
     "text": "UJI\nAs part of the Open Knowledge Portal, the UJI library provides guides for researchers about the open access dissemination of the results of the investigation, and copyright and licenses.\n\nOpen Access Declaration\nDeclaració institucional a favor de la promoció de l’accés obert a la Universitat Jaume I\n\n\nBest practices for research\nCódigo de Buenas Prácticas en Investigación y Doctorado, CBPID – focus on “open access” section"
+  },
+  {
+    "objectID": "materials/01-concept-slides.html#todays-reality",
+    "href": "materials/01-concept-slides.html#todays-reality",
+    "title": "Concept",
+    "section": "Today’s reality",
+    "text": "Today’s reality\n\nComputation has an increasing role in scientific research (Stodden and Miguez 2014)\nMany and diverse computational sciences (bio-informatics, geophysics, material science, fluid mechanics, climate modelling, computational chemistry, … (Barba 2021)\n\n\n\nAs results are increasingly produced by complex computational processes…"
+  },
+  {
+    "objectID": "materials/01-concept-slides.html#section",
+    "href": "materials/01-concept-slides.html#section",
+    "title": "Concept",
+    "section": "",
+    "text": "Computation has an increasing role in scientific research (Stodden and Miguez 2014)\nMany and diverse computational sciences (bio-informatics, geophysics, material science, fluid mechanics, climate modelling, computational chemistry, … (Barba 2021)\n\n\n\nAs results are increasingly produced by complex computational processes…"
+  },
+  {
+    "objectID": "materials/01-concept-slides.html#references",
+    "href": "materials/01-concept-slides.html#references",
+    "title": "Concept",
+    "section": "References",
+    "text": "References\n\n\n\ncgranell.github.io/rrp\n\n\n\nBarba, Lorena A. 2018. “Terminologies for Reproducible Research.” arXiv Preprint arXiv:1802.03311. https://arxiv.org/abs/1802.03311.\n\n\n———. 2021. “Trustworthy Computational Evidence Through Transparency and Reproducibility.” Computing in Science & Engineering 23 (1): 58–64. https://doi.org/10.1109/MCSE.2020.3048406.\n\n\nClaerbout, JF, and M Karrenbach. 1992. “Electronic Documents Give Reproducible Research a New Meaning.” In SEG Technical Program Expanded Abstracts 1992, 601–4. Society of Exploration Geophysicists. https://doi.org/10.1190/1.1822162.\n\n\nDonoho, DL, A Maleki, IU Rahman, M Shahram, and V Stodden. 2009. “Reproducible Research in Computational Harmonic Analysis.” Computing in Science & Engineering 11 (1): 8–18. https://doi.org/10.1109/MCSE.2009.15.\n\n\nLeek, JT, and LR Jager. 2017. “Is Most Published Research Really False?” Annual Review of Statistics and Its Application 4: 109–22. https://doi.org/10.1146/annurev-statistics-060116-054104.\n\n\nNust, Daniel, C Granell, B Hofer, M Konkol, FO Ostermann, R Sileryte, and V Cerutti. 2018. “Reproducible Research and GIScience: An Evaluation Using AGILE Conference Papers.” PeerJ 6: e5072. https://doi.org/10.7717/peerj.5072.\n\n\nNüst, Daniel, and Stephen J Eglen. 2021. “CODECHECK: an Open Science initiative for the independent execution of computations underlying research articles during peer review to improve reproducibility.” F1000Research 10 (March): 253. https://doi.org/10.12688/f1000research.51738.1.\n\n\nOstermann, FO, and C Granell. 2017. “Advancing Science with VGI: Reproducibility and Replicability of Recent Studies Using VGI.” Transactions in GIS 21 (2): 224–37. https://doi.org/10.1111/tgis.12195.\n\n\nOstermann, Frank O., Daniel Nüst, Carlos Granell, Barbara Hofer, and Markus Konkol. 2021. “Reproducible Research and GIScience: An Evaluation Using GIScience Conference Papers.” In 11th International Conference on Geographic Information Science (GIScience 2021) - Part II, edited by Krzysztof Janowicz and Judith A. Verstegen, 208:2:1–16. Leibniz International Proceedings in Informatics (LIPIcs). Dagstuhl, Germany: Schloss Dagstuhl – Leibniz-Zentrum für Informatik. https://doi.org/10.4230/LIPIcs.GIScience.2021.II.2.\n\n\nPeng, RD. 2011. “Reproducible Research in Computational Science.” Science 334 (6060): 1226–27. https://doi.org/10.1126/science.1213847.\n\n\nStark, PB. 2018. “Before Reproducibility Must Come Preproducibility.” Nature 557 (7706): 613–14. https://doi.org/10.1038/d41586-018-05256-0.\n\n\nStodden, V, and SB Miguez. 2014. “Best Practices for Computational Science: Software Infrastructure and Environments for Reproducible and Extensible Research.” Journal of Open Research Software 2 (1): e21. https://doi.org/10.5334/jors.ay.\n\n\nThe Turing Way Community. 2022. “The Turing Way: A Handbook for Reproducible, Ethical and Collaborative Research.” Zenodo. https://doi.org/10.5281/zenodo.3233853."
+  },
+  {
+    "objectID": "materials/01-concept-slides.html#data-menu-titletodays-reality-ii",
+    "href": "materials/01-concept-slides.html#data-menu-titletodays-reality-ii",
+    "title": "Concept",
+    "section": "{data-menu-title=“Today’s reality (II)”}",
+    "text": "{data-menu-title=“Today’s reality (II)”}\n…the traditional methods section of a scientific paper is no longer sufficient"
+  },
+  {
+    "objectID": "materials/01-concept-slides.html#the-inverse-problem",
+    "href": "materials/01-concept-slides.html#the-inverse-problem",
+    "title": "Concept",
+    "section": "The inverse problem",
+    "text": "The inverse problem\n\n\n\n(Nüst and Eglen 2021)"
+  },
+  {
+    "objectID": "materials/01-concept-slides.html#show-me-not-trust-me",
+    "href": "materials/01-concept-slides.html#show-me-not-trust-me",
+    "title": "Concept",
+    "section": "‘Show me’, not ‘trust me’",
+    "text": "‘Show me’, not ‘trust me’\n\n\n\n\n\n\n\n\n\n(Stark 2018)"
+  },
+  {
+    "objectID": "materials/01-concept-slides.html#show-me-not-trust-me-1",
+    "href": "materials/01-concept-slides.html#show-me-not-trust-me-1",
+    "title": "Concept",
+    "section": "‘Show me’, not ‘trust me’",
+    "text": "‘Show me’, not ‘trust me’\n\n\nShow me = help me if you can\n\n“If I say: ‘here’s my work’ and it’s wrong, I might have erred, but at least I am honest”. (Stark 2018)\n\n\n\nTrust me = catch me if you can\n\n“If I publish a paper long on results but short on methods, and it’s wrong, that makes me untrustworthy.” (Stark 2018)"
+  },
+  {
+    "objectID": "materials/01-concept-slides.html#section-1",
+    "href": "materials/01-concept-slides.html#section-1",
+    "title": "Concept",
+    "section": "",
+    "text": "…the traditional methods section of a scientific paper is no longer sufficient"
+  },
+  {
+    "objectID": "materials/01-concept-slides.html#slide-title",
+    "href": "materials/01-concept-slides.html#slide-title",
+    "title": "Concept",
+    "section": "Slide Title",
+    "text": "Slide Title"
+  },
+  {
+    "objectID": "materials/01-concept-slides.html#section-2",
+    "href": "materials/01-concept-slides.html#section-2",
+    "title": "Concept",
+    "section": "",
+    "text": "Show me = help me if you can\n\n“If I say: ‘here’s my work’ and it’s wrong, I might have erred, but at least I am honest”.\n\n\n\n\nTrust me = catch me if you can\n\n“If I publish a paper long on results but short on methods, and it’s wrong, that makes me untrustworthy.”\n\n\n\n\n\n\n(Stark 2018)"
+  },
+  {
+    "objectID": "materials/01-concept-slides.html#re-terms",
+    "href": "materials/01-concept-slides.html#re-terms",
+    "title": "Concept",
+    "section": "{Re}* terms",
+    "text": "{Re}* terms\n\n\nReproducible research: Authors provide all the necessary data and the computer codes to run the analysis again, re-creating the results.\nReproducibility: A study is reproducible if all of the code and data used to generate the numbers and figures in the paper are available and exactly produce the published results.\n\n\n\n\n(Claerbout and Karrenbach 1992), (Donoho et al. 2009), (Peng 2011), (Leek and Jager 2017), (Barba 2018)"
+  },
+  {
+    "objectID": "materials/01-concept-slides.html#data-menu-titlere-terms-ii",
+    "href": "materials/01-concept-slides.html#data-menu-titlere-terms-ii",
+    "title": "Concept",
+    "section": "{data-menu-title=“{Re}* terms (II)”",
+    "text": "{data-menu-title=“{Re}* terms (II)”\n\n\nReplication: A study that arrives at the same scientific findings as another study, collecting new data (possibly with different methods) and completing new analyses.\nReplicability: A study is replicable if an identical experiment can be performed like the first study and the statistical results are consistent.\nFalse discovery: A study is a false discovery if the result presented in the study produces the wrong answer to the question of interest.\n\n\n\n\n(Claerbout and Karrenbach 1992), (Donoho et al. 2009), (Peng 2011), (Leek and Jager 2017), (Barba 2018)"
+  },
+  {
+    "objectID": "materials/01-concept-slides.html#our-view",
+    "href": "materials/01-concept-slides.html#our-view",
+    "title": "Concept",
+    "section": "Our view",
+    "text": "Our view\n\n\nA reproducible paper ensures a reader can recreate the computational workflow of a study, including the prerequisite knowledge and computational environment\n\n\n\n\n\n\n\n\n\n\nThe former implies the scientific argument to be understandable and sound\nThe latter requires a detailed description of used software and data, and both being openly available\n\n\n\n\n(F. Ostermann and Granell 2017), (Nust et al. 2018), (F. O. Ostermann et al. 2021)"
+  },
+  {
+    "objectID": "materials/01-concept-slides.html#we-define-reproducibility-to-mean",
+    "href": "materials/01-concept-slides.html#we-define-reproducibility-to-mean",
+    "title": "Concept",
+    "section": "We define reproducibility to mean",
+    "text": "We define reproducibility to mean"
+  },
+  {
+    "objectID": "materials/01-concept-slides.html#computational-reproducibility",
+    "href": "materials/01-concept-slides.html#computational-reproducibility",
+    "title": "Concept",
+    "section": "computational reproducibility",
+    "text": "computational reproducibility"
+  },
+  {
+    "objectID": "materials/01-concept-slides.html#reproducibility-spectrum",
+    "href": "materials/01-concept-slides.html#reproducibility-spectrum",
+    "title": "Concept",
+    "section": "Reproducibility spectrum",
+    "text": "Reproducibility spectrum\n\n\n\nLinked to criteria assessment of reproducibility\n\n\n(Peng 2011)"
+  },
+  {
+    "objectID": "materials/01-concept-slides.html#summary",
+    "href": "materials/01-concept-slides.html#summary",
+    "title": "Concept",
+    "section": "Summary",
+    "text": "Summary\n\n\n\nREPRODUCIBILTY involves the ORIGINAL data and (computational) methods\n\n\n\n\n\nREPLICABILITY involves NEW data and/or (computational) methods"
+  },
+  {
+    "objectID": "materials/01-concept-slides.html#our-definition",
+    "href": "materials/01-concept-slides.html#our-definition",
+    "title": "Concept",
+    "section": "Our definition",
+    "text": "Our definition\n\n\nREPRODUCIBILITY involves ORIGINAL data and (computational) methods\n\n\n\n\nREPLICABILITY involves NEW data and/or (computational) methods"
+  },
+  {
+    "objectID": "materials/01-concept-slides.html#section-3",
+    "href": "materials/01-concept-slides.html#section-3",
+    "title": "Concept",
+    "section": "",
+    "text": "Source: (The Turing Way Community 2022)"
+  },
+  {
+    "objectID": "materials/01-concept-slides.html#course-definition",
+    "href": "materials/01-concept-slides.html#course-definition",
+    "title": "Concept",
+    "section": "Course definition",
+    "text": "Course definition\n\n\nREPRODUCIBILITY involves ORIGINAL data and (computational) methods\n\n\n\n\nREPLICABILITY involves NEW data and/or (computational) methods\n\n\n\n\n\n\n\n\n\nMultiple interpretations\n\n\nReproducibility vs. replicability across disciplines"
+  },
+  {
+    "objectID": "materials/01-concept-slides.html#data-menu-titlecomputation-in-papers-.-center",
+    "href": "materials/01-concept-slides.html#data-menu-titlecomputation-in-papers-.-center",
+    "title": "Concept",
+    "section": "{data-menu-title=“Computation in papers” . center}",
+    "text": "{data-menu-title=“Computation in papers” . center}\n…the traditional methods section of a scientific paper is no longer sufficient"
+  },
+  {
+    "objectID": "materials/01-concept-slides.html#section-4",
+    "href": "materials/01-concept-slides.html#section-4",
+    "title": "Concept",
+    "section": "",
+    "text": "Replication: A study that arrives at the same scientific findings as another study, collecting new data (possibly with different methods) and completing new analyses.\nReplicability: A study is replicable if an identical experiment can be performed like the first study and the statistical results are consistent.\nFalse discovery: A study is a false discovery if the result presented in the study produces the wrong answer to the question of interest.\n\n\n\n(Claerbout and Karrenbach 1992), (Donoho et al. 2009), (Peng 2011), (Leek and Jager 2017), (Barba 2018)"
   }
 ]
