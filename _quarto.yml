@@ -4,8 +4,8 @@ project:
 
 website:
   page-navigation: true
-  title: "RRP'24"
-  description: "Reproducible Research Practices"
+  title: "Reproducible Research Practices"
+  description: "Reproducible Research Practices (RRP)"
   site-url: "https://cgranell.github.io/rrp"
   repo-url: "https://www.github.com/cgranell/rrp"
   reader-mode: true
@@ -21,7 +21,7 @@ website:
   navbar:
     logo: "images/ESCOLA-DOCTORAT-es-blanco.png"
     logo-alt: "Escola de Doctorat, UJI"
-    logo-href: https://www.uji.es/estudis/centres/escola-doctorat/base/info-general/escola/
+    logo-href: "https://www.uji.es/estudis/centres/escola-doctorat/base/arxiu/Formacio-transversal/23-24/recerca/reproducible/"
 
 
     left:

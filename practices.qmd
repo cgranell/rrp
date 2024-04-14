@@ -40,7 +40,7 @@ There are excellent practical guides with general recommendations for promoting 
 
 -   *A Beginner’s Guide to Conducting Reproducible Research* [@alston2021] is a very concise, practical guide to apply reproducible practices to a research project.
 
--   [*The Turing Way*](https://the-turing-way.netlify.app/index.html#) is indeed a compendium of guides on open science, reproducibility, and research ethics, among other interesting topics. Have a look at the Guide for Reproducible Research [@turingway2019].
+-   [*The Turing Way*](https://book.the-turing-way.org/) is indeed a compendium of guides on open science, reproducibility, and research ethics, among other interesting topics. Have a look at the Guide for Reproducible Research [@turingway2022].
 
 -   *Reproducible Publications at AGILE Conferences: Guidelines for Authors, Scientific Reviewers, and Reproducibility Reviewers* [@nust2020] describes specific aspects to write conference papers in the field of GIScience.
 
