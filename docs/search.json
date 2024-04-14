@@ -133,11 +133,11 @@
     "text": "Additional resources, readings, and videos\n\nIf you’re still hesitant to embrace reproducibility, next talk by Dr. Florian Markowetz, based on his paper (Markowetz 2015), will convince you!\n\nMarkowetz, F. 2015. “Five Selfish Reasons to Work Reproducibly.” Genome Biology 16: 274. https://doi.org/10.1186/s13059-015-0850-7."
   },
   {
-    "objectID": "materials/01-historical-notes-slides.html#science-progresses-through-conjectures-and-refutations-popper",
-    "href": "materials/01-historical-notes-slides.html#science-progresses-through-conjectures-and-refutations-popper",
+    "objectID": "materials/01-historical-notes-slides.html#poppers-conjectures-and-refutations",
+    "href": "materials/01-historical-notes-slides.html#poppers-conjectures-and-refutations",
     "title": "Historical notes",
-    "section": "Science progresses through conjectures and refutations (Popper)",
-    "text": "Science progresses through conjectures and refutations (Popper)\n\n\nScientists are confronted with some question, and offer an answer (conjecture), which might be right or wrong\nScientists do their best to refute it, or prove it wrong\nTypically it is refuted, rejected, and replaced by a better one\n\nAnd tested over and over, and eventually replaced by a better one\n\nIf scientists have not been able to refute a theory over a long period of time, then the theory is corroborated\n\n\n\nSource: Why should we trust science? Because it doesn’t trust itself"
+    "section": "Popper’s conjectures and refutations",
+    "text": "Popper’s conjectures and refutations\nScience progresses through conjectures and refutations\n\n\nScientists are confronted with some question, and offer an answer (conjecture), which might be right or wrong\nScientists do their best to refute it, or prove it wrong\nTypically it is refuted, rejected, and replaced by a better one\n\nAnd tested over and over…\n\nIf scientists have not been able to refute a theory over a long period of time, then the theory is corroborated\n\n\n\nSource: Why should we trust science? Because it doesn’t trust itself"
   },
   {
     "objectID": "materials/01-historical-notes-slides.html#section",
@@ -151,7 +151,7 @@
     "href": "materials/01-historical-notes-slides.html#if-science-drivers-are",
     "title": "Historical notes",
     "section": "If science drivers are",
-    "text": "If science drivers are\n\n\nOpenness\n\n\n\n\nTransparency\n\n\n\n\nHonesty\n\n\n\n\nIntegrity\n\n\n\n\nReproduction (try & test)\n\n\n\n\nReplication (accumulative evidence over time)"
+    "text": "If science drivers are\n\n\nOpenness\n\n\n\n\nTransparency\n\n\n\n\nHonesty \n\n\n\n\nIntegrity\n\n\n\n\nReproduction (try & test)\n\n\n\n\nReplication (accumulative evidence over time)"
   },
   {
     "objectID": "materials/01-historical-notes-slides.html#why-are-reproduction-replication-not-integral-parts-of-the-scientific-method-and-modern-scientific-publishing",
@@ -159,13 +159,6 @@
     "title": "Historical notes",
     "section": "Why are reproduction & replication NOT integral parts of the scientific method and modern scientific publishing?",
     "text": "Why are reproduction & replication NOT integral parts of the scientific method and modern scientific publishing?"
-  },
-  {
-    "objectID": "materials/01-historical-notes-slides.html#should-we-trust-modern-science-without-proper-reproduction-replication",
-    "href": "materials/01-historical-notes-slides.html#should-we-trust-modern-science-without-proper-reproduction-replication",
-    "title": "Historical notes",
-    "section": "Should we trust modern science without proper reproduction & replication?",
-    "text": "Should we trust modern science without proper reproduction & replication?"
   },
   {
     "objectID": "materials/01-historical-notes-slides.html#lets-go-back-to-the-17th-century",
@@ -196,32 +189,95 @@
     "text": "Newton vs Flamsteed\n\n\n\nIsaac Newton\n\n\nJohn Flamsteed"
   },
   {
-    "objectID": "materials/01-historical-notes-slides.html#newton-vs-flamsteed-1",
-    "href": "materials/01-historical-notes-slides.html#newton-vs-flamsteed-1",
+    "objectID": "materials/01-historical-notes-slides.html#flamsteeds-lunar-data",
+    "href": "materials/01-historical-notes-slides.html#flamsteeds-lunar-data",
     "title": "Historical notes",
-    "section": "Newton vs Flamsteed",
-    "text": "Newton vs Flamsteed\n\n\nFlamsteed’s lunar data & Newston’s request for raw data…\n\n\n\n\nlunardata\n\n\n\n\n\nSAO/NASA Astrophysics Data System (ADS)"
+    "section": "Flamsteed’s lunar data",
+    "text": "Flamsteed’s lunar data\n\n\nSAO/NASA Astrophysics Data System (ADS)"
   },
   {
-    "objectID": "materials/01-historical-notes-slides.html#newton-vs-flamsteed-2",
-    "href": "materials/01-historical-notes-slides.html#newton-vs-flamsteed-2",
+    "objectID": "materials/01-historical-notes-slides.html#newtons-request-for-raw-data",
+    "href": "materials/01-historical-notes-slides.html#newtons-request-for-raw-data",
     "title": "Historical notes",
-    "section": "Newton vs Flamsteed",
-    "text": "Newton vs Flamsteed\n\n\nIn 1695, Sir Isaac Newton wrote a letter to the British Astronomer Royal John Flamsteed, whose data on lunar positions he was trying to get for more than half a year…\nNewton wrote that…\n\n\n\n\n“these and all your communications will be useless to me unless you can propose some practicable way or other of supplying me with observations … I want not your calculations, but your observations only.” (Noy and Noy 2019)\n\n\n\nKollerstrom, N. & Yallop, B. D. J. Hist. Astron. 26, 237–246 (1995)."
+    "section": "Newton’s request for raw data",
+    "text": "Newton’s request for raw data\nIn 1695, Sir Isaac Newton wrote a letter to the British Astronomer Royal John Flamsteed, whose data on lunar positions he was trying to get for more than half a year…\n\n\n“these and all your communications will be useless to me unless you can propose some practicable way or other of supplying me with observations … I want not your calculations, but your observations only.”\n\n\nSource: (Noy and Noy 2019)\n\n\n\nKollerstrom, N. & Yallop, B. D. J. Hist. Astron. 26, 237–246 (1995)."
   },
   {
     "objectID": "materials/01-historical-notes-slides.html#lets-go-back-to-the-19th-century",
     "href": "materials/01-historical-notes-slides.html#lets-go-back-to-the-19th-century",
     "title": "Historical notes",
     "section": "Let’s go back to the 19th century…",
-    "text": "Let’s go back to the 19th century…"
+    "text": "Let’s go back to the 19th century…\n\n\n\nArmand Fizeau\n\n\nExperimental physicist in Paris\nHis speciality was refining and confirming other people’s results\nThe first “replicability reviewer”?\n\n\n\n\n\n\n“This is the soul of science because there is no such thing as a fact that cannot be independently corroborated”. Source: How simple ideas lead to scientific discoveries"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#lets-go-back-to-30-years-ago-with-the-birth-of-the-web",
+    "href": "materials/01-historical-notes-slides.html#lets-go-back-to-30-years-ago-with-the-birth-of-the-web",
+    "title": "Historical notes",
+    "section": "Let’s go back to 30 years ago, with the birth of the Web…",
+    "text": "Let’s go back to 30 years ago, with the birth of the Web…\n\n“Today, few published results are reproducible in any practical sense. To verify them requires almost as much effort as it took to create them originally. After a time, authors are often unable to reproduce their own results! For these reasons, many people ignore most of the literature. but with standards for Fortran, C, UNIX, Latex, postcript, Xwindows, CD-ROM […], there is no longer any excuse for nonreproducible research. It is time to plunge into this new era.”\n\n\nExtract from Earth Sounding Analysis, Jon Claerbout, 1992\n\n\nJohn Claerbout revised his book Earth Soundings Analysis with a valid complaint in A note to the reader (page i)."
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#lets-go-back-to-sep-15-2022",
+    "href": "materials/01-historical-notes-slides.html#lets-go-back-to-sep-15-2022",
+    "title": "Historical notes",
+    "section": "Let’s go back to Sep 15, 2022",
+    "text": "Let’s go back to Sep 15, 2022\n\n\nRubén Herzog, Universidad de Valparaíso in Chile, published a 2020 article in Scientific Reports\nPaul Lodder, a grad student at the University of Amsterdam, wanted to expand on Rubén’s model\nPaul reproduced the analysis results from the article before looking into how to expand it…\n…but Paul got different results!"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#herzog-case-facts",
+    "href": "materials/01-historical-notes-slides.html#herzog-case-facts",
+    "title": "Historical notes",
+    "section": "Herzog case: Facts",
+    "text": "Herzog case: Facts\n\n“I [Paul] shared my findings with Rubén by writing up a literate programming report, which allowed me to present my findings in a reproducible manner by including the code that leads to any of the results discussed”.\n\n\nSource: Retraction Watch\n\n\n“Because I [Paul] was able to run his code and mine on the same simulated data, it was very clear that the typo caused the results from the paper. I shared my results with Rubén in a written report and he quickly got back to me. He acknowledged that this was indeed an error and thanked me for trying to reproduce his results. He also invited me as a co-author for the resubmission, by which I am truly honored.”\n\n\nSource: Retraction Watch\n\n\nFull story on Retraction Watch:\n\nA grad student finds a ‘typo’ in a psychedelic study’s script that leads to a retraction\n‘A display of extreme academic integrity’: A grad student who found a key error praises the original author"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#herzog-case-lessons",
+    "href": "materials/01-historical-notes-slides.html#herzog-case-lessons",
+    "title": "Historical notes",
+    "section": "Herzog case: Lessons",
+    "text": "Herzog case: Lessons\n\nBoth collaborated to find out the typo on the shared code\n\n\nOriginal 2020 paper was retracted, but both worked in a new version of the paper published in 2023 with a code availability section!\n\n\n\nAcademic integrity & honesty through transparent and reproducible computational code\n\n\n\n\n\nScience wins"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#data-availability-in-published-papers",
+    "href": "materials/01-historical-notes-slides.html#data-availability-in-published-papers",
+    "title": "Historical notes",
+    "section": "Data availability in published papers?",
+    "text": "Data availability in published papers?\n(Alsheikh-Ali et al. 2011) assessed 500 papers\n\n\n149 did not subject to any data availability policy\n208 did not adhere to data availability instructions\n143 adhered to minimum requirements\n47 deposited full primary data (~9%)"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#reproducibility-test-in-psychology",
+    "href": "materials/01-historical-notes-slides.html#reproducibility-test-in-psychology",
+    "title": "Historical notes",
+    "section": "Reproducibility test in psychology?",
+    "text": "Reproducibility test in psychology?\n\n\n(Baker 2015) only could reproduce 39 out of 100 of the published studies in psychology"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#reproducibility-survey",
+    "href": "materials/01-historical-notes-slides.html#reproducibility-survey",
+    "title": "Historical notes",
+    "section": "Reproducibility survey",
+    "text": "Reproducibility survey\n\n\n(Baker 2016) surveyed 1,500 researchers:\n\n+70% of researchers have tried and failed to reproduce another scientist’s experiments\n+50% have failed to reproduce their own experiments"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#is-science-is-in-crisis-narrative-wrong",
+    "href": "materials/01-historical-notes-slides.html#is-science-is-in-crisis-narrative-wrong",
+    "title": "Historical notes",
+    "section": "Is “science is in crisis” narrative wrong?",
+    "text": "Is “science is in crisis” narrative wrong?\n\nThe new “science is in crisis” narrative is not only empirically unsupported, but also quite obviously counterproductive. Instead of inspiring younger generations to do more and better science, it might foster in them cynicism and indifference. Instead of inviting greater respect for and investment in research, it risks discrediting the value of evidence and feeding antiscientific agendas.\n\n\nSource: (Fanelli 2018)"
+  },
+  {
+    "objectID": "materials/01-historical-notes-slides.html#is-science-is-in-crisis-narrative-wrong-1",
+    "href": "materials/01-historical-notes-slides.html#is-science-is-in-crisis-narrative-wrong-1",
+    "title": "Historical notes",
+    "section": "Is “science is in crisis” narrative wrong?",
+    "text": "Is “science is in crisis” narrative wrong?\n\nTherefore, contemporary science could be more accurately portrayed as facing “new opportunities and challenges” or even a “revolution”. Efforts to promote transparency and reproducibility would find complete justification in such a narrative of transformation and empowerment, a narrative that is not only more compelling and inspiring than that of a crisis, but also better supported by evidence.\n\n\nSource: (Fanelli 2018)"
   },
   {
     "objectID": "materials/01-historical-notes-slides.html#references",
     "href": "materials/01-historical-notes-slides.html#references",
     "title": "Historical notes",
     "section": "References",
-    "text": "References\n\n\n\ncgranell.github.io/rrp\n\n\n\nNoy, Natasha, and Aleksandr Noy. 2019. “Let Go of Your Data.” Nature Materials 19 (1): 128–28. https://doi.org/10.1038/s41563-019-0539-5."
+    "text": "References\n\n\n\ncgranell.github.io/rrp\n\n\n\nAlsheikh-Ali, Alawi A., Waqas Qureshi, Mouaz H. Al-Mallah, and John P. A. Ioannidis. 2011. “Public Availability of Published Research Data in High-Impact Journals.” PLOS ONE 6 (9): 1–4. https://doi.org/10.1371/journal.pone.0024357.\n\n\nBaker, M. 2015. “First Results from Psychology’s Largest Reproducibility Test.” Nature News. https://doi.org/10.1038/nature.2015.17433.\n\n\n———. 2016. “1,500 Scientists Lift the Lid on Reproducibility.” Nature 533 (7604): 452–54. https://doi.org/10.1038/533452a.\n\n\nFanelli, D. 2018. “Opinion: Is Science Really Facing a Reproducibility Crisis, and Do We Need It To?” Proceedings of the National Academy of Sciences 115 (11): 2628–31. https://doi.org/10.1073/pnas.1708272114.\n\n\nNoy, Natasha, and Aleksandr Noy. 2019. “Let Go of Your Data.” Nature Materials 19 (1): 128–28. https://doi.org/10.1038/s41563-019-0539-5."
   },
   {
     "objectID": "materials/01-historical-notes.html",

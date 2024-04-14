@@ -26,20 +26,12 @@ execute:
   echo: true
 ---
 
-
-# Focus is the art of knowing what to ignore. {background-color="#4f6952"}
-
-::: {.fragment .fade-in}
-
-The fastest way to raise your level of performance: Cut your number of commitments in half.
-
-:::
-
-
 # What is the scientific method? {background-color="#4f6952"}
 
 
-## Science progresses through [*conjectures and refutations*](https://joelvelasco.net/teaching/hum9/popper-conjecturesrefutations.pdf) (Popper)
+## Popper's *conjectures and refutations*
+
+### Science progresses through [*conjectures and refutations*](https://joelvelasco.net/teaching/hum9/popper-conjecturesrefutations.pdf) 
 
 ::: {.incremental}
 
@@ -49,7 +41,7 @@ The fastest way to raise your level of performance: Cut your number of commitmen
 
 -   Typically it is refuted, rejected, and replaced by a better one
 
-    -   And tested over and over, and eventually replaced by a better one
+    -   And tested over and over...
 
 -   If scientists have not been able to refute a theory over a long period of time, then the theory is **corroborated**
 
@@ -85,49 +77,46 @@ the **scientific method**!
 :::
 
 
-## If **science drivers** are {data-menu-title="Science drivers"}
+## If *science drivers* are {data-menu-title="Science drivers" .center} 
 
 ::: {.fragment .fade-in fragment-index=1}
 ::: {.fragment .highlight-current-blue fragment-index=1}
 **Openness**
-
 :::
 :::
 
 ::: {.fragment .fade-in fragment-index=2}
 ::: {.fragment .highlight-current-blue fragment-index=2}
-Transparency
+**Transparency**
 :::
 :::
 
 ::: {.fragment .fade-in fragment-index=3}
 ::: {.fragment .highlight-current-blue fragment-index=3}
-Honesty 
+**Honesty **
 :::
 :::
 
 ::: {.fragment .fade-in fragment-index=4}
 ::: {.fragment .highlight-current-blue fragment-index=4}
-Integrity
+**Integrity**
 :::
 :::
 
 ::: {.fragment .fade-in fragment-index=5}
 ::: {.fragment .highlight-current-blue fragment-index=5}
-Reproduction (try & test)
+**Reproduction** (try & test)
 :::
 :::
 
 ::: {.fragment .fade-in fragment-index=6}
 ::: {.fragment .highlight-current-blue fragment-index=6}
-Replication (accumulative evidence over time)
+**Replication** (accumulative evidence over time)
 :::
 :::
 
 ## Why are *reproduction & replication* NOT integral parts of the scientific method and modern scientific publishing? {.center}
 
-
-## Should we trust modern science without proper *reproduction & replication*?  {.center}
 
 # Is reproducibility a new problem? {background-color="#4f6952"}
 
@@ -188,7 +177,7 @@ Replication (accumulative evidence over time)
 
 ::: {.r-stack}
 ::: {.fragment .fade-in}
-Huygens went to UK (1663) to personally help Boyle *replicate* anomalous suspension of water
+Huygens went to UK (1663) to personally help Boyle **replicate** anomalous suspension of water
 :::
 :::
 
@@ -218,20 +207,10 @@ Huygens went to UK (1663) to personally help Boyle *replicate* anomalous suspens
 ::::
 
 
-## Newton vs Flamsteed {data-menu-title="Newton vs Flamsteed (II)"}
+## Flamsteed's [lunar data](https://articles.adsabs.harvard.edu//full/1995JHA....26..237K/0000237.000.html)
 
-:::: {.columns}
 
-::: {.column width="20%" style="text-align: center"}
-
-Flamsteed's [lunar data](https://articles.adsabs.harvard.edu//full/1995JHA....26..237K/0000237.000.html) & Newston's request for raw data...
-:::
-
-::: {.column width="80%" style="text-align: center"}
-
-![lunardata](../images/slides/flamsteed-newton-lunardata.jpg)
-:::
-::::
+![](../images/slides/flamsteed-newton-lunardata.jpg){width="100%"}
 
 ::: {.notes}
 
@@ -239,19 +218,20 @@ Flamsteed's [lunar data](https://articles.adsabs.harvard.edu//full/1995JHA....26
 
 :::
 
-## Newton vs Flamsteed {data-menu-title="Newton vs Flamsteed (III)"}
+## Newton's request for raw data
 
-::: {.incremental}
+In 1695, Sir Isaac Newton wrote a letter to the British Astronomer Royal John Flamsteed, whose data on lunar positions he was trying to get for more than half a year...
 
--   In 1695, Sir Isaac Newton wrote a letter to the British Astronomer Royal John Flamsteed, whose data on lunar positions he was trying to get for more than half a year...
-
-
--   Newton wrote that...
-:::
 
 ::: {.fragment .fade-in}
-> “these and all your communications will be useless to me unless you can propose some practicable way or other of supplying me with observations ... **I want not your calculations, but your observations only**.” [@noy2019]
+> “these and all your communications will be useless to me unless you can propose some practicable way or other of supplying me with observations ... **I want not your calculations, but your observations only**.”
+
+::: {style="text-align: right"}
+*Source: [@noy2019]*
 :::
+
+:::
+
 
 ::: {.notes}
 
@@ -260,4 +240,193 @@ Flamsteed's [lunar data](https://articles.adsabs.harvard.edu//full/1995JHA....26
 
 ## Let's go back to the 19th century...
 
-## References
+
+:::: {.columns}
+
+::: {.column width="50%" style="text-align: center"}
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Armand_Hippolyte_Louis_Fizeau_by_Eug%C3%A8ne_Pirou_-_Original.jpg/480px-Armand_Hippolyte_Louis_Fizeau_by_Eug%C3%A8ne_Pirou_-_Original.jpg){width="40%"}
+
+[Armand Fizeau](https://en.wikipedia.org/wiki/Hippolyte_Fizeau)
+
+:::
+
+::: {.column width="50%" style="text-align: center"}
+
+-   Experimental physicist in Paris
+
+-   His speciality was refining and confirming other people's results
+
+-   The first "replicability reviewer"?
+
+:::
+::::
+
+
+::: {.aside}
+
+> "This is the **soul of science** because there is no such thing as a fact that cannot be independently 
+corroborated". *Source: [How simple ideas lead to scientific discoveries](https://www.youtube.com/watch?v=F8UFGu2M2gM)*
+
+:::
+
+## Let's go back to 30 years ago, with the birth of the Web... {.smaller}
+
+
+>  "Today, few published results are reproducible in any practical sense. To verify them requires almost as much effort as it took to create them originally. After a time, *authors are often unable to reproduce their own results!* For these reasons, many people ignore most of the literature. but with standards for Fortran, C, UNIX, Latex, postcript, Xwindows, CD-ROM [...], *there is no longer any excuse for nonreproducible research*. It is time to plunge into this new era."
+
+::: {style="text-align: right"}
+*Extract from [Earth Sounding Analysis](https://sepwww.stanford.edu/sep/prof/pvi.pdf), Jon Claerbout, 1992*
+:::
+
+::: {.notes}
+John Claerbout revised his book [*Earth Soundings Analysis*](https://sepwww.stanford.edu/sep/prof/pvi.pdf) with a valid complaint in *A note to the reader* (page i).
+
+:::
+
+## Let's go back to Sep 15, 2022
+
+
+::: {.incremental}
+
+-   Rubén Herzog, Universidad de Valparaíso in Chile, published a 2020 [article](https://www.nature.com/articles/s41598-020-74060-6) in Scientific Reports
+
+-   Paul Lodder, a grad student at the University of Amsterdam, wanted to expand on Rubén's model 
+
+-   Paul reproduced the analysis results from the article before looking into how to expand it...
+
+-   ...but Paul got **different results!**
+
+:::
+
+## Herzog case: Facts {.smaller}
+
+> "I [Paul] shared my findings with Rubén by writing up a *literate programming report*, which allowed me to present my findings in a reproducible manner by including the code that leads to any of the results discussed". 
+
+::: {style="text-align: right"}
+*Source: [Retraction Watch](https://retractionwatch.com/2022/10/11/a-display-of-extreme-academic-integrity-a-grad-student-who-found-a-key-error-praises-the-original-author/)*
+:::
+
+> "Because I [Paul] was able to run his code and mine on the same simulated data, it was very clear that the typo caused the results from the paper. I shared my results with Rubén in a written report and he quickly got back to me. He acknowledged that this was indeed an error and thanked me for trying to reproduce his results. He also invited me as a co-author for the resubmission, by which I am truly honored."
+
+::: {style="text-align: right"}
+*Source: [Retraction Watch](https://retractionwatch.com/2022/10/11/a-display-of-extreme-academic-integrity-a-grad-student-who-found-a-key-error-praises-the-original-author/)*
+:::
+
+::: {.notes}
+
+Full story on [Retraction Watch](https://retractionwatch.com/):
+
+- [A grad student finds a ‘typo’ in a psychedelic study’s script that leads to a retraction](https://retractionwatch.com/2022/10/06/a-grad-student-finds-a-typo-in-a-psychedelic-studys-script-that-leads-to-a-retraction/#more-125759)
+- [‘A display of extreme academic integrity’: A grad student who found a key error praises the original author](https://retractionwatch.com/2022/10/11/a-display-of-extreme-academic-integrity-a-grad-student-who-found-a-key-error-praises-the-original-author/)
+:::
+
+## Herzog case: Lessons
+
+
+::: {.fragment .fade-in fragment-index=1}
+Both collaborated to find out the typo on the shared code
+:::
+
+::: {.fragment .fade-in fragment-index=2}
+Original 2020 paper was retracted, but both worked in a new version of the paper [published in 2023](https://doi.org/10.1038/s41598-023-32649-7) with a [code availability](https://www.nature.com/articles/s41598-023-32649-7#code-availability) section! 
+:::
+
+::: {.fragment .fade-in fragment-index=3}
+::: {.fragment .highlight-current-blue fragment-index=3}
+Academic **integrity & honesty** through **transparent and reproducible** computational code
+:::
+:::
+
+::: {.r-fit-text}
+::: {.fragment .fade-in fragment-index=4}
+::: {.fragment .highlight-blue fragment-index=4}
+**Science wins**
+:::
+:::
+:::
+
+
+# Is reproducibility a new problem? {background-color="#4f6952"}
+
+::: {.fragment .fade-in}
+
+It's not NEW, but it's *STILL* a problem.
+
+:::
+
+## Data availability in published papers?
+
+[@alsheikhAli2011] assessed 500 papers
+
+::: {.incremental}
+-   149 did not subject to any data availability policy
+
+-   208 did not adhere to data availability instructions
+
+-   143 adhered to minimum requirements
+
+-   **47 deposited full primary data (~9%)**
+:::
+
+## Reproducibility test in psychology?
+
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+[@baker2015] only could reproduce 39 out of 100 of the published studies in psychology
+
+:::
+
+::: {.column width="60%"}
+
+![](../images/slides/replicatation-graphic-b.png){width="65%"}
+
+:::
+::::
+
+
+## Reproducibility survey
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+[@baker2016] surveyed 1,500 researchers: 
+
+-   +70% of researchers have tried and failed to reproduce another scientist's experiments
+
+-   +50% have failed to reproduce their own experiments
+:::
+
+::: {.column width="60%"}
+
+![](../images/slides/reproducibility-graphic-online1.jpeg)
+
+:::
+::::
+
+
+## Is “science is in crisis” narrative wrong?
+
+> The new “science is in crisis” narrative is not only empirically unsupported, but also quite obviously counterproductive. *Instead of inspiring younger generations to do more and better science, it might foster in them cynicism and indifference*. Instead of inviting greater respect for and investment in research, it risks discrediting the value of evidence and feeding antiscientific agendas.
+
+::: {style="text-align: right"}
+*Source: [@fanelli2018]*
+:::
+
+## Is “science is in crisis” narrative wrong?
+
+> Therefore, contemporary science could be more accurately portrayed as facing “new opportunities and challenges” or even a “revolution”. *Efforts to promote transparency and reproducibility would find complete justification in such a narrative of transformation and empowerment*, a narrative that is not only more compelling and inspiring than that of a crisis, but also better supported by evidence.
+
+::: {style="text-align: right"}
+*Source: [@fanelli2018]*
+:::
+
+
+# Should we trust modern science without proper *reproduction & replication*? {background-color="#4f6952"}
+
+
+## References {.scrollable}
