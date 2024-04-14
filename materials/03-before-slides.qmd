@@ -26,6 +26,15 @@ execute:
   echo: true
 ---
 
+# Focus is the art of knowing what to ignore. {background-color="#4f6952"}
+
+::: {.fragment .fade-in}
+
+The fastest way to raise your level of performance: Cut your number of commitments in half.
+
+:::
+
+
 # \[#1\] ONE project = ONE folder {#rec01}
 
 ## What's a project?
@@ -402,4 +411,4 @@ See [Recommendation 19](03-during-slides.qmd#rec19)
 :::
 
 
-## References {.scrollable}
+# References {.scrollable}

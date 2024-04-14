@@ -439,5 +439,5 @@ Community effort
 
 :::
 
-## References {.scrollable}
+# References {.scrollable}
 
