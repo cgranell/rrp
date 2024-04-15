@@ -28,7 +28,7 @@ Review the concepts of reproducibility, replication, and computational reproduci
 ## **Reflection** Reproducibility in your discipline
 
 ::: reflect
-Reflect on the extent to which these terms (reproduction, replication, robustness, generalisation) are widespread in your own discipline or area of research. Which is more predominant in your discipline? And in your research? Of the journals you publish or flag-ship journals in your discipline, do they request articles that support computational reproducibility, empirical reproducibility, or statistical reproducibility? (hint: check The Turing Way’s definitions page [@turingway2019].
+Reflect on the extent to which these terms (reproduction, replication, robustness, generalisation) are widespread in your own discipline or area of research. Which is more predominant in your discipline? And in your research? Of the journals you publish or flag-ship journals in your discipline, do they request articles that support computational reproducibility, empirical reproducibility, or statistical reproducibility? (hint: check The Turing Way’s definitions page [@turingway2022].
 :::
 :::
 

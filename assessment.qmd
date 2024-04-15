@@ -1,13 +1,42 @@
 ---
-title: "Reproduciblity assessment"
+title: "Reproducibility assessment"
 ---
 
-Assessment criteria as a reviewer or reader 
+If you are very interested in a paper, you want to understand the inner aspects pretty well. So, you give reproducibility a try. It is however advisable to assess first the level of *pre-reproducibility* of a paper [@stark2018] before attempting a real reproduction. That is, do you --as reader/reviewer of the paper-- have full access to all the resources necessary to perform the actual reproduction?
 
-Next, we start with the Reproduction Plan by assessing the reproducibility criteria over research papers.
+In the context of the [Reproducible Research \@ AGILE](https://reproducible-agile.github.io/), we proposed a set of criteria to evaluate the degree of reproducibility of an article [@nust2018]. In that work, we evaluated a selection of papers published in the [AGILE conference series](https://agile-gi.eu/). Using the same criteria framework and methodological approach, we evaluated conference articles published in the [GIScience conference series](https://giscience.org/) [@ostermann2021].
 
-:::{.callout-warning}
+## Criteria
 
-This is work in progress
+With the experience gained in the above studies, we revised the set of reproducibility criteria to refine them for an ongoing longitudinal study [@nust2023]. The resulting criteria, which are compatible with the original ones, are shown in @fig-criteria, which in turn align nicely with the welcome illustration (see @fig-turingway) of [The Turing Way project](https://book.the-turing-way.org/).
 
+![Assessment criteria [@nust2023]](images/slides/assessmentRubric.png){#fig-criteria}
+
+::: column-margin
+![The Turing Way project [@turingway2024_illustrations]](https://book.the-turing-way.org/_images/reproducibility.jpg){#fig-turingway}
 :::
+
+## Assessment example
+
+As example, let’s investigate this paper (or choose your own if you have a good contender): [Enhanced Multi Criteria Decision Analysis for Planning Power Transmission Lines](https://drops.dagstuhl.de/opus/volltexte/2018/9343/pdf/LIPIcs-GISCIENCE-2018-15.pdf)
+
+What do you think their scores should be?
+
+|                               | NA  | Undocumented \[0\] | Documented \[1\] | Available \[2\] | Available & open \[3\] |
+|------------|------------|------------|------------|------------|------------|
+| Input data                    |     |                    |                  |                 |                        |
+| Methods, Analysis, Processing |     |                    |                  |                 |                        |
+| Results                       |     |                    |                  |                 |                        |
+: {.striped .hover}
+
+|                           | Yes | No  |
+|---------------------------|-----|-----|
+| Computational environment |     |     |
+
+: {.striped .hover}
+
+## Reproduction plan
+
+Choose one of your recent published paper or a current draft, and carry out a self-assessment exercise in which you must assign a level (Not Applicable \[NA\], Undocumented \[0\], Documented \[1\], Available \[2\], Available and Open \[3\]) for all of reproducibility criteria except the computational environment:
+
+Based on the **reproduction plan template** ([doc](static/repro_plan.docx), [pdf](static/repro_plan.pdf)), fill only the first two columns as the content of the *planned measures* column depends on the [Unit 3 Practices](practices.qmd)
