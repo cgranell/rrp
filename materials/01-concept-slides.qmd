@@ -10,7 +10,7 @@ format:
     slide-number: true
     show-slide-number: all
     progress: true
-    logo: ../images/ESCOLA-DOCTORAT-es-blanco.png
+    logo: ../images/ESCOLA-DOCTORAT-es-negre.png
     footer: "[cgranell.github.io/rrp](https://cgranell.github.io/rrp)"
     theme: default  # theme: dark
     transition: fade
