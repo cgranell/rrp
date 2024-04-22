@@ -830,7 +830,7 @@
     "href": "materials/03-during-slides.html#scripting-languages",
     "title": "During analysis",
     "section": "Scripting languages",
-    "text": "Scripting languages\n\n\nPlay with data, measure & explore, distrust of your intuition\nR/Python scripts describe every step of an analysis\n\nDescriptive-based analysis (vs. click-based) of what your analysis does\n\nOthers can understand WHAT and HOW has been done (Remember: ‘Show me’, not ‘trust me’) \n\n\n\n\n\n\n\n\n\nTips\n\n\nLook at section During analysis: best coding practices in (Alston and Rick 2021)"
+    "text": "Scripting languages\n\n\nPlay with data, measure & explore, distrust of your intuition\nR/Python scripts describe every step of an analysis\n\nDescriptive-based analysis (vs. click-based) of what your analysis does\n\nOthers can understand WHAT and HOW has been done (Remember: ‘Show me’, not ‘trust me’)\n\n\n\n\n\n\n\n\n\nTips\n\n\nLook at section During analysis: best coding practices in (Alston and Rick 2021)"
   },
   {
     "objectID": "materials/03-during-slides.html#computational-notebooks",

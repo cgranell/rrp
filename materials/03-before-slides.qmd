@@ -10,7 +10,7 @@ format:
     slide-number: true
     show-slide-number: all
     progress: true
-    logo: ../images/ESCOLA-DOCTORAT-es-blanco.png
+    logo: ../images/ESCOLA-DOCTORAT-es-negre.png
     footer: "[cgranell.github.io/rrp](https://cgranell.github.io/rrp)"
     theme: default
     transition: fade
@@ -131,7 +131,7 @@ Source: [phdcomics.com](http://phdcomics.com/comics/archive.php?comicid=1531)
 
 # \[#4\] Never ever touch raw data {#rec04}
 
-Remember [Newton's letter to Flamsteed](https://cgranell.github.io/rrp-uji/slides/slides11_01.html#newton) <!--TO BE REVISED-->
+Remember [Newton's letter to Flamsteed](https://cgranell.github.io/rrp/materials/01-historical-notes-slides.html#/newtons-request-for-raw-data)
 
 ## Raw data
 
@@ -142,7 +142,7 @@ Remember [Newton's letter to Flamsteed](https://cgranell.github.io/rrp-uji/slide
 
 -   Store processed data in a separate folder (`data` or `data-clean` folder)
 
--   Document the process (simple steps, diagrams, content/structure of datasets, provenance) in a plain text README file (See [Recommendation #6](#rec06))
+-   Document the process (simple steps, diagrams, content/structure of datasets, provenance) in a plain text `README` file (See [Recommendation #6](#rec06))
 :::
 
 # \[#5\] Use open data formats {#rec05}
@@ -177,7 +177,7 @@ Dutch national centre of expertise and repository for research data (DANS) - [Pr
 ## README file(s)
 
 ::: incremental
--   Include a **README file** in the `root` folder to describe the project, basic orientation to use your code, data, etc.
+-   Include a `README` file in the `root` folder to describe the project, basic orientation to use your code, data, etc.
 
 ::: {.fragment .fade-in}
 ::: callout-tip
@@ -193,7 +193,7 @@ If your project is on GitHub, README files will be automatically visualised if w
 ## README file(s) {data-menu-title="README file(s) (II)"}
 
 ::: {.incremental}
--   Include (if required) **README files** in each subfolder to describe metadata/complex content
+-   Include (if required) `README` files in each subfolder to describe metadata/complex content
 
 -   Keep track of ideas, discussions and decisions about the project (in the `notes` folder)
 

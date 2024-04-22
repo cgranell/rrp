@@ -10,7 +10,7 @@ format:
     slide-number: true
     show-slide-number: all
     progress: true
-    logo: ../images/ESCOLA-DOCTORAT-es-blanco.png
+    logo: ../images/ESCOLA-DOCTORAT-es-negre.png
     footer: "[cgranell.github.io/rrp](https://cgranell.github.io/rrp)"
     theme: default
     transition: fade
@@ -266,7 +266,7 @@ Does a dataset play a supporting role in your paper? Does it make sense only for
     -   Descriptive-based analysis (vs. click-based) of what your analysis does
 
 
--   Others can understand WHAT and **HOW** has been done (Remember: [_'Show me', not 'trust me'_](slides11_01.html#stark2018)) <!--**TODO: REVISE LINKS**-->
+-   Others can understand WHAT and **HOW** has been done (Remember: [*'Show me', not 'trust me'*](https://cgranell.github.io/rrp/materials/01-concept-slides.html#/show-me-not-trust-me)) 
 
 :::
 

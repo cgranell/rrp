@@ -10,7 +10,7 @@ format:
     slide-number: true
     show-slide-number: all
     progress: true
-    logo: ../images/ESCOLA-DOCTORAT-es-blanco.png
+    logo: ../images/ESCOLA-DOCTORAT-es-negre.png
     footer: "[cgranell.github.io/rrp](https://cgranell.github.io/rrp)"
     theme: default
     transition: fade
@@ -193,7 +193,7 @@ Extracted from [@ostermann2021]
 
 - Sharing preprints increases **access and visibility** to your work 
 
-- Before sharing (depositing): choose appropriate [license](03-before-slides.qmd#rec07)
+- Before sharing (depositing): choose appropriate [license](https://cgranell.github.io/rrp/materials/03-before-slides.html#/rec07)
 
 ::: {.fragment .fade-in}
 ::: callout-tip
@@ -270,7 +270,7 @@ Universitat Jaume I](http://www.uji.es/upo/rest/contenido/630998650/raw?idioma=e
 
 -   **Cite** them (most likely in the **DASA** section)
 
--   See flowchart in [Recommendation 13](03-during-slides.qmd#rec13)
+-   See flowchart in [Recommendation 13](https://cgranell.github.io/rrp/materials/03-during-slides.html#/rec13)
 
 :::
 
