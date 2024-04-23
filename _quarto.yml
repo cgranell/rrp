@@ -96,9 +96,9 @@ website:
       title: "Additional materials"
       contents:
         - href: extras.qmd
+        - href: materials/05-key-people.qmd
         - href: materials/05-glossary.qmd
         - href: materials/05-references.qmd
-        - href: materials/05-key-people.qmd
 
 format:
   html:
