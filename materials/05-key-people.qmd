@@ -1,5 +1,5 @@
 ---
-title: "Key people"
+title: "Individuals to follow"
 ---
 
 There are many researchers who are pioneers and leaders in the use and adoption of good practices for reproducible research in their disciplines, either individually or in their research group. Below some examples 
@@ -9,9 +9,11 @@ There are many researchers who are pioneers and leaders in the use and adoption 
 
 [Victoria Stodden](https://stodden.net/) researches to improve the reliability of scientific results in the face of increasingly sophisticated computational approaches. 
 
-
 [Peter Kedron](https://peterkedron.com/)'s research interest is reproducibility, replicability, and open science practices in the geographical sciences.
 
-[Gundula Bosch](https://publichealth.jhu.edu/faculty/2954/gundula-bosch), director of the [R3 Center for Innovation and Science Education](https://publichealth.jhu.edu/the-r3-center-for-innovation-in-science-education) at the Johns Hopkins School of Public Health.
+[Mine Çetinkaya-Rundel](https://mine-cr.com/) works on statistics and data science pedagogy, with an emphasis on computing, reproducible research, student-centered learning, and open-source education.
+
+
+
 
 
