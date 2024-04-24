@@ -365,7 +365,7 @@ Source: [@morin2012]
 
 ## Software licenses: What UJI recommends
 
-See [Recommendation 19](03-during-slides.qmd#rec19)
+See [Recommendation 19](https://cgranell.github.io/rrp/materials/03-during-slides.html#/rec19)
 
 
 # \[#9\] Learn/use version control systems {#rec09 .center .r-fit-text}

@@ -2,53 +2,93 @@
 title: "Reproducible research at UJI"
 ---
 
+### Timeline
 
+The UJI and Spain's national funding and evaluation agencies in general are recently taking key steps towards open and transparent science.
 
-## Timeline
+-   **October 2020, UJI**: Institutional statement to promote open access [Declaración institucional a favor de la promoción del acceso abierto en la Universitat Jaume I](http://www.uji.es/upo/rest/contenido/630998650/raw?idioma=es).
 
-
-UJI (and Spain) is taking key steps towards open and transparent science:
-
--   October 2020: Institutional statement to promote open access [Declaración institucional a favor de la promoción del acceso abierto en la Universitat Jaume I](http://www.uji.es/upo/rest/contenido/630998650/raw?idioma=es)
-
--   April 2012: [Agencia Estatal de Investigación](https://www.aei.gob.es/) (AEI) adhered to the [DORA Declaration](https://sfdora.org/) about research assessment with the commitment to “review all calls and documents supporting the evaluation to ensure their correct implementation”
+-   **April 2012, AEI**: [Agencia Estatal de Investigación](https://www.aei.gob.es/) (AEI) adhered to the [DORA Declaration](https://sfdora.org/) about research assessment with the commitment to “review all calls and documents supporting the evaluation to ensure their correct implementation”.
 
 ::: {.callout-note collapse="true"}
-## DORA recommendations that the AEI promises to carry out
+## DORA recommendations that AEI promises to carry out
 
-- **Do not use journal-based metrics, such as impact factor, as a surrogate measure of the quality of individual research articles**, to evaluate the contributions of an individual scientist, or in hiring, promotion, or funding decisions.
+-   **Do not use journal-based metrics, such as impact factor, as a surrogate measure of the quality of individual research articles**, to evaluate the contributions of an individual scientist, or in hiring, promotion, or funding decisions.
 
-- Be explicit about the criteria used to evaluate the scientific productivity of research funding applicants, especially for researchers who are beginning their research career, that the **scientific content of a paper is much more important than publication metrics or the identity of the article. the magazine in which it was published**.
+-   Be explicit about the criteria used to evaluate the scientific productivity of research funding applicants, especially for researchers who are beginning their research career, that the **scientific content of a paper is much more important than publication metrics or the identity of the article. the magazine in which it was published**.
 
-- **Consider the value and impact of all research results (including data sets and software)** in addition to research publications, and consider a wide range of impact measures including indicators qualitative, such as influence on scientific policy and practices.
-
+-   **Consider the value and impact of all research results (including data sets and software)** in addition to research publications, and consider a wide range of impact measures including indicators qualitative, such as influence on scientific policy and practices.
 :::
 
+-   **October 2022, UJI**: [Código de Buenas Prácticas en Investigación y Doctorado (CBPID)](https://www.uji.es/investigacio/base/etica/cbpid/).
 
-- October 2022: [Código de Buenas Prácticas en Investigación y Doctorado (CBPID)](https://www.uji.es/investigacio/base/etica/cbpid/)
+-   **March 2023, UJI**: UJI adhered to the CoARA Coalition for Advancing Research Assessment ([COARA](https://coara.eu/)).
 
-- March 2023: UJI adhered  to the CoARA Coalition for Advancing Research Assessment ([COARA](https://coara.eu/)).
+::: {.callout-note collapse="true"}
+## Agreement on Reforming Research Assessment (ARRA) & CoARA
 
-- April 2023: [ANECA adhered to DORA and CoARA](https://www.aneca.es/-/aneca-se-adhiere-a-la-san-francisco-declaration-on-research-assessment-dora-y-a-la-coalition-for-advancing-research-assessment-coara-)
+[ARRA](https://coara.eu/agreement) = 10 principles + 10 commitments
 
-- July 2023: Proposal of the [COaRa National Chapter Spain](https://coara.eu/app/uploads/2023/12/National-Chaptern-Spain.pdf)
+::: panel-tabset
+## 10 Principles
 
-- November 2023: [Informe del Comité Español de Ética de la Investigación del Ministerio de Ciencia, Innovación y Universidades  con recomendaciones éticas para la investigación en IA](https://www.ciencia.gob.es/InfoGeneralPortal/documento/cedef913-3842-4f90-9ffc-032d256125f0)
+1.  Comply with ethics and integrity rules and practices
+2.  Safeguard freedom of scientific research
+3.  Respect the autonomy of research organisations
+4.  Ensure independence and transparency of the data, infrastructure and criteria necessary for research assessment
+5.  Focus research assessment criteria on quality
+6.  Recognise the contributions that advance knowledge and impact
+7.  Recognise the diversity of research activities, practices, and outputs
+8.  Respect the variety of scientific disciplines, research types, and research career stages
+9.  Acknowledge and valorise the diversity in research roles and careers
+10. Ensure gender equality, equal opportunities and inclusiveness
 
-- December 2023: ANECA published [new criteria for SEXENIOS assessment](https://www.aneca.es/convocatoria-2023)
+## 10 Commitments
 
-- February 2024: Kick-off of the [CoARA National Chapter Spain](https://www.aneca.es/-/aneca-crue-y-csic-presentan-el-cap%C3%ADtulo-nacional-de-coara-el-9-de-febrero)
+1.  Recognise the diversity of contributions to, and careers in, research
+2.  Base research assessment primarily on qualitative evaluation for which peer review is central
+3.  Abandon inappropriate uses in research assessment of journal- and publication-based metrics
+4.  Avoid the use of rankings of research organisations in research assessment
+5.  Commit resources to reforming research assessment
+6.  Review and develop research assessment criteria, tools and processes
+7.  Raise awareness of research assessment reform and provide transparent communication, guidance, and training on assessment criteria and processes as well as their use
+8.  Exchange practices and experiences
+9.  Communicate progress made on adherence to the Principles and implementation of the Commitments
+10. Evaluate practices, criteria and tools, and make data openly available for evidence
+:::
 
-- March 2024: ANECA published [new criteria for accreditation](https://www.aneca.es/documents/20123/53669/Criterios200324_anexos.pdf/470f9b03-fd7a-85b6-4f3a-1925c0f82c50?t=1711094067735) to associate professor and full professor 
+As a community, [CoARA](https://coara.eu/) will develop and apply changes
+:::
 
-## UJI
+-   **April 2023, ANECA**: [ANECA adhered to DORA and CoARA](https://www.aneca.es/-/aneca-se-adhiere-a-la-san-francisco-declaration-on-research-assessment-dora-y-a-la-coalition-for-advancing-research-assessment-coara-).
 
-As part of the [Open Knowledge Portal](https://www.uji.es/serveis/cd/bib/pco/), the UJI library provides guides for researchers about the [open access dissemination of the results of the investigation](https://www.uji.es/serveis/cd/bib/serveis/investigacio/oa/), and [copyright and licenses](https://www.uji.es/serveis/cd/bib/pco/base/drets2/). 
+-   **May 2023, Ministry of Science**: published the [National Strategy for Open Science (ENCA) 2023-2027](https://www.ciencia.gob.es/Estrategias-y-Planes/Estrategias/ENCA.html), with the "mission of strengthening the quality, transparency, and reproducibility of scientific activity in Spain".
 
-### Open Access Declaration
+-   **July 2023, ANECA-CRUE**: Proposal of the [CoARA National Chapter Spain](https://coara.eu/app/uploads/2023/12/National-Chaptern-Spain.pdf).
 
-[Declaració institucional a favor de la promoció de l’accés obert a la Universitat Jaume I]( https://ujiapps.uji.es/ade/rest/storage/5ULDFW5YMLK0ZEFHGZLHRGJRX3V80U73)
+-   **November 2023, National Committee of Research Ethics**: published [Recomendaciones éticas para la investigación en IA](https://www.ciencia.gob.es/InfoGeneralPortal/documento/cedef913-3842-4f90-9ffc-032d256125f0).
 
-### Best practices for research 
+-   **December 2023, ANECA**: published [new criteria for SEXENIOS assessment](https://www.aneca.es/convocatoria-2023), which are a first attempt to align with the CoARA principles.
 
-[Código de Buenas Prácticas en Investigación y Doctorado, CBPID](https://www.uji.es/investigacio/base/etica/cbpid/) – focus on "open access" section
+-   **February 2024, ANECA-CRUE**: Kick-off of the [CoARA Spanish National Chapter](https://coara.eu/coalition/national-chapters/coara-national-chapter-spain/)
+
+-   **March 2024, ANECA**: published [new criteria for accreditation](https://www.aneca.es/documents/20123/53669/Criterios200324_anexos.pdf/470f9b03-fd7a-85b6-4f3a-1925c0f82c50?t=1711094067735) to associate professor and full professor, which are a first attempt to align with the CoARA principles.
+
+-   **April 2024, UJI**: made public a roadmap document called "Action Plan CoARA 2024-2027" that specifies the development of diagnosis-evaluation-implementation activities to improve research assessment at the UJI.
+
+### UJI
+
+-   As part of the [Open Knowledge Portal](https://www.uji.es/serveis/cd/bib/pco/), the UJI library provides guides for researchers about the [open access dissemination of the results of the investigation](https://www.uji.es/serveis/cd/bib/serveis/investigacio/oa/), and [copyright and licenses](https://www.uji.es/serveis/cd/bib/pco/base/drets2/).
+
+-   Open Access Declaration, October 2020. [Declaració institucional a favor de la promoció de l’accés obert a la Universitat Jaume I](https://ujiapps.uji.es/ade/rest/storage/5ULDFW5YMLK0ZEFHGZLHRGJRX3V80U73).
+
+-   Best practices for research and Doctorate, October 2022. [Código de Buenas Prácticas en Investigación y Doctorado, CBPID](https://www.uji.es/investigacio/base/etica/cbpid/)
+
+| As regards...            | ...UJI recommends (April 2024)                                                                                                                                                                             |
+|----------------------|--------------------------------------------------|
+| Sharing publications     | Deposit journal articles and book chapters (*preprint*, *postprint*, publisher's document) in the \[institutional repository\](<https://repositori.uji.es/>). Also recommended other types of publications |
+| Publication licences     | CC BY-SA, CC BY-SA-NC                                                                                                                                                                                      |
+| Data licences            | Researchers can choose between CC licences or copyright licences (potential commercial value).                                                                                                             |
+| Software licences        | Researchers can choose between permissive licences or copyright licences (potential commercial value).                                                                                                     |
+| Data FAIR principles     | Whenever possible, researchers will apply FAIR principles to research data (including deposit)                                                                                                             |
+| Software FAIR principles | Whenever possible, deposit software tools in open access repositories (including deposit)                                                                                                                  |
