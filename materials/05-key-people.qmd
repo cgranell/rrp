@@ -5,13 +5,13 @@ title: "Key people"
 There are many researchers who are pioneers and leaders in the use and adoption of good practices for reproducible research in their disciplines, either individually or in their research group. Below some examples 
 
 
-[Lorena Barba](https://lorenabarba.com/)
+[Lorena Barba's](https://lorenabarba.com/) group works on applied mathematics, programming and fluid mechanics, making  reprpducibility practices central to their research. 
+
+[Victoria Stodden](https://stodden.net/) researches to improve the reliability of scientific results in the face of increasingly sophisticated computational approaches. 
+
+
+[Peter Kedron](https://peterkedron.com/)'s research interest is reproducibility, replicability, and open science practices in the geographical sciences.
 
 [Gundula Bosch](https://publichealth.jhu.edu/faculty/2954/gundula-bosch), director of the [R3 Center for Innovation and Science Education](https://publichealth.jhu.edu/the-r3-center-for-innovation-in-science-education) at the Johns Hopkins School of Public Health.
 
-Reproducibility in Biomedical Research Education
 
-[Pao Corrales](https://paocorrales.github.io/about/)
-
-- [An R reproducibility toolkit for the practical researcher](https://paocorrales.github.io/courses/reproducibility/), by Pao Corrales
-- [Pao's doctoral thesis written in RMarkdown & thesisdown](https://paocorrales.github.io/Tesis_doctorado/index.html)

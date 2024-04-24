@@ -4,9 +4,23 @@ title: "Additional materials"
 
 If you want to clarify the meaning of some key terms and concepts used throughout this course, or check the list of resources that this course draws on frequently or at least occasionally.
 
+### Short courses/lessons
 
+#### An R reproducibility toolkit for the practical researcher
 [An R reproducibility toolkit for the practical researcher](https://reproducibility.rocks/), by Elio Campitelli and Paola Corrales. This reproducibility course in R will help you organize a project to accelerate collaboration and maximize its reproducibility by taking advantage of existing tools in the R ecosystem – such as `RMarkdown`, `renv` and others –, version control and computational environments.
 
+#### Best Practices for Writing Reproducible Code
+[Best Practices for Writing Reproducible Code](https://utrechtuniversity.github.io/workshop-computational-reproducibility/), by Utrecht University's Research Data Management Support. 
+
+#### R for Reproducible Scientific Analysis
+[R for Reproducible Scientific Analysis](https://swcarpentry.github.io/r-novice-gapminder/). This [software carpentry](https://software-carpentry.org/) lesson teaches novice programmers to write modular code and best practices for using R for data analysis.
+
+
+### Textbooks
+
+
+#### R for Geographic Data Science
 [R for Geographic Data Science](https://sdesabbata.github.io/r-for-geographic-data-science/), by Steffano Da Sabbata. This open access textbook is an introduction to geographic data science using the programming language R for geographers. [Chapter 2](https://sdesabbata.github.io/r-for-geographic-data-science/reproducible-data-science.html#reproducible-data-science) is focused on reproducibility aspects for data science projects. 
 
+#### Reproducible Data Science with Python
 [Reproducible Data Science with Python](https://valdanchev.github.io/reproducible-data-science-python/intro.html) by Valentin Danchev. This open access textbook uses real-world social data sets related to the COVID-19 pandemic to provide an accessible introduction to open, reproducible, and ethical data analysis using hands-on Python coding, modern open-source computational tools, and data science techniques. It contains a specific section on "[What is Reproducible Data Science?](https://valdanchev.github.io/reproducible-data-science-python/notebooks/00_textbook_outline.html#what-is-reproducible-data-science)".
