@@ -140,7 +140,7 @@ citation("palmerpenguins")
 
 -   Do not use URL; cite `SciPy` as a regular [paper](https://doi.org/10.1038/s41592-019-0686-2) (if it is relevant for your research)
 
-- Authors of software articles [should receive equal credit]((https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=SciPy+1.0%3A+fundamental+algorithms+for+scientific+computing+in+Python&btnG=))
+- Authors of software articles [should receive equal credit](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=SciPy+1.0%3A+fundamental+algorithms+for+scientific+computing+in+Python&btnG=)
 
 :::
 
@@ -220,7 +220,7 @@ Preprint and published versions can be merged in Google Scholar for citation
 - [arXiv](https://arxiv.org/): physics, mathematics, computer science, quantitative biology, statistics, electrical engineering, and system sciences.
 - [BioRxiv](https://www.biorxiv.org/): biological sciences.
 - [ChemRxiv](https://chemrxiv.org/engage/chemrxiv/public-dashboard): chemical science.
-- [EarthArXiv](https://eartharxiv.org/)]: Earth Science and related domains of planetary science.
+- [EarthArXiv](https://eartharxiv.org/): Earth Science and related domains of planetary science.
 - [psyArXiv](https://psyarxiv.com/): psychology, powered by [OSFPreprints](https://osf.io/preprints/).
 - [SocArXiv](https://osf.io/preprints/socarxiv): social sciences, powered by [OSFPreprints](https://osf.io/preprints/).
 

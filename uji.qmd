@@ -8,7 +8,7 @@ The UJI and Spain's national funding and evaluation agencies in general are rece
 
 -   **October 2020, UJI**: Institutional statement to promote open access [Declaración institucional a favor de la promoción del acceso abierto en la Universitat Jaume I](http://www.uji.es/upo/rest/contenido/630998650/raw?idioma=es).
 
--   **April 2012, AEI**: [Agencia Estatal de Investigación](https://www.aei.gob.es/) (AEI) adhered to the [DORA Declaration](https://sfdora.org/) about research assessment with the commitment to “review all calls and documents supporting the evaluation to ensure their correct implementation”.
+-   **April 2021, AEI**: [Agencia Estatal de Investigación](https://www.aei.gob.es/) (AEI) adhered to the [DORA Declaration](https://sfdora.org/) about research assessment with the commitment to “review all calls and documents supporting the evaluation to ensure their correct implementation”.
 
 ::: {.callout-note collapse="true"}
 ## DORA recommendations that AEI promises to carry out
